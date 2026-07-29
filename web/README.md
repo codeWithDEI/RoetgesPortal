@@ -1,5 +1,5 @@
-# Webanwendung
+# Web application
 
-Hier entsteht die statisch ausgelieferte Karten- und Informationsanwendung.
-Sie konsumiert ausschließlich generierte JSON- und GeoJSON-Dateien, nicht die
-redaktionellen YAML-Quelldateien direkt.
+This directory will contain the statically served map and information
+application. It consumes generated JSON and GeoJSON files only, never the
+editorial YAML source files directly.

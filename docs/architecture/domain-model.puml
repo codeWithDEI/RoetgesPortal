@@ -1,5 +1,5 @@
 @startuml
-title RötgesPortal – Fachliches Domänenmodell
+title RötgesPortal – Domain Model
 
 skinparam classAttributeIconSize 0
 skinparam shadowing false

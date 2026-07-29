@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title description">
-  <title id="title">RötgesPortal Domänenmodell</title>
-  <desc id="description">Platzhalter bis zur Generierung aus der PlantUML-Quelldatei.</desc>
+  <title id="title">RötgesPortal Domain Model</title>
+  <desc id="description">Placeholder until generated from the PlantUML source.</desc>
   <rect width="960" height="280" rx="16" fill="#f5f7f8"/>
-  <text x="480" y="115" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#153a5b">RötgesPortal – Domänenmodell</text>
-  <text x="480" y="160" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#5b6570">SVG mit PlantUML aus domain-model.puml generieren</text>
+  <text x="480" y="115" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#153a5b">RötgesPortal – Domain Model</text>
+  <text x="480" y="160" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#5b6570">Generate this SVG from domain-model.puml with PlantUML</text>
 </svg>

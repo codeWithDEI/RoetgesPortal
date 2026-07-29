@@ -1,19 +1,19 @@
 @startuml
-title RötgesPortal – MVP-Systemarchitektur
+title RötgesPortal – MVP System Architecture
 
 skinparam componentStyle rectangle
 skinparam shadowing false
 
-actor "Redaktion" as Editor
-actor "Bürgerinnen\nund Bürger" as Citizen
+actor "Editors" as Editor
+actor "Citizens" as Citizen
 
 cloud "GitHub Repository" {
-  folder "Redaktionelle Inhalte" {
+  folder "Editorial Content" {
     file "content/topics/*.yaml" as Topics
     file "content/locations/*.geojson" as Locations
   }
 
-  folder "Inhaltsverträge" {
+  folder "Content Contracts" {
     file "schemas/topic.schema.json" as TopicSchema
   }
 
@@ -28,40 +28,40 @@ cloud "GitHub Repository" {
 
 component "GitHub Actions\nCI/CD" as Pipeline
 
-node "Statisches Hosting" as Hosting {
-  component "RötgesPortal Web-App" as Portal
+node "Static Hosting" as Hosting {
+  component "RötgesPortal Web App" as Portal
 }
 
 cloud "OpenStreetMap" as OSM
-cloud "Öffentliche Quellen" as Sources {
-  component "Ratsinformationssystem" as RIS
-  component "Gemeinde-Websites" as Municipality
-  component "Öffentliche Dokumente" as Documents
+cloud "Public Sources" as Sources {
+  component "Council Information System" as RIS
+  component "Municipal Websites" as Municipality
+  component "Public Documents" as Documents
 }
 
-Editor --> Topics : Themen pflegen
-Editor --> Locations : räumliche Bezüge pflegen
+Editor --> Topics : maintain topics
+Editor --> Locations : maintain geographic impact
 
 Topics --> Validator
 Locations --> Validator
-TopicSchema --> Validator : Schema
-Validator --> Generator : validierte Inhalte
+TopicSchema --> Validator : schema
+Validator --> Generator : validated content
 Generator --> TopicsJson
 Generator --> MapGeoJson
 Generator --> SearchIndex
 
-Pipeline --> Validator : bei Commit / PR
-Pipeline --> Generator : nach erfolgreicher Prüfung
+Pipeline --> Validator : on commit / PR
+Pipeline --> Generator : after validation
 Pipeline --> Hosting : Deployment
 
-Citizen --> Portal : lesen, filtern,\nKarte anzeigen
+Citizen --> Portal : read, filter,\nview map
 Portal --> TopicsJson
 Portal --> MapGeoJson
 Portal --> SearchIndex
-Portal --> OSM : Kartenkacheln
+Portal --> OSM : map tiles
 
-Topics ..> RIS : Quellenlinks
-Topics ..> Municipality : Quellenlinks
-Topics ..> Documents : Quellenlinks
+Topics ..> RIS : source links
+Topics ..> Municipality : source links
+Topics ..> Documents : source links
 
 @enduml
