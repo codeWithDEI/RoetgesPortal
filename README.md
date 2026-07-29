@@ -1,113 +1,93 @@
-# Roetgesmarkt GeoJSON Tools
+# RötgesPortal
 
-This repository contains a small utility for preparing location data for the Roetgesmarkt map.
+RötgesPortal soll kommunale Themen in Rötgesbüttel neutral, nachvollziehbar
+und mit ihrem räumlichen Bezug darstellen. Das Projekt startet bewusst als
+statisch erzeugtes Portal: redaktionelle Inhalte werden als YAML gepflegt,
+Geodaten als GeoJSON. Eine Datenbank ist für das MVP nicht vorgesehen.
 
-The workflow starts with a manually maintained GeoJSON file where coordinates may have been copied from OpenStreetMap in `latitude, longitude` order. The included Python script converts the data into a standards-compliant GeoJSON export (`longitude, latitude`), removes generated IDs, and creates a CSV file that can be imported into Google My Maps.
+## Architekturprinzip
 
-## Repository Structure
+> YAML ist die redaktionelle Source of Truth. Beim Build entstehen optimierte
+> JSON-, GeoJSON- und Suchdaten für die Webanwendung.
 
-- `roetgesmarkt_input.geojson`
-  - Source data maintained by hand.
-  - May contain coordinates in `lat, lon` order.
+Damit bleiben Änderungen über Git prüfbar, das Hosting einfach und die
+Angriffsfläche klein. Eine spätere Datenbank kann hinter einer klaren
+Datenzugriffsschicht ergänzt werden, falls Redaktionsoberfläche, Rollen,
+Bürgerbeiträge oder automatisierte Importe dies erfordern.
 
-- `transform_lat_long.py`
-  - Validates and transforms the GeoJSON.
-  - Swaps coordinates when required.
-  - Removes generated feature IDs.
-  - Exports a Google My Maps compatible CSV.
+## Architektur
 
-- `roetgesmarkt_upload.geojson`
-  - Generated GeoJSON ready for import into mapping tools.
+### Systemarchitektur
 
-- `roetgesmarkt_upload_google_maps.csv`
-  - Generated CSV for Google My Maps imports.
+[PlantUML-Quelldatei](docs/architecture/system-architecture.puml)
 
-## Features
+![Systemarchitektur](docs/architecture/system-architecture.svg)
 
-The transformation script performs the following steps:
+### Domänenmodell
 
-1. Loads a GeoJSON `FeatureCollection`.
-2. Detects point coordinates that appear to be stored as `latitude, longitude`.
-3. Converts them to the GeoJSON standard `longitude, latitude` order.
-4. Removes existing `id` fields from features.
-5. Writes a cleaned GeoJSON export.
-6. Creates a CSV export with:
-   - Name
-   - Latitude
-   - Longitude
+[PlantUML-Quelldatei](docs/architecture/domain-model.puml)
 
-## Coordinate Detection
+![Domänenmodell](docs/architecture/domain-model.svg)
 
-The script uses a heuristic optimized for locations in Germany:
-
-- Latitude: approximately `47–55`
-- Longitude: approximately `5–15`
-
-If a coordinate pair matches the pattern:
-
-```text
-[latitude, longitude]
-```
-
-it is automatically converted to:
-
-```text
-[longitude, latitude]
-```
-
-## Requirements
-
-- Python 3.9+
-
-No external dependencies are required.
-
-## Usage
-
-Run the transformation:
+Die eingecheckten SVG-Dateien sind zunächst Platzhalter. Nach Installation von
+[PlantUML](https://plantuml.com/starting) werden sie aus den Quelldateien neu
+erzeugt:
 
 ```bash
-python transform_lat_long.py
+plantuml -tsvg docs/architecture/*.puml
 ```
 
-Generated files:
+## Verzeichnisstruktur
 
 ```text
-roetgesmarkt_upload.geojson
-roetgesmarkt_upload_google_maps.csv
+.
+├── content/
+│   ├── locations/       # manuell gepflegte GeoJSON-Quellen
+│   └── topics/          # ein kommunales Thema je YAML-Datei
+├── docs/architecture/   # PlantUML-Quellen und gerenderte SVGs
+├── generated/           # generierte Laufzeit- und Importdaten
+├── schemas/             # maschinenlesbare Inhaltsverträge
+├── tools/               # Validierung, Build und historische Importe
+└── web/                 # zukünftige statische Webanwendung
 ```
 
-## Import into uMap
+## Rötgesmarkt-Daten übernehmen
 
-1. Create a new map in uMap.
-2. Select **Import Data**.
-3. Upload `roetgesmarkt_upload.geojson`.
+Die bestehende GeoJSON-Transformation bleibt als Importwerkzeug erhalten. Sie
+korrigiert vertauschte Längen- und Breitengrade, entfernt generierte IDs und
+erzeugt zusätzlich eine CSV-Datei für Google My Maps.
 
-## Import into Google My Maps
-
-1. Create or open a map in Google My Maps.
-2. Choose **Import**.
-3. Upload `roetgesmarkt_upload_google_maps.csv`.
-4. Select:
-   - Latitude → `Latitude`
-   - Longitude → `Longitude`
-5. Use `Name` as the label column.
-
-## GeoJSON Output Format
-
-```json
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.123456, 52.123456]
-      },
-      "properties": {
-        "name": "Example Location"
-      }
-    }
-  ]
-}
+```bash
+python3 tools/import_roetgesmarkt.py
 ```
+
+Eingabe:
+
+```text
+content/locations/roetgesmarkt_input.geojson
+```
+
+Ausgaben:
+
+```text
+generated/roetgesmarkt_upload.geojson
+generated/roetgesmarkt_upload_google_maps.csv
+```
+
+Das Werkzeug benötigt Python 3.9 oder neuer und keine externen Pakete.
+
+## Themen pflegen
+
+Eine Themendatei folgt dem Vertrag in
+[`schemas/topic.schema.json`](schemas/topic.schema.json). Das erste Beispiel
+liegt unter [`content/topics/example.yaml`](content/topics/example.yaml) und
+bleibt als Entwurf unveröffentlicht.
+
+Fakten, räumliche Auswirkungen und öffentlich belegte Positionen werden
+getrennt modelliert. Jede veröffentlichte Position und jedes Thema benötigt
+mindestens eine nachvollziehbare Quelle.
+
+## Status
+
+Dies ist die initiale Projektstruktur. Webanwendung, Content-Validator und
+Build-Generator folgen in separaten, kleinen Ausbauschritten.

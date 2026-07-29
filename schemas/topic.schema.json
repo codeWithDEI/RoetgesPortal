@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://roetgesportal.example/schemas/topic.schema.json",
+  "title": "RötgesPortal topic",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "summary",
+    "status",
+    "visibility",
+    "dates",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "idea",
+        "announced",
+        "consultation",
+        "committee",
+        "council",
+        "decided",
+        "implementation",
+        "completed",
+        "paused",
+        "rejected"
+      ]
+    },
+    "visibility": {
+      "enum": ["draft", "published", "archived"]
+    },
+    "categories": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "organizations": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["createdAt", "updatedAt", "lastVerifiedAt"],
+      "properties": {
+        "createdAt": {"type": "string", "format": "date"},
+        "updatedAt": {"type": "string", "format": "date"},
+        "lastVerifiedAt": {"type": "string", "format": "date"}
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "impactType", "geoJsonFile"],
+        "properties": {
+          "id": {"type": "string"},
+          "label": {"type": "string"},
+          "impactType": {
+            "enum": ["direct", "indirect", "affectedArea", "alternative"]
+          },
+          "geoJsonFile": {"type": "string"}
+        }
+      }
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "title", "status"],
+        "properties": {
+          "date": {"type": "string", "format": "date"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "status": {
+            "enum": ["planned", "reached", "postponed", "cancelled"]
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "sourceType", "url", "accessedAt"],
+        "properties": {
+          "title": {"type": "string"},
+          "sourceType": {
+            "enum": [
+              "agenda",
+              "proposal",
+              "minutes",
+              "resolution",
+              "budget",
+              "planningDocument",
+              "pressRelease",
+              "website",
+              "other"
+            ]
+          },
+          "url": {"type": "string", "format": "uri"},
+          "publishedAt": {"type": "string", "format": "date"},
+          "accessedAt": {"type": "string", "format": "date"}
+        }
+      }
+    },
+    "positions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["organization", "summary", "sourceUrl"],
+        "properties": {
+          "organization": {"type": "string"},
+          "summary": {"type": "string"},
+          "sourceUrl": {"type": "string", "format": "uri"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+id: beispiel-thema
+title: Beispiel für ein kommunales Thema
+summary: >
+  Diese unveröffentlichte Datei dokumentiert die vorgesehene YAML-Struktur.
+status: idea
+visibility: draft
+categories:
+  - beispiel
+organizations:
+  - gemeinde-roetgesbuettel
+dates:
+  createdAt: 2026-07-29
+  updatedAt: 2026-07-29
+  lastVerifiedAt: 2026-07-29
+description: |
+  Sachstand, räumliche Auswirkungen und belegte Positionen werden getrennt
+  voneinander gepflegt.
+locations: []
+milestones: []
+sources:
+  - title: Beispielquelle – vor Veröffentlichung ersetzen
+    sourceType: other
+    url: https://example.org/
+    accessedAt: 2026-07-29
+positions: []
