@@ -1,0 +1,120 @@
+@startuml
+title RötgesPortal – Fachliches Domänenmodell
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+class Topic {
+  +id: string
+  +title: string
+  +summary: markdown
+  +description: markdown
+  +status: TopicStatus
+  +visibility: Visibility
+  +createdAt: date
+  +updatedAt: date
+  +lastVerifiedAt: date
+}
+
+enum TopicStatus {
+  idea
+  announced
+  consultation
+  committee
+  council
+  decided
+  implementation
+  completed
+  paused
+  rejected
+}
+
+enum Visibility {
+  draft
+  published
+  archived
+}
+
+class ImpactLocation {
+  +id: string
+  +label: string
+  +geoJsonFile: path
+  +impactType: ImpactType
+}
+
+enum ImpactType {
+  direct
+  indirect
+  affectedArea
+  alternative
+}
+
+class Milestone {
+  +date: date
+  +title: string
+  +description: string
+  +status: MilestoneStatus
+}
+
+enum MilestoneStatus {
+  planned
+  reached
+  postponed
+  cancelled
+}
+
+class Source {
+  +title: string
+  +url: uri
+  +sourceType: SourceType
+  +publishedAt: date
+  +accessedAt: date
+}
+
+enum SourceType {
+  agenda
+  proposal
+  minutes
+  resolution
+  budget
+  planningDocument
+  pressRelease
+  website
+  other
+}
+
+class Organization {
+  +id: string
+  +name: string
+  +type: OrganizationType
+}
+
+enum OrganizationType {
+  municipality
+  jointMunicipality
+  district
+  committee
+  council
+  authority
+  association
+}
+
+class Category {
+  +id: string
+  +name: string
+}
+
+class Position {
+  +organization: string
+  +summary: string
+  +sourceUrl: uri
+}
+
+Topic "1" o-- "0..*" ImpactLocation
+Topic "1" o-- "0..*" Milestone
+Topic "1" o-- "1..*" Source
+Topic "*" -- "*" Organization
+Topic "*" -- "*" Category
+Topic "1" o-- "0..*" Position
+
+@enduml

@@ -1,0 +1,67 @@
+@startuml
+title RötgesPortal – MVP-Systemarchitektur
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+actor "Redaktion" as Editor
+actor "Bürgerinnen\nund Bürger" as Citizen
+
+cloud "GitHub Repository" {
+  folder "Redaktionelle Inhalte" {
+    file "content/topics/*.yaml" as Topics
+    file "content/locations/*.geojson" as Locations
+  }
+
+  folder "Inhaltsverträge" {
+    file "schemas/topic.schema.json" as TopicSchema
+  }
+
+  folder "Build" {
+    component "Content Validator" as Validator
+    component "Portal Generator" as Generator
+    file "topics.json" as TopicsJson
+    file "map.geojson" as MapGeoJson
+    file "search-index.json" as SearchIndex
+  }
+}
+
+component "GitHub Actions\nCI/CD" as Pipeline
+
+node "Statisches Hosting" as Hosting {
+  component "RötgesPortal Web-App" as Portal
+}
+
+cloud "OpenStreetMap" as OSM
+cloud "Öffentliche Quellen" as Sources {
+  component "Ratsinformationssystem" as RIS
+  component "Gemeinde-Websites" as Municipality
+  component "Öffentliche Dokumente" as Documents
+}
+
+Editor --> Topics : Themen pflegen
+Editor --> Locations : räumliche Bezüge pflegen
+
+Topics --> Validator
+Locations --> Validator
+TopicSchema --> Validator : Schema
+Validator --> Generator : validierte Inhalte
+Generator --> TopicsJson
+Generator --> MapGeoJson
+Generator --> SearchIndex
+
+Pipeline --> Validator : bei Commit / PR
+Pipeline --> Generator : nach erfolgreicher Prüfung
+Pipeline --> Hosting : Deployment
+
+Citizen --> Portal : lesen, filtern,\nKarte anzeigen
+Portal --> TopicsJson
+Portal --> MapGeoJson
+Portal --> SearchIndex
+Portal --> OSM : Kartenkacheln
+
+Topics ..> RIS : Quellenlinks
+Topics ..> Municipality : Quellenlinks
+Topics ..> Documents : Quellenlinks
+
+@enduml
