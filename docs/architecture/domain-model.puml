@@ -35,6 +35,54 @@ enum Visibility {
   archived
 }
 
+class Dataset {
+  +id: string
+  +title: string
+  +description: string
+  +type: DatasetType
+  +path: path
+  +normalization: string
+}
+
+enum DatasetType {
+  topics
+  geojson
+}
+
+class View {
+  +id: string
+  +title: string
+  +description: string
+  +route: path
+  +visibility: Visibility
+}
+
+class MapConfiguration {
+  +longitude: number
+  +latitude: number
+  +zoom: integer
+  +minZoom: integer
+  +maxZoom: integer
+}
+
+class Layer {
+  +id: string
+  +title: string
+  +visibleByDefault: boolean
+  +clustering: boolean
+}
+
+class ViewFilter {
+  +visibility: Visibility[]
+  +status: TopicStatus[]
+  +categories: string[]
+  +organizations: string[]
+}
+
+class Presentation {
+  +preset: string
+}
+
 class ImpactLocation {
   +id: string
   +label: string
@@ -116,5 +164,12 @@ Topic "1" o-- "1..*" Source
 Topic "*" -- "*" Organization
 Topic "*" -- "*" Category
 Topic "1" o-- "0..*" Position
+Dataset ..> Topic : topics input
+Dataset ..> ImpactLocation : GeoJSON input
+View "1" o-- "1..*" Layer
+View "1" o-- "1" MapConfiguration
+Layer "*" --> "1" Dataset : reads >
+Layer "1" o-- "0..1" ViewFilter
+Layer "1" o-- "1" Presentation
 
 @enduml

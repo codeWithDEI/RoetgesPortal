@@ -1,0 +1,31 @@
+id: council
+title: What is the council working on?
+description: Current municipal topics and their geographic impact.
+route: /maps/council
+visibility: published
+
+map:
+  center:
+    longitude: 10.531
+    latitude: 52.416
+  zoom: 14
+  minZoom: 11
+  maxZoom: 19
+
+layers:
+  - id: active-topics
+    title: Active topics
+    dataset: topics
+    visibleByDefault: true
+    clustering: true
+    filter:
+      visibility:
+        - published
+      status:
+        - consultation
+        - committee
+        - council
+        - decided
+        - implementation
+    presentation:
+      preset: council-topic

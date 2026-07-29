@@ -20,18 +20,19 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
 
       - name: Check Python source
         run: python -m compileall -q tools
+
+      - name: Validate editorial content
+        run: python tools/validate_content.py
 
       - name: Rebuild historic map exports
         run: python tools/import_roetgesmarkt.py
 
       - name: Verify generated exports are current
         run: git diff --exit-code -- generated
-
-      - name: Validate JSON and GeoJSON syntax
-        run: |
-          python -m json.tool schemas/topic.schema.json > /dev/null
-          python -m json.tool content/locations/roetgesmarkt_input.geojson > /dev/null
-          python -m json.tool generated/roetgesmarkt_upload.geojson > /dev/null

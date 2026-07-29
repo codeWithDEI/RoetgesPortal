@@ -11,17 +11,21 @@ cloud "GitHub Repository" {
   folder "Editorial Content" {
     file "content/topics/*.yaml" as Topics
     file "content/locations/*.geojson" as Locations
+    file "content/datasets/*.yaml" as Datasets
+    file "content/views/*.yaml" as Views
   }
 
   folder "Content Contracts" {
     file "schemas/topic.schema.json" as TopicSchema
+    file "schemas/dataset.schema.json" as DatasetSchema
+    file "schemas/view.schema.json" as ViewSchema
   }
 
   folder "Build" {
     component "Content Validator" as Validator
     component "Portal Generator" as Generator
-    file "topics.json" as TopicsJson
-    file "map.geojson" as MapGeoJson
+    file "generated/datasets/*" as GeneratedDatasets
+    file "generated/views/*" as GeneratedViews
     file "search-index.json" as SearchIndex
   }
 }
@@ -41,13 +45,19 @@ cloud "Public Sources" as Sources {
 
 Editor --> Topics : maintain topics
 Editor --> Locations : maintain geographic impact
+Editor --> Datasets : register reusable inputs
+Editor --> Views : define maps and layers
 
 Topics --> Validator
 Locations --> Validator
+Datasets --> Validator
+Views --> Validator
 TopicSchema --> Validator : schema
+DatasetSchema --> Validator : schema
+ViewSchema --> Validator : schema
 Validator --> Generator : validated content
-Generator --> TopicsJson
-Generator --> MapGeoJson
+Generator --> GeneratedDatasets
+Generator --> GeneratedViews
 Generator --> SearchIndex
 
 Pipeline --> Validator : on commit / PR
@@ -55,8 +65,8 @@ Pipeline --> Generator : after validation
 Pipeline --> Hosting : Deployment
 
 Citizen --> Portal : read, filter,\nview map
-Portal --> TopicsJson
-Portal --> MapGeoJson
+Portal --> GeneratedDatasets
+Portal --> GeneratedViews
 Portal --> SearchIndex
 Portal --> OSM : map tiles
 

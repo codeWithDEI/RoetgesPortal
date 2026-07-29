@@ -29,6 +29,9 @@ imports require one.
 
 ![Domain model](docs/architecture/domain-model.svg)
 
+The [content model](docs/architecture/content-model.md) defines collection,
+reference, coordinate, and generated-output conventions.
+
 The committed SVG files are initial placeholders. After installing
 [PlantUML](https://plantuml.com/starting), regenerate them from their sources:
 
@@ -41,8 +44,10 @@ plantuml -tsvg docs/architecture/*.puml
 ```text
 .
 ├── content/
+│   ├── datasets/        # reusable inputs with stable IDs
 │   ├── locations/       # manually maintained GeoJSON sources
-│   └── topics/          # one municipal topic per YAML file
+│   ├── topics/          # one municipal topic per YAML file
+│   └── views/           # routes, maps, layers, filters, and presentation
 ├── docs/architecture/   # PlantUML sources and rendered SVG files
 ├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
@@ -79,14 +84,52 @@ The tool requires Python 3.9 or newer and has no external dependencies.
 
 Each topic file follows the contract in
 [`schemas/topic.schema.json`](schemas/topic.schema.json). The initial example
-at [`content/topics/example.yaml`](content/topics/example.yaml) remains an
-unpublished draft.
+at [`content/topics/example-topic.yaml`](content/topics/example-topic.yaml)
+remains an unpublished draft.
 
 Facts, geographic impact, and publicly documented positions are modeled
 separately. Every published topic and position must cite at least one
 verifiable source.
 
+## Defining map views
+
+Datasets decouple physical inputs from their presentation:
+
+```text
+content/datasets/topics.yaml
+content/datasets/roetgesmarkt-stands.yaml
+```
+
+Views combine one or more datasets into a public map route:
+
+```text
+content/views/council.yaml
+content/views/flea-market.yaml
+```
+
+The council view filters published topic data by workflow status. The flea
+market view uses the normalized historic Rötgesmarkt dataset. Both define
+their own layers, clustering behavior, map position, and semantic presentation
+presets without duplicating geographic data.
+
+Dataset and view files follow
+[`schemas/dataset.schema.json`](schemas/dataset.schema.json) and
+[`schemas/view.schema.json`](schemas/view.schema.json).
+
+## Validating content
+
+Install the development dependencies and run the content validator:
+
+```bash
+python3 -m pip install -r requirements-dev.txt
+python3 tools/validate_content.py
+```
+
+In addition to the JSON Schemas, the validator checks IDs, file references,
+dataset references, unique routes and layer IDs, zoom ranges, and compatible
+filters. CI runs the same validation for every pull request.
+
 ## Status
 
-This is the initial project structure. The web application, content validator,
-and build generator will follow in separate, focused increments.
+This is the initial project structure. The web application and build generator
+will follow in separate, focused increments.

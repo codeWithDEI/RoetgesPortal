@@ -9,9 +9,9 @@ categories:
 organizations:
   - municipality-roetgesbuettel
 dates:
-  createdAt: 2026-07-29
-  updatedAt: 2026-07-29
-  lastVerifiedAt: 2026-07-29
+  createdAt: "2026-07-29"
+  updatedAt: "2026-07-29"
+  lastVerifiedAt: "2026-07-29"
 description: |
   Facts, geographic impact, and documented positions are maintained
   separately.
@@ -21,5 +21,5 @@ sources:
   - title: Example source – replace before publication
     sourceType: other
     url: https://example.org/
-    accessedAt: 2026-07-29
+    accessedAt: "2026-07-29"
 positions: []
