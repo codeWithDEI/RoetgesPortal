@@ -1,0 +1,57 @@
+id: rodelberg-development
+title: Weitere Nutzung der Fläche Rodelberg
+summary: >
+  Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft;
+  wirtschaftliche und technische Hindernisse bestehen fort.
+status: paused
+visibility: published
+
+categories:
+  - municipal-property
+  - housing
+  - urban-planning
+  - drainage
+
+organizations:
+  - municipality-roetgesbuettel
+
+dates:
+  createdAt: "2025-12-16"
+  updatedAt: "2026-03-17"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse
+  an einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die
+  unterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem
+  veröffentlichten Sachstand derzeit jedoch unwirtschaftlich.
+
+  Als Alternative wurde geprüft, zwei bis drei bereits erschlossene
+  Grundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,
+  dafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am
+  17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung
+  abgelehnt.
+
+locations: []
+
+milestones:
+  - date: "2025-12-16"
+    title: Bürgermeister wird mit Investorengesprächen beauftragt
+    status: reached
+  - date: "2026-03-17"
+    title: Rat nimmt Sachstand zur Kenntnis und lehnt Alternativplanung ab
+    status: reached
+
+sources:
+  - title: Vorlage Rötg/2025/0286-02
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000824&refresh=false&TOLFDNR=1005884
+    publishedAt: "2026-03-17"
+    accessedAt: "2026-07-30"
+  - title: Beschlussauszug vom 17. März 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260
+    publishedAt: "2026-03-17"
+    accessedAt: "2026-07-30"
+
+positions: []

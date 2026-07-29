@@ -3,6 +3,9 @@
 RötgesPortal separates facts, reusable datasets, and map presentation. This
 keeps editorial content independent from any individual page or map.
 
+Repository code and technical documentation are written in English.
+Public-facing editorial content is written in German for the local audience.
+
 ## Collections
 
 ### Topics

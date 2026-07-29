@@ -1,0 +1,57 @@
+id: childcare-centre-expansion
+title: Erweiterung der Kindertagesstätte
+summary: >
+  Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten
+  unter den aktuellen Genehmigungsanforderungen geprüft.
+status: committee
+visibility: published
+
+categories:
+  - childcare
+  - public-facilities
+  - urban-planning
+
+organizations:
+  - municipality-roetgesbuettel
+  - drk-gifhorn
+
+dates:
+  createdAt: "2025-12-16"
+  updatedAt: "2026-03-17"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches
+  Konzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen
+  Fachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden
+  38.000 Euro im Haushalt 2026 vorgesehen.
+
+  Im März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben
+  Gruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen
+  könnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre
+  voraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit
+  jeweils vollständigem Raumkonzept erforderlich.
+
+locations: []
+
+milestones:
+  - date: "2025-12-16"
+    title: Rat fordert pädagogisches Konzept und stellt Planungsmittel ein
+    status: reached
+  - date: "2026-03-17"
+    title: DRK berichtet über Genehmigungs- und Raumkonzept
+    status: reached
+
+sources:
+  - title: Beschlussauszug vom 16. Dezember 2025
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151
+    publishedAt: "2025-12-16"
+    accessedAt: "2026-07-30"
+  - title: Protokollauszug vom 17. März 2026
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005893&SILFDNR=1000260
+    publishedAt: "2026-03-17"
+    accessedAt: "2026-07-30"
+
+positions: []

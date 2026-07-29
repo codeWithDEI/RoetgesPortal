@@ -1,0 +1,45 @@
+id: parking-restrictions-schulgarten-eikhof
+title: Halteverbot Am Schulgarten und Am Eikhof
+summary: >
+  Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde
+  ein einseitiges absolutes Halteverbot beim Landkreis beantragt.
+status: implementation
+visibility: published
+
+categories:
+  - mobility
+  - road-safety
+
+organizations:
+  - municipality-roetgesbuettel
+  - district-gifhorn
+
+dates:
+  createdAt: "2025-12-16"
+  updatedAt: "2025-12-16"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat
+  beschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein
+  einseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im
+  Bereich der Einmündung des Schulgartens zu beantragen.
+
+  Der öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch
+  nicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.
+
+locations: []
+
+milestones:
+  - date: "2025-12-16"
+    title: Rat beschließt Antrag an den Landkreis Gifhorn
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu Rötg/2025/0279
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151
+    publishedAt: "2025-12-16"
+    accessedAt: "2026-07-30"
+
+positions: []
