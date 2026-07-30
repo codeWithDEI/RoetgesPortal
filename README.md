@@ -52,7 +52,7 @@ plantuml -tsvg docs/architecture/*.puml
 ├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
 ├── tools/               # validation, build, and historic imports
-└── web/                 # future static web application
+└── web/                 # static topic portal and future map application
 ```
 
 ## Importing Rötgesmarkt data
@@ -162,3 +162,19 @@ python3 tools/validate_content.py
 python3 tools/build_portal.py
 git diff --exit-code -- generated
 ```
+
+## Web application
+
+The first public web increment presents the generated council topics as a
+German-language list with full-text search, status and category filters, and
+source-backed detail pages:
+
+```bash
+cd web
+pnpm install
+pnpm dev
+```
+
+The application synchronizes the generated public artifacts into its static
+asset directory before development and production builds. It remains
+independent from the editorial YAML and does not require a database.

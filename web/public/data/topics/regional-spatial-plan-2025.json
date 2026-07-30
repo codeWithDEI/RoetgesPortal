@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "regional-planning",
+      "urban-planning",
+      "renewable-energy",
+      "environment"
+    ],
+    "dates": {
+      "createdAt": "2026-03-17",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2026-03-17"
+    },
+    "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
+    "id": "regional-spatial-plan-2025",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-03-17",
+        "status": "reached",
+        "title": "Rat beschließt Stellungnahme zum Programmentwurf"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "joint-municipality-papenteich",
+      "regional-association-greater-braunschweig"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-03-17",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2026/0296",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260"
+      }
+    ],
+    "status": "consultation",
+    "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.\n",
+    "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025",
+    "visibility": "published"
+  }
+}

@@ -1,7 +1,7 @@
 id: council
 title: Woran arbeitet der Rat?
 description: Aktuelle kommunale Themen, ihr Bearbeitungsstand und ihre Quellen.
-route: /topics
+route: /themen
 visibility: published
 
 sources:

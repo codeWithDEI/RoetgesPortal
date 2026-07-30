@@ -43,3 +43,32 @@ jobs:
 
       - name: Verify generated exports are current
         run: git diff --exit-code -- generated
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@11.9.0 --activate
+
+      - name: Install web dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      - name: Build web application
+        working-directory: web
+        run: pnpm build
+
+      - name: Test web application
+        working-directory: web
+        run: pnpm test
+
+      - name: Lint web application
+        working-directory: web
+        run: pnpm lint
+
+      - name: Verify synchronized web data is current
+        run: git diff --exit-code -- web/public/data
