@@ -1,0 +1,43 @@
+id: childcare-sanitary-facilities
+title: Sanierung der Sanitärräume in der Kindertagesstätte
+summary: >
+  Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein
+  Sanierungskonzept entstehen.
+status: implementation
+visibility: published
+
+categories:
+  - childcare
+  - public-facilities
+  - renovation
+
+organizations:
+  - municipality-roetgesbuettel
+  - drk-gifhorn
+
+dates:
+  createdAt: "2026-03-17"
+  updatedAt: "2026-03-17"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026
+  Mittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf
+  einer Konzeption beziehungsweise mit der beratenden Unterstützung der
+  Gemeinde zu beauftragen.
+
+locations: []
+
+milestones:
+  - date: "2026-03-17"
+    title: Rat beauftragt das DRK mit Konzeption und Beratung
+    status: reached
+
+sources:
+  - title: Beschlussauszug vom 17. März 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260
+    publishedAt: "2026-03-17"
+    accessedAt: "2026-07-30"
+
+positions: []

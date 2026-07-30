@@ -1,0 +1,57 @@
+id: community-hall-fees
+title: Gebühren für Bürgerhalle und Gemeinschaftsräume
+summary: >
+  Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen
+  überprüft und angepasst werden.
+status: decided
+visibility: published
+
+categories:
+  - public-facilities
+  - finance
+
+organizations:
+  - municipality-roetgesbuettel
+
+dates:
+  createdAt: "2026-06-04"
+  updatedAt: "2026-06-25"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und
+  Sportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage
+  über eine Anpassung einig.
+
+  Die abgeschlossene Vorlage sah vor, dem Antrag grundsätzlich zuzustimmen.
+  Die Verwaltung sollte außerdem Angaben zur Auslastung im Jahr 2025 und
+  Vergleichswerte aus Nachbargemeinden für eine weitere Beschlussvorlage
+  zusammentragen.
+
+  Die öffentliche Beratungsfolge weist die Entscheidung des Rates als
+  erledigt aus. Ein separater öffentlicher Beschlussauszug mit dem endgültigen
+  Wortlaut war bei der letzten Prüfung nicht verfügbar.
+
+locations: []
+
+milestones:
+  - date: "2026-06-04"
+    title: Beratung im Kultur- und Sportausschuss
+    status: reached
+  - date: "2026-06-25"
+    title: Behandlung im Rat
+    status: reached
+
+sources:
+  - title: Vorlage Rötg/2026/0297-01
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633
+    publishedAt: "2026-06-25"
+    accessedAt: "2026-07-30"
+  - title: Tagesordnung der Ratssitzung vom 25. Juni 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
+    publishedAt: "2026-06-25"
+    accessedAt: "2026-07-30"
+
+positions: []

@@ -1,0 +1,67 @@
+id: aukenroth-residential-development
+title: Wohngebiet Aukenroth
+summary: >
+  Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und
+  der Flächennutzungsplan geändert werden.
+status: consultation
+visibility: published
+
+categories:
+  - urban-planning
+  - housing
+  - environment
+
+organizations:
+  - municipality-roetgesbuettel
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-06-01"
+  updatedAt: "2026-06-25"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und
+  Doppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.
+  Der ländliche Charakter soll unter anderem durch eine eingeschossige
+  Bauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen
+  Ortsrand berücksichtigt werden.
+
+  Der veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus
+  Gutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen
+  in die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und
+  eine Waldbewertung wurden bereits beauftragt.
+
+  Parallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch
+  die Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am
+  25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war
+  bei der letzten Prüfung noch nicht verfügbar.
+
+locations: []
+
+milestones:
+  - date: "2026-06-01"
+    title: Fachausschuss empfiehlt Aufstellung und frühzeitige Beteiligung
+    status: reached
+  - date: "2026-06-25"
+    title: Rat behandelt Bebauungsplan und Flächennutzungsplanänderung
+    status: reached
+
+sources:
+  - title: Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634
+    publishedAt: "2026-06-25"
+    accessedAt: "2026-07-30"
+  - title: Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635
+    publishedAt: "2026-06-25"
+    accessedAt: "2026-07-30"
+  - title: Tagesordnung der Ratssitzung vom 25. Juni 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
+    publishedAt: "2026-06-25"
+    accessedAt: "2026-07-30"
+
+positions: []

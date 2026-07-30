@@ -1,0 +1,45 @@
+id: muehlenweg-speed-limit
+title: Geschwindigkeitsbegrenzung auf dem Mühlenweg
+summary: >
+  Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen
+  Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.
+status: implementation
+visibility: published
+
+categories:
+  - mobility
+  - road-safety
+
+organizations:
+  - municipality-roetgesbuettel
+  - district-gifhorn
+
+dates:
+  createdAt: "2025-12-16"
+  updatedAt: "2025-12-16"
+  lastVerifiedAt: "2026-07-30"
+
+description: |
+  Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,
+  beim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf
+  70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen
+  und Anwohner genannt.
+
+  Der Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine
+  Entscheidung der zuständigen Straßenverkehrsbehörde.
+
+locations: []
+
+milestones:
+  - date: "2025-12-16"
+    title: Rat beschließt Antrag auf Tempo 70
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu Rötg/2025/0280
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151
+    publishedAt: "2025-12-16"
+    accessedAt: "2026-07-30"
+
+positions: []
