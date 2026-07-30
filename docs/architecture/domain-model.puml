@@ -57,6 +57,38 @@ class View {
   +visibility: Visibility
 }
 
+class ViewSource {
+  +id: string
+  +dataset: string
+}
+
+class SortRule {
+  +field: string
+  +direction: SortDirection
+}
+
+enum SortDirection {
+  ascending
+  descending
+}
+
+abstract class Presentation {
+  +type: PresentationType
+}
+
+enum PresentationType {
+  list
+  map
+}
+
+class ListPresentation {
+  +source: string
+  +preset: string
+  +facets: string[]
+}
+
+class MapPresentation
+
 class MapConfiguration {
   +longitude: number
   +latitude: number
@@ -65,11 +97,13 @@ class MapConfiguration {
   +maxZoom: integer
 }
 
-class Layer {
+class MapLayer {
   +id: string
   +title: string
+  +source: string
   +visibleByDefault: boolean
   +clustering: boolean
+  +preset: string
 }
 
 class ViewFilter {
@@ -77,10 +111,6 @@ class ViewFilter {
   +status: TopicStatus[]
   +categories: string[]
   +organizations: string[]
-}
-
-class Presentation {
-  +preset: string
 }
 
 class ImpactLocation {
@@ -166,10 +196,16 @@ Topic "*" -- "*" Category
 Topic "1" o-- "0..*" Position
 Dataset ..> Topic : topics input
 Dataset ..> ImpactLocation : GeoJSON input
-View "1" o-- "1..*" Layer
-View "1" o-- "1" MapConfiguration
-Layer "*" --> "1" Dataset : reads >
-Layer "1" o-- "0..1" ViewFilter
-Layer "1" o-- "1" Presentation
+View "1" o-- "1..*" ViewSource
+View "1" o-- "1" Presentation
+ViewSource "*" --> "1" Dataset : reads >
+ViewSource "1" o-- "0..1" ViewFilter
+ViewSource "1" o-- "0..*" SortRule
+Presentation <|-- ListPresentation
+Presentation <|-- MapPresentation
+ListPresentation --> ViewSource : renders >
+MapPresentation "1" o-- "1" MapConfiguration
+MapPresentation "1" o-- "1..*" MapLayer
+MapLayer --> ViewSource : renders >
 
 @enduml

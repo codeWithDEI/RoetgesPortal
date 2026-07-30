@@ -27,13 +27,19 @@ jobs:
         run: python -m pip install -r requirements-dev.txt
 
       - name: Check Python source
-        run: python -m compileall -q tools
+        run: python -m compileall -q tools tests
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
 
       - name: Validate editorial content
         run: python tools/validate_content.py
 
       - name: Rebuild historic map exports
         run: python tools/import_roetgesmarkt.py
+
+      - name: Build portal runtime artifacts
+        run: python tools/build_portal.py
 
       - name: Verify generated exports are current
         run: git diff --exit-code -- generated

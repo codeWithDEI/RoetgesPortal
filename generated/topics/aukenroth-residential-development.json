@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "urban-planning",
+      "housing",
+      "environment"
+    ],
+    "dates": {
+      "createdAt": "2026-06-01",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2026-06-25"
+    },
+    "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDer veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus\nGutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen\nin die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und\neine Waldbewertung wurden bereits beauftragt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am\n25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war\nbei der letzten Prüfung noch nicht verfügbar.\n",
+    "id": "aukenroth-residential-development",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-06-01",
+        "status": "reached",
+        "title": "Fachausschuss empfiehlt Aufstellung und frühzeitige Beteiligung"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-06-25",
+        "sourceType": "proposal",
+        "title": "Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634"
+      },
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-06-25",
+        "sourceType": "proposal",
+        "title": "Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635"
+      },
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-06-25",
+        "sourceType": "agenda",
+        "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+      }
+    ],
+    "status": "consultation",
+    "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.\n",
+    "title": "Wohngebiet Aukenroth",
+    "visibility": "published"
+  }
+}

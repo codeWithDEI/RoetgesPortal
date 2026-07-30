@@ -25,20 +25,27 @@ paths.
 
 ### Views
 
-Files under `content/views/` define public map experiences. A view owns:
+Files under `content/views/` define public routes. A view owns:
 
 - a stable route;
-- the initial map position and zoom range;
-- one or more ordered layers;
-- optional topic filters;
-- semantic presentation presets.
+- one or more named data sources;
+- optional topic filters and deterministic sorting on each source;
+- exactly one presentation type;
+- a semantic presentation preset.
 
-A layer references exactly one dataset. Multiple views may reuse the same
-dataset, and a view may combine multiple datasets.
+A source references exactly one dataset. The presentation references sources
+by their stable IDs. This separates data selection from rendering: a list can
+consume a filtered topic source, while a later map presentation can reuse the
+same dataset through one or more layers.
 
-Presentation presets are semantic IDs rather than raw CSS or library-specific
-configuration. The future web application will resolve presets such as
-`council-topic` or `flea-market-stand` to concrete visual styles.
+The initial portal uses a list presentation for council topics. Map
+presentation remains part of the contract as a draft for the flea market and
+future geographic topic views, but it does not constrain list-based routes.
+
+Presentation presets are semantic IDs rather than raw CSS or
+library-specific configuration. The future web application will resolve
+presets such as `council-topic-list` or `flea-market-stand` to concrete visual
+styles.
 
 ## Reference rules
 
@@ -47,20 +54,22 @@ across files:
 
 1. File names and `id` values must match.
 2. IDs must be unique within their collection.
-3. Every layer must reference an existing dataset.
-4. Layer IDs must be unique within a view.
+3. Every source must reference an existing dataset.
+4. Source IDs and map layer IDs must be unique within a view.
 5. Published view routes must be unique.
 6. Referenced files must exist and remain inside the repository.
 7. `minZoom` must not be greater than `zoom` or `maxZoom`.
-8. Topic filters may only be used with a `topics` dataset.
+8. Topic filters and sorting may only be used with a `topics` dataset.
 9. Published topics and documented positions must have verifiable citations.
+10. Every presentation and map layer must reference a source from its view.
 
 ## Geographic conventions
 
 - All coordinates use WGS 84.
 - GeoJSON always stores coordinates as longitude, latitude.
 - View centers use named `longitude` and `latitude` fields to avoid ambiguity.
-- Geographic data belongs in datasets; view files only select and present it.
+- Geographic data belongs in datasets; map presentations only select and
+  present it.
 
 ## Generated output contract
 
@@ -70,18 +79,19 @@ runtime artifacts below `generated/`:
 ```text
 generated/
 ├── datasets/
-│   ├── topics.json
-│   └── roetgesmarkt-stands.geojson
+│   └── topics.json
+├── topics/
+│   └── <topic-id>.json
 ├── views/
 │   ├── index.json
 │   ├── council/
 │   │   ├── manifest.json
-│   │   └── active-topics.geojson
-│   └── flea-market/
-│       ├── manifest.json
-│       └── stands.geojson
+│   │   └── items.json
 └── search-index.json
 ```
 
 The browser consumes generated artifacts only. It does not parse editorial
-YAML or raw GeoJSON.
+YAML or raw GeoJSON. Only published topics and views are included. Builds are
+deterministic and do not include build timestamps. Dataset artifacts are
+created only when a published view references them; publishing a future map
+view therefore adds its normalized GeoJSON dataset and manifest automatically.
