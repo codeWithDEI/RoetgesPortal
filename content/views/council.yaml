@@ -1,23 +1,12 @@
 id: council
-title: What is the council working on?
-description: Current municipal topics and their geographic impact.
-route: /maps/council
+title: Woran arbeitet der Rat?
+description: Aktuelle kommunale Themen, ihr Bearbeitungsstand und ihre Quellen.
+route: /topics
 visibility: published
 
-map:
-  center:
-    longitude: 10.531
-    latitude: 52.416
-  zoom: 14
-  minZoom: 11
-  maxZoom: 19
-
-layers:
+sources:
   - id: active-topics
-    title: Active topics
     dataset: topics
-    visibleByDefault: true
-    clustering: true
     filter:
       visibility:
         - published
@@ -27,5 +16,17 @@ layers:
         - council
         - decided
         - implementation
-    presentation:
-      preset: council-topic
+        - paused
+    sort:
+      - field: dates.updatedAt
+        direction: descending
+      - field: title
+        direction: ascending
+
+presentation:
+  type: list
+  source: active-topics
+  preset: council-topic-list
+  facets:
+    - status
+    - categories

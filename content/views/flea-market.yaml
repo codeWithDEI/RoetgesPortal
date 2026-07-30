@@ -1,22 +1,26 @@
 id: flea-market
 title: Rötgesmarkt
-description: Participating flea market stands in Rötgesbüttel.
+description: Teilnehmende Flohmarktstände in Rötgesbüttel.
 route: /maps/flea-market
-visibility: published
+visibility: draft
 
-map:
-  center:
-    longitude: 10.531
-    latitude: 52.416
-  zoom: 15
-  minZoom: 12
-  maxZoom: 19
-
-layers:
+sources:
   - id: stands
-    title: Stands
     dataset: roetgesmarkt-stands
-    visibleByDefault: true
-    clustering: false
-    presentation:
+
+presentation:
+  type: map
+  map:
+    center:
+      longitude: 10.531
+      latitude: 52.416
+    zoom: 15
+    minZoom: 12
+    maxZoom: 19
+  layers:
+    - id: stands
+      title: Stands
+      source: stands
+      visibleByDefault: true
+      clustering: false
       preset: flea-market-stand

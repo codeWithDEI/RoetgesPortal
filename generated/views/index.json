@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "views": [
+    {
+      "description": "Aktuelle kommunale Themen, ihr Bearbeitungsstand und ihre Quellen.",
+      "id": "council",
+      "manifest": "council/manifest.json",
+      "presentationType": "list",
+      "route": "/topics",
+      "title": "Woran arbeitet der Rat?"
+    }
+  ]
+}

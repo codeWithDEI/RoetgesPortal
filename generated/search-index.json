@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "categories": [
+        "childcare",
+        "public-facilities",
+        "urban-planning"
+      ],
+      "detail": "topics/childcare-centre-expansion.json",
+      "id": "childcare-centre-expansion",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "drk-gifhorn"
+      ],
+      "status": "committee",
+      "summary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.",
+      "title": "Erweiterung der Kindertagesstätte"
+    },
+    {
+      "categories": [
+        "public-facilities",
+        "finance"
+      ],
+      "detail": "topics/community-hall-fees.json",
+      "id": "community-hall-fees",
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "status": "decided",
+      "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.",
+      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+    },
+    {
+      "categories": [
+        "public-facilities",
+        "community",
+        "renovation"
+      ],
+      "detail": "topics/community-centre-old-fire-station.json",
+      "id": "community-centre-old-fire-station",
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
+      "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety"
+      ],
+      "detail": "topics/muehlenweg-speed-limit.json",
+      "id": "muehlenweg-speed-limit",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "status": "implementation",
+      "summary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.",
+      "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety"
+      ],
+      "detail": "topics/parking-restrictions-schulgarten-eikhof.json",
+      "id": "parking-restrictions-schulgarten-eikhof",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "status": "implementation",
+      "summary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.",
+      "title": "Halteverbot Am Schulgarten und Am Eikhof"
+    },
+    {
+      "categories": [
+        "waste",
+        "public-space",
+        "mobility"
+      ],
+      "detail": "topics/glass-container-relocation.json",
+      "id": "glass-container-relocation",
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "status": "council",
+      "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
+      "title": "Neuer Standort für die Glascontainer"
+    },
+    {
+      "categories": [
+        "childcare",
+        "public-facilities",
+        "renovation"
+      ],
+      "detail": "topics/childcare-sanitary-facilities.json",
+      "id": "childcare-sanitary-facilities",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "drk-gifhorn"
+      ],
+      "status": "implementation",
+      "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
+      "title": "Sanierung der Sanitärräume in der Kindertagesstätte"
+    },
+    {
+      "categories": [
+        "sports",
+        "public-facilities",
+        "renovation"
+      ],
+      "detail": "topics/sports-centre-modernisation.json",
+      "id": "sports-centre-modernisation",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "vfl-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.",
+      "title": "Sanierung und Modernisierung des Gemeindesportzentrums"
+    },
+    {
+      "categories": [
+        "regional-planning",
+        "urban-planning",
+        "renewable-energy",
+        "environment"
+      ],
+      "detail": "topics/regional-spatial-plan-2025.json",
+      "id": "regional-spatial-plan-2025",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich",
+        "regional-association-greater-braunschweig"
+      ],
+      "status": "consultation",
+      "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.",
+      "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety",
+        "noise-protection"
+      ],
+      "detail": "topics/northern-town-sign-relocation.json",
+      "id": "northern-town-sign-relocation",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "status": "implementation",
+      "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
+      "title": "Versetzung des Ortsschildes am nördlichen Ortseingang"
+    },
+    {
+      "categories": [
+        "municipal-property",
+        "housing",
+        "urban-planning",
+        "drainage"
+      ],
+      "detail": "topics/rodelberg-development.json",
+      "id": "rodelberg-development",
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "status": "paused",
+      "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
+      "title": "Weitere Nutzung der Fläche Rodelberg"
+    },
+    {
+      "categories": [
+        "urban-planning",
+        "housing",
+        "environment"
+      ],
+      "detail": "topics/aukenroth-residential-development.json",
+      "id": "aukenroth-residential-development",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "status": "consultation",
+      "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.",
+      "title": "Wohngebiet Aukenroth"
+    }
+  ],
+  "schemaVersion": 1
+}

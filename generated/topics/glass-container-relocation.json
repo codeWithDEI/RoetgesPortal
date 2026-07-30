@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "waste",
+      "public-space",
+      "mobility"
+    ],
+    "dates": {
+      "createdAt": "2025-12-16",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2026-06-25"
+    },
+    "description": "Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+    "id": "glass-container-relocation",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-12-16",
+        "status": "reached",
+        "title": "Rat beschließt die Prüfung mehrerer Standorte"
+      },
+      {
+        "date": "2026-04-01",
+        "status": "reached",
+        "title": "Befahrung mit dem Entsorgungsunternehmen"
+      },
+      {
+        "date": "2026-06-01",
+        "status": "reached",
+        "title": "Fachausschuss empfiehlt den Festplatz"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Thema steht zur Entscheidung im Rat"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2025-12-16",
+        "sourceType": "minutes",
+        "title": "Beschlussauszug vom 16. Dezember 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
+      },
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-06-25",
+        "sourceType": "proposal",
+        "title": "Vorlage Rötg/2025/0282-02",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
+      },
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-06-25",
+        "sourceType": "agenda",
+        "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+      }
+    ],
+    "status": "council",
+    "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.\n",
+    "title": "Neuer Standort für die Glascontainer",
+    "visibility": "published"
+  }
+}

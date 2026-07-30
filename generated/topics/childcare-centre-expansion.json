@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "childcare",
+      "public-facilities",
+      "urban-planning"
+    ],
+    "dates": {
+      "createdAt": "2025-12-16",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2026-03-17"
+    },
+    "description": "Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
+    "id": "childcare-centre-expansion",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-12-16",
+        "status": "reached",
+        "title": "Rat fordert pädagogisches Konzept und stellt Planungsmittel ein"
+      },
+      {
+        "date": "2026-03-17",
+        "status": "reached",
+        "title": "DRK berichtet über Genehmigungs- und Raumkonzept"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "drk-gifhorn"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2025-12-16",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 16. Dezember 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151"
+      },
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-03-17",
+        "sourceType": "minutes",
+        "title": "Protokollauszug vom 17. März 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005893&SILFDNR=1000260"
+      }
+    ],
+    "status": "committee",
+    "summary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.\n",
+    "title": "Erweiterung der Kindertagesstätte",
+    "visibility": "published"
+  }
+}

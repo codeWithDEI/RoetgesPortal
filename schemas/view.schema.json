@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://roetgesportal.example/schemas/view.schema.json",
-  "title": "RötgesPortal map view",
+  "title": "RötgesPortal view",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -10,13 +10,12 @@
     "description",
     "route",
     "visibility",
-    "map",
-    "layers"
+    "sources",
+    "presentation"
   ],
   "properties": {
     "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      "$ref": "#/$defs/id"
     },
     "title": {
       "type": "string",
@@ -33,7 +32,144 @@
     "visibility": {
       "enum": ["draft", "published", "archived"]
     },
-    "map": {
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "presentation": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/listPresentation"
+        },
+        {
+          "$ref": "#/$defs/mapPresentation"
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "filter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "visibility": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["draft", "published", "archived"]
+          }
+        },
+        "status": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "idea",
+              "announced",
+              "consultation",
+              "committee",
+              "council",
+              "decided",
+              "implementation",
+              "completed",
+              "paused",
+              "rejected"
+            ]
+          }
+        },
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "organizations": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sort": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "direction"],
+      "properties": {
+        "field": {
+          "enum": [
+            "title",
+            "status",
+            "dates.createdAt",
+            "dates.updatedAt",
+            "dates.lastVerifiedAt"
+          ]
+        },
+        "direction": {
+          "enum": ["ascending", "descending"]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "dataset"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "dataset": {
+          "$ref": "#/$defs/id"
+        },
+        "filter": {
+          "$ref": "#/$defs/filter"
+        },
+        "sort": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sort"
+          }
+        }
+      }
+    },
+    "listPresentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "source", "preset"],
+      "properties": {
+        "type": {
+          "const": "list"
+        },
+        "source": {
+          "$ref": "#/$defs/id"
+        },
+        "preset": {
+          "$ref": "#/$defs/id"
+        },
+        "facets": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["status", "categories", "organizations"]
+          }
+        }
+      }
+    },
+    "mapConfiguration": {
       "type": "object",
       "additionalProperties": false,
       "required": ["center", "zoom"],
@@ -72,94 +208,55 @@
         }
       }
     },
-    "layers": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "title",
-          "dataset",
-          "visibleByDefault",
-          "clustering",
-          "presentation"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-          },
-          "title": {
-            "type": "string",
-            "minLength": 1
-          },
-          "dataset": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-          },
-          "visibleByDefault": {
-            "type": "boolean"
-          },
-          "clustering": {
-            "type": "boolean"
-          },
-          "filter": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-              "visibility": {
-                "type": "array",
-                "minItems": 1,
-                "uniqueItems": true,
-                "items": {
-                  "enum": ["draft", "published", "archived"]
-                }
-              },
-              "status": {
-                "type": "array",
-                "minItems": 1,
-                "uniqueItems": true,
-                "items": {
-                  "enum": [
-                    "idea",
-                    "announced",
-                    "consultation",
-                    "committee",
-                    "council",
-                    "decided",
-                    "implementation",
-                    "completed",
-                    "paused",
-                    "rejected"
-                  ]
-                }
-              },
-              "categories": {
-                "type": "array",
-                "minItems": 1,
-                "uniqueItems": true,
-                "items": {"type": "string"}
-              },
-              "organizations": {
-                "type": "array",
-                "minItems": 1,
-                "uniqueItems": true,
-                "items": {"type": "string"}
-              }
-            }
-          },
-          "presentation": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["preset"],
-            "properties": {
-              "preset": {
-                "type": "string",
-                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-              }
-            }
+    "mapLayer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "source",
+        "visibleByDefault",
+        "clustering",
+        "preset"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/id"
+        },
+        "visibleByDefault": {
+          "type": "boolean"
+        },
+        "clustering": {
+          "type": "boolean"
+        },
+        "preset": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "mapPresentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "map", "layers"],
+      "properties": {
+        "type": {
+          "const": "map"
+        },
+        "map": {
+          "$ref": "#/$defs/mapConfiguration"
+        },
+        "layers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/mapLayer"
           }
         }
       }

@@ -49,7 +49,10 @@ def format_path(parts: Iterable[Any]) -> str:
 
 
 def validate_collection(
-    collection_name: str, directory: Path, schema_path: Path
+    collection_name: str,
+    directory: Path,
+    schema_path: Path,
+    repository_root: Path = REPOSITORY_ROOT,
 ) -> tuple[dict[str, dict[str, Any]], list[str]]:
     documents: dict[str, dict[str, Any]] = {}
     errors: list[str] = []
@@ -61,7 +64,7 @@ def validate_collection(
         try:
             document = load_yaml(path)
         except (OSError, ValueError, yaml.YAMLError) as error:
-            errors.append(f"{path.relative_to(REPOSITORY_ROOT)}: {error}")
+            errors.append(f"{path.relative_to(repository_root)}: {error}")
             continue
 
         schema_errors = sorted(
@@ -71,7 +74,7 @@ def validate_collection(
         for error in schema_errors:
             location = format_path(error.absolute_path)
             errors.append(
-                f"{path.relative_to(REPOSITORY_ROOT)}:{location}: {error.message}"
+                f"{path.relative_to(repository_root)}:{location}: {error.message}"
             )
 
         document_id = document.get("id")
@@ -79,11 +82,11 @@ def validate_collection(
             continue
         if document_id != path.stem:
             errors.append(
-                f"{path.relative_to(REPOSITORY_ROOT)}: id must match the file name"
+                f"{path.relative_to(repository_root)}: id must match the file name"
             )
         if document_id in documents:
             errors.append(
-                f"{path.relative_to(REPOSITORY_ROOT)}: duplicate {collection_name} "
+                f"{path.relative_to(repository_root)}: duplicate {collection_name} "
                 f"id '{document_id}'"
             )
         documents[document_id] = document
@@ -91,20 +94,25 @@ def validate_collection(
     return documents, errors
 
 
-def resolve_repository_path(value: str) -> Path | None:
-    candidate = (REPOSITORY_ROOT / value).resolve()
-    if not candidate.is_relative_to(REPOSITORY_ROOT):
+def resolve_repository_path(
+    value: str, repository_root: Path = REPOSITORY_ROOT
+) -> Path | None:
+    candidate = (repository_root / value).resolve()
+    if not candidate.is_relative_to(repository_root):
         return None
     return candidate
 
 
-def validate_dataset_paths(datasets: dict[str, dict[str, Any]]) -> list[str]:
+def validate_dataset_paths(
+    datasets: dict[str, dict[str, Any]],
+    repository_root: Path = REPOSITORY_ROOT,
+) -> list[str]:
     errors: list[str] = []
     for dataset_id, dataset in datasets.items():
         value = dataset.get("path")
         if not isinstance(value, str):
             continue
-        path = resolve_repository_path(value)
+        path = resolve_repository_path(value, repository_root)
         if path is None:
             errors.append(f"dataset '{dataset_id}': path escapes the repository")
             continue
@@ -125,7 +133,10 @@ def validate_dataset_paths(datasets: dict[str, dict[str, Any]]) -> list[str]:
     return errors
 
 
-def validate_topic_paths(topics: dict[str, dict[str, Any]]) -> list[str]:
+def validate_topic_paths(
+    topics: dict[str, dict[str, Any]],
+    repository_root: Path = REPOSITORY_ROOT,
+) -> list[str]:
     errors: list[str] = []
     for topic_id, topic in topics.items():
         locations = topic.get("locations", [])
@@ -137,7 +148,7 @@ def validate_topic_paths(topics: dict[str, dict[str, Any]]) -> list[str]:
             value = location.get("geoJsonFile")
             if not isinstance(value, str):
                 continue
-            path = resolve_repository_path(value)
+            path = resolve_repository_path(value, repository_root)
             if path is None or not path.is_file():
                 errors.append(
                     f"topic '{topic_id}': location file does not exist: {value}"
@@ -161,20 +172,84 @@ def validate_views(
                 )
             routes[route] = view_id
 
-        map_config = view.get("map", {})
-        if not isinstance(map_config, dict):
+        source_ids: set[str] = set()
+        sources = view.get("sources", [])
+        if not isinstance(sources, list):
             continue
-        zoom = map_config.get("zoom")
-        min_zoom = map_config.get("minZoom", zoom)
-        max_zoom = map_config.get("maxZoom", zoom)
-        if all(isinstance(value, int) for value in (min_zoom, zoom, max_zoom)):
-            if not min_zoom <= zoom <= max_zoom:
+        for source in sources:
+            if not isinstance(source, dict):
+                continue
+            source_id = source.get("id")
+            if not isinstance(source_id, str):
+                continue
+            if source_id in source_ids:
+                errors.append(
+                    f"view '{view_id}': duplicate source id '{source_id}'"
+                )
+            source_ids.add(source_id)
+
+            dataset_id = source.get("dataset")
+            if not isinstance(dataset_id, str):
+                continue
+            dataset = datasets.get(dataset_id)
+            if dataset is None:
+                errors.append(
+                    f"view '{view_id}', source '{source_id}': unknown dataset "
+                    f"'{dataset_id}'"
+                )
+                continue
+            if (
+                "filter" in source or "sort" in source
+            ) and dataset.get("type") != "topics":
+                errors.append(
+                    f"view '{view_id}', source '{source_id}': filters and sorting "
+                    "require a topics dataset"
+                )
+
+            sort_fields: set[str] = set()
+            for rule in source.get("sort", []):
+                if not isinstance(rule, dict):
+                    continue
+                field = rule.get("field")
+                if not isinstance(field, str):
+                    continue
+                if field in sort_fields:
+                    errors.append(
+                        f"view '{view_id}', source '{source_id}': duplicate sort "
+                        f"field '{field}'"
+                    )
+                sort_fields.add(field)
+
+        presentation = view.get("presentation", {})
+        if not isinstance(presentation, dict):
+            continue
+        presentation_type = presentation.get("type")
+        if presentation_type == "list":
+            source_id = presentation.get("source")
+            if isinstance(source_id, str) and source_id not in source_ids:
+                errors.append(
+                    f"view '{view_id}': list presentation references unknown "
+                    f"source '{source_id}'"
+                )
+            continue
+
+        if presentation_type != "map":
+            continue
+
+        map_config = presentation.get("map", {})
+        if isinstance(map_config, dict):
+            zoom = map_config.get("zoom")
+            min_zoom = map_config.get("minZoom", zoom)
+            max_zoom = map_config.get("maxZoom", zoom)
+            if all(
+                isinstance(value, int) for value in (min_zoom, zoom, max_zoom)
+            ) and not min_zoom <= zoom <= max_zoom:
                 errors.append(
                     f"view '{view_id}': expected minZoom <= zoom <= maxZoom"
                 )
 
         layer_ids: set[str] = set()
-        layers = view.get("layers", [])
+        layers = presentation.get("layers", [])
         if not isinstance(layers, list):
             continue
         for layer in layers:
@@ -188,43 +263,45 @@ def validate_views(
                     )
                 layer_ids.add(layer_id)
 
-            dataset_id = layer.get("dataset")
-            if not isinstance(dataset_id, str):
-                continue
-            dataset = datasets.get(dataset_id)
-            if dataset is None:
+            source_id = layer.get("source")
+            if isinstance(source_id, str) and source_id not in source_ids:
                 errors.append(
-                    f"view '{view_id}', layer '{layer_id}': unknown dataset "
-                    f"'{dataset_id}'"
-                )
-                continue
-            if "filter" in layer and dataset.get("type") != "topics":
-                errors.append(
-                    f"view '{view_id}', layer '{layer_id}': topic filters require "
-                    "a topics dataset"
+                    f"view '{view_id}', layer '{layer_id}': unknown source "
+                    f"'{source_id}'"
                 )
 
     return errors
 
 
-def main() -> None:
+def validate_repository(
+    repository_root: Path = REPOSITORY_ROOT,
+) -> tuple[dict[str, dict[str, dict[str, Any]]], list[str]]:
     all_documents: dict[str, dict[str, dict[str, Any]]] = {}
     errors: list[str] = []
 
     for name, (directory, schema) in COLLECTIONS.items():
         documents, collection_errors = validate_collection(
             name,
-            REPOSITORY_ROOT / directory,
-            REPOSITORY_ROOT / schema,
+            repository_root / directory,
+            repository_root / schema,
+            repository_root,
         )
         all_documents[name] = documents
         errors.extend(collection_errors)
 
-    errors.extend(validate_dataset_paths(all_documents["datasets"]))
-    errors.extend(validate_topic_paths(all_documents["topics"]))
+    errors.extend(
+        validate_dataset_paths(all_documents["datasets"], repository_root)
+    )
+    errors.extend(validate_topic_paths(all_documents["topics"], repository_root))
     errors.extend(
         validate_views(all_documents["views"], all_documents["datasets"])
     )
+
+    return all_documents, errors
+
+
+def main() -> None:
+    all_documents, errors = validate_repository()
 
     if errors:
         for error in errors:

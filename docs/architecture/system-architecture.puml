@@ -46,7 +46,7 @@ cloud "Public Sources" as Sources {
 Editor --> Topics : maintain topics
 Editor --> Locations : maintain geographic impact
 Editor --> Datasets : register reusable inputs
-Editor --> Views : define maps and layers
+Editor --> Views : define routes, sources,\nand presentation
 
 Topics --> Validator
 Locations --> Validator
@@ -64,11 +64,11 @@ Pipeline --> Validator : on commit / PR
 Pipeline --> Generator : after validation
 Pipeline --> Hosting : Deployment
 
-Citizen --> Portal : read, filter,\nview map
+Citizen --> Portal : browse, search,\nfilter, optionally map
 Portal --> GeneratedDatasets
 Portal --> GeneratedViews
 Portal --> SearchIndex
-Portal --> OSM : map tiles
+Portal --> OSM : map tiles when required
 
 Topics ..> RIS : source links
 Topics ..> Municipality : source links

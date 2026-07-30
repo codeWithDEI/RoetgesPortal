@@ -47,7 +47,7 @@ plantuml -tsvg docs/architecture/*.puml
 │   ├── datasets/        # reusable inputs with stable IDs
 │   ├── locations/       # manually maintained GeoJSON sources
 │   ├── topics/          # one municipal topic per YAML file
-│   └── views/           # routes, maps, layers, filters, and presentation
+│   └── views/           # routes, data selection, and presentation
 ├── docs/architecture/   # PlantUML sources and rendered SVG files
 ├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
@@ -91,7 +91,7 @@ Facts, geographic impact, and publicly documented positions are modeled
 separately. Every published topic and position must cite at least one
 verifiable source.
 
-## Defining map views
+## Defining portal views
 
 Datasets decouple physical inputs from their presentation:
 
@@ -100,17 +100,18 @@ content/datasets/topics.yaml
 content/datasets/roetgesmarkt-stands.yaml
 ```
 
-Views combine one or more datasets into a public map route:
+Views select data independently from the way it is presented:
 
 ```text
 content/views/council.yaml
 content/views/flea-market.yaml
 ```
 
-The council view filters published topic data by workflow status. The flea
-market view uses the normalized historic Rötgesmarkt dataset. Both define
-their own layers, clustering behavior, map position, and semantic presentation
-presets without duplicating geographic data.
+The published council view filters and sorts topic data for a list route. The
+draft flea market view retains the normalized historic Rötgesmarkt dataset for
+a future map route. Named view sources separate filtering and sorting from
+list or map presentation, so the same dataset can support multiple
+experiences without duplicating editorial content.
 
 Dataset and view files follow
 [`schemas/dataset.schema.json`](schemas/dataset.schema.json) and
@@ -126,10 +127,38 @@ python3 tools/validate_content.py
 ```
 
 In addition to the JSON Schemas, the validator checks IDs, file references,
-dataset references, unique routes and layer IDs, zoom ranges, and compatible
-filters. CI runs the same validation for every pull request.
+dataset and source references, unique routes, source and layer IDs, zoom
+ranges, and compatible filters. CI runs the same validation for every pull
+request.
 
-## Status
+## Generating runtime data
 
-This is the initial project structure. The web application and build generator
-will follow in separate, focused increments.
+The portal generator validates the complete content model before writing
+public runtime artifacts:
+
+```bash
+python3 tools/build_portal.py
+```
+
+The deterministic build creates:
+
+```text
+generated/
+├── datasets/            # datasets required by published views
+├── topics/              # one JSON detail document per published topic
+├── views/               # view index, manifests, and list data
+└── search-index.json    # compact public topic search records
+```
+
+Draft and archived topics are excluded from public runtime data. Generated
+list data includes status and category facets, stable sorting, links to topic
+details, and the next planned milestone when one exists.
+
+Run all local checks with:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 tools/validate_content.py
+python3 tools/build_portal.py
+git diff --exit-code -- generated
+```

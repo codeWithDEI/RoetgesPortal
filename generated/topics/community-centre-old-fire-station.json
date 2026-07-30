@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "public-facilities",
+      "community",
+      "renovation"
+    ],
+    "dates": {
+      "createdAt": "2025-12-16",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2026-03-17"
+    },
+    "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
+    "id": "community-centre-old-fire-station",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-12-16",
+        "status": "reached",
+        "title": "Rat beschließt zunächst Variante 1"
+      },
+      {
+        "date": "2026-03-17",
+        "status": "reached",
+        "title": "Rat ersetzt Variante 1 durch Variante 6"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2026-03-17",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2026/0292",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.\n",
+    "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr",
+    "visibility": "published"
+  }
+}
