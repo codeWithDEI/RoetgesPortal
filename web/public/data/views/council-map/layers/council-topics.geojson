@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          10.53186,
-          52.41468
+          10.53101,
+          52.414115
         ],
         "type": "Point"
       },
@@ -23,7 +23,7 @@
           "municipality-roetgesbuettel"
         ],
         "precision": "approximate",
-        "sourceNote": "Approximate address point for Hauptstrasse 13",
+        "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june",
         "topicId": "glass-container-relocation",
         "topicStatus": "council",
         "topicSummary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
