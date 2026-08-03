@@ -1,0 +1,44 @@
+id: council-map
+title: Wo wirken sich Ratsthemen aus?
+description: Aktuelle kommunale Themen mit einem öffentlich belegbaren Ortsbezug.
+route: /karte
+visibility: published
+
+sources:
+  - id: active-topic-locations
+    dataset: topics
+    filter:
+      visibility:
+        - published
+      status:
+        - consultation
+        - committee
+        - council
+        - decided
+        - implementation
+        - paused
+    sort:
+      - field: dates.updatedAt
+        direction: descending
+      - field: title
+        direction: ascending
+
+presentation:
+  type: map
+  map:
+    center:
+      longitude: 10.5305
+      latitude: 52.4158
+    zoom: 14
+    minZoom: 12
+    maxZoom: 19
+  facets:
+    - status
+    - categories
+  layers:
+    - id: council-topics
+      title: Ratsthemen
+      source: active-topic-locations
+      visibleByDefault: true
+      clustering: false
+      preset: council-topic-status

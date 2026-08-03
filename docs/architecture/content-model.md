@@ -38,19 +38,19 @@ by their stable IDs. This separates data selection from rendering: a list can
 consume a filtered topic source, while a later map presentation can reuse the
 same dataset through one or more layers.
 
-The initial portal uses a list presentation for council topics. Map
-presentation remains part of the contract as a draft for the flea market and
-future geographic topic views, but it does not constrain list-based routes.
+The council topic collection is currently presented through both list and map
+views. The draft flea market view exercises the same map contract with a
+standalone GeoJSON dataset without affecting the council routes.
 
-Presentation presets are semantic IDs rather than raw CSS or
-library-specific configuration. The future web application will resolve
-presets such as `council-topic-list` or `flea-market-stand` to concrete visual
-styles.
+Presentation presets are semantic IDs rather than raw CSS or library-specific
+configuration. The web application resolves presets such as
+`council-topic-list`, `council-topic-status`, or `flea-market-stand` to
+concrete visual styles.
 
 ## Reference rules
 
-The future content validator must enforce rules that JSON Schema cannot check
-across files:
+The content validator enforces rules that JSON Schema cannot check across
+files:
 
 1. File names and `id` values must match.
 2. IDs must be unique within their collection.
@@ -68,8 +68,11 @@ across files:
 - All coordinates use WGS 84.
 - GeoJSON always stores coordinates as longitude, latitude.
 - View centers use named `longitude` and `latitude` fields to avoid ambiguity.
-- Geographic data belongs in datasets; map presentations only select and
-  present it.
+- Reusable standalone geography belongs in a GeoJSON dataset.
+- Topic-specific geography is stored as a GeoJSON file referenced by the
+  topic's `locations` collection.
+- Map presentations only select and present geographic data; they never embed
+  coordinates or rendering-library configuration.
 
 ## Generated output contract
 
@@ -87,11 +90,17 @@ generated/
 │   ├── council/
 │   │   ├── manifest.json
 │   │   └── items.json
+│   └── council-map/
+│       ├── manifest.json
+│       └── layers/
+│           └── council-topics.geojson
 └── search-index.json
 ```
 
 The browser consumes generated artifacts only. It does not parse editorial
 YAML or raw GeoJSON. Only published topics and views are included. Builds are
 deterministic and do not include build timestamps. Dataset artifacts are
-created only when a published view references them; publishing a future map
-view therefore adds its normalized GeoJSON dataset and manifest automatically.
+created only when a published view references them. A topic-backed map layer
+combines referenced location files and enriches every feature with stable topic
+navigation and filter properties. A standalone GeoJSON-backed layer reuses its
+normalized dataset artifact directly.

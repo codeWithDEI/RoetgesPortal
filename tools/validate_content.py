@@ -153,6 +153,19 @@ def validate_topic_paths(
                 errors.append(
                     f"topic '{topic_id}': location file does not exist: {value}"
                 )
+                continue
+            try:
+                geojson = load_json(path)
+            except (OSError, ValueError, json.JSONDecodeError) as error:
+                errors.append(
+                    f"topic '{topic_id}': invalid location GeoJSON: {error}"
+                )
+                continue
+            if geojson.get("type") != "FeatureCollection":
+                errors.append(
+                    f"topic '{topic_id}': location GeoJSON must be a "
+                    "FeatureCollection"
+                )
     return errors
 
 

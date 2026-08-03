@@ -144,6 +144,47 @@ def write_geojson_dataset(
     return relative_path
 
 
+def make_topic_location_collection(
+    repository_root: Path,
+    topics: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Combine topic-owned GeoJSON files into an enriched map layer."""
+    features: list[dict[str, Any]] = []
+    for topic in topics:
+        for location in topic.get("locations", []):
+            source_path = repository_root / location["geoJsonFile"]
+            with source_path.open("r", encoding="utf-8") as file:
+                collection = json.load(file)
+
+            for index, source_feature in enumerate(
+                collection.get("features", [])
+            ):
+                feature = deepcopy(source_feature)
+                feature_identifier = feature.get("id", index)
+                feature["id"] = (
+                    f"{topic['id']}:{location['id']}:{feature_identifier}"
+                )
+                feature["properties"] = {
+                    **(feature.get("properties") or {}),
+                    "topicId": topic["id"],
+                    "topicTitle": topic["title"],
+                    "topicSummary": topic["summary"].strip(),
+                    "topicStatus": topic["status"],
+                    "categories": topic.get("categories", []),
+                    "organizations": topic.get("organizations", []),
+                    "locationId": location["id"],
+                    "locationLabel": location["label"],
+                    "impactType": location["impactType"],
+                    "detailPath": f"/themen/{topic['id']}",
+                }
+                features.append(feature)
+
+    return {
+        "type": "FeatureCollection",
+        "features": features,
+    }
+
+
 def clean_owned_outputs(output_root: Path) -> None:
     """Remove only artifact paths owned by this generator."""
     for directory in ("datasets", "topics", "views"):
@@ -267,6 +308,40 @@ def build_portal(
                 },
             )
             manifest["data"] = "items.json"
+
+        if presentation["type"] == "map":
+            map_layers: list[dict[str, Any]] = []
+            for layer in presentation["layers"]:
+                source = source_by_id[layer["source"]]
+                dataset = documents["datasets"][source["dataset"]]
+                layer_manifest = deepcopy(layer)
+
+                if dataset["type"] == "topics":
+                    selected_topics = filter_and_sort_topics(
+                        published_topics, source
+                    )
+                    collection = make_topic_location_collection(
+                        repository_root, selected_topics
+                    )
+                    relative_path = f"layers/{layer['id']}.geojson"
+                    write_json(view_directory / relative_path, collection)
+                    layer_manifest["data"] = relative_path
+                    layer_manifest["featureCount"] = len(
+                        collection["features"]
+                    )
+                    layer_manifest["topicCount"] = sum(
+                        1
+                        for topic in selected_topics
+                        if topic.get("locations")
+                    )
+                else:
+                    layer_manifest["data"] = (
+                        f"../../{dataset_artifacts[source['dataset']]}"
+                    )
+
+                map_layers.append(layer_manifest)
+
+            manifest["presentation"]["layers"] = map_layers
 
         write_json(view_directory / "manifest.json", manifest)
         view_index.append(

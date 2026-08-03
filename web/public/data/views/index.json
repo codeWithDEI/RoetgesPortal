@@ -8,6 +8,14 @@
       "presentationType": "list",
       "route": "/themen",
       "title": "Woran arbeitet der Rat?"
+    },
+    {
+      "description": "Aktuelle kommunale Themen mit einem öffentlich belegbaren Ortsbezug.",
+      "id": "council-map",
+      "manifest": "council-map/manifest.json",
+      "presentationType": "map",
+      "route": "/karte",
+      "title": "Wo wirken sich Ratsthemen aus?"
     }
   ]
 }

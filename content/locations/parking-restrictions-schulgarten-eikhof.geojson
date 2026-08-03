@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.52723, 52.41463]
+      },
+      "properties": {
+        "precision": "approximate",
+        "sourceNote": "Approximate point for the Am Schulgarten and Am Eikhof junction"
+      }
+    }
+  ]
+}

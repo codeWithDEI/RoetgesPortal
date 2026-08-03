@@ -1,0 +1,67 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          10.53186,
+          52.41468
+        ],
+        "type": "Point"
+      },
+      "id": "glass-container-relocation:proposed-fairground-site:0",
+      "properties": {
+        "categories": [
+          "waste",
+          "public-space",
+          "mobility"
+        ],
+        "detailPath": "/themen/glass-container-relocation",
+        "impactType": "direct",
+        "locationId": "proposed-fairground-site",
+        "locationLabel": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "sourceNote": "Approximate address point for Hauptstrasse 13",
+        "topicId": "glass-container-relocation",
+        "topicStatus": "council",
+        "topicSummary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
+        "topicTitle": "Neuer Standort für die Glascontainer"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.52723,
+          52.41463
+        ],
+        "type": "Point"
+      },
+      "id": "parking-restrictions-schulgarten-eikhof:junction:0",
+      "properties": {
+        "categories": [
+          "mobility",
+          "road-safety"
+        ],
+        "detailPath": "/themen/parking-restrictions-schulgarten-eikhof",
+        "impactType": "direct",
+        "locationId": "junction",
+        "locationLabel": "Einmündung Am Schulgarten / Am Eikhof",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "sourceNote": "Approximate point for the Am Schulgarten and Am Eikhof junction",
+        "topicId": "parking-restrictions-schulgarten-eikhof",
+        "topicStatus": "implementation",
+        "topicSummary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.",
+        "topicTitle": "Halteverbot Am Schulgarten und Am Eikhof"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

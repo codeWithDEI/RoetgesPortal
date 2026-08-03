@@ -13,7 +13,14 @@
     },
     "description": "Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
     "id": "glass-container-relocation",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/glass-container-relocation.geojson",
+        "id": "proposed-fairground-site",
+        "impactType": "direct",
+        "label": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-12-16",

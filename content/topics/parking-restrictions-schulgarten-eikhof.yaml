@@ -28,7 +28,11 @@ description: |
   Der öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch
   nicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.
 
-locations: []
+locations:
+  - id: junction
+    label: Einmündung Am Schulgarten / Am Eikhof
+    impactType: direct
+    geoJsonFile: content/locations/parking-restrictions-schulgarten-eikhof.geojson
 
 milestones:
   - date: "2025-12-16"
