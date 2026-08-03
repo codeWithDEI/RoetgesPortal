@@ -35,6 +35,9 @@ jobs:
       - name: Validate editorial content
         run: python tools/validate_content.py
 
+      - name: Validate deployment configuration
+        run: python -c "import pathlib, yaml; yaml.safe_load(pathlib.Path('deploy/compose.yaml').read_text())"
+
       - name: Rebuild historic map exports
         run: python tools/import_roetgesmarkt.py
 

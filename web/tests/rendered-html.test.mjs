@@ -26,6 +26,9 @@ test("server-renders the public topic overview", async () => {
   const response = await render("/themen");
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
+  assert.equal(response.headers.get("x-content-type-options"), "nosniff");
+  assert.equal(response.headers.get("x-frame-options"), "DENY");
+  assert.match(response.headers.get("content-security-policy") ?? "", /default-src 'self'/);
 
   const html = await response.text();
   assert.match(html, /<html lang="de">/i);
@@ -54,4 +57,29 @@ test("server-renders a source-backed topic detail", async () => {
 test("returns not found for an unknown topic", async () => {
   const response = await render("/themen/unknown-topic");
   assert.equal(response.status, 404);
+});
+
+test("server-renders project and trust pages", async () => {
+  for (const [pathname, text] of [
+    ["/projekt", "Transparenz, die man prüfen kann"],
+    ["/barrierefreiheit", "Barrierefreiheit ist Teil des Fundaments"],
+    ["/datenschutz", "So wenig personenbezogene Daten wie möglich"],
+    ["/impressum", "Verantwortung klar benennen"],
+    ["/kontakt", "Gemeinsam genauer werden"],
+  ]) {
+    const response = await render(pathname);
+    assert.equal(response.status, 200);
+    assert.match(await response.text(), new RegExp(text));
+  }
+});
+
+test("exposes a non-cached health endpoint", async () => {
+  const response = await render("/api/health");
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get("cache-control"), "no-store");
+
+  const body = await response.json();
+  assert.equal(body.status, "ok");
+  assert.equal(body.service, "roetgesportal");
+  assert.match(body.contentLastVerifiedAt, /^\d{4}-\d{2}-\d{2}$/);
 });

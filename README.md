@@ -29,11 +29,18 @@ imports require one.
 
 ![Domain model](docs/architecture/domain-model.svg)
 
+### Topic status workflow
+
+[PlantUML source](docs/architecture/topic-status-workflow.puml)
+
+![Typical topic status workflow](docs/architecture/topic-status-workflow.svg)
+
 The [content model](docs/architecture/content-model.md) defines collection,
 reference, coordinate, and generated-output conventions.
 
-The committed SVG files are initial placeholders. After installing
-[PlantUML](https://plantuml.com/starting), regenerate them from their sources:
+The PlantUML sources are authoritative and the rendered SVG files are committed
+for direct display on GitHub. After installing
+[PlantUML](https://plantuml.com/starting), regenerate them with:
 
 ```bash
 plantuml -tsvg docs/architecture/*.puml
@@ -48,7 +55,12 @@ plantuml -tsvg docs/architecture/*.puml
 │   ├── locations/       # manually maintained GeoJSON sources
 │   ├── topics/          # one municipal topic per YAML file
 │   └── views/           # routes, data selection, and presentation
-├── docs/architecture/   # PlantUML sources and rendered SVG files
+├── deploy/              # reproducible self-hosting baseline
+├── docs/
+│   ├── architecture/    # PlantUML sources and rendered SVG files
+│   ├── brand/           # visual provenance and usage constraints
+│   ├── governance/      # editorial, operating, and handover policies
+│   └── operations/      # deployment, monitoring, and recovery
 ├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
 ├── tools/               # validation, build, and historic imports
@@ -178,3 +190,34 @@ pnpm dev
 The application synchronizes the generated public artifacts into its static
 asset directory before development and production builds. It remains
 independent from the editorial YAML and does not require a database.
+
+## Public stewardship
+
+The portal is prepared for transparent independent operation and a possible
+future municipal handover:
+
+- [Editorial policy](docs/governance/editorial-policy.md)
+- [Operating model](docs/governance/operating-model.md)
+- [Municipal handover checklist](docs/governance/municipal-handover.md)
+- [Deployment procedure](docs/operations/deployment.md)
+- [Monitoring and recovery](docs/operations/monitoring-and-recovery.md)
+- [Municipal visual reference](docs/brand/municipal-visual-reference.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+
+The current UI follows the core blue and neutral palette of the municipality's
+public website and includes a locally served copy of its coat of arms. Until
+written approval and an official operating agreement exist, the portal remains
+visibly labeled as independent and must not imply municipal endorsement.
+
+## Self-hosting baseline
+
+The current public preview does not require a dedicated server. A stateless
+container and reverse-proxy baseline is available for a future VPS:
+
+```bash
+docker compose -f deploy/compose.yaml up --build -d
+```
+
+See [the deployment documentation](docs/operations/deployment.md) before using
+it in production. The health endpoint is available at `/api/health`.

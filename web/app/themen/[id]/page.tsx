@@ -49,7 +49,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
   return (
     <>
       <SiteHeader />
-      <main className="topic-detail">
+      <main className="topic-detail" id="main-content">
         <div className="topic-detail__shell">
           <Link className="back-link" href="/themen">
             <span aria-hidden="true">←</span>

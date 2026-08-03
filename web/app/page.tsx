@@ -20,7 +20,7 @@ export default function TopicsPage() {
   return (
     <>
       <SiteHeader />
-      <main>
+      <main id="main-content">
         <section className="hero">
           <div className="hero__inner">
             <div className="hero__copy">
