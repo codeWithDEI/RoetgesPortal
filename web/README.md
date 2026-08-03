@@ -37,8 +37,14 @@ pnpm test
 pnpm lint
 ```
 
-The rendered HTML tests cover the topic overview, a source-backed detail page,
-trust pages, security headers, the health endpoint, and the not-found response.
+The rendered HTML tests cover the topic overview, the generated council map,
+a source-backed detail page, trust pages, security headers, the health
+endpoint, and the not-found response.
+
+The `/karte` route renders generated topic-location GeoJSON with MapLibre on an
+OpenStreetMap base layer. The tile endpoint remains isolated in the map
+component and CSP so it can be replaced by another OSM-derived or self-hosted
+service without changing editorial content or generated artifacts.
 
 `GET /api/health` provides a non-cached availability response for external
 monitoring. Security headers are added by the worker entry point.

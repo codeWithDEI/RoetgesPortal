@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.531010,52.414115]
+      },
+      "properties": {
+        "precision": "approximate",
+        "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june"
+      }
+    }
+  ]
+}

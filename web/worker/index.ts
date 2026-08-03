@@ -43,7 +43,7 @@ const worker = {
     }
 
     const responseHeaders = new Headers(response.headers);
-    responseHeaders.set("content-security-policy", "default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'");
+    responseHeaders.set("content-security-policy", "default-src 'self'; img-src 'self' data: https://tile.openstreetmap.org; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self' https://tile.openstreetmap.org; worker-src 'self' blob:; child-src blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'");
     responseHeaders.set("permissions-policy", "camera=(), microphone=(), geolocation=()");
     responseHeaders.set("referrer-policy", "strict-origin-when-cross-origin");
     responseHeaders.set("x-content-type-options", "nosniff");

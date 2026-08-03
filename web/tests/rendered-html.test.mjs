@@ -73,6 +73,17 @@ test("server-renders project and trust pages", async () => {
   }
 });
 
+test("server-renders the source-backed council map", async () => {
+  const response = await render("/karte");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
+  assert.match(html, /2(?:<!-- -->)* verortete Themen/);
+  assert.match(html, /Ratsthemen auf der Karte/);
+  assert.match(html, /Kartendaten: OpenStreetMap/);
+});
+
 test("exposes a non-cached health endpoint", async () => {
   const response = await render("/api/health");
   assert.equal(response.status, 200);

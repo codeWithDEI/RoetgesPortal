@@ -1,0 +1,43 @@
+{
+  "description": "Aktuelle kommunale Themen mit einem öffentlich belegbaren Ortsbezug.",
+  "id": "council-map",
+  "presentation": {
+    "facets": [
+      "status",
+      "categories"
+    ],
+    "layers": [
+      {
+        "clustering": false,
+        "data": "layers/council-topics.geojson",
+        "featureCount": 2,
+        "id": "council-topics",
+        "preset": "council-topic-status",
+        "source": "active-topic-locations",
+        "title": "Ratsthemen",
+        "topicCount": 2,
+        "visibleByDefault": true
+      }
+    ],
+    "map": {
+      "center": {
+        "latitude": 52.4158,
+        "longitude": 10.5305
+      },
+      "maxZoom": 19,
+      "minZoom": 12,
+      "zoom": 14
+    },
+    "type": "map"
+  },
+  "route": "/karte",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "artifact": "../../datasets/topics.json",
+      "dataset": "topics",
+      "id": "active-topic-locations"
+    }
+  ],
+  "title": "Wo wirken sich Ratsthemen aus?"
+}

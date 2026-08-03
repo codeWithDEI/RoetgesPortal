@@ -15,6 +15,7 @@ sys.path.insert(0, str(REPOSITORY_ROOT / "tools"))
 from build_portal import (  # noqa: E402
     build_portal,
     filter_and_sort_topics,
+    make_topic_location_collection,
     make_list_item,
 )
 
@@ -95,6 +96,37 @@ class BuildPortalTests(unittest.TestCase):
             "Next milestone", item["upcomingMilestone"]["title"]
         )
 
+    def test_topic_locations_become_enriched_geojson_features(self) -> None:
+        topic = {
+            "id": "road-safety",
+            "title": "Road safety",
+            "summary": "A short summary.",
+            "status": "committee",
+            "categories": ["mobility"],
+            "organizations": ["municipality"],
+            "locations": [
+                {
+                    "id": "junction",
+                    "label": "Junction",
+                    "impactType": "direct",
+                    "geoJsonFile": (
+                        "content/locations/"
+                        "parking-restrictions-schulgarten-eikhof.geojson"
+                    ),
+                }
+            ],
+        }
+
+        collection = make_topic_location_collection(
+            REPOSITORY_ROOT, [topic]
+        )
+
+        self.assertEqual(1, len(collection["features"]))
+        properties = collection["features"][0]["properties"]
+        self.assertEqual("road-safety", properties["topicId"])
+        self.assertEqual("Junction", properties["locationLabel"])
+        self.assertEqual("/themen/road-safety", properties["detailPath"])
+
     def test_repository_build_is_deterministic_and_excludes_drafts(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
@@ -115,7 +147,7 @@ class BuildPortalTests(unittest.TestCase):
             self.assertEqual(first_build, second_build)
             self.assertEqual(12, counts["topics"])
             self.assertEqual(1, counts["datasets"])
-            self.assertEqual(1, counts["views"])
+            self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())
             self.assertFalse(
                 (output / "views/flea-market/manifest.json").exists()
@@ -130,6 +162,24 @@ class BuildPortalTests(unittest.TestCase):
             self.assertEqual(
                 sorted(council_items["facets"]["categories"]),
                 council_items["facets"]["categories"],
+            )
+
+            council_map = json.loads(
+                (
+                    output
+                    / "views/council-map/layers/council-topics.geojson"
+                ).read_text(encoding="utf-8")
+            )
+            self.assertEqual(2, len(council_map["features"]))
+            self.assertEqual(
+                {
+                    "glass-container-relocation",
+                    "parking-restrictions-schulgarten-eikhof",
+                },
+                {
+                    feature["properties"]["topicId"]
+                    for feature in council_map["features"]
+                },
             )
 
 

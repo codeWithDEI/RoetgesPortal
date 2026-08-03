@@ -34,7 +34,11 @@ description: |
   bei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte
   Beschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.
 
-locations: []
+locations:
+  - id: proposed-fairground-site
+    label: Vorgeschlagener Standort am Festplatz, Hauptstraße 13
+    impactType: direct
+    geoJsonFile: content/locations/glass-container-relocation.geojson
 
 milestones:
   - date: "2025-12-16"

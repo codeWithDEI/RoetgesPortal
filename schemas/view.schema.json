@@ -258,6 +258,13 @@
           "items": {
             "$ref": "#/$defs/mapLayer"
           }
+        },
+        "facets": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["status", "categories", "organizations"]
+          }
         }
       }
     }

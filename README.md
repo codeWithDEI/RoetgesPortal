@@ -116,14 +116,17 @@ Views select data independently from the way it is presented:
 
 ```text
 content/views/council.yaml
+content/views/council-map.yaml
 content/views/flea-market.yaml
 ```
 
-The published council view filters and sorts topic data for a list route. The
-draft flea market view retains the normalized historic Rötgesmarkt dataset for
-a future map route. Named view sources separate filtering and sorting from
-list or map presentation, so the same dataset can support multiple
-experiences without duplicating editorial content.
+The published council views filter and sort the same topic data for a list and
+a map route. The generator resolves topic location references into an enriched
+GeoJSON layer for the map. The draft flea market view retains the normalized
+historic Rötgesmarkt dataset for a future map route. Named view sources
+separate filtering and sorting from list or map presentation, so the same
+dataset can support multiple experiences without duplicating editorial
+content.
 
 Dataset and view files follow
 [`schemas/dataset.schema.json`](schemas/dataset.schema.json) and
@@ -177,9 +180,9 @@ git diff --exit-code -- generated
 
 ## Web application
 
-The first public web increment presents the generated council topics as a
-German-language list with full-text search, status and category filters, and
-source-backed detail pages:
+The public web application presents generated council topics as a
+German-language list and an OpenStreetMap-based MapLibre view. Both provide
+status and category filters and link to source-backed detail pages:
 
 ```bash
 cd web
