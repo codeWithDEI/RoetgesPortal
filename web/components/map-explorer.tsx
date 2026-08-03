@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
+import mapLibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type {
   FilterSpecification,
   Map as MapLibreMap,
@@ -124,9 +125,9 @@ export function MapExplorer({
       ({ AttributionControl, Map, NavigationControl, Popup, setWorkerUrl }) => {
         if (disposed || !containerRef.current) return;
 
-        // The runtime asset sync copies MapLibre's module worker to a stable
-        // same-origin JavaScript URL that also works behind custom domains.
-        setWorkerUrl("/maplibre-gl-worker.js");
+        // Let Vite bundle the worker and its shared module into a regular
+        // JavaScript build asset that custom domains can serve reliably.
+        setWorkerUrl(mapLibreWorkerUrl);
 
         map = new Map({
           container: containerRef.current,
