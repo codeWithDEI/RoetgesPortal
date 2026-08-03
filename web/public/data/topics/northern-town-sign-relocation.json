@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "topic": {
+    "categories": [
+      "mobility",
+      "road-safety",
+      "noise-protection"
+    ],
+    "dates": {
+      "createdAt": "2025-12-16",
+      "lastVerifiedAt": "2026-07-30",
+      "updatedAt": "2025-12-16"
+    },
+    "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
+    "id": "northern-town-sign-relocation",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-12-16",
+        "status": "reached",
+        "title": "Rat beschließt Versetzung im Zuge der B4-Sanierung"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "district-gifhorn"
+    ],
+    "positions": [],
+    "sources": [
+      {
+        "accessedAt": "2026-07-30",
+        "publishedAt": "2025-12-16",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0281",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.\n",
+    "title": "Versetzung des Ortsschildes am nördlichen Ortseingang",
+    "visibility": "published"
+  }
+}

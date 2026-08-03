@@ -1,0 +1,571 @@
+{
+  "id": "topics",
+  "items": [
+    {
+      "categories": [
+        "urban-planning",
+        "housing",
+        "environment"
+      ],
+      "dates": {
+        "createdAt": "2026-06-01",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-06-25"
+      },
+      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDer veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus\nGutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen\nin die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und\neine Waldbewertung wurden bereits beauftragt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am\n25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war\nbei der letzten Prüfung noch nicht verfügbar.\n",
+      "id": "aukenroth-residential-development",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-06-01",
+          "status": "reached",
+          "title": "Fachausschuss empfiehlt Aufstellung und frühzeitige Beteiligung"
+        },
+        {
+          "date": "2026-06-25",
+          "status": "reached",
+          "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        }
+      ],
+      "status": "consultation",
+      "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.\n",
+      "title": "Wohngebiet Aukenroth",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "childcare",
+        "public-facilities",
+        "urban-planning"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
+      "id": "childcare-centre-expansion",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat fordert pädagogisches Konzept und stellt Planungsmittel ein"
+        },
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "DRK berichtet über Genehmigungs- und Raumkonzept"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "drk-gifhorn"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2025-12-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 16. Dezember 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "minutes",
+          "title": "Protokollauszug vom 17. März 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005893&SILFDNR=1000260"
+        }
+      ],
+      "status": "committee",
+      "summary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.\n",
+      "title": "Erweiterung der Kindertagesstätte",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "childcare",
+        "public-facilities",
+        "renovation"
+      ],
+      "dates": {
+        "createdAt": "2026-03-17",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n",
+      "id": "childcare-sanitary-facilities",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Rat beauftragt das DRK mit Konzeption und Beratung"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "drk-gifhorn"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 17. März 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.\n",
+      "title": "Sanierung der Sanitärräume in der Kindertagesstätte",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "public-facilities",
+        "community",
+        "renovation"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
+      "id": "community-centre-old-fire-station",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat beschließt zunächst Variante 1"
+        },
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Rat ersetzt Variante 1 durch Variante 6"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2026/0292",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.\n",
+      "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-04",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-06-25"
+      },
+      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDie abgeschlossene Vorlage sah vor, dem Antrag grundsätzlich zuzustimmen.\nDie Verwaltung sollte außerdem Angaben zur Auslastung im Jahr 2025 und\nVergleichswerte aus Nachbargemeinden für eine weitere Beschlussvorlage\nzusammentragen.\n\nDie öffentliche Beratungsfolge weist die Entscheidung des Rates als\nerledigt aus. Ein separater öffentlicher Beschlussauszug mit dem endgültigen\nWortlaut war bei der letzten Prüfung nicht verfügbar.\n",
+      "id": "community-hall-fees",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-06-04",
+          "status": "reached",
+          "title": "Beratung im Kultur- und Sportausschuss"
+        },
+        {
+          "date": "2026-06-25",
+          "status": "reached",
+          "title": "Behandlung im Rat"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0297-01",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        }
+      ],
+      "status": "decided",
+      "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.\n",
+      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "waste",
+        "public-space",
+        "mobility"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-06-25"
+      },
+      "description": "Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+      "id": "glass-container-relocation",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat beschließt die Prüfung mehrerer Standorte"
+        },
+        {
+          "date": "2026-04-01",
+          "status": "reached",
+          "title": "Befahrung mit dem Entsorgungsunternehmen"
+        },
+        {
+          "date": "2026-06-01",
+          "status": "reached",
+          "title": "Fachausschuss empfiehlt den Festplatz"
+        },
+        {
+          "date": "2026-06-25",
+          "status": "reached",
+          "title": "Thema steht zur Entscheidung im Rat"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2025-12-16",
+          "sourceType": "minutes",
+          "title": "Beschlussauszug vom 16. Dezember 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2025/0282-02",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-06-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        }
+      ],
+      "status": "council",
+      "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.\n",
+      "title": "Neuer Standort für die Glascontainer",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2025-12-16"
+      },
+      "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
+      "id": "muehlenweg-speed-limit",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat beschließt Antrag auf Tempo 70"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2025-12-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0280",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.\n",
+      "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety",
+        "noise-protection"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2025-12-16"
+      },
+      "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
+      "id": "northern-town-sign-relocation",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat beschließt Versetzung im Zuge der B4-Sanierung"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2025-12-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0281",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.\n",
+      "title": "Versetzung des Ortsschildes am nördlichen Ortseingang",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "mobility",
+        "road-safety"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2025-12-16"
+      },
+      "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch\nnicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.\n",
+      "id": "parking-restrictions-schulgarten-eikhof",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Rat beschließt Antrag an den Landkreis Gifhorn"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2025-12-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0279",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.\n",
+      "title": "Halteverbot Am Schulgarten und Am Eikhof",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "regional-planning",
+        "urban-planning",
+        "renewable-energy",
+        "environment"
+      ],
+      "dates": {
+        "createdAt": "2026-03-17",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
+      "id": "regional-spatial-plan-2025",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Rat beschließt Stellungnahme zum Programmentwurf"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich",
+        "regional-association-greater-braunschweig"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2026/0296",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260"
+        }
+      ],
+      "status": "consultation",
+      "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.\n",
+      "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "municipal-property",
+        "housing",
+        "urban-planning",
+        "drainage"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse\nan einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die\nunterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem\nveröffentlichten Sachstand derzeit jedoch unwirtschaftlich.\n\nAls Alternative wurde geprüft, zwei bis drei bereits erschlossene\nGrundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,\ndafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am\n17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung\nabgelehnt.\n",
+      "id": "rodelberg-development",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-12-16",
+          "status": "reached",
+          "title": "Bürgermeister wird mit Investorengesprächen beauftragt"
+        },
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Rat nimmt Sachstand zur Kenntnis und lehnt Alternativplanung ab"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2025/0286-02",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000824&refresh=false&TOLFDNR=1005884"
+        },
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 17. März 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260"
+        }
+      ],
+      "status": "paused",
+      "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.\n",
+      "title": "Weitere Nutzung der Fläche Rodelberg",
+      "visibility": "published"
+    },
+    {
+      "categories": [
+        "sports",
+        "public-facilities",
+        "renovation"
+      ],
+      "dates": {
+        "createdAt": "2026-03-17",
+        "lastVerifiedAt": "2026-07-30",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n",
+      "id": "sports-centre-modernisation",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Rat beschließt Gutachten und Vorbereitung für Haushalt 2027"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "vfl-roetgesbuettel"
+      ],
+      "positions": [],
+      "sources": [
+        {
+          "accessedAt": "2026-07-30",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2026/0291",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.\n",
+      "title": "Sanierung und Modernisierung des Gemeindesportzentrums",
+      "visibility": "published"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,59 @@
+@startuml
+title RötgesPortal – Typical topic status workflow
+
+skinparam backgroundColor transparent
+skinparam shadowing false
+skinparam state {
+  BackgroundColor #FFFFFF
+  BorderColor #006080
+  FontColor #444444
+  ArrowColor #006080
+}
+
+[*] --> idea
+idea --> announced : publicly announced
+announced --> consultation : public input requested
+announced --> committee : referred for preparation
+consultation --> committee : input evaluated
+committee --> council : recommendation submitted
+council --> decided : resolution adopted
+decided --> implementation : execution required
+decided --> completed : no execution phase required
+implementation --> completed : work finished
+
+committee --> consultation : more public input needed
+council --> committee : referred back
+
+consultation --> rejected : proposal withdrawn or rejected
+committee --> rejected : proposal withdrawn or rejected
+council --> rejected : resolution rejects proposal
+
+idea --> paused
+announced --> paused
+consultation --> paused
+committee --> paused
+council --> paused
+implementation --> paused
+paused --> consultation : resumed with public input
+paused --> committee : resumed in committee
+paused --> council : resumed in council
+paused --> implementation : execution resumed
+
+completed --> [*]
+rejected --> [*]
+
+note right of idea
+  A topic may enter the portal at a later status
+  when earlier stages were not publicly documented.
+end note
+
+note right of paused
+  "paused" is a cross-cutting condition.
+  The next status records where work resumes.
+end note
+
+note bottom of decided
+  The workflow communicates a typical path.
+  It does not replace the formal municipal process.
+end note
+@enduml
