@@ -19,4 +19,4 @@ EXPOSE 3000
 
 USER node
 
-CMD ["pnpm", "start", "--", "--hostname", "0.0.0.0"]
+CMD ["./node_modules/.bin/vinext", "start", "--hostname", "0.0.0.0"]

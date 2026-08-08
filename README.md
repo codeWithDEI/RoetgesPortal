@@ -219,7 +219,8 @@ The current public preview does not require a dedicated server. A stateless
 container and reverse-proxy baseline is available for a future VPS:
 
 ```bash
-docker compose -f deploy/compose.yaml up --build -d
+cp deploy/.env.example deploy/.env
+docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
 ```
 
 See [the deployment documentation](docs/operations/deployment.md) before using

@@ -1,17 +1,54 @@
-# Self-hosting baseline
+# Self-hosting
 
-This directory provides a minimal, reproducible HTTP deployment for a future
-server. It is not the current public hosting configuration.
+This directory contains the production-capable Docker Compose deployment for
+RötgesPortal. It runs the stateless web application behind Caddy. Only Caddy
+publishes host ports; the application remains isolated on an internal network.
+
+Caddy obtains and renews TLS certificates automatically when `SITE_ADDRESS`
+contains a public hostname whose DNS records point to the server. Certificate
+state is retained in named Docker volumes.
+
+## Local smoke test
+
+The defaults expose HTTP on `http://localhost:8080` and HTTPS on port `8443`:
 
 ```bash
 docker compose -f deploy/compose.yaml up --build -d
+curl --fail http://localhost:8080/api/health
+docker compose -f deploy/compose.yaml down
 ```
 
-The service listens on port `8080` by default. Set `PORT` in the shell or a
-deployment-specific environment file to change the host port. Configure the
-production hostname, TLS, firewall, backups, and external monitoring before
-exposing a server directly to the internet.
+## Server configuration
 
-The application container is stateless and embeds the generated content from
-the reviewed source commit. Deployments should build once and promote the same
-image rather than rebuilding separately for each environment.
+Create the untracked environment file once on the server:
+
+```bash
+cp deploy/.env.example deploy/.env
+```
+
+Review `deploy/.env`, then start the release:
+
+```bash
+docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
+```
+
+The production values expose ports 80 and 443. The firewall and provider must
+allow both TCP ports; UDP 443 enables HTTP/3. Do not switch DNS until the
+containers pass their health checks and the server is ready to answer publicly.
+
+## Operations
+
+```bash
+docker compose --env-file deploy/.env -f deploy/compose.yaml ps
+docker compose --env-file deploy/.env -f deploy/compose.yaml logs --tail=200
+docker compose --env-file deploy/.env -f deploy/compose.yaml pull
+docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
+```
+
+Deploy an exact reviewed commit and record the previous commit before updating.
+Rollback consists of checking out that known-good commit and recreating the
+containers. Application and editorial content are built into the same image.
+
+The `caddy_data` volume contains Caddy's certificate state and must survive
+updates. It should be included in server backups. Never commit `.env`, private
+keys, access tokens, or exported certificate data.
