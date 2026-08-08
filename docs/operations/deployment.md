@@ -18,17 +18,34 @@ pnpm test
 pnpm lint
 ```
 
-The current public preview uses the Sites deployment configuration in
-`web/.openai/hosting.json`. A future server can use the baseline in `deploy/`
-and `web/Dockerfile`:
+The current public preview can use the Sites deployment configuration in
+`web/.openai/hosting.json`. The self-hosted preview uses the Docker Compose
+deployment in `deploy/` and `web/Dockerfile`:
 
 ```bash
-docker compose -f deploy/compose.yaml up --build -d
+cp deploy/.env.example deploy/.env
+docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
 ```
 
-The baseline exposes HTTP on `PORT` (default `8080`). Production TLS and DNS
-should be configured only after a hostname is assigned. Secrets, access tokens,
-and private keys must be supplied by the deployment platform and never committed.
+The local defaults expose HTTP on port `8080`. The example server configuration
+publishes ports 80 and 443 and uses `preview.roetgesportal.de` as the Caddy site
+address. Caddy requests a public certificate only after DNS points to the server.
+Its persistent data and configuration are stored in named Docker volumes.
+
+The application itself publishes no host port and is reachable only from the
+reverse proxy over an internal Docker network. Secrets, access tokens, private
+keys, and the deployment `.env` file must never be committed.
+
+## Pre-DNS verification
+
+Before changing public DNS:
+
+1. Validate the Compose model with `docker compose config`.
+2. Build and start the containers on the target server.
+3. Confirm that the application container is healthy.
+4. Test HTTP routing against the server IP with the intended `Host` header.
+5. Point the DNS record to the server.
+6. Confirm HTTPS issuance and `/api/health` from outside the server.
 
 ## Release procedure
 
