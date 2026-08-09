@@ -4,7 +4,7 @@ set -eu
 
 readonly REPORT_DIRECTORY="/var/www/goaccess"
 readonly REPORT_PATH="${REPORT_DIRECTORY}/index.html"
-readonly TEMPORARY_REPORT_PATH="${REPORT_DIRECTORY}/index.html.tmp"
+readonly TEMPORARY_REPORT_PATH="${REPORT_DIRECTORY}/index.tmp.html"
 readonly REFRESH_SECONDS="${ANALYTICS_REFRESH_SECONDS:-300}"
 
 write_empty_report() {
