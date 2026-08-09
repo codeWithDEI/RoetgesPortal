@@ -1,11 +1,15 @@
 {$SITE_ADDRESS:http://localhost} {
-  encode zstd gzip
+	encode zstd gzip
 
-  header {
-    -Server
-    X-Content-Type-Options nosniff
-    Referrer-Policy strict-origin-when-cross-origin
-  }
+	header {
+		-Server
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
 
-  reverse_proxy web:3000
+	reverse_proxy web:3000
+}
+
+{$REDIRECT_SITE_ADDRESSES:http://localhost:8081} {
+	redir {$CANONICAL_ORIGIN:http://localhost}{uri} permanent
 }
