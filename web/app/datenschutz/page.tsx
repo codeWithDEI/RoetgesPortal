@@ -3,14 +3,14 @@ import { InfoPage } from "@/components/info-page";
 
 export const metadata: Metadata = {
   title: "Datenschutz",
-  description: "Datenschutzhinweise für die öffentliche Vorschau von RötgesPortal.",
+  description: "Datenschutzhinweise für RötgesPortal.",
 };
 
 export default function PrivacyPage() {
   return (
     <InfoPage
       eyebrow="Datensparsam gestaltet"
-      intro="RötgesPortal benötigt für die öffentliche Themenansicht weder Benutzerkonto noch Datenbank und setzt derzeit keine eigene Reichweitenanalyse ein."
+      intro="RötgesPortal benötigt für die öffentliche Themenansicht weder Benutzerkonto noch Datenbank. Seitenaufrufe werden ausschließlich serverseitig und ohne dauerhafte Besucherkennung gezählt."
       title="So wenig personenbezogene Daten wie möglich."
     >
       <section className="info-section info-section--split">
@@ -21,15 +21,25 @@ export default function PrivacyPage() {
         <div className="info-prose">
           <p>
             Beim Aufruf überträgt der Browser technisch notwendige Angaben wie
-            IP-Adresse, Zeitpunkt, angeforderte Adresse, Browserkennung und
-            Referrer an den Hostingdienst. Diese Daten können in technischen
-            Protokollen verarbeitet werden, um die Website auszuliefern, Fehler
-            zu erkennen und Angriffe abzuwehren.
+            IP-Adresse, Zeitpunkt und angeforderte Adresse an den Server. Für
+            die Zugriffsstatistik wird die IP-Adresse vor dem Speichern
+            verworfen. Browserkennung, Referrer, Anfrage-Header, entfernte
+            Ports und Werte aus URL-Abfragen werden nicht protokolliert.
           </p>
           <p>
-            Die Anwendung setzt derzeit keine eigenen Analyse-, Werbe- oder
-            Profiling-Cookies und speichert keine persönlichen Einstellungen im
-            Browser. Es gibt keine Registrierung, Kommentarfunktion oder
+            Gespeichert werden Zeitpunkt, aufgerufener Pfad, Anfragemethode,
+            Antwortstatus, übertragene Datenmenge und Bearbeitungsdauer.
+            Technische Dateien, Kartendaten und automatische
+            Verfügbarkeitsprüfungen werden nicht mitgezählt. Die reduzierten
+            Zugriffsprotokolle werden nach spätestens sieben Tagen gelöscht und
+            nur zu einer internen Statistik über Seitenaufrufe und Fehler
+            zusammengefasst.
+          </p>
+          <p>
+            Die Anwendung setzt keine Analyse-, Werbe- oder Profiling-Cookies
+            und bindet keinen externen Analysedienst ein. Die Statistik erlaubt
+            keine verlässliche Bestimmung einzelner oder wiederkehrender
+            Besucher. Es gibt keine Registrierung, Kommentarfunktion oder
             Newsletter-Anmeldung.
           </p>
         </div>
@@ -52,7 +62,7 @@ export default function PrivacyPage() {
 
       <section className="info-section info-section--notice">
         <p>
-          <strong>Stand: 3. August 2026.</strong> Diese Seite beschreibt den
+          <strong>Stand: 9. August 2026.</strong> Diese Seite beschreibt den
           aktuellen öffentlichen Prototyp. Vor einem dauerhaften Betrieb unter
           eigener Domain werden verantwortliche Stelle, Hostinganbieter,
           Rechtsgrundlagen, Speicherdauern und Betroffenenrechte mit den

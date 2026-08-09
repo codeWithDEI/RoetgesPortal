@@ -27,7 +27,7 @@ services:
       - backend
 
   proxy:
-    image: caddy:2.10-alpine
+    image: caddy:2.11.1-alpine
     restart: unless-stopped
     depends_on:
       web:
@@ -44,13 +44,88 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
       - caddy_config:/config
+      - caddy_logs:/var/log/caddy
     networks:
       - edge
       - backend
 
+  analytics:
+    image: allinurl/goaccess:1.11
+    restart: unless-stopped
+    depends_on:
+      proxy:
+        condition: service_started
+    entrypoint:
+      - /bin/sh
+      - /opt/roetgesportal/update-report.sh
+    environment:
+      ANALYTICS_REFRESH_SECONDS: "${ANALYTICS_REFRESH_SECONDS:-300}"
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    volumes:
+      - ./analytics/update-report.sh:/opt/roetgesportal/update-report.sh:ro
+      - caddy_logs:/var/log/caddy:ro
+      - analytics_report:/var/www/goaccess
+    network_mode: none
+    healthcheck:
+      test:
+        - CMD
+        - test
+        - -s
+        - /var/www/goaccess/index.html
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  analytics-dashboard:
+    image: busybox:1.37
+    restart: unless-stopped
+    depends_on:
+      analytics:
+        condition: service_healthy
+    command:
+      - httpd
+      - -f
+      - -p
+      - "8080"
+      - -h
+      - /srv/report
+    read_only: true
+    user: "65534:65534"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    ports:
+      - "127.0.0.1:${ANALYTICS_PORT:-8082}:8080"
+    volumes:
+      - analytics_report:/srv/report:ro
+    networks:
+      - edge
+    healthcheck:
+      test:
+        - CMD
+        - wget
+        - -q
+        - -O
+        - /dev/null
+        - http://127.0.0.1:8080/
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
 volumes:
   caddy_data:
   caddy_config:
+  caddy_logs:
+  analytics_report:
 
 networks:
   edge:

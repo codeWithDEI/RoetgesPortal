@@ -6,8 +6,16 @@
 - Alert on repeated non-200 responses, TLS expiry, and domain expiry.
 - Monitor build and deployment failures through the repository checks.
 - Review server and edge error rates without introducing user tracking.
+- Review the private page-view dashboard for frequently requested routes and
+  unexpected HTTP status codes. Treat hits as requests, never as exact people.
 - Check public source links periodically; a broken source is a content-quality
   issue even when the portal itself is available.
+
+The self-hosted deployment removes client addresses, request headers, remote
+ports, and query values before access logs are written. Raw access logs are
+retained for no more than seven days. The derived GoAccess report is reachable
+only through an SSH tunnel to the server loopback interface; its port must not
+be exposed publicly.
 
 Initial operational targets are 24 hours to restore the public service and one
 merged release as the maximum content rollback. They are planning targets, not a

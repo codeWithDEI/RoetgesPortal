@@ -1,6 +1,30 @@
 {$SITE_ADDRESS:http://localhost} {
 	encode zstd gzip
 
+	@analyticsNoise path /api/* /assets/* /data/* /favicon.ico /og.png /robots.txt /roetgesbuettel-wappen.png /sitemap.xml
+	log_skip @analyticsNoise
+	@analyticsNonPageMethod not method GET
+	log_skip @analyticsNonPageMethod
+
+	log {
+		output file /var/log/caddy/portal-access.log {
+			mode 0600
+			roll_at 00:00
+			roll_size 10MiB
+			roll_uncompressed
+			roll_keep 6
+			roll_keep_for 144h
+		}
+
+		format filter {
+			request>remote_ip replace 0.0.0.0
+			request>client_ip replace 0.0.0.0
+			request>remote_port delete
+			request>headers delete
+			request>uri regexp `\?.*$` `?redacted`
+		}
+	}
+
 	header {
 		-Server
 		X-Content-Type-Options nosniff
