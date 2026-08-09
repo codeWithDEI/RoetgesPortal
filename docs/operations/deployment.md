@@ -28,9 +28,10 @@ docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
 ```
 
 The local defaults expose HTTP on port `8080`. The example server configuration
-publishes ports 80 and 443 and uses `preview.roetgesportal.de` as the Caddy site
-address. Caddy requests a public certificate only after DNS points to the server.
-Its persistent data and configuration are stored in named Docker volumes.
+publishes ports 80 and 443, serves `roetgesportal.de` as the canonical site, and
+redirects the `www` and `preview` hostnames to it. Caddy requests public
+certificates only after DNS points to the server. Its persistent data and
+configuration are stored in named Docker volumes.
 
 The application itself publishes no host port and is reachable only from the
 reverse proxy over an internal Docker network. Secrets, access tokens, private

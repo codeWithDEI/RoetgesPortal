@@ -5,8 +5,9 @@ RötgesPortal. It runs the stateless web application behind Caddy. Only Caddy
 publishes host ports; the application remains isolated on an internal network.
 
 Caddy obtains and renews TLS certificates automatically when `SITE_ADDRESS`
-contains a public hostname whose DNS records point to the server. Certificate
-state is retained in named Docker volumes.
+and `REDIRECT_SITE_ADDRESSES` contain public hostnames whose DNS records point
+to the server. `CANONICAL_ORIGIN` is the destination for permanent redirects.
+Certificate state is retained in named Docker volumes.
 
 ## Local smoke test
 
@@ -35,6 +36,9 @@ docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
 The production values expose ports 80 and 443. The firewall and provider must
 allow both TCP ports; UDP 443 enables HTTP/3. Do not switch DNS until the
 containers pass their health checks and the server is ready to answer publicly.
+The example configuration serves `roetgesportal.de` and permanently redirects
+`www.roetgesportal.de` and `preview.roetgesportal.de` to the canonical origin
+while preserving the request path and query string.
 
 ## Operations
 
