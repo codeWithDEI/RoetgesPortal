@@ -44,9 +44,12 @@ Before changing public DNS:
 1. Validate the Compose model with `docker compose config`.
 2. Build and start the containers on the target server.
 3. Confirm that the application container is healthy.
-4. Test HTTP routing against the server IP with the intended `Host` header.
-5. Point the DNS record to the server.
-6. Confirm HTTPS issuance and `/api/health` from outside the server.
+4. Confirm that the analytics and local-only dashboard containers are healthy.
+5. Verify that the dashboard port listens only on `127.0.0.1` and is reachable
+   through an SSH tunnel.
+6. Test HTTP routing against the server IP with the intended `Host` header.
+7. Point the DNS record to the server.
+8. Confirm HTTPS issuance and `/api/health` from outside the server.
 
 ## Release procedure
 
