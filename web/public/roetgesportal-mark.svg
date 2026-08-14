@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">RötgesPortal</title>
+  <path fill="#007DA4" d="M12 61 69 33v169l-57 22V61Z"/>
+  <path fill="#006080" d="m69 33 46 18v170l-46-19V33Z"/>
+  <path
+    fill="#00455C"
+    fill-rule="evenodd"
+    d="M108 51h55c41 0 66 23 66 59 0 24-13 42-35 51l43 63h-47l-35-55h-8v55h-39V51Zm39 34v51h16c18 0 27-9 27-26 0-16-9-25-27-25h-16Z"
+  />
+  <path
+    fill="#E4B72E"
+    d="M168 91c-13 0-23 10-23 23 0 17 23 37 23 37s23-20 23-37c0-13-10-23-23-23Z"
+  />
+  <circle cx="168" cy="114" r="7" fill="#00455C"/>
+</svg>

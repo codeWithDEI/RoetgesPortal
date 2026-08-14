@@ -54,15 +54,16 @@ export default function PrivacyPage() {
           <p>
             Links zu Originalquellen, zur Gemeindeseite und zu GitHub öffnen
             externe Angebote. Ab dem Aufruf gelten deren eigene
-            Datenschutzhinweise. Das Gemeindewappen wird lokal ausgeliefert und
-            erzeugt deshalb keinen zusätzlichen Abruf bei der Gemeinde.
+            Datenschutzhinweise. Logo und weitere Gestaltungselemente werden
+            lokal ausgeliefert und erzeugen deshalb keine zusätzlichen Abrufe
+            bei externen Anbietern.
           </p>
         </div>
       </section>
 
       <section className="info-section info-section--notice">
         <p>
-          <strong>Stand: 9. August 2026.</strong> Diese Seite beschreibt den
+          <strong>Stand: 14. August 2026.</strong> Diese Seite beschreibt den
           aktuellen öffentlichen Prototyp. Vor einem dauerhaften Betrieb unter
           eigener Domain werden verantwortliche Stelle, Hostinganbieter,
           Rechtsgrundlagen, Speicherdauern und Betroffenenrechte mit den

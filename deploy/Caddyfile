@@ -1,7 +1,7 @@
 {$SITE_ADDRESS:http://localhost} {
 	encode zstd gzip
 
-	@analyticsNoise path /api/* /assets/* /data/* /favicon.ico /og.png /robots.txt /roetgesbuettel-wappen.png /sitemap.xml
+	@analyticsNoise path /api/* /assets/* /data/* /favicon.ico /og.png /robots.txt /roetgesportal-logo.svg /roetgesportal-mark.svg /sitemap.xml
 	log_skip @analyticsNoise
 	@analyticsNonPageMethod not method GET
 	log_skip @analyticsNonPageMethod

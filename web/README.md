@@ -4,10 +4,9 @@ The web application presents generated municipal topic data as an accessible,
 responsive information portal. It never reads editorial YAML directly.
 
 Public trust pages explain the project's independence, editorial method,
-accessibility, privacy, legal status, and correction process. The visual system
-uses the municipal website's blue and neutral palette. The locally served coat
-of arms retains a clear independent-service notice until official permission and
-operation are agreed.
+accessibility, privacy, legal status, and correction process. Its independent
+visual identity uses a folded map that becomes the letter R, combined with a
+gold location marker. It intentionally avoids official municipal symbols.
 
 ## Local development
 

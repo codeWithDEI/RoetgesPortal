@@ -13,11 +13,11 @@ export function SiteHeader() {
             <Image
               alt=""
               className="brand__logo"
-              height="50"
+              height="54"
               priority
-              src="/roetgesbuettel-wappen.png"
+              src="/roetgesportal-mark.svg"
               unoptimized
-              width="42"
+              width="54"
             />
             <span className="brand__copy">
               <span className="brand__name">RötgesPortal</span>

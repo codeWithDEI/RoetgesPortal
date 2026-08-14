@@ -204,14 +204,15 @@ future municipal handover:
 - [Municipal handover checklist](docs/governance/municipal-handover.md)
 - [Deployment procedure](docs/operations/deployment.md)
 - [Monitoring and recovery](docs/operations/monitoring-and-recovery.md)
-- [Municipal visual reference](docs/brand/municipal-visual-reference.md)
+- [Visual identity](docs/brand/visual-identity.md)
 - [Contribution guide](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
 
-The current UI follows the core blue and neutral palette of the municipality's
-public website and includes a locally served copy of its coat of arms. Until
-written approval and an official operating agreement exist, the portal remains
-visibly labeled as independent and must not imply municipal endorsement.
+The current UI uses an independent portal identity: a folded map becomes the
+letter R and a gold location marker establishes local context. Official
+municipal symbols are intentionally not used. Until an official operating
+agreement exists, the portal remains visibly labeled as independent and must
+not imply municipal endorsement.
 
 ## Self-hosting baseline
 
