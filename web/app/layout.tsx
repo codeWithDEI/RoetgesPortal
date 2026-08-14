@@ -29,6 +29,10 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s · RötgesPortal",
     },
     description,
+    icons: {
+      icon: [{ url: "/roetgesportal-mark.svg", type: "image/svg+xml" }],
+      shortcut: "/roetgesportal-mark.svg",
+    },
     openGraph: {
       type: "website",
       locale: "de_DE",

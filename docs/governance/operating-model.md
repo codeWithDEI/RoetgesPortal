@@ -37,5 +37,5 @@ the impact, restore from a known-good version, and document follow-up actions.
 
 Until the municipality formally adopts the portal, every public surface must
 state that RötgesPortal is an independent information service and link to the
-official municipal website. The municipal visual reference must not be described
-as endorsement or official status.
+official municipal website. The independent portal identity must not be
+described as municipal endorsement or official status.

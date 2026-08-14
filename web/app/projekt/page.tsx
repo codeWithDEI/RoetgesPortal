@@ -47,10 +47,12 @@ export default function ProjectPage() {
             noch das Ratsinformationssystem oder die Website der Gemeinde.
           </p>
           <p>
-            Gestaltung und Wappen stellen den Bezug zu Rötgesbüttel her. Sie
-            bedeuten keine offizielle Beauftragung oder Freigabe. Sollte die
-            Gemeinde das Portal später übernehmen, sind Technik, Inhalte und
-            Betriebsabläufe bereits auf eine geordnete Übergabe vorbereitet.
+            Die eigenständige Wort-Bild-Marke verbindet eine gefaltete Karte
+            mit dem „R“ für Rötgesbüttel. Sie verwendet bewusst kein amtliches
+            Gemeindesymbol und bedeutet keine offizielle Beauftragung oder
+            Freigabe. Sollte die Gemeinde das Portal später übernehmen, sind
+            Technik, Inhalte und Betriebsabläufe bereits auf eine geordnete
+            Übergabe vorbereitet.
           </p>
         </div>
       </section>
