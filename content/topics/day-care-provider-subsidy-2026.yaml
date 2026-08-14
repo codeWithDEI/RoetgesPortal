@@ -1,0 +1,57 @@
+id: day-care-provider-subsidy-2026
+title: Zuschuss für den Verein Tageseltern im Papenteich
+summary: >
+  Ein Zuschuss von 100 Euro je betreutem Kind aus dem Papenteich wurde im
+  Samtgemeinderat beantragt und im Januar 2026 mehrheitlich abgelehnt.
+status: rejected
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - childcare
+  - grants
+  - finance
+
+organizations:
+  - joint-municipality-papenteich
+  - tageseltern-im-papenteich
+
+dates:
+  createdAt: "2025-11-19"
+  updatedAt: "2026-01-13"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Vorgeschlagen war ein freiwilliger Zuschuss von 100 Euro je 2026 betreutem
+  Kind aus dem Papenteich. Bei 36 Kindern hätte die Förderung insgesamt
+  3.600 Euro betragen.
+
+  Der Fachausschuss empfahl den Antrag. Im Samtgemeinderat stimmten am
+  13. Januar 2026 jedoch 15 Mitglieder dafür und 17 dagegen; der Zuschuss
+  wurde damit abgelehnt.
+
+locations: []
+
+milestones:
+  - date: "2025-11-19"
+    title: Fachausschuss empfiehlt den Zuschuss
+    status: reached
+  - date: "2026-01-13"
+    title: Samtgemeinderat lehnt den Zuschuss ab
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2025/0911
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000254&refresh=false&TOLFDNR=1003839
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 13. Januar 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003839&SILFDNR=1954
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+
+positions: []

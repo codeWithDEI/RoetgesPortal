@@ -1,0 +1,51 @@
+id: wind-energy-spatial-program
+title: Stellungnahme zum Teilprogramm Windenergie
+summary: >
+  Die Samtgemeinde hat sich im Beteiligungsverfahren zum sachlichen
+  Teilprogramm Windenergie einer Stellungnahme der Gemeinde Meine
+  angeschlossen.
+status: completed
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - regional-planning
+  - renewable-energy
+  - environment
+
+organizations:
+  - joint-municipality-papenteich
+  - regional-association-greater-braunschweig
+
+dates:
+  createdAt: "2025-03-18"
+  updatedAt: "2025-03-18"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Im Beteiligungsverfahren zum sachlichen Teilprogramm Windenergie schloss
+  sich die Samtgemeinde nach dem öffentlichen Protokoll der Stellungnahme der
+  Gemeinde Meine an. Der gemeinsame Antrag von SPD, CDU und Grünen wurde am
+  18. März 2025 einstimmig angenommen.
+
+  Der Beschluss dokumentiert die Stellungnahme der Samtgemeinde in diesem
+  Beteiligungsschritt; die abschließende Regionalplanung liegt beim
+  Regionalverband Großraum Braunschweig.
+
+locations: []
+
+milestones:
+  - date: "2025-03-18"
+    title: Samtgemeinderat beschließt Stellungnahme
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu SGP/2025/0778
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37587&SILFDNR=1927
+    publishedAt: "2025-03-18"
+    accessedAt: "2026-08-14"
+
+positions: []

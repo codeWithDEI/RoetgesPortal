@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "schools",
+      "childcare",
+      "intergovernmental-cooperation"
+    ],
+    "dates": {
+      "createdAt": "2026-02-24",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-04-14"
+    },
+    "description": "Der Landkreis Gifhorn ist rechtlich für den Ganztagsanspruch von\nGrundschulkindern zuständig. Mit einer öffentlich-rechtlichen Vereinbarung\nwerden Aufgaben standortnah durch die teilnehmenden Kommunen als\nSchulträger umgesetzt.\n\nDie Vereinbarung regelt Zuständigkeiten und Budgets für Schul- und\nFerienzeiten. Der Samtgemeinderat beauftragte die Verwaltung am 14. April\n2026 einstimmig mit dem Abschluss; das Inkrafttreten war zum 1. August 2026\nvorgesehen.\n",
+    "id": "primary-school-youth-welfare-agreement",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-02-24",
+        "status": "reached",
+        "title": "Schulausschuss empfiehlt den Abschluss"
+      },
+      {
+        "date": "2026-04-14",
+        "status": "reached",
+        "title": "Samtgemeinderat beauftragt die Verwaltung"
+      },
+      {
+        "date": "2026-08-01",
+        "status": "reached",
+        "title": "Vorgesehenes Inkrafttreten der Vereinbarung"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "district-gifhorn"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-04-14",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/0983",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000693&refresh=false&TOLFDNR=1006220"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-04-14",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 14. April 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.\n",
+    "title": "Vereinbarung zur Ganztagsförderung von Grundschulkindern",
+    "visibility": "published"
+  }
+}

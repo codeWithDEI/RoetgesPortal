@@ -18,11 +18,16 @@ organizations:
   - municipality-roetgesbuettel
 
 dates:
-  createdAt: "2025-12-16"
+  createdAt: "2025-06-18"
   updatedAt: "2026-06-25"
-  lastVerifiedAt: "2026-07-30"
+  lastVerifiedAt: "2026-08-14"
 
 description: |
+  Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.
+  Der Rat beschloss im Juni 2025, den Vertrag für die dortigen
+  Altkleidercontainer 2026 nicht zu verlängern und die rechtlichen
+  Voraussetzungen einer Videoüberwachung klären zu lassen.
+
   Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche
   Standorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer
   Befahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der
@@ -44,6 +49,9 @@ locations:
     geoJsonFile: content/locations/glass-container-relocation.geojson
 
 milestones:
+  - date: "2025-06-18"
+    title: Rat reagiert auf Verschmutzungen am bisherigen Standort
+    status: reached
   - date: "2025-12-16"
     title: Rat beschließt die Prüfung mehrerer Standorte
     status: reached
@@ -58,20 +66,25 @@ milestones:
     status: reached
 
 sources:
+  - title: Beschlussauszug zu Rötg/2025/0253
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127
+    publishedAt: "2025-06-18"
+    accessedAt: "2026-08-14"
   - title: Beschlussauszug vom 16. Dezember 2025
     sourceType: minutes
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151
     publishedAt: "2025-12-16"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
   - title: Vorlage Rötg/2025/0282-02
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632
     publishedAt: "2026-06-25"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
   - title: Tagesordnung der Ratssitzung vom 25. Juni 2026
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
     publishedAt: "2026-06-25"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
 
 positions: []

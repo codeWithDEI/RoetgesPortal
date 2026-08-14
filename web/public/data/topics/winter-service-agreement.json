@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "winter-service",
+      "mobility",
+      "intergovernmental-cooperation"
+    ],
+    "dates": {
+      "createdAt": "2026-06-23",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-06-23"
+    },
+    "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nWegen der ab 1. Januar 2027 anzuwendenden Umsatzsteuerregelung für\njuristische Personen des öffentlichen Rechts wurde eine\nErgänzungsvereinbarung vorgelegt. Die öffentliche Beratungsfolge weist die\nEntscheidung des Samtgemeinderates vom 23. Juni 2026 als erledigt aus.\n",
+    "id": "winter-service-agreement",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-06-23",
+        "status": "reached",
+        "title": "Samtgemeinderat behandelt die Ergänzungsvereinbarung"
+      },
+      {
+        "date": "2027-01-01",
+        "status": "planned",
+        "title": "Neue Umsatzsteuerregelung soll berücksichtigt werden"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "lower-saxony-road-authority"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-06-23",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1053-01 und Beratungsfolge",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-06-23",
+        "sourceType": "agenda",
+        "title": "Tagesordnung der Samtgemeinderatssitzung vom 23. Juni 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000115&refresh=false"
+      }
+    ],
+    "status": "decided",
+    "summary": "Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.\n",
+    "title": "Ergänzungsvereinbarung zum Winterdienst",
+    "visibility": "published"
+  }
+}

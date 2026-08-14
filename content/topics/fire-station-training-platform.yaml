@@ -1,0 +1,58 @@
+id: fire-station-training-platform
+title: Übungsplattform im Feuerwehrhaus Rötgesbüttel
+summary: >
+  In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro
+  eine statisch berechnete Arbeits- und Übungsplattform entstehen.
+status: implementation
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - fire-protection
+  - public-facilities
+  - construction
+
+organizations:
+  - joint-municipality-papenteich
+  - volunteer-fire-department-roetgesbuettel
+
+dates:
+  createdAt: "2025-09-04"
+  updatedAt: "2025-10-08"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der
+  Fahrzeughalle. Durch eine Anpassung der Stellplatzlänge für den dort
+  abgestellten Mannschaftstransportwagen kann sie innerhalb der bestehenden
+  Halle untergebracht werden.
+
+  Die geschätzten Kosten von rund 23.000 Euro sollen aus dem Baubudget des
+  Feuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die
+  Berechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.
+
+locations: []
+
+milestones:
+  - date: "2025-09-04"
+    title: Feuerschutzausschuss berät den Antrag
+    status: reached
+  - date: "2025-10-08"
+    title: Samtgemeinderat beschließt die Installation
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2025/0876-01
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000244&refresh=false&TOLFDNR=1001996
+    publishedAt: "2025-10-08"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 8. Oktober 2025
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016
+    publishedAt: "2025-10-08"
+    accessedAt: "2026-08-14"
+
+positions: []

@@ -20,7 +20,7 @@ organizations:
 dates:
   createdAt: "2025-12-16"
   updatedAt: "2026-03-17"
-  lastVerifiedAt: "2026-07-30"
+  lastVerifiedAt: "2026-08-14"
 
 description: |
   Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine
@@ -47,6 +47,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
 
 positions: []

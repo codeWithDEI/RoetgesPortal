@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "schools",
+      "public-facilities",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2026-06-02",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-06-02"
+    },
+    "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nunentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften\nGanztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Laut öffentlicher Beratungsfolge wurde die\nEntscheidung im Samtgemeindeausschuss gestoppt; eine ausgearbeitete\nVereinbarung sollte im Herbst erneut beraten werden.\n",
+    "id": "community-hall-school-meals-compensation",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-06-02",
+        "status": "reached",
+        "title": "Schulausschuss berät die Entschädigung"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "postponed",
+        "title": "Weitere Entscheidung wird bis zu einer Vereinbarung zurückgestellt"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-06-02",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1042 und Beratungsfolge",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846"
+      }
+    ],
+    "status": "paused",
+    "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.\n",
+    "title": "Entschädigung für die Mensanutzung der Bürgerhalle",
+    "visibility": "published"
+  }
+}

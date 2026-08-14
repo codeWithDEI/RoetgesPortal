@@ -1,0 +1,70 @@
+id: b4-sidewalk-renewal
+title: Nebenanlagen an der B4-Ortsdurchfahrt
+summary: >
+  Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze
+  ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.
+status: implementation
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - mobility
+  - road-safety
+  - public-space
+  - construction
+
+organizations:
+  - municipality-roetgesbuettel
+  - lower-saxony-road-authority
+
+dates:
+  createdAt: "2025-03-03"
+  updatedAt: "2025-09-16"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis
+  zur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden
+  für den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro
+  zuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg
+  wurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.
+
+  Nachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde
+  ermöglichte, beschloss der Rat im September zusätzlich den Bau einer
+  Querungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei
+  Stunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für
+  2027 wurden ebenfalls beschlossen.
+
+locations: []
+
+milestones:
+  - date: "2025-03-03"
+    title: Rat priorisiert Gehwege und Querung
+    status: reached
+  - date: "2025-06-18"
+    title: Umfang und Kosten der Nebenanlagen werden beschlossen
+    status: reached
+  - date: "2025-09-16"
+    title: Rat beschließt Querungshilfe und zusätzliche Stellplätze
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu Rötg/2025/0248
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37376&SILFDNR=1882
+    publishedAt: "2025-03-03"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug zu Rötg/2025/0254
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38464&SILFDNR=2127
+    publishedAt: "2025-06-18"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug zu Rötg/2025/0271
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145
+    publishedAt: "2025-09-16"
+    accessedAt: "2026-08-14"
+
+positions: []

@@ -1,0 +1,55 @@
+id: public-library-development
+title: Weiterentwicklung der Samtgemeindebücherei
+summary: >
+  Die Bücherei soll räumlich, personell und digital weiterentwickelt werden;
+  die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.
+status: implementation
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - culture
+  - public-facilities
+  - digitalization
+  - accessibility
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-04-14"
+  updatedAt: "2026-04-14"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage
+  der Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier
+  Standort, ein größerer Medienetat, mehr Personal, digitale Angebote und die
+  technischen und wirtschaftlichen Voraussetzungen einer „Open Library“.
+
+  Die Verwaltung soll die Ergebnisse in einem Umsetzungs- und Finanzkonzept
+  zur weiteren politischen Beratung vorlegen. Ein Enddatum wurde bewusst
+  nicht festgelegt.
+
+locations: []
+
+milestones:
+  - date: "2026-04-14"
+    title: Samtgemeinderat beschließt Leitbild und Konzeptauftrag
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2026/1000
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000779&refresh=false&TOLFDNR=1006224
+    publishedAt: "2026-04-14"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 14. April 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103
+    publishedAt: "2026-04-14"
+    accessedAt: "2026-08-14"
+
+positions: []

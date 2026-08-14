@@ -163,7 +163,7 @@ class BuildPortalTests(unittest.TestCase):
 
             self.assertEqual(first_build, second_build)
             self.assertEqual(7, counts["areas"])
-            self.assertEqual(12, counts["topics"])
+            self.assertEqual(39, counts["topics"])
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())
@@ -180,7 +180,12 @@ class BuildPortalTests(unittest.TestCase):
             self.assertEqual(
                 [
                     "joint-municipality-papenteich",
+                    "municipality-adenbuettel",
+                    "municipality-didderse",
+                    "municipality-meine",
                     "municipality-roetgesbuettel",
+                    "municipality-schwuelper",
+                    "municipality-vordorf",
                 ],
                 council_items["facets"]["areas"],
             )

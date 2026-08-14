@@ -1,0 +1,51 @@
+id: southfield-ii-change-proposal
+title: Änderungsantrag zum Planungsvorhaben Südfeld II
+summary: >
+  Ein Antrag auf wesentliche Änderungen am Planungsvorhaben Südfeld II wurde
+  im März 2025 wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025
+  zurückgezogen.
+status: completed
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - urban-planning
+  - housing
+
+organizations:
+  - municipality-roetgesbuettel
+
+dates:
+  createdAt: "2025-02-24"
+  updatedAt: "2025-03-03"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.
+  In der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der
+  Arbeitsbelastung der Verwaltung zurückgezogen.
+
+  Der Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene
+  Verfahren. Er trifft keine Aussage über andere oder spätere Planungen für
+  das Gebiet.
+
+locations: []
+
+milestones:
+  - date: "2025-02-24"
+    title: Fachausschuss behandelt den Antrag
+    status: reached
+  - date: "2025-03-03"
+    title: Antrag wird für 2025 zurückgezogen
+    status: cancelled
+
+sources:
+  - title: Protokollauszug zu Rötg/2025/0247
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882
+    publishedAt: "2025-03-03"
+    accessedAt: "2026-08-14"
+
+positions: []

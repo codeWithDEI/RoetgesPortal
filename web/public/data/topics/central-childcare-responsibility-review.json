@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "childcare",
+      "administration",
+      "intergovernmental-cooperation"
+    ],
+    "dates": {
+      "createdAt": "2025-06-18",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-06-18"
+    },
+    "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und bat die\nSamtgemeinde um eine Prüfung der personellen und finanziellen Folgen einer\nzentralen Kita-Zuständigkeit.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien. In den\nausgewerteten öffentlichen Samtgemeindesitzungen bis zum 14. August 2026\nwar kein Prüfergebnis als eigener Tagesordnungspunkt dokumentiert.\n",
+    "id": "central-childcare-responsibility-review",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-06-18",
+        "status": "reached",
+        "title": "Rat beantragt Prüfung bei der Samtgemeinde"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "municipality-adenbuettel",
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-18",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0256",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127"
+      }
+    ],
+    "status": "paused",
+    "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.\n",
+    "title": "Prüfung einer zentralen Kita-Zuständigkeit",
+    "visibility": "published"
+  }
+}

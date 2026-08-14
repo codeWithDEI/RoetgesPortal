@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "taxes",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2025-09-16",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-03-17"
+    },
+    "description": "Der Rat vertagte die Frage im September 2025 zunächst in die\nHaushaltsberatungen für 2026. Im März 2026 wurde über eine Anregung\nabgestimmt, die Hebesätze A und B so anzupassen, dass das bisherige\nSteueraufkommen der Gemeinde erhalten bleibt.\n\nFür diese Änderung gab es keine Ja-Stimme, neun Nein-Stimmen und eine\nEnthaltung. Der Antrag war damit abgelehnt.\n",
+    "id": "ground-tax-rates-2026",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-09-16",
+        "status": "reached",
+        "title": "Beratung wird in den Haushalt 2026 vertagt"
+      },
+      {
+        "date": "2026-03-17",
+        "status": "reached",
+        "title": "Änderung der Hebesätze wird abgelehnt"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-09-16",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 16. September 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000997&SILFDNR=2145"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-03-17",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 17. März 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005883&SILFDNR=1000260"
+      }
+    ],
+    "status": "rejected",
+    "summary": "Eine Änderung der Hebesätze A und B zur Sicherung eines gleichbleibenden Steueraufkommens wurde beraten und im März 2026 abgelehnt.\n",
+    "title": "Anregung zur Änderung der Grundsteuerhebesätze",
+    "visibility": "published"
+  }
+}

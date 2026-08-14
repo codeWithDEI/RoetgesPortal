@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "urban-planning",
+      "public-space"
+    ],
+    "dates": {
+      "createdAt": "2025-02-24",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-03-03"
+    },
+    "description": "Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in\nRötgesbüttel. In der Ratssitzung am 3. März 2025 wurde er zurückgezogen, weil\ndie Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit\nvermieden wurde.\n\nDer Status „abgeschlossen“ beschreibt hier das beendete politische\nVerfahren, nicht die Umsetzung einer Ortsmitte.\n",
+    "id": "new-town-centre-proposal",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-02-24",
+        "status": "reached",
+        "title": "Fachausschuss behandelt den Antrag"
+      },
+      {
+        "date": "2025-03-03",
+        "status": "cancelled",
+        "title": "Antrag wird im Rat zurückgezogen"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "minutes",
+        "title": "Protokollauszug zu Rötg/2025/0244",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882"
+      }
+    ],
+    "status": "completed",
+    "summary": "Ein Antrag auf Planungen für eine neue Ortsmitte wurde im März 2025 wegen fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung zurückgezogen.\n",
+    "title": "Vorschlag für eine „Neue Ortsmitte“",
+    "visibility": "published"
+  }
+}

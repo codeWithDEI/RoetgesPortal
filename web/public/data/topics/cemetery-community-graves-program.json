@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "cemeteries",
+      "public-facilities",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2025-11-12",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-01-13"
+    },
+    "description": "Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen\nGemeinschaftsgrabanlagen einzurichten. Weil frühere Ansätze von 10.000 Euro\nnicht ausreichten, beschloss der Samtgemeinderat für 2027, 2028 und 2029\njeweils 20.000 Euro.\n\nDie Verwaltung entscheidet anhand der Belegungs- und Flächensituation über\ndie Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und\nRothemühle; für Rötgesbüttel wurde bereits 2025 eine zweite Stele\nfinanziert.\n",
+    "id": "cemetery-community-graves-program",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-11-12",
+        "status": "reached",
+        "title": "Bauausschuss empfiehlt das mehrjährige Programm"
+      },
+      {
+        "date": "2026-01-13",
+        "status": "reached",
+        "title": "Samtgemeinderat stellt Mittel für 2027 bis 2029 ein"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2025/0941",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000335&refresh=false&TOLFDNR=1003863"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 13. Januar 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954"
+      }
+    ],
+    "status": "decided",
+    "summary": "Für neue oder erweiterte Gemeinschaftsgrabanlagen sollen von 2027 bis 2029 jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf und verfügbaren Flächen.\n",
+    "title": "Gemeinschaftsgrabanlagen auf den Friedhöfen",
+    "visibility": "published"
+  }
+}

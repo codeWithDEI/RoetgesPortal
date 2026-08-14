@@ -10,11 +10,11 @@
       "mobility"
     ],
     "dates": {
-      "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-07-30",
+      "createdAt": "2025-06-18",
+      "lastVerifiedAt": "2026-08-14",
       "updatedAt": "2026-06-25"
     },
-    "description": "Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
     "id": "glass-container-relocation",
     "locations": [
       {
@@ -25,6 +25,11 @@
       }
     ],
     "milestones": [
+      {
+        "date": "2025-06-18",
+        "status": "reached",
+        "title": "Rat reagiert auf Verschmutzungen am bisherigen Standort"
+      },
       {
         "date": "2025-12-16",
         "status": "reached",
@@ -56,21 +61,28 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-07-30",
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-18",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0253",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127"
+      },
+      {
+        "accessedAt": "2026-08-14",
         "publishedAt": "2025-12-16",
         "sourceType": "minutes",
         "title": "Beschlussauszug vom 16. Dezember 2025",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
       },
       {
-        "accessedAt": "2026-07-30",
+        "accessedAt": "2026-08-14",
         "publishedAt": "2026-06-25",
         "sourceType": "proposal",
         "title": "Vorlage Rötg/2025/0282-02",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
       },
       {
-        "accessedAt": "2026-07-30",
+        "accessedAt": "2026-08-14",
         "publishedAt": "2026-06-25",
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",

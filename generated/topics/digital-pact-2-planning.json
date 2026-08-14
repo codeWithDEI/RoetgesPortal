@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "schools",
+      "digitalization",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2025-11-25",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-01-13"
+    },
+    "description": "Die Samtgemeinde will Projekte für den Digitalpakt 2.0 vorbereiten und sich\nwie beim ersten Digitalpakt extern bei Konzeption, Leistungsverzeichnissen\nund Ausschreibungen unterstützen lassen.\n\nDer Samtgemeinderat beschloss am 13. Januar 2026 einstimmig, dafür\n30.000 Euro Planungskosten in den Haushalt 2026 aufzunehmen. Konkrete\nFörderprojekte und Bewilligungen sind damit noch nicht festgelegt.\n",
+    "id": "digital-pact-2-planning",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-11-25",
+        "status": "reached",
+        "title": "Schulausschuss berät die Vorbereitung"
+      },
+      {
+        "date": "2026-01-13",
+        "status": "reached",
+        "title": "Samtgemeinderat stellt Planungskosten bereit"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2025/0948-01",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000461&refresh=false&TOLFDNR=1003864"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 13. Januar 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Für die Vorbereitung von Digitalisierungsprojekten an den Schulen wurden 30.000 Euro Planungskosten in den Haushalt 2026 aufgenommen.\n",
+    "title": "Vorbereitung auf den Digitalpakt 2.0",
+    "visibility": "published"
+  }
+}

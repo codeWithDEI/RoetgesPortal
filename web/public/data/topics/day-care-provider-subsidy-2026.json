@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "childcare",
+      "grants",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2025-11-19",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-01-13"
+    },
+    "description": "Vorgeschlagen war ein freiwilliger Zuschuss von 100 Euro je 2026 betreutem\nKind aus dem Papenteich. Bei 36 Kindern hätte die Förderung insgesamt\n3.600 Euro betragen.\n\nDer Fachausschuss empfahl den Antrag. Im Samtgemeinderat stimmten am\n13. Januar 2026 jedoch 15 Mitglieder dafür und 17 dagegen; der Zuschuss\nwurde damit abgelehnt.\n",
+    "id": "day-care-provider-subsidy-2026",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-11-19",
+        "status": "reached",
+        "title": "Fachausschuss empfiehlt den Zuschuss"
+      },
+      {
+        "date": "2026-01-13",
+        "status": "reached",
+        "title": "Samtgemeinderat lehnt den Zuschuss ab"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "tageseltern-im-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2025/0911",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000254&refresh=false&TOLFDNR=1003839"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-01-13",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 13. Januar 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003839&SILFDNR=1954"
+      }
+    ],
+    "status": "rejected",
+    "summary": "Ein Zuschuss von 100 Euro je betreutem Kind aus dem Papenteich wurde im Samtgemeinderat beantragt und im Januar 2026 mehrheitlich abgelehnt.\n",
+    "title": "Zuschuss für den Verein Tageseltern im Papenteich",
+    "visibility": "published"
+  }
+}

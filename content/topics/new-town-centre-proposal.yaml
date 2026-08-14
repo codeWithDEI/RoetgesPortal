@@ -1,0 +1,51 @@
+id: new-town-centre-proposal
+title: Vorschlag für eine „Neue Ortsmitte“
+summary: >
+  Ein Antrag auf Planungen für eine neue Ortsmitte wurde im März 2025 wegen
+  fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung
+  zurückgezogen.
+status: completed
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - urban-planning
+  - public-space
+
+organizations:
+  - municipality-roetgesbuettel
+
+dates:
+  createdAt: "2025-02-24"
+  updatedAt: "2025-03-03"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in
+  Rötgesbüttel. In der Ratssitzung am 3. März 2025 wurde er zurückgezogen, weil
+  die Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit
+  vermieden wurde.
+
+  Der Status „abgeschlossen“ beschreibt hier das beendete politische
+  Verfahren, nicht die Umsetzung einer Ortsmitte.
+
+locations: []
+
+milestones:
+  - date: "2025-02-24"
+    title: Fachausschuss behandelt den Antrag
+    status: reached
+  - date: "2025-03-03"
+    title: Antrag wird im Rat zurückgezogen
+    status: cancelled
+
+sources:
+  - title: Protokollauszug zu Rötg/2025/0244
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882
+    publishedAt: "2025-03-03"
+    accessedAt: "2026-08-14"
+
+positions: []

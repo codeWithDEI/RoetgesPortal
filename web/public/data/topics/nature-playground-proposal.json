@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "playgrounds",
+      "children",
+      "public-space"
+    ],
+    "dates": {
+      "createdAt": "2025-02-24",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-03-03"
+    },
+    "description": "Vorgeschlagen war, auf dem Naturgrundstück zwischen der Riede und dem\nsüdlichen Fasanenweg schrittweise einen Spielplatz einzurichten. Für 2025\nund 2026 sollten zunächst jeweils 5.000 Euro bereitgestellt werden.\n\nIm Rat stimmten am 3. März 2025 jeweils sechs Mitglieder für und gegen den\nAntrag. Damit wurde er abgelehnt.\n",
+    "id": "nature-playground-proposal",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-02-24",
+        "status": "reached",
+        "title": "Fachausschuss berät den Antrag"
+      },
+      {
+        "date": "2025-03-03",
+        "status": "reached",
+        "title": "Rat lehnt den Antrag bei Stimmengleichheit ab"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0246",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37374&SILFDNR=1882"
+      }
+    ],
+    "status": "rejected",
+    "summary": "Der Antrag auf einen Spielplatz zwischen Riede und südlichem Fasanenweg erhielt im März 2025 keine Mehrheit.\n",
+    "title": "Vorschlag für einen Spielplatz am Fasanenweg",
+    "visibility": "published"
+  }
+}

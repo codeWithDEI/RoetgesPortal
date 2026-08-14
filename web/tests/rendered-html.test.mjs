@@ -34,7 +34,7 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /Kommunale Themen im Überblick · RötgesPortal/);
   assert.match(html, /Was bewegt/);
-  assert.match(html, /12(?:<!-- -->)* Themen für Rötgesbüttel/);
+  assert.match(html, /31(?:<!-- -->)* Themen für Rötgesbüttel/);
   assert.match(html, /Wohngebiet Aukenroth/);
   assert.match(html, /Themen durchsuchen/);
   assert.match(html, /Bearbeitungsstand/);

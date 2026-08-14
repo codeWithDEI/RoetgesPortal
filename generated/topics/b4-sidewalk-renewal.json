@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "mobility",
+      "road-safety",
+      "public-space",
+      "construction"
+    ],
+    "dates": {
+      "createdAt": "2025-03-03",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-09-16"
+    },
+    "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n",
+    "id": "b4-sidewalk-renewal",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-03-03",
+        "status": "reached",
+        "title": "Rat priorisiert Gehwege und Querung"
+      },
+      {
+        "date": "2025-06-18",
+        "status": "reached",
+        "title": "Umfang und Kosten der Nebenanlagen werden beschlossen"
+      },
+      {
+        "date": "2025-09-16",
+        "status": "reached",
+        "title": "Rat beschließt Querungshilfe und zusätzliche Stellplätze"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "lower-saxony-road-authority"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0248",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37376&SILFDNR=1882"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-18",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0254",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38464&SILFDNR=2127"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-09-16",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0271",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.\n",
+    "title": "Nebenanlagen an der B4-Ortsdurchfahrt",
+    "visibility": "published"
+  }
+}

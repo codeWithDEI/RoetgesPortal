@@ -1,0 +1,53 @@
+id: central-childcare-responsibility-review
+title: Prüfung einer zentralen Kita-Zuständigkeit
+summary: >
+  Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob
+  Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis
+  ist noch nicht dokumentiert.
+status: paused
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - childcare
+  - administration
+  - intergovernmental-cooperation
+
+organizations:
+  - municipality-roetgesbuettel
+  - municipality-adenbuettel
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2025-06-18"
+  updatedAt: "2025-06-18"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und bat die
+  Samtgemeinde um eine Prüfung der personellen und finanziellen Folgen einer
+  zentralen Kita-Zuständigkeit.
+
+  Geprüft werden sollten unter anderem Notbetreuung, ein vergleichbares
+  Betreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um
+  Fachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien. In den
+  ausgewerteten öffentlichen Samtgemeindesitzungen bis zum 14. August 2026
+  war kein Prüfergebnis als eigener Tagesordnungspunkt dokumentiert.
+
+locations: []
+
+milestones:
+  - date: "2025-06-18"
+    title: Rat beantragt Prüfung bei der Samtgemeinde
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu Rötg/2025/0256
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127
+    publishedAt: "2025-06-18"
+    accessedAt: "2026-08-14"
+
+positions: []

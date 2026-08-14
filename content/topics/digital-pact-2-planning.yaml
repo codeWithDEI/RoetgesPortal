@@ -1,0 +1,56 @@
+id: digital-pact-2-planning
+title: Vorbereitung auf den Digitalpakt 2.0
+summary: >
+  Für die Vorbereitung von Digitalisierungsprojekten an den Schulen wurden
+  30.000 Euro Planungskosten in den Haushalt 2026 aufgenommen.
+status: implementation
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - schools
+  - digitalization
+  - finance
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2025-11-25"
+  updatedAt: "2026-01-13"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Die Samtgemeinde will Projekte für den Digitalpakt 2.0 vorbereiten und sich
+  wie beim ersten Digitalpakt extern bei Konzeption, Leistungsverzeichnissen
+  und Ausschreibungen unterstützen lassen.
+
+  Der Samtgemeinderat beschloss am 13. Januar 2026 einstimmig, dafür
+  30.000 Euro Planungskosten in den Haushalt 2026 aufzunehmen. Konkrete
+  Förderprojekte und Bewilligungen sind damit noch nicht festgelegt.
+
+locations: []
+
+milestones:
+  - date: "2025-11-25"
+    title: Schulausschuss berät die Vorbereitung
+    status: reached
+  - date: "2026-01-13"
+    title: Samtgemeinderat stellt Planungskosten bereit
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2025/0948-01
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000461&refresh=false&TOLFDNR=1003864
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 13. Januar 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+
+positions: []

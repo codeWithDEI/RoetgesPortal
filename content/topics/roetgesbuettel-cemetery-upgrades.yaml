@@ -1,0 +1,57 @@
+id: roetgesbuettel-cemetery-upgrades
+title: Verbesserungen am Friedhof Rötgesbüttel
+summary: >
+  Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung
+  der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.
+status: implementation
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - cemeteries
+  - public-facilities
+  - finance
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2025-01-21"
+  updatedAt: "2025-01-21"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,
+  gleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in
+  Rötgesbüttel bereit.
+
+  Für das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die
+  Instandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher
+  Abschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum
+  14. August 2026 nicht dokumentiert.
+
+locations: []
+
+milestones:
+  - date: "2025-01-21"
+    title: Mittel für zweite Stele werden bereitgestellt
+    status: reached
+  - date: "2025-01-21"
+    title: Zusätzliche Parkplatzmittel für 2026 werden beschlossen
+    status: reached
+
+sources:
+  - title: Beschlussauszug zu SGP/2024/0643
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633
+    publishedAt: "2025-01-21"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug zu SGP/2024/0668
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633
+    publishedAt: "2025-01-21"
+    accessedAt: "2026-08-14"
+
+positions: []

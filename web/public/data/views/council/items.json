@@ -2,27 +2,52 @@
   "facets": {
     "areas": [
       "joint-municipality-papenteich",
-      "municipality-roetgesbuettel"
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
     ],
     "categories": [
+      "accessibility",
+      "administration",
+      "cemeteries",
       "childcare",
+      "climate",
       "community",
+      "construction",
+      "culture",
+      "digitalization",
       "drainage",
+      "elections",
+      "energy",
       "environment",
       "finance",
+      "fire-protection",
+      "flood-protection",
       "housing",
+      "intergovernmental-cooperation",
       "mobility",
+      "municipal-law",
       "municipal-property",
       "noise-protection",
+      "procurement",
       "public-facilities",
       "public-space",
+      "rail",
       "regional-planning",
       "renewable-energy",
       "renovation",
       "road-safety",
+      "schools",
       "sports",
+      "strategic-planning",
       "urban-planning",
-      "waste"
+      "vehicles",
+      "waste",
+      "water-management",
+      "winter-service"
     ],
     "status": [
       "committee",
@@ -44,7 +69,7 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
       "detail": "../../topics/community-hall-fees.json",
@@ -70,8 +95,8 @@
         "mobility"
       ],
       "dates": {
-        "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
       "detail": "../../topics/glass-container-relocation.json",
@@ -98,7 +123,7 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
       "detail": "../../topics/aukenroth-residential-development.json",
@@ -117,6 +142,171 @@
     },
     {
       "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "winter-service",
+        "mobility",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2026-06-23",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-23"
+      },
+      "detail": "../../topics/winter-service-agreement.json",
+      "id": "winter-service-agreement",
+      "organizations": [
+        "joint-municipality-papenteich",
+        "lower-saxony-road-authority"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.",
+      "title": "Ergänzungsvereinbarung zum Winterdienst",
+      "upcomingMilestone": {
+        "date": "2027-01-01",
+        "status": "planned",
+        "title": "Neue Umsatzsteuerregelung soll berücksichtigt werden"
+      }
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "schools",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-02",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-02"
+      },
+      "detail": "../../topics/community-hall-school-meals-compensation.json",
+      "id": "community-hall-school-meals-compensation",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "paused",
+      "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
+      "title": "Entschädigung für die Mensanutzung der Bürgerhalle"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "childcare",
+        "mobility"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-02"
+      },
+      "detail": "../../topics/all-day-primary-schools-2026.json",
+      "id": "all-day-primary-schools-2026",
+      "organizations": [
+        "joint-municipality-papenteich",
+        "district-gifhorn"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise auf alle Klassen ausgeweitet.",
+      "title": "Fünftägiger Ganztag an den Grundschulen"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "childcare",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2026-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-04-14"
+      },
+      "detail": "../../topics/primary-school-youth-welfare-agreement.json",
+      "id": "primary-school-youth-welfare-agreement",
+      "organizations": [
+        "joint-municipality-papenteich",
+        "district-gifhorn"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.",
+      "title": "Vereinbarung zur Ganztagsförderung von Grundschulkindern"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "culture",
+        "public-facilities",
+        "digitalization",
+        "accessibility"
+      ],
+      "dates": {
+        "createdAt": "2026-04-14",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-04-14"
+      },
+      "detail": "../../topics/public-library-development.json",
+      "id": "public-library-development",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.",
+      "title": "Weiterentwicklung der Samtgemeindebücherei"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -125,8 +315,8 @@
         "urban-planning"
       ],
       "dates": {
-        "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "createdAt": "2025-03-03",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/childcare-centre-expansion.json",
@@ -154,7 +344,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/community-centre-old-fire-station.json",
@@ -181,7 +371,7 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/childcare-sanitary-facilities.json",
@@ -209,7 +399,7 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/sports-centre-modernisation.json",
@@ -238,7 +428,7 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/regional-spatial-plan-2025.json",
@@ -268,7 +458,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "detail": "../../topics/rodelberg-development.json",
@@ -286,6 +476,138 @@
     },
     {
       "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "digitalization",
+        "public-facilities"
+      ],
+      "dates": {
+        "createdAt": "2026-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-02-24"
+      },
+      "detail": "../../topics/school-it-standard-2026.json",
+      "id": "school-it-standard-2026",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter Netzwerkinfrastruktur.",
+      "title": "Neuer IT-Ausstattungsstandard für Grundschulen"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "elections",
+        "municipal-law"
+      ],
+      "dates": {
+        "createdAt": "2026-01-13",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "detail": "../../topics/municipal-election-2026-electoral-area.json",
+      "id": "municipal-election-2026-electoral-area",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Für die Samtgemeinderatswahl am 13. September 2026 bilden alle sechs Mitgliedsgemeinden gemeinsam einen Wahlbereich.",
+      "title": "Ein Wahlbereich für die Samtgemeinderatswahl 2026",
+      "upcomingMilestone": {
+        "date": "2026-09-13",
+        "status": "planned",
+        "title": "Kommunalwahl"
+      }
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "cemeteries",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-11-12",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "detail": "../../topics/cemetery-community-graves-program.json",
+      "id": "cemetery-community-graves-program",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Für neue oder erweiterte Gemeinschaftsgrabanlagen sollen von 2027 bis 2029 jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf und verfügbaren Flächen.",
+      "title": "Gemeinschaftsgrabanlagen auf den Friedhöfen"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "digitalization",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "detail": "../../topics/digital-pact-2-planning.json",
+      "id": "digital-pact-2-planning",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Für die Vorbereitung von Digitalisierungsprojekten an den Schulen wurden 30.000 Euro Planungskosten in den Haushalt 2026 aufgenommen.",
+      "title": "Vorbereitung auf den Digitalpakt 2.0"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -294,7 +616,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "detail": "../../topics/muehlenweg-speed-limit.json",
@@ -321,7 +643,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "detail": "../../topics/parking-restrictions-schulgarten-eikhof.json",
@@ -349,7 +671,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "detail": "../../topics/northern-town-sign-relocation.json",
@@ -365,6 +687,304 @@
       "status": "implementation",
       "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "strategic-planning",
+        "public-facilities"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-11-25"
+      },
+      "detail": "../../topics/school-development-plan-2025-2031.json",
+      "id": "school-development-plan-2025-2031",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der Schülerzahlen in der gesamten Samtgemeinde.",
+      "title": "Schulentwicklungsplanung 2025 bis 2031"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "sports",
+        "public-facilities",
+        "municipal-law"
+      ],
+      "dates": {
+        "createdAt": "2025-08-20",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-10-08"
+      },
+      "detail": "../../topics/sports-facilities-usage-rules.json",
+      "id": "sports-facilities-usage-rules",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.",
+      "title": "Benutzung der samtgemeindeeigenen Sportstätten"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "fire-protection",
+        "public-facilities",
+        "construction"
+      ],
+      "dates": {
+        "createdAt": "2025-09-04",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-10-08"
+      },
+      "detail": "../../topics/fire-station-training-platform.json",
+      "id": "fire-station-training-platform",
+      "organizations": [
+        "joint-municipality-papenteich",
+        "volunteer-fire-department-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.",
+      "title": "Übungsplattform im Feuerwehrhaus Rötgesbüttel"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "flood-protection",
+        "water-management",
+        "construction",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-09-16",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-09-16"
+      },
+      "detail": "../../topics/flood-retention-basin-roetgesbuettel.json",
+      "id": "flood-retention-basin-roetgesbuettel",
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.",
+      "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "mobility",
+        "road-safety",
+        "public-space",
+        "construction"
+      ],
+      "dates": {
+        "createdAt": "2025-03-03",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-09-16"
+      },
+      "detail": "../../topics/b4-sidewalk-renewal.json",
+      "id": "b4-sidewalk-renewal",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "lower-saxony-road-authority"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
+      "title": "Nebenanlagen an der B4-Ortsdurchfahrt"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "fire-protection",
+        "vehicles",
+        "procurement"
+      ],
+      "dates": {
+        "createdAt": "2025-05-15",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-24"
+      },
+      "detail": "../../topics/fire-command-vehicle-roetgesbuettel.json",
+      "id": "fire-command-vehicle-roetgesbuettel",
+      "organizations": [
+        "joint-municipality-papenteich",
+        "volunteer-fire-department-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito bleibt als Zugführungsfahrzeug im Einsatz.",
+      "title": "Mannschaftstransportwagen für die Ortsfeuerwehr"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "mobility",
+        "rail",
+        "road-safety"
+      ],
+      "dates": {
+        "createdAt": "2025-06-02",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-18"
+      },
+      "detail": "../../topics/pfaenderweg-rail-crossing.json",
+      "id": "pfaenderweg-rail-crossing",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "db-infrago"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "paused",
+      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
+      "title": "Bahnübergang am Pfänderweg"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "childcare",
+        "administration",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-18"
+      },
+      "detail": "../../topics/central-childcare-responsibility-review.json",
+      "id": "central-childcare-responsibility-review",
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "municipality-adenbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "paused",
+      "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.",
+      "title": "Prüfung einer zentralen Kita-Zuständigkeit"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "climate",
+        "energy",
+        "strategic-planning"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-01-21"
+      },
+      "detail": "../../topics/municipal-heat-planning.json",
+      "id": "municipal-heat-planning",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "decided",
+      "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.",
+      "title": "Kommunale Wärmeplanung für den Papenteich"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "cemeteries",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-01-21"
+      },
+      "detail": "../../topics/roetgesbuettel-cemetery-upgrades.json",
+      "id": "roetgesbuettel-cemetery-upgrades",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.",
+      "title": "Verbesserungen am Friedhof Rötgesbüttel"
     }
   ],
   "schemaVersion": 2,

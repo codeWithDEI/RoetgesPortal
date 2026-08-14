@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "urban-planning",
+      "housing"
+    ],
+    "dates": {
+      "createdAt": "2025-02-24",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-03-03"
+    },
+    "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene\nVerfahren. Er trifft keine Aussage über andere oder spätere Planungen für\ndas Gebiet.\n",
+    "id": "southfield-ii-change-proposal",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-02-24",
+        "status": "reached",
+        "title": "Fachausschuss behandelt den Antrag"
+      },
+      {
+        "date": "2025-03-03",
+        "status": "cancelled",
+        "title": "Antrag wird für 2025 zurückgezogen"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "minutes",
+        "title": "Protokollauszug zu Rötg/2025/0247",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882"
+      }
+    ],
+    "status": "completed",
+    "summary": "Ein Antrag auf wesentliche Änderungen am Planungsvorhaben Südfeld II wurde im März 2025 wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025 zurückgezogen.\n",
+    "title": "Änderungsantrag zum Planungsvorhaben Südfeld II",
+    "visibility": "published"
+  }
+}

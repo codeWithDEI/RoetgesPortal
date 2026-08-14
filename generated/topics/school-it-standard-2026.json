@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "schools",
+      "digitalization",
+      "public-facilities"
+    ],
+    "dates": {
+      "createdAt": "2026-02-24",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-02-24"
+    },
+    "description": "Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr\n2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n",
+    "id": "school-it-standard-2026",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-02-24",
+        "status": "reached",
+        "title": "Schulausschuss beschließt den Ausstattungsstandard"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-02-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/0974",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-02-24",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 24. Februar 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter Netzwerkinfrastruktur.\n",
+    "title": "Neuer IT-Ausstattungsstandard für Grundschulen",
+    "visibility": "published"
+  }
+}

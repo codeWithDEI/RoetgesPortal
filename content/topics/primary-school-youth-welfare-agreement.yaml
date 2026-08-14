@@ -1,0 +1,62 @@
+id: primary-school-youth-welfare-agreement
+title: Vereinbarung zur Ganztagsförderung von Grundschulkindern
+summary: >
+  Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem
+  Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.
+status: implementation
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - schools
+  - childcare
+  - intergovernmental-cooperation
+
+organizations:
+  - joint-municipality-papenteich
+  - district-gifhorn
+
+dates:
+  createdAt: "2026-02-24"
+  updatedAt: "2026-04-14"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Landkreis Gifhorn ist rechtlich für den Ganztagsanspruch von
+  Grundschulkindern zuständig. Mit einer öffentlich-rechtlichen Vereinbarung
+  werden Aufgaben standortnah durch die teilnehmenden Kommunen als
+  Schulträger umgesetzt.
+
+  Die Vereinbarung regelt Zuständigkeiten und Budgets für Schul- und
+  Ferienzeiten. Der Samtgemeinderat beauftragte die Verwaltung am 14. April
+  2026 einstimmig mit dem Abschluss; das Inkrafttreten war zum 1. August 2026
+  vorgesehen.
+
+locations: []
+
+milestones:
+  - date: "2026-02-24"
+    title: Schulausschuss empfiehlt den Abschluss
+    status: reached
+  - date: "2026-04-14"
+    title: Samtgemeinderat beauftragt die Verwaltung
+    status: reached
+  - date: "2026-08-01"
+    title: Vorgesehenes Inkrafttreten der Vereinbarung
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2026/0983
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000693&refresh=false&TOLFDNR=1006220
+    publishedAt: "2026-04-14"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 14. April 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103
+    publishedAt: "2026-04-14"
+    accessedAt: "2026-08-14"
+
+positions: []
