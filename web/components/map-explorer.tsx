@@ -9,6 +9,11 @@ import type {
   MapLayerMouseEvent,
 } from "maplibre-gl";
 import { categoryLabel, statusLabels } from "@/lib/presentation";
+import {
+  DEFAULT_AREA_ID,
+  areaLabel,
+  filterAreas,
+} from "@/lib/areas";
 import type { TopicStatus } from "@/lib/topics";
 import { StatusBadge } from "./status-badge";
 
@@ -23,6 +28,8 @@ type TopicMapProperties = {
   topicSummary: string;
   topicStatus: TopicStatus;
   categories: string[];
+  areas: string[];
+  relevantAreaIds: string[];
   locationLabel: string;
   impactType: string;
   detailPath: string;
@@ -70,11 +77,13 @@ function featureCoordinates(feature: TopicMapFeature): [number, number] | null {
 }
 
 function mapFilter(
+  area: string,
   status: TopicStatus | "all",
   category: string,
 ): FilterSpecification {
   const expressions: FilterSpecification[] = [
     ["==", ["geometry-type"], "Point"],
+    ["in", area, ["get", "relevantAreaIds"]],
   ];
   if (status !== "all") {
     expressions.push(["==", ["get", "topicStatus"], status]);
@@ -96,6 +105,7 @@ export function MapExplorer({
   const mapRef = useRef<MapLibreMap | null>(null);
   const [collection, setCollection] = useState<TopicMapCollection | null>(null);
   const [loadError, setLoadError] = useState(false);
+  const [area, setArea] = useState(DEFAULT_AREA_ID);
   const [status, setStatus] = useState<TopicStatus | "all">("all");
   const [category, setCategory] = useState("all");
 
@@ -170,7 +180,7 @@ export function MapExplorer({
             id: pointLayerId,
             type: "circle",
             source: sourceId,
-            filter: mapFilter("all", "all"),
+            filter: mapFilter(DEFAULT_AREA_ID, "all", "all"),
             paint: {
               "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 8, 18, 13],
               "circle-color": [
@@ -234,9 +244,23 @@ export function MapExplorer({
   useEffect(() => {
     const map = mapRef.current;
     if (map?.getLayer(pointLayerId)) {
-      map.setFilter(pointLayerId, mapFilter(status, category));
+      map.setFilter(pointLayerId, mapFilter(area, status, category));
     }
-  }, [category, status]);
+  }, [area, category, status]);
+
+  const areas = useMemo(
+    () =>
+      filterAreas(
+        Array.from(
+          new Set(
+            collection?.features.flatMap(
+              (feature) => feature.properties.relevantAreaIds,
+            ) ?? [],
+          ),
+        ),
+      ),
+    [collection],
+  );
 
   const statuses = useMemo(
     () =>
@@ -266,11 +290,12 @@ export function MapExplorer({
     () =>
       collection?.features.filter(
         (feature) =>
+          feature.properties.relevantAreaIds.includes(area) &&
           (status === "all" || feature.properties.topicStatus === status) &&
           (category === "all" ||
             feature.properties.categories.includes(category)),
       ) ?? [],
-    [category, collection, status],
+    [area, category, collection, status],
   );
 
   function focusFeature(feature: TopicMapFeature) {
@@ -284,7 +309,7 @@ export function MapExplorer({
       <div className="map-explorer__heading">
         <div>
           <p className="eyebrow">Ortsbezug sichtbar machen</p>
-          <h2 id="map-heading">Ratsthemen auf der Karte</h2>
+          <h2 id="map-heading">Themen auf der Karte</h2>
         </div>
         <p>
           Gezeigt werden nur Themen, deren räumlicher Bezug aus den
@@ -293,6 +318,21 @@ export function MapExplorer({
       </div>
 
       <div className="map-filters" aria-label="Kartenfilter">
+        <label>
+          Räumlicher Bezug
+          <select
+            onChange={(event) => setArea(event.target.value)}
+            value={area}
+          >
+            {areas.map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.type === "jointMunicipality"
+                  ? "Gesamte Samtgemeinde"
+                  : areaLabel(item.id)}
+              </option>
+            ))}
+          </select>
+        </label>
         <label>
           Bearbeitungsstand
           <select
@@ -341,7 +381,7 @@ export function MapExplorer({
             <div className="map-stage__message">Karte wird geladen …</div>
           ) : null}
           <div
-            aria-label="Interaktive Karte von Rötgesbüttel"
+            aria-label="Interaktive Karte von Rötgesbüttel und dem Papenteich"
             className="map-canvas"
             ref={containerRef}
             role="region"

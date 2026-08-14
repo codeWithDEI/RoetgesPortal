@@ -101,6 +101,14 @@
           "items": {
             "type": "string"
           }
+        },
+        "areas": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
@@ -164,7 +172,7 @@
           "type": "array",
           "uniqueItems": true,
           "items": {
-            "enum": ["status", "categories", "organizations"]
+            "enum": ["status", "categories", "organizations", "areas"]
           }
         }
       }
@@ -263,7 +271,7 @@
           "type": "array",
           "uniqueItems": true,
           "items": {
-            "enum": ["status", "categories", "organizations"]
+            "enum": ["status", "categories", "organizations", "areas"]
           }
         }
       }

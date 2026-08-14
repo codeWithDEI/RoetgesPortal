@@ -6,6 +6,9 @@ summary: >
 status: implementation
 visibility: published
 
+areas:
+  - municipality-roetgesbuettel
+
 categories:
   - public-facilities
   - community

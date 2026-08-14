@@ -10,6 +10,9 @@
       },
       "id": "glass-container-relocation:proposed-fairground-site:0",
       "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
         "categories": [
           "waste",
           "public-space",
@@ -23,6 +26,10 @@
           "municipality-roetgesbuettel"
         ],
         "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
         "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june",
         "topicId": "glass-container-relocation",
         "topicStatus": "council",
@@ -41,6 +48,9 @@
       },
       "id": "parking-restrictions-schulgarten-eikhof:junction:0",
       "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
         "categories": [
           "mobility",
           "road-safety"
@@ -54,6 +64,10 @@
           "district-gifhorn"
         ],
         "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
         "sourceNote": "Approximate point for the Am Schulgarten and Am Eikhof junction",
         "topicId": "parking-restrictions-schulgarten-eikhof",
         "topicStatus": "implementation",

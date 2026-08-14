@@ -1,6 +1,6 @@
 id: council-map
 title: Wo wirken sich Ratsthemen aus?
-description: Aktuelle kommunale Themen mit einem öffentlich belegbaren Ortsbezug.
+description: Aktuelle Themen aus Gemeinde und Samtgemeinde mit belegbarem Ortsbezug.
 route: /karte
 visibility: published
 
@@ -33,6 +33,7 @@ presentation:
     minZoom: 12
     maxZoom: 19
   facets:
+    - areas
     - status
     - categories
   layers:

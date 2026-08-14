@@ -6,6 +6,9 @@ summary: >
 status: paused
 visibility: published
 
+areas:
+  - municipality-roetgesbuettel
+
 categories:
   - municipal-property
   - housing

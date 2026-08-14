@@ -1,0 +1,46 @@
+{
+  "areas": [
+    {
+      "id": "joint-municipality-papenteich",
+      "name": "Samtgemeinde Papenteich",
+      "type": "jointMunicipality"
+    },
+    {
+      "id": "municipality-adenbuettel",
+      "name": "Adenbüttel",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    },
+    {
+      "id": "municipality-didderse",
+      "name": "Didderse",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    },
+    {
+      "id": "municipality-meine",
+      "name": "Meine",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    },
+    {
+      "id": "municipality-roetgesbuettel",
+      "name": "Rötgesbüttel",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    },
+    {
+      "id": "municipality-schwuelper",
+      "name": "Schwülper",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    },
+    {
+      "id": "municipality-vordorf",
+      "name": "Vordorf",
+      "parent": "joint-municipality-papenteich",
+      "type": "municipality"
+    }
+  ],
+  "schemaVersion": 2
+}

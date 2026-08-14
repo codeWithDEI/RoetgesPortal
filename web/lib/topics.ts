@@ -52,6 +52,8 @@ export type Topic = {
   visibility: "draft" | "published" | "archived";
   categories: string[];
   organizations: string[];
+  areas: string[];
+  relevantAreaIds: string[];
   dates: TopicDates;
   milestones: Milestone[];
   sources: TopicSource[];
@@ -65,6 +67,8 @@ export type TopicListItem = Pick<
   | "status"
   | "categories"
   | "organizations"
+  | "areas"
+  | "relevantAreaIds"
   | "dates"
 > & {
   detail: string;
@@ -74,6 +78,7 @@ export type TopicListItem = Pick<
 type CouncilData = {
   items: TopicListItem[];
   facets: {
+    areas: string[];
     status: TopicStatus[];
     categories: string[];
   };

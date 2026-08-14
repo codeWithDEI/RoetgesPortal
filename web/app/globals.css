@@ -269,7 +269,11 @@ select {
 
 .map-filters {
   display: grid;
-  grid-template-columns: minmax(220px, 0.55fr) minmax(220px, 0.55fr) 1fr;
+  grid-template-columns:
+    minmax(210px, 0.65fr)
+    minmax(190px, 0.55fr)
+    minmax(190px, 0.55fr)
+    1fr;
   align-items: end;
   gap: 1px;
   padding: 1px;
@@ -601,7 +605,11 @@ select {
 
 .filter-panel {
   display: grid;
-  grid-template-columns: minmax(280px, 1.5fr) minmax(180px, 0.65fr) minmax(200px, 0.8fr);
+  grid-template-columns:
+    minmax(250px, 1.35fr)
+    minmax(190px, 0.8fr)
+    minmax(170px, 0.65fr)
+    minmax(190px, 0.75fr);
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--line);

@@ -1,9 +1,10 @@
 {
   "data": "items.json",
-  "description": "Aktuelle kommunale Themen, ihr Bearbeitungsstand und ihre Quellen.",
+  "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit Bearbeitungsstand und Quellen.",
   "id": "council",
   "presentation": {
     "facets": [
+      "areas",
       "status",
       "categories"
     ],
@@ -12,7 +13,7 @@
     "type": "list"
   },
   "route": "/themen",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sources": [
     {
       "artifact": "../../datasets/topics.json",

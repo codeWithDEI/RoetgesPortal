@@ -1,8 +1,9 @@
 {
-  "description": "Aktuelle kommunale Themen mit einem öffentlich belegbaren Ortsbezug.",
+  "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit belegbarem Ortsbezug.",
   "id": "council-map",
   "presentation": {
     "facets": [
+      "areas",
       "status",
       "categories"
     ],
@@ -31,7 +32,7 @@
     "type": "map"
   },
   "route": "/karte",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sources": [
     {
       "artifact": "../../datasets/topics.json",

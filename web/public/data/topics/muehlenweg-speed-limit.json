@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
     "categories": [
       "mobility",
       "road-safety"
@@ -25,6 +28,10 @@
       "district-gifhorn"
     ],
     "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
     "sources": [
       {
         "accessedAt": "2026-07-30",

@@ -1,6 +1,9 @@
 {
   "items": [
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "childcare",
         "public-facilities",
@@ -12,11 +15,18 @@
         "municipality-roetgesbuettel",
         "drk-gifhorn"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "committee",
       "summary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.",
       "title": "Erweiterung der Kindertagesstätte"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "public-facilities",
         "finance"
@@ -26,11 +36,18 @@
       "organizations": [
         "municipality-roetgesbuettel"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "decided",
       "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "public-facilities",
         "community",
@@ -41,11 +58,18 @@
       "organizations": [
         "municipality-roetgesbuettel"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
       "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety"
@@ -56,11 +80,18 @@
         "municipality-roetgesbuettel",
         "district-gifhorn"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.",
       "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety"
@@ -71,11 +102,18 @@
         "municipality-roetgesbuettel",
         "district-gifhorn"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.",
       "title": "Halteverbot Am Schulgarten und Am Eikhof"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "waste",
         "public-space",
@@ -86,11 +124,18 @@
       "organizations": [
         "municipality-roetgesbuettel"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "council",
       "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
       "title": "Neuer Standort für die Glascontainer"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "childcare",
         "public-facilities",
@@ -102,11 +147,18 @@
         "municipality-roetgesbuettel",
         "drk-gifhorn"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
       "title": "Sanierung der Sanitärräume in der Kindertagesstätte"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "sports",
         "public-facilities",
@@ -118,11 +170,18 @@
         "municipality-roetgesbuettel",
         "vfl-roetgesbuettel"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.",
       "title": "Sanierung und Modernisierung des Gemeindesportzentrums"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "regional-planning",
         "urban-planning",
@@ -136,11 +195,18 @@
         "joint-municipality-papenteich",
         "regional-association-greater-braunschweig"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "consultation",
       "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.",
       "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety",
@@ -152,11 +218,18 @@
         "municipality-roetgesbuettel",
         "district-gifhorn"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "implementation",
       "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "municipal-property",
         "housing",
@@ -168,11 +241,18 @@
       "organizations": [
         "municipality-roetgesbuettel"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "paused",
       "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
       "title": "Weitere Nutzung der Fläche Rodelberg"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "urban-planning",
         "housing",
@@ -184,10 +264,14 @@
         "municipality-roetgesbuettel",
         "joint-municipality-papenteich"
       ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "status": "consultation",
       "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.",
       "title": "Wohngebiet Aukenroth"
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 2
 }

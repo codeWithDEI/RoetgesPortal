@@ -20,6 +20,7 @@ except ImportError as error:
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 COLLECTIONS = {
+    "areas": ("content/areas", "schemas/area.schema.json"),
     "topics": ("content/topics", "schemas/topic.schema.json"),
     "datasets": ("content/datasets", "schemas/dataset.schema.json"),
     "views": ("content/views", "schemas/view.schema.json"),
@@ -169,6 +170,56 @@ def validate_topic_paths(
     return errors
 
 
+def validate_area_hierarchy(
+    areas: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Validate parent references and reject cycles in administrative areas."""
+    errors: list[str] = []
+
+    for area_id, area in areas.items():
+        parent_id = area.get("parent")
+        if not isinstance(parent_id, str):
+            continue
+        if parent_id not in areas:
+            errors.append(f"area '{area_id}': unknown parent '{parent_id}'")
+        elif parent_id == area_id:
+            errors.append(f"area '{area_id}': cannot be its own parent")
+
+    reported_cycles: set[tuple[str, ...]] = set()
+    for area_id in areas:
+        path: list[str] = []
+        current_id: str | None = area_id
+        while current_id is not None and current_id in areas:
+            if current_id in path:
+                cycle = path[path.index(current_id) :]
+                normalized = tuple(sorted(cycle))
+                if normalized not in reported_cycles:
+                    errors.append(
+                        "area hierarchy contains a cycle: "
+                        + " -> ".join([*cycle, current_id])
+                    )
+                    reported_cycles.add(normalized)
+                break
+            path.append(current_id)
+            parent = areas[current_id].get("parent")
+            current_id = parent if isinstance(parent, str) else None
+
+    return errors
+
+
+def validate_topic_areas(
+    topics: dict[str, dict[str, Any]],
+    areas: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Require every topic area reference to resolve to the area registry."""
+    errors: list[str] = []
+    for topic_id, topic in topics.items():
+        for area_id in topic.get("areas", []):
+            if isinstance(area_id, str) and area_id not in areas:
+                errors.append(f"topic '{topic_id}': unknown area '{area_id}'")
+    return errors
+
+
 def validate_views(
     views: dict[str, dict[str, Any]], datasets: dict[str, dict[str, Any]]
 ) -> list[str]:
@@ -304,6 +355,10 @@ def validate_repository(
 
     errors.extend(
         validate_dataset_paths(all_documents["datasets"], repository_root)
+    )
+    errors.extend(validate_area_hierarchy(all_documents["areas"]))
+    errors.extend(
+        validate_topic_areas(all_documents["topics"], all_documents["areas"])
     )
     errors.extend(validate_topic_paths(all_documents["topics"], repository_root))
     errors.extend(

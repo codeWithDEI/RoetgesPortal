@@ -3,10 +3,13 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import {
+  areaLabel,
   categoryLabel,
   formatCompactDate,
   statusLabels,
+  topicAreaLabel,
 } from "@/lib/presentation";
+import { DEFAULT_AREA_ID, type AdministrativeArea } from "@/lib/areas";
 import type { TopicListItem, TopicStatus } from "@/lib/topics";
 import { StatusBadge } from "./status-badge";
 
@@ -14,6 +17,7 @@ type TopicExplorerProps = {
   items: TopicListItem[];
   statuses: TopicStatus[];
   categories: string[];
+  areas: AdministrativeArea[];
 };
 
 function normalize(value: string): string {
@@ -24,14 +28,17 @@ export function TopicExplorer({
   items,
   statuses,
   categories,
+  areas,
 }: TopicExplorerProps) {
   const [query, setQuery] = useState("");
+  const [area, setArea] = useState(DEFAULT_AREA_ID);
   const [status, setStatus] = useState<TopicStatus | "all">("all");
   const [category, setCategory] = useState("all");
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = normalize(query.trim());
     return items.filter((item) => {
+      if (!item.relevantAreaIds.includes(area)) return false;
       if (status !== "all" && item.status !== status) return false;
       if (category !== "all" && !item.categories.includes(category)) {
         return false;
@@ -43,16 +50,22 @@ export function TopicExplorer({
           item.title,
           item.summary,
           ...item.categories.map(categoryLabel),
+          ...item.areas.map(areaLabel),
         ].join(" "),
       );
       return searchable.includes(normalizedQuery);
     });
-  }, [category, items, query, status]);
+  }, [area, category, items, query, status]);
 
-  const hasFilters = query !== "" || status !== "all" || category !== "all";
+  const hasFilters =
+    query !== "" ||
+    area !== DEFAULT_AREA_ID ||
+    status !== "all" ||
+    category !== "all";
 
   function resetFilters() {
     setQuery("");
+    setArea(DEFAULT_AREA_ID);
     setStatus("all");
     setCategory("all");
   }
@@ -72,6 +85,22 @@ export function TopicExplorer({
               value={query}
             />
           </div>
+        </div>
+        <div className="filter-panel__select">
+          <label htmlFor="area-filter">Räumlicher Bezug</label>
+          <select
+            id="area-filter"
+            onChange={(event) => setArea(event.target.value)}
+            value={area}
+          >
+            {areas.map((itemArea) => (
+              <option key={itemArea.id} value={itemArea.id}>
+                {itemArea.type === "jointMunicipality"
+                  ? "Gesamte Samtgemeinde"
+                  : itemArea.name}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="filter-panel__select">
           <label htmlFor="status-filter">Bearbeitungsstand</label>
@@ -131,6 +160,7 @@ export function TopicExplorer({
                 <span>
                   Aktualisiert am {formatCompactDate(topic.dates.updatedAt)}
                 </span>
+                <span>Betrifft: {topicAreaLabel(topic.areas)}</span>
               </div>
               <div className="topic-card__content">
                 <h3>

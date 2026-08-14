@@ -21,6 +21,7 @@ if (await exists(repositoryData)) {
   await mkdir(publicData, { recursive: true });
 
   for (const entry of [
+    "areas.json",
     "datasets",
     "search-index.json",
     "topics",

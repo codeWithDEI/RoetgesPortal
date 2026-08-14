@@ -51,6 +51,7 @@ plantuml -tsvg docs/architecture/*.puml
 ```text
 .
 ├── content/
+│   ├── areas/           # administrative areas and their hierarchy
 │   ├── datasets/        # reusable inputs with stable IDs
 │   ├── locations/       # manually maintained GeoJSON sources
 │   ├── topics/          # one municipal topic per YAML file
@@ -128,9 +129,8 @@ separate filtering and sorting from list or map presentation, so the same
 dataset can support multiple experiences without duplicating editorial
 content.
 
-Dataset and view files follow
-[`schemas/dataset.schema.json`](schemas/dataset.schema.json) and
-[`schemas/view.schema.json`](schemas/view.schema.json).
+Administrative areas, datasets, topics, and views follow their corresponding
+machine-readable contracts under [`schemas/`](schemas/).
 
 ## Validating content
 
@@ -142,9 +142,9 @@ python3 tools/validate_content.py
 ```
 
 In addition to the JSON Schemas, the validator checks IDs, file references,
-dataset and source references, unique routes, source and layer IDs, zoom
-ranges, and compatible filters. CI runs the same validation for every pull
-request.
+area hierarchies and topic-area references, dataset and source references,
+unique routes, source and layer IDs, zoom ranges, and compatible filters. CI
+runs the same validation for every pull request.
 
 ## Generating runtime data
 
@@ -159,6 +159,7 @@ The deterministic build creates:
 
 ```text
 generated/
+├── areas.json           # administrative areas available to public filters
 ├── datasets/            # datasets required by published views
 ├── topics/              # one JSON detail document per published topic
 ├── views/               # view index, manifests, and list data
@@ -166,8 +167,9 @@ generated/
 ```
 
 Draft and archived topics are excluded from public runtime data. Generated
-list data includes status and category facets, stable sorting, links to topic
-details, and the next planned milestone when one exists.
+list data includes administrative-area, status, and category facets, stable
+sorting, links to topic details, and the next planned milestone when one
+exists.
 
 Run all local checks with:
 
@@ -181,8 +183,9 @@ git diff --exit-code -- generated
 ## Web application
 
 The public web application presents generated council topics as a
-German-language list and an OpenStreetMap-based MapLibre view. Both provide
-status and category filters and link to source-backed detail pages:
+German-language list and an OpenStreetMap-based MapLibre view. Both default to
+Rötgesbüttel and provide administrative-area, status, and category filters with
+links to source-backed detail pages:
 
 ```bash
 cd web

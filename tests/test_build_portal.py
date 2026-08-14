@@ -17,10 +17,27 @@ from build_portal import (  # noqa: E402
     filter_and_sort_topics,
     make_topic_location_collection,
     make_list_item,
+    resolve_relevant_area_ids,
 )
 
 
 class BuildPortalTests(unittest.TestCase):
+    def test_resolves_area_ancestors_and_descendants_for_filters(self) -> None:
+        areas = {
+            "joint": {"id": "joint"},
+            "one": {"id": "one", "parent": "joint"},
+            "two": {"id": "two", "parent": "joint"},
+        }
+
+        self.assertEqual(
+            ["joint", "one"],
+            resolve_relevant_area_ids(["one"], areas),
+        )
+        self.assertEqual(
+            ["joint", "one", "two"],
+            resolve_relevant_area_ids(["joint"], areas),
+        )
+
     def test_filters_and_sorts_topics_for_a_list_source(self) -> None:
         topics = [
             {
@@ -145,6 +162,7 @@ class BuildPortalTests(unittest.TestCase):
             }
 
             self.assertEqual(first_build, second_build)
+            self.assertEqual(7, counts["areas"])
             self.assertEqual(12, counts["topics"])
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
@@ -159,6 +177,13 @@ class BuildPortalTests(unittest.TestCase):
                 )
             )
             self.assertGreater(len(council_items["items"]), 0)
+            self.assertEqual(
+                [
+                    "joint-municipality-papenteich",
+                    "municipality-roetgesbuettel",
+                ],
+                council_items["facets"]["areas"],
+            )
             self.assertEqual(
                 sorted(council_items["facets"]["categories"]),
                 council_items["facets"]["categories"],
