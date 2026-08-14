@@ -6,6 +6,9 @@ summary: >
 status: council
 visibility: published
 
+areas:
+  - municipality-roetgesbuettel
+
 categories:
   - waste
   - public-space

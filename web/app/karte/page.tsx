@@ -5,9 +5,9 @@ import { SiteHeader } from "@/components/site-header";
 import mapManifestData from "../../public/data/views/council-map/manifest.json";
 
 export const metadata: Metadata = {
-  title: "Ratsthemen auf der Karte",
+  title: "Gemeinde- und Samtgemeindethemen auf der Karte",
   description:
-    "Kommunale Themen aus Rötgesbüttel mit nachvollziehbarem Ortsbezug auf einer interaktiven Karte.",
+    "Themen aus Gemeinde und Samtgemeinde mit nachvollziehbarem Ortsbezug auf einer interaktiven Karte.",
 };
 
 type CouncilMapManifest = {
@@ -52,10 +52,10 @@ export default function MapPage() {
               <h1>Wo werden Entscheidungen sichtbar?</h1>
             </div>
             <p>
-              Manche Ratsthemen betreffen einen konkreten Ort. Diese Ansicht
-              verbindet den dokumentierten Sachstand mit seiner räumlichen
-              Wirkung – ohne Themen künstlich auf einen Kartenpunkt zu
-              reduzieren.
+              Manche Themen aus Gemeinde und Samtgemeinde betreffen einen
+              konkreten Ort. Diese Ansicht verbindet den dokumentierten
+              Sachstand mit seiner räumlichen Wirkung – ohne Themen künstlich
+              auf einen Kartenpunkt zu reduzieren.
             </p>
           </div>
           <div className="map-hero__baseline">

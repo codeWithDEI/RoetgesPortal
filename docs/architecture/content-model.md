@@ -8,11 +8,23 @@ Public-facing editorial content is written in German for the local audience.
 
 ## Collections
 
+### Administrative areas
+
+Files under `content/areas/` describe the member municipalities and their
+administrative hierarchy. Topics reference the smallest accurate scope. A
+Samtgemeinde-wide topic therefore references `joint-municipality-papenteich`,
+while a local matter references one or more member municipalities.
+
+The generator resolves both hierarchy directions for public filters. A
+Samtgemeinde-wide topic appears in every member-municipality view; a
+municipality-specific topic also appears in the Samtgemeinde overview. The
+direct editorial scope remains unchanged and visible on the topic detail.
+
 ### Topics
 
 Files under `content/topics/` describe municipal matters, their current state,
-citations, milestones, and geographic impact. A topic must never contain
-view-specific colors, marker icons, routes, or zoom levels.
+administrative scope, citations, milestones, and geographic impact. A topic
+must never contain view-specific colors, marker icons, routes, or zoom levels.
 
 ### Datasets
 
@@ -62,6 +74,8 @@ files:
 8. Topic filters and sorting may only be used with a `topics` dataset.
 9. Published topics and documented positions must have verifiable citations.
 10. Every presentation and map layer must reference a source from its view.
+11. Every topic area must exist, and the administrative hierarchy must be
+    acyclic.
 
 ## Geographic conventions
 
@@ -81,6 +95,7 @@ runtime artifacts below `generated/`:
 
 ```text
 generated/
+├── areas.json
 ├── datasets/
 │   └── topics.json
 ├── topics/
@@ -102,5 +117,10 @@ YAML or raw GeoJSON. Only published topics and views are included. Builds are
 deterministic and do not include build timestamps. Dataset artifacts are
 created only when a published view references them. A topic-backed map layer
 combines referenced location files and enriches every feature with stable topic
-navigation and filter properties. A standalone GeoJSON-backed layer reuses its
-normalized dataset artifact directly.
+navigation and filter properties. The `relevantAreaIds` property is generated
+from the area hierarchy and is never edited directly. A standalone
+GeoJSON-backed layer reuses its normalized dataset artifact directly.
+
+The administrative structure is based on the official Samtgemeinde Papenteich
+member-municipality listing:
+<https://www.papenteich.de/Rathaus-Politik/Informationen-%C3%BCber-den-Papenteich/Geschichte-und-Entwicklung/>.

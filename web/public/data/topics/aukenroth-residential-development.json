@@ -1,6 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
     "categories": [
       "urban-planning",
       "housing",
@@ -31,6 +34,10 @@
       "joint-municipality-papenteich"
     ],
     "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
     "sources": [
       {
         "accessedAt": "2026-07-30",

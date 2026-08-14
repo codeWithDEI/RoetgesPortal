@@ -3,18 +3,30 @@ import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { TopicExplorer } from "@/components/topic-explorer";
+import { DEFAULT_AREA_ID, filterAreas } from "@/lib/areas";
 import { formatDate } from "@/lib/presentation";
 import {
   councilTopics,
-  latestVerificationDate,
   topicFacets,
 } from "@/lib/topics";
 
 export const metadata: Metadata = {
   title: "Kommunale Themen im Überblick",
   description:
-    "Aktuelle Themen aus dem Rat Rötgesbüttel – verständlich zusammengefasst, mit Bearbeitungsstand und Originalquellen.",
+    "Aktuelle Themen aus Gemeinde und Samtgemeinde – mit Rötgesbüttel als Standardsicht, Bearbeitungsstand und Originalquellen.",
 };
+
+const visibleAreas = filterAreas(topicFacets.areas);
+const defaultAreaTopics = councilTopics.filter((topic) =>
+  topic.relevantAreaIds.includes(DEFAULT_AREA_ID),
+);
+const defaultAreaLatestVerificationDate = defaultAreaTopics.reduce(
+  (latest, topic) =>
+    topic.dates.lastVerifiedAt > latest
+      ? topic.dates.lastVerifiedAt
+      : latest,
+  "",
+);
 
 export default function TopicsPage() {
   return (
@@ -31,9 +43,9 @@ export default function TopicsPage() {
                 unseren Ort?
               </h1>
               <p className="hero__intro">
-                Aktuelle Themen aus dem Rat – verständlich zusammengefasst,
-                mit Bearbeitungsstand und direkten Links zu den öffentlichen
-                Quellen.
+                Aktuelle Themen aus Gemeinde und Samtgemeinde – verständlich
+                zusammengefasst, mit Bearbeitungsstand und direkten Links zu
+                den öffentlichen Quellen.
               </p>
             </div>
             <aside className="hero__principle" aria-label="Unser Grundsatz">
@@ -48,14 +60,15 @@ export default function TopicsPage() {
             </aside>
           </div>
           <div className="hero__baseline">
-            <span>{councilTopics.length} veröffentlichte Themen</span>
-            <span>Stand: {formatDate(latestVerificationDate)}</span>
+            <span>{defaultAreaTopics.length} Themen für Rötgesbüttel</span>
+            <span>Stand: {formatDate(defaultAreaLatestVerificationDate)}</span>
             <span>Quellen direkt verlinkt</span>
           </div>
         </section>
 
         <div className="page-shell">
           <TopicExplorer
+            areas={visibleAreas}
             categories={topicFacets.categories}
             items={councilTopics}
             statuses={topicFacets.status}

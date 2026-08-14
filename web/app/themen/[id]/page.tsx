@@ -9,6 +9,7 @@ import {
   formatDate,
   milestoneStatusLabels,
   sourceTypeLabels,
+  topicAreaLabel,
 } from "@/lib/presentation";
 import { getTopic, topics } from "@/lib/topics";
 
@@ -70,6 +71,10 @@ export default async function TopicPage({ params }: TopicPageProps) {
               <div>
                 <dt>Zuletzt geprüft</dt>
                 <dd>{formatDate(topic.dates.lastVerifiedAt)}</dd>
+              </div>
+              <div>
+                <dt>Räumlicher Bezug</dt>
+                <dd>{topicAreaLabel(topic.areas)}</dd>
               </div>
               <div>
                 <dt>Quellen</dt>

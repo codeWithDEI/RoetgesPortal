@@ -3,6 +3,9 @@ import type {
   TopicSource,
   TopicStatus,
 } from "./topics";
+import { areaScopeLabel } from "./areas";
+
+export { areaLabel, areaScopeLabel } from "./areas";
 
 export const statusLabels: Record<TopicStatus, string> = {
   idea: "Idee",
@@ -77,4 +80,8 @@ export function formatCompactDate(value: string): string {
     year: "numeric",
     timeZone: "UTC",
   }).format(new Date(`${value}T00:00:00Z`));
+}
+
+export function topicAreaLabel(areaIds: string[]): string {
+  return areaScopeLabel(areaIds);
 }

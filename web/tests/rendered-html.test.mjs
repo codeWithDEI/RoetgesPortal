@@ -34,10 +34,12 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /Kommunale Themen im Überblick · RötgesPortal/);
   assert.match(html, /Was bewegt/);
-  assert.match(html, /12(?:<!-- -->)* veröffentlichte Themen/);
+  assert.match(html, /12(?:<!-- -->)* Themen für Rötgesbüttel/);
   assert.match(html, /Wohngebiet Aukenroth/);
   assert.match(html, /Themen durchsuchen/);
   assert.match(html, /Bearbeitungsstand/);
+  assert.match(html, /Räumlicher Bezug/);
+  assert.match(html, /Gesamte Samtgemeinde/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/i);
 });
 
@@ -52,6 +54,8 @@ test("server-renders a source-backed topic detail", async () => {
   assert.match(html, /Öffentliche Quellen/);
   assert.match(html, /Vorlage Rötg\/2026\/0298/);
   assert.match(html, /Neutral zusammengefasst/);
+  assert.match(html, /Räumlicher Bezug/);
+  assert.match(html, /Rötgesbüttel/);
 });
 
 test("returns not found for an unknown topic", async () => {
@@ -80,8 +84,9 @@ test("server-renders the source-backed council map", async () => {
   const html = await response.text();
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
   assert.match(html, /2(?:<!-- -->)* verortete Themen/);
-  assert.match(html, /Ratsthemen auf der Karte/);
+  assert.match(html, /Themen auf der Karte/);
   assert.match(html, /Kartendaten: OpenStreetMap/);
+  assert.match(html, /Räumlicher Bezug/);
 });
 
 test("exposes a non-cached health endpoint", async () => {

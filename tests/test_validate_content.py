@@ -10,7 +10,40 @@ from pathlib import Path
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY_ROOT / "tools"))
 
-from validate_content import validate_views  # noqa: E402
+from validate_content import (  # noqa: E402
+    validate_area_hierarchy,
+    validate_topic_areas,
+    validate_views,
+)
+
+
+class ValidateAreaTests(unittest.TestCase):
+    def test_accepts_hierarchy_and_known_topic_references(self) -> None:
+        areas = {
+            "joint": {"id": "joint"},
+            "member": {"id": "member", "parent": "joint"},
+        }
+        topics = {"topic": {"areas": ["member"]}}
+
+        self.assertEqual([], validate_area_hierarchy(areas))
+        self.assertEqual([], validate_topic_areas(topics, areas))
+
+    def test_reports_unknown_references_and_cycles(self) -> None:
+        areas = {
+            "one": {"id": "one", "parent": "two"},
+            "two": {"id": "two", "parent": "one"},
+            "orphan": {"id": "orphan", "parent": "missing"},
+        }
+        topics = {"topic": {"areas": ["unknown"]}}
+
+        hierarchy_errors = validate_area_hierarchy(areas)
+
+        self.assertTrue(any("contains a cycle" in error for error in hierarchy_errors))
+        self.assertTrue(any("unknown parent 'missing'" in error for error in hierarchy_errors))
+        self.assertEqual(
+            ["topic 'topic': unknown area 'unknown'"],
+            validate_topic_areas(topics, areas),
+        )
 
 
 class ValidateViewsTests(unittest.TestCase):

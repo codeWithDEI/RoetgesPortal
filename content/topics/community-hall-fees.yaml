@@ -6,6 +6,9 @@ summary: >
 status: decided
 visibility: published
 
+areas:
+  - municipality-roetgesbuettel
+
 categories:
   - public-facilities
   - finance

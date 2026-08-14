@@ -4,6 +4,8 @@ summary: >
   This unpublished file documents the intended YAML structure.
 status: idea
 visibility: draft
+areas:
+  - joint-municipality-papenteich
 categories:
   - example
 organizations:
@@ -14,7 +16,8 @@ dates:
   lastVerifiedAt: "2026-07-29"
 description: |
   Facts, geographic impact, and documented positions are maintained
-  separately.
+  separately. A joint-municipality scope is automatically relevant to every
+  member municipality in generated filters.
 locations: []
 milestones: []
 sources:

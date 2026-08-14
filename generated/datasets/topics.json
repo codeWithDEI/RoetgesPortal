@@ -2,6 +2,9 @@
   "id": "topics",
   "items": [
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "urban-planning",
         "housing",
@@ -32,6 +35,10 @@
         "joint-municipality-papenteich"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -61,6 +68,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "childcare",
         "public-facilities",
@@ -91,6 +101,10 @@
         "drk-gifhorn"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -113,6 +127,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "childcare",
         "public-facilities",
@@ -138,6 +155,10 @@
         "drk-gifhorn"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -153,6 +174,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "public-facilities",
         "community",
@@ -182,6 +206,10 @@
         "municipality-roetgesbuettel"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -197,6 +225,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "public-facilities",
         "finance"
@@ -225,6 +256,10 @@
         "municipality-roetgesbuettel"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -247,6 +282,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "waste",
         "public-space",
@@ -293,6 +331,10 @@
         "municipality-roetgesbuettel"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -322,6 +364,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety"
@@ -346,6 +391,10 @@
         "district-gifhorn"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -361,6 +410,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety",
@@ -386,6 +438,10 @@
         "district-gifhorn"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -401,6 +457,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "mobility",
         "road-safety"
@@ -432,6 +491,10 @@
         "district-gifhorn"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -447,6 +510,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "regional-planning",
         "urban-planning",
@@ -474,6 +540,10 @@
         "regional-association-greater-braunschweig"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -489,6 +559,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "municipal-property",
         "housing",
@@ -519,6 +592,10 @@
         "municipality-roetgesbuettel"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -541,6 +618,9 @@
       "visibility": "published"
     },
     {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
       "categories": [
         "sports",
         "public-facilities",
@@ -566,6 +646,10 @@
         "vfl-roetgesbuettel"
       ],
       "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
       "sources": [
         {
           "accessedAt": "2026-07-30",
@@ -581,5 +665,5 @@
       "visibility": "published"
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 2
 }

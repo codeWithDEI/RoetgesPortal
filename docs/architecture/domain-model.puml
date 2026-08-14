@@ -11,6 +11,7 @@ class Topic {
   +description: markdown
   +status: TopicStatus
   +visibility: Visibility
+  +areas: string[]
   +createdAt: date
   +updatedAt: date
   +lastVerifiedAt: date
@@ -111,6 +112,18 @@ class ViewFilter {
   +status: TopicStatus[]
   +categories: string[]
   +organizations: string[]
+  +areas: string[]
+}
+
+class AdministrativeArea {
+  +id: string
+  +name: string
+  +type: AreaType
+}
+
+enum AreaType {
+  municipality
+  jointMunicipality
 }
 
 class ImpactLocation {
@@ -189,6 +202,8 @@ class Position {
 }
 
 Topic "1" o-- "0..*" ImpactLocation
+Topic "*" -- "1..*" AdministrativeArea : applies to >
+AdministrativeArea "0..1" <-- "0..*" AdministrativeArea : parent
 Topic "1" o-- "0..*" Milestone
 Topic "1" o-- "1..*" Source
 Topic "*" -- "*" Organization

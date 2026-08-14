@@ -14,7 +14,7 @@ from validate_content import REPOSITORY_ROOT, validate_repository
 
 
 DEFAULT_OUTPUT = REPOSITORY_ROOT / "generated"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 
 def nested_value(document: dict[str, Any], field: str) -> Any:
@@ -30,13 +30,47 @@ def nested_value(document: dict[str, Any], field: str) -> Any:
 def matches_filter(document: dict[str, Any], filters: dict[str, Any]) -> bool:
     """Return whether a topic matches every configured filter dimension."""
     for field, accepted_values in filters.items():
-        value = document.get(field)
+        value = document.get(
+            "relevantAreaIds" if field == "areas" else field
+        )
         if isinstance(value, list):
             if not set(value).intersection(accepted_values):
                 return False
         elif value not in accepted_values:
             return False
     return True
+
+
+def resolve_relevant_area_ids(
+    direct_area_ids: list[str],
+    areas: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Expand direct scopes to the ancestors and descendants used by filters."""
+    children_by_parent: dict[str, list[str]] = {}
+    for area_id, area in areas.items():
+        parent_id = area.get("parent")
+        if isinstance(parent_id, str):
+            children_by_parent.setdefault(parent_id, []).append(area_id)
+
+    relevant: set[str] = set()
+    for direct_area_id in direct_area_ids:
+        relevant.add(direct_area_id)
+
+        current_id = direct_area_id
+        while True:
+            parent_id = areas[current_id].get("parent")
+            if not isinstance(parent_id, str):
+                break
+            relevant.add(parent_id)
+            current_id = parent_id
+
+        pending = list(children_by_parent.get(direct_area_id, []))
+        while pending:
+            child_id = pending.pop()
+            relevant.add(child_id)
+            pending.extend(children_by_parent.get(child_id, []))
+
+    return sorted(relevant)
 
 
 def filter_and_sort_topics(
@@ -83,6 +117,10 @@ def make_list_item(topic: dict[str, Any]) -> dict[str, Any]:
         "status": topic["status"],
         "categories": topic.get("categories", []),
         "organizations": topic.get("organizations", []),
+        "areas": topic.get("areas", []),
+        "relevantAreaIds": topic.get(
+            "relevantAreaIds", topic.get("areas", [])
+        ),
         "dates": topic["dates"],
         "detail": f"../../topics/{topic['id']}.json",
     }
@@ -100,7 +138,9 @@ def facet_values(
     for facet in facets:
         collected: set[str] = set()
         for topic in topics:
-            value = topic.get(facet)
+            value = topic.get(
+                "relevantAreaIds" if facet == "areas" else facet
+            )
             if isinstance(value, list):
                 collected.update(str(item) for item in value)
             elif isinstance(value, str):
@@ -172,6 +212,10 @@ def make_topic_location_collection(
                     "topicStatus": topic["status"],
                     "categories": topic.get("categories", []),
                     "organizations": topic.get("organizations", []),
+                    "areas": topic.get("areas", []),
+                    "relevantAreaIds": topic.get(
+                        "relevantAreaIds", topic.get("areas", [])
+                    ),
                     "locationId": location["id"],
                     "locationLabel": location["label"],
                     "impactType": location["impactType"],
@@ -196,6 +240,10 @@ def clean_owned_outputs(output_root: Path) -> None:
     if search_index.exists():
         search_index.unlink()
 
+    areas = output_root / "areas.json"
+    if areas.exists():
+        areas.unlink()
+
 
 def build_portal(
     repository_root: Path = REPOSITORY_ROOT,
@@ -217,6 +265,11 @@ def build_portal(
         ),
         key=lambda topic: topic["id"],
     )
+    areas = documents["areas"]
+    for topic in published_topics:
+        topic["relevantAreaIds"] = resolve_relevant_area_ids(
+            topic["areas"], areas
+        )
     published_views = sorted(
         (
             view
@@ -230,6 +283,14 @@ def build_portal(
         for view in published_views
         for source in view["sources"]
     }
+
+    write_json(
+        output_root / "areas.json",
+        {
+            "schemaVersion": SCHEMA_VERSION,
+            "areas": sorted(areas.values(), key=lambda area: area["id"]),
+        },
+    )
 
     for topic in published_topics:
         write_json(
@@ -371,6 +432,10 @@ def build_portal(
             "status": topic["status"],
             "categories": topic.get("categories", []),
             "organizations": topic.get("organizations", []),
+            "areas": topic.get("areas", []),
+            "relevantAreaIds": topic.get(
+                "relevantAreaIds", topic.get("areas", [])
+            ),
             "detail": f"topics/{topic['id']}.json",
         }
         for topic in sorted(
@@ -386,6 +451,7 @@ def build_portal(
     )
 
     return {
+        "areas": len(areas),
         "topics": len(published_topics),
         "datasets": len(dataset_artifacts),
         "views": len(view_index),
