@@ -62,11 +62,36 @@ plantuml -tsvg docs/architecture/*.puml
 │   ├── brand/           # visual provenance and usage constraints
 │   ├── governance/      # editorial, operating, and handover policies
 │   └── operations/      # deployment, monitoring, and recovery
-├── generated/           # deterministic runtime artifacts
+├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
-├── tools/               # validation and deterministic build tools
+├── tools/               # validation, build, and historic imports
 └── web/                 # static topic portal and future map application
 ```
+
+## Importing Rötgesmarkt data
+
+The existing GeoJSON transformation remains available as an import tool. It
+corrects swapped latitude and longitude values, removes generated IDs, and
+creates an additional CSV file for Google My Maps.
+
+```bash
+python3 tools/import_roetgesmarkt.py
+```
+
+Input:
+
+```text
+content/locations/roetgesmarkt_input.geojson
+```
+
+Outputs:
+
+```text
+generated/roetgesmarkt_upload.geojson
+generated/roetgesmarkt_upload_google_maps.csv
+```
+
+The tool requires Python 3.9 or newer and has no external dependencies.
 
 ## Maintaining topics
 
@@ -85,6 +110,7 @@ Datasets decouple physical inputs from their presentation:
 
 ```text
 content/datasets/topics.yaml
+content/datasets/roetgesmarkt-stands.yaml
 ```
 
 Views select data independently from the way it is presented:
@@ -92,13 +118,16 @@ Views select data independently from the way it is presented:
 ```text
 content/views/council.yaml
 content/views/council-map.yaml
+content/views/flea-market.yaml
 ```
 
 The published council views filter and sort the same topic data for a list and
 a map route. The generator resolves topic location references into an enriched
-GeoJSON layer for the map. Named view sources separate filtering and sorting
-from list or map presentation, so the same dataset can support multiple
-experiences without duplicating editorial content.
+GeoJSON layer for the map. The draft flea market view retains the normalized
+historic Rötgesmarkt dataset for a future map route. Named view sources
+separate filtering and sorting from list or map presentation, so the same
+dataset can support multiple experiences without duplicating editorial
+content.
 
 Administrative areas, datasets, topics, and views follow their corresponding
 machine-readable contracts under [`schemas/`](schemas/).

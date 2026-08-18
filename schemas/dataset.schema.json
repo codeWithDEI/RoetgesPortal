@@ -26,7 +26,7 @@
       "pattern": "^content/(topics|locations(?:/[a-zA-Z0-9._-]+)+)$"
     },
     "normalization": {
-      "const": "none"
+      "enum": ["none", "roetgesmarkt"]
     }
   },
   "allOf": [

@@ -51,11 +51,13 @@ consume a filtered topic source, while a later map presentation can reuse the
 same dataset through one or more layers.
 
 The council topic collection is currently presented through both list and map
-views.
+views. The draft flea market view exercises the same map contract with a
+standalone GeoJSON dataset without affecting the council routes.
 
 Presentation presets are semantic IDs rather than raw CSS or library-specific
 configuration. The web application resolves presets such as
-`council-topic-list` or `council-topic-status` to concrete visual styles.
+`council-topic-list`, `council-topic-status`, or `flea-market-stand` to
+concrete visual styles.
 
 ## Reference rules
 
