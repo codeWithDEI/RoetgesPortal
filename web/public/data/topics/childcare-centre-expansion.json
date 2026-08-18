@@ -10,14 +10,19 @@
       "urban-planning"
     ],
     "dates": {
-      "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-07-30",
+      "createdAt": "2025-03-03",
+      "lastVerifiedAt": "2026-08-14",
       "updatedAt": "2026-03-17"
     },
-    "description": "Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
+    "description": "Bereits im März 2025 stimmte der Rat einem Einwohnerantrag zur\nKindertagesstätte zu. Zusätzlich beauftragte er einen Arbeitskreis mit einem\nKonzept zu Arbeitssicherheit, Arbeitszufriedenheit, Platzverhältnissen und\nAusstattung. Für Investitionen wurden zunächst 10.000 Euro zusätzlich in\nden Haushalt 2025 eingestellt.\n\nDer Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
     "id": "childcare-centre-expansion",
     "locations": [],
     "milestones": [
+      {
+        "date": "2025-03-03",
+        "status": "reached",
+        "title": "Rat stimmt Einwohnerantrag und Attraktivitätskonzept zu"
+      },
       {
         "date": "2025-12-16",
         "status": "reached",
@@ -40,14 +45,28 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-07-30",
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zum Einwohnerantrag vom 3. März 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37370&SILFDNR=1882"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-03",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zum Attraktivitätskonzept vom 3. März 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37371&SILFDNR=1882"
+      },
+      {
+        "accessedAt": "2026-08-14",
         "publishedAt": "2025-12-16",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 16. Dezember 2025",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151"
       },
       {
-        "accessedAt": "2026-07-30",
+        "accessedAt": "2026-08-14",
         "publishedAt": "2026-03-17",
         "sourceType": "minutes",
         "title": "Protokollauszug vom 17. März 2026",

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "regional-planning",
+      "renewable-energy",
+      "environment"
+    ],
+    "dates": {
+      "createdAt": "2025-03-18",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-03-18"
+    },
+    "description": "Im Beteiligungsverfahren zum sachlichen Teilprogramm Windenergie schloss\nsich die Samtgemeinde nach dem öffentlichen Protokoll der Stellungnahme der\nGemeinde Meine an. Der gemeinsame Antrag von SPD, CDU und Grünen wurde am\n18. März 2025 einstimmig angenommen.\n\nDer Beschluss dokumentiert die Stellungnahme der Samtgemeinde in diesem\nBeteiligungsschritt; die abschließende Regionalplanung liegt beim\nRegionalverband Großraum Braunschweig.\n",
+    "id": "wind-energy-spatial-program",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-03-18",
+        "status": "reached",
+        "title": "Samtgemeinderat beschließt Stellungnahme"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "regional-association-greater-braunschweig"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-03-18",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu SGP/2025/0778",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37587&SILFDNR=1927"
+      }
+    ],
+    "status": "completed",
+    "summary": "Die Samtgemeinde hat sich im Beteiligungsverfahren zum sachlichen Teilprogramm Windenergie einer Stellungnahme der Gemeinde Meine angeschlossen.\n",
+    "title": "Stellungnahme zum Teilprogramm Windenergie",
+    "visibility": "published"
+  }
+}

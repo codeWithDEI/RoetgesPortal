@@ -1,0 +1,55 @@
+id: municipal-election-2026-electoral-area
+title: Ein Wahlbereich für die Samtgemeinderatswahl 2026
+summary: >
+  Für die Samtgemeinderatswahl am 13. September 2026 bilden alle sechs
+  Mitgliedsgemeinden gemeinsam einen Wahlbereich.
+status: decided
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - elections
+  - municipal-law
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-01-13"
+  updatedAt: "2026-01-13"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September
+  2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,
+  Meine, Rötgesbüttel, Schwülper und Vordorf.
+
+  Bei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch
+  zwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der
+  Samtgemeinderat.
+
+locations: []
+
+milestones:
+  - date: "2026-01-13"
+    title: Samtgemeinderat beschließt einen gemeinsamen Wahlbereich
+    status: reached
+  - date: "2026-09-13"
+    title: Kommunalwahl
+    status: planned
+
+sources:
+  - title: Vorlage SGP/2025/0959
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000528&refresh=false&TOLFDNR=1003867
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 13. Januar 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003867&SILFDNR=1954
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+
+positions: []

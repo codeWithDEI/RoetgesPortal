@@ -1,0 +1,59 @@
+id: cemetery-community-graves-program
+title: Gemeinschaftsgrabanlagen auf den Friedhöfen
+summary: >
+  Für neue oder erweiterte Gemeinschaftsgrabanlagen sollen von 2027 bis 2029
+  jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf
+  und verfügbaren Flächen.
+status: decided
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - cemeteries
+  - public-facilities
+  - finance
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2025-11-12"
+  updatedAt: "2026-01-13"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen
+  Gemeinschaftsgrabanlagen einzurichten. Weil frühere Ansätze von 10.000 Euro
+  nicht ausreichten, beschloss der Samtgemeinderat für 2027, 2028 und 2029
+  jeweils 20.000 Euro.
+
+  Die Verwaltung entscheidet anhand der Belegungs- und Flächensituation über
+  die Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und
+  Rothemühle; für Rötgesbüttel wurde bereits 2025 eine zweite Stele
+  finanziert.
+
+locations: []
+
+milestones:
+  - date: "2025-11-12"
+    title: Bauausschuss empfiehlt das mehrjährige Programm
+    status: reached
+  - date: "2026-01-13"
+    title: Samtgemeinderat stellt Mittel für 2027 bis 2029 ein
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2025/0941
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000335&refresh=false&TOLFDNR=1003863
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 13. Januar 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954
+    publishedAt: "2026-01-13"
+    accessedAt: "2026-08-14"
+
+positions: []

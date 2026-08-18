@@ -20,7 +20,7 @@ organizations:
 dates:
   createdAt: "2025-12-16"
   updatedAt: "2025-12-16"
-  lastVerifiedAt: "2026-07-30"
+  lastVerifiedAt: "2026-08-14"
 
 description: |
   Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,
@@ -43,6 +43,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151
     publishedAt: "2025-12-16"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
 
 positions: []

@@ -1,0 +1,55 @@
+id: ground-tax-rates-2026
+title: Anregung zur Änderung der Grundsteuerhebesätze
+summary: >
+  Eine Änderung der Hebesätze A und B zur Sicherung eines gleichbleibenden
+  Steueraufkommens wurde beraten und im März 2026 abgelehnt.
+status: rejected
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - taxes
+  - finance
+
+organizations:
+  - municipality-roetgesbuettel
+
+dates:
+  createdAt: "2025-09-16"
+  updatedAt: "2026-03-17"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Rat vertagte die Frage im September 2025 zunächst in die
+  Haushaltsberatungen für 2026. Im März 2026 wurde über eine Anregung
+  abgestimmt, die Hebesätze A und B so anzupassen, dass das bisherige
+  Steueraufkommen der Gemeinde erhalten bleibt.
+
+  Für diese Änderung gab es keine Ja-Stimme, neun Nein-Stimmen und eine
+  Enthaltung. Der Antrag war damit abgelehnt.
+
+locations: []
+
+milestones:
+  - date: "2025-09-16"
+    title: Beratung wird in den Haushalt 2026 vertagt
+    status: reached
+  - date: "2026-03-17"
+    title: Änderung der Hebesätze wird abgelehnt
+    status: reached
+
+sources:
+  - title: Beschlussauszug vom 16. September 2025
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000997&SILFDNR=2145
+    publishedAt: "2025-09-16"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 17. März 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005883&SILFDNR=1000260
+    publishedAt: "2026-03-17"
+    accessedAt: "2026-08-14"
+
+positions: []

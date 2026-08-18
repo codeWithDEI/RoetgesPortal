@@ -1,0 +1,56 @@
+id: school-it-standard-2026
+title: Neuer IT-Ausstattungsstandard für Grundschulen
+summary: >
+  Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit
+  Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter
+  Netzwerkinfrastruktur.
+status: implementation
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - schools
+  - digitalization
+  - public-facilities
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-02-24"
+  updatedAt: "2026-02-24"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr
+  2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem
+  Mediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale
+  Managementsysteme sowie getrennte Verwaltungs- und Schulnetze.
+
+  Die Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle
+  weiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der
+  Haushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit
+  Fördermitteln wie dem Digitalpakt 2.0 finanziert werden.
+
+locations: []
+
+milestones:
+  - date: "2026-02-24"
+    title: Schulausschuss beschließt den Ausstattungsstandard
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2026/0974
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336
+    publishedAt: "2026-02-24"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug vom 24. Februar 2026
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096
+    publishedAt: "2026-02-24"
+    accessedAt: "2026-08-14"
+
+positions: []

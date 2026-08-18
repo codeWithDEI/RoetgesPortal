@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "cemeteries",
+      "public-facilities",
+      "finance"
+    ],
+    "dates": {
+      "createdAt": "2025-01-21",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-01-21"
+    },
+    "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher\nAbschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum\n14. August 2026 nicht dokumentiert.\n",
+    "id": "roetgesbuettel-cemetery-upgrades",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-01-21",
+        "status": "reached",
+        "title": "Mittel für zweite Stele werden bereitgestellt"
+      },
+      {
+        "date": "2025-01-21",
+        "status": "reached",
+        "title": "Zusätzliche Parkplatzmittel für 2026 werden beschlossen"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-01-21",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu SGP/2024/0643",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-01-21",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu SGP/2024/0668",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.\n",
+    "title": "Verbesserungen am Friedhof Rötgesbüttel",
+    "visibility": "published"
+  }
+}

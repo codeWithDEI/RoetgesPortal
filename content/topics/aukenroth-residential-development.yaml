@@ -21,7 +21,7 @@ organizations:
 dates:
   createdAt: "2026-06-01"
   updatedAt: "2026-06-25"
-  lastVerifiedAt: "2026-07-30"
+  lastVerifiedAt: "2026-08-14"
 
 description: |
   Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und
@@ -55,16 +55,16 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634
     publishedAt: "2026-06-25"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
   - title: Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635
     publishedAt: "2026-06-25"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
   - title: Tagesordnung der Ratssitzung vom 25. Juni 2026
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
     publishedAt: "2026-06-25"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
 
 positions: []

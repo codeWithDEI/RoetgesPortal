@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "schools",
+      "childcare",
+      "mobility"
+    ],
+    "dates": {
+      "createdAt": "2025-11-25",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-06-02"
+    },
+    "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Zum 1. August\n2026 wurde dieses Angebot für die Jahrgänge 1 bis 4 eingeführt.\n\nFür Rötgesbüttel wurde zusätzliches Mensapersonal für den Freitag\nvorgesehen. Die Schülerbeförderung soll nach dem Fahrplan ab August 2026\nsichergestellt sein. Ferienbetreuung wird weiterhin an den Standorten Meine\nund Schwülper durch das DRK organisiert; eine ergänzende Schulbetreuung kam\nmangels Mindestteilnehmerzahl an keinem Standort zustande.\n",
+    "id": "all-day-primary-schools-2026",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-11-25",
+        "status": "reached",
+        "title": "Schulausschuss stimmt fünftägigem Angebot zu"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "reached",
+        "title": "Schulausschuss erhält Umsetzungsbericht"
+      },
+      {
+        "date": "2026-08-01",
+        "status": "reached",
+        "title": "Fünftägiger Ganztag beginnt an allen Grundschulen"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "district-gifhorn"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-11-25",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zur Ausgestaltung des Ganztags",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002482&SILFDNR=1948"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-06-02",
+        "sourceType": "proposal",
+        "title": "Sachstandsbericht SGP/2026/1028",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000923&refresh=false&TOLFDNR=1006772"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise auf alle Klassen ausgeweitet.\n",
+    "title": "Fünftägiger Ganztag an den Grundschulen",
+    "visibility": "published"
+  }
+}

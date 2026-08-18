@@ -1,0 +1,56 @@
+id: school-development-plan-2025-2031
+title: Schulentwicklungsplanung 2025 bis 2031
+summary: >
+  Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im
+  Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der
+  Schülerzahlen in der gesamten Samtgemeinde.
+status: decided
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - schools
+  - strategic-planning
+  - public-facilities
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2025-11-25"
+  updatedAt: "2025-11-25"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Schulausschuss nahm die aktualisierte Planung für 2025 bis 2031 zur
+  Kenntnis. Für die Grundschule Rötgesbüttel und die Margret-und-Rolf-
+  Rettich-Schule in Vordorf werden die Raumkapazitäten im gesamten
+  Betrachtungszeitraum als ausreichend bewertet.
+
+  Samtgemeindeweit werden ab 2028 überwiegend sinkende Grundschülerzahlen
+  erwartet. Für die Oberschule Papenteich beschreibt die Vorlage eine leicht
+  steigende Tendenz und einen zusätzlichen Raumbedarf von einem
+  Unterrichtsraum, der innerhalb des Bestands gelöst werden könne.
+
+locations: []
+
+milestones:
+  - date: "2025-11-25"
+    title: Schulausschuss nimmt Fortschreibung zur Kenntnis
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2025/0894 zur Schulentwicklungsplanung
+    sourceType: planningDocument
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474
+    publishedAt: "2025-11-25"
+    accessedAt: "2026-08-14"
+  - title: Protokollauszug vom 25. November 2025
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948
+    publishedAt: "2025-11-25"
+    accessedAt: "2026-08-14"
+
+positions: []

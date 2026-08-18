@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "culture",
+      "public-facilities",
+      "digitalization",
+      "accessibility"
+    ],
+    "dates": {
+      "createdAt": "2026-04-14",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2026-04-14"
+    },
+    "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nDie Verwaltung soll die Ergebnisse in einem Umsetzungs- und Finanzkonzept\nzur weiteren politischen Beratung vorlegen. Ein Enddatum wurde bewusst\nnicht festgelegt.\n",
+    "id": "public-library-development",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-04-14",
+        "status": "reached",
+        "title": "Samtgemeinderat beschließt Leitbild und Konzeptauftrag"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-04-14",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1000",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000779&refresh=false&TOLFDNR=1006224"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2026-04-14",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 14. April 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.\n",
+    "title": "Weiterentwicklung der Samtgemeindebücherei",
+    "visibility": "published"
+  }
+}

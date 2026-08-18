@@ -1,0 +1,54 @@
+id: community-hall-school-meals-compensation
+title: Entschädigung für die Mensanutzung der Bürgerhalle
+summary: >
+  Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche
+  Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die
+  abschließende Vereinbarung steht noch aus.
+status: paused
+visibility: published
+
+areas:
+  - municipality-roetgesbuettel
+
+categories:
+  - schools
+  - public-facilities
+  - finance
+
+organizations:
+  - municipality-roetgesbuettel
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-06-02"
+  updatedAt: "2026-06-02"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag
+  unentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften
+  Ganztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.
+
+  Die Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung
+  durch die Samtgemeinde vor. Laut öffentlicher Beratungsfolge wurde die
+  Entscheidung im Samtgemeindeausschuss gestoppt; eine ausgearbeitete
+  Vereinbarung sollte im Herbst erneut beraten werden.
+
+locations: []
+
+milestones:
+  - date: "2026-06-02"
+    title: Schulausschuss berät die Entschädigung
+    status: reached
+  - date: "2026-06-02"
+    title: Weitere Entscheidung wird bis zu einer Vereinbarung zurückgestellt
+    status: postponed
+
+sources:
+  - title: Vorlage SGP/2026/1042 und Beratungsfolge
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846
+    publishedAt: "2026-06-02"
+    accessedAt: "2026-08-14"
+
+positions: []

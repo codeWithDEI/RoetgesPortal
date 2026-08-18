@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "public-services",
+      "postal-services"
+    ],
+    "dates": {
+      "createdAt": "2025-06-18",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-06-18"
+    },
+    "description": "Die Deutsche Post beantragte im Verfahren nach dem Postgesetz eine\nautomatisierte Station in Rötgesbüttel. Der Rat stellte das kommunale\nBenehmen her, nahm das Vorhaben zur Kenntnis und bat um Informationen für\ndie Bürgerinnen und Bürger zur Funktionsweise.\n\nDer Beschluss schließt die kommunale Befassung ab. Ob und wann die Station\nanschließend in Betrieb ging, geht aus diesem Beschluss nicht hervor.\n",
+    "id": "automated-post-station",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-06-18",
+        "status": "reached",
+        "title": "Rat nimmt Vorhaben zur Kenntnis und bittet um Information"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel",
+      "deutsche-post"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-18",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu Rötg/2025/0259",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127"
+      }
+    ],
+    "status": "completed",
+    "summary": "Der Rat nahm die geplante automatisierte Poststation zur Kenntnis und bat die Deutsche Post um eine verständliche Information zur Nutzung.\n",
+    "title": "Automatisierte Poststation",
+    "visibility": "published"
+  }
+}

@@ -19,11 +19,17 @@ organizations:
   - drk-gifhorn
 
 dates:
-  createdAt: "2025-12-16"
+  createdAt: "2025-03-03"
   updatedAt: "2026-03-17"
-  lastVerifiedAt: "2026-07-30"
+  lastVerifiedAt: "2026-08-14"
 
 description: |
+  Bereits im März 2025 stimmte der Rat einem Einwohnerantrag zur
+  Kindertagesstätte zu. Zusätzlich beauftragte er einen Arbeitskreis mit einem
+  Konzept zu Arbeitssicherheit, Arbeitszufriedenheit, Platzverhältnissen und
+  Ausstattung. Für Investitionen wurden zunächst 10.000 Euro zusätzlich in
+  den Haushalt 2025 eingestellt.
+
   Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches
   Konzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen
   Fachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden
@@ -38,6 +44,9 @@ description: |
 locations: []
 
 milestones:
+  - date: "2025-03-03"
+    title: Rat stimmt Einwohnerantrag und Attraktivitätskonzept zu
+    status: reached
   - date: "2025-12-16"
     title: Rat fordert pädagogisches Konzept und stellt Planungsmittel ein
     status: reached
@@ -46,15 +55,25 @@ milestones:
     status: reached
 
 sources:
+  - title: Beschlussauszug zum Einwohnerantrag vom 3. März 2025
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37370&SILFDNR=1882
+    publishedAt: "2025-03-03"
+    accessedAt: "2026-08-14"
+  - title: Beschlussauszug zum Attraktivitätskonzept vom 3. März 2025
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37371&SILFDNR=1882
+    publishedAt: "2025-03-03"
+    accessedAt: "2026-08-14"
   - title: Beschlussauszug vom 16. Dezember 2025
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151
     publishedAt: "2025-12-16"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
   - title: Protokollauszug vom 17. März 2026
     sourceType: minutes
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005893&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-07-30"
+    accessedAt: "2026-08-14"
 
 positions: []

@@ -1,0 +1,59 @@
+id: winter-service-agreement
+title: Ergänzungsvereinbarung zum Winterdienst
+summary: >
+  Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen
+  der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.
+status: decided
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - winter-service
+  - mobility
+  - intergovernmental-cooperation
+
+organizations:
+  - joint-municipality-papenteich
+  - lower-saxony-road-authority
+
+dates:
+  createdAt: "2026-06-23"
+  updatedAt: "2026-06-23"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der
+  Niedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in
+  geschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und
+  Landesstraßen durch.
+
+  Wegen der ab 1. Januar 2027 anzuwendenden Umsatzsteuerregelung für
+  juristische Personen des öffentlichen Rechts wurde eine
+  Ergänzungsvereinbarung vorgelegt. Die öffentliche Beratungsfolge weist die
+  Entscheidung des Samtgemeinderates vom 23. Juni 2026 als erledigt aus.
+
+locations: []
+
+milestones:
+  - date: "2026-06-23"
+    title: Samtgemeinderat behandelt die Ergänzungsvereinbarung
+    status: reached
+  - date: "2027-01-01"
+    title: Neue Umsatzsteuerregelung soll berücksichtigt werden
+    status: planned
+
+sources:
+  - title: Vorlage SGP/2026/1053-01 und Beratungsfolge
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476
+    publishedAt: "2026-06-23"
+    accessedAt: "2026-08-14"
+  - title: Tagesordnung der Samtgemeinderatssitzung vom 23. Juni 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000115&refresh=false
+    publishedAt: "2026-06-23"
+    accessedAt: "2026-08-14"
+
+positions: []

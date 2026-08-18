@@ -1,0 +1,63 @@
+id: all-day-primary-schools-2026
+title: Fünftägiger Ganztag an den Grundschulen
+summary: >
+  Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf
+  Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise
+  auf alle Klassen ausgeweitet.
+status: implementation
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - schools
+  - childcare
+  - mobility
+
+organizations:
+  - joint-municipality-papenteich
+  - district-gifhorn
+
+dates:
+  createdAt: "2025-11-25"
+  updatedAt: "2026-06-02"
+  lastVerifiedAt: "2026-08-14"
+
+description: |
+  Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen
+  offenen Ganztag an allen Grundschulen an fünf Wochentagen. Zum 1. August
+  2026 wurde dieses Angebot für die Jahrgänge 1 bis 4 eingeführt.
+
+  Für Rötgesbüttel wurde zusätzliches Mensapersonal für den Freitag
+  vorgesehen. Die Schülerbeförderung soll nach dem Fahrplan ab August 2026
+  sichergestellt sein. Ferienbetreuung wird weiterhin an den Standorten Meine
+  und Schwülper durch das DRK organisiert; eine ergänzende Schulbetreuung kam
+  mangels Mindestteilnehmerzahl an keinem Standort zustande.
+
+locations: []
+
+milestones:
+  - date: "2025-11-25"
+    title: Schulausschuss stimmt fünftägigem Angebot zu
+    status: reached
+  - date: "2026-06-02"
+    title: Schulausschuss erhält Umsetzungsbericht
+    status: reached
+  - date: "2026-08-01"
+    title: Fünftägiger Ganztag beginnt an allen Grundschulen
+    status: reached
+
+sources:
+  - title: Beschlussauszug zur Ausgestaltung des Ganztags
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002482&SILFDNR=1948
+    publishedAt: "2025-11-25"
+    accessedAt: "2026-08-14"
+  - title: Sachstandsbericht SGP/2026/1028
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000923&refresh=false&TOLFDNR=1006772
+    publishedAt: "2026-06-02"
+    accessedAt: "2026-08-14"
+
+positions: []

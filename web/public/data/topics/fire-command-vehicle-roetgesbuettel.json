@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "fire-protection",
+      "vehicles",
+      "procurement"
+    ],
+    "dates": {
+      "createdAt": "2025-05-15",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-06-24"
+    },
+    "description": "Ursprünglich wurden unterschiedliche Varianten für ein neues\nZugführungsfahrzeug beraten. Der Samtgemeinderat entschied sich am\n24. Juni 2025 schließlich dafür, einen gebrauchten\nMannschaftstransportwagen innerhalb der vorhandenen Haushaltsmittel zu\nbeschaffen.\n\nDer bisher von der Feuerwehr selbst beschaffte Mercedes Vito soll in das\nEigentum der Samtgemeinde übergehen und weiter als Zugführungsfahrzeug\ngenutzt werden. Ein öffentlicher Abschluss der Beschaffung war bis zum\n14. August 2026 nicht dokumentiert.\n",
+    "id": "fire-command-vehicle-roetgesbuettel",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-05-15",
+        "status": "reached",
+        "title": "Feuerschutzausschuss beginnt Variantenberatung"
+      },
+      {
+        "date": "2025-06-24",
+        "status": "reached",
+        "title": "Samtgemeinderat beschließt gebrauchten Mannschaftstransportwagen"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich",
+      "volunteer-fire-department-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP2025/0805-2",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=7837&refresh=false&TOLFDNR=38679"
+      },
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-06-24",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug vom 24. Juni 2025",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936"
+      }
+    ],
+    "status": "implementation",
+    "summary": "Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito bleibt als Zugführungsfahrzeug im Einsatz.\n",
+    "title": "Mannschaftstransportwagen für die Ortsfeuerwehr",
+    "visibility": "published"
+  }
+}

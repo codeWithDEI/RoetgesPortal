@@ -3,6 +3,75 @@
   "items": [
     {
       "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "childcare",
+        "mobility"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-02"
+      },
+      "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Zum 1. August\n2026 wurde dieses Angebot für die Jahrgänge 1 bis 4 eingeführt.\n\nFür Rötgesbüttel wurde zusätzliches Mensapersonal für den Freitag\nvorgesehen. Die Schülerbeförderung soll nach dem Fahrplan ab August 2026\nsichergestellt sein. Ferienbetreuung wird weiterhin an den Standorten Meine\nund Schwülper durch das DRK organisiert; eine ergänzende Schulbetreuung kam\nmangels Mindestteilnehmerzahl an keinem Standort zustande.\n",
+      "id": "all-day-primary-schools-2026",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-11-25",
+          "status": "reached",
+          "title": "Schulausschuss stimmt fünftägigem Angebot zu"
+        },
+        {
+          "date": "2026-06-02",
+          "status": "reached",
+          "title": "Schulausschuss erhält Umsetzungsbericht"
+        },
+        {
+          "date": "2026-08-01",
+          "status": "reached",
+          "title": "Fünftägiger Ganztag beginnt an allen Grundschulen"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "district-gifhorn"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-11-25",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zur Ausgestaltung des Ganztags",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002482&SILFDNR=1948"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-06-02",
+          "sourceType": "proposal",
+          "title": "Sachstandsbericht SGP/2026/1028",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000923&refresh=false&TOLFDNR=1006772"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise auf alle Klassen ausgeweitet.\n",
+      "title": "Fünftägiger Ganztag an den Grundschulen",
+      "visibility": "published"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -12,7 +81,7 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
       "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDer veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus\nGutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen\nin die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und\neine Waldbewertung wurden bereits beauftragt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am\n25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war\nbei der letzten Prüfung noch nicht verfügbar.\n",
@@ -41,21 +110,21 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
@@ -72,19 +141,258 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "public-services",
+        "postal-services"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-18"
+      },
+      "description": "Die Deutsche Post beantragte im Verfahren nach dem Postgesetz eine\nautomatisierte Station in Rötgesbüttel. Der Rat stellte das kommunale\nBenehmen her, nahm das Vorhaben zur Kenntnis und bat um Informationen für\ndie Bürgerinnen und Bürger zur Funktionsweise.\n\nDer Beschluss schließt die kommunale Befassung ab. Ob und wann die Station\nanschließend in Betrieb ging, geht aus diesem Beschluss nicht hervor.\n",
+      "id": "automated-post-station",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-06-18",
+          "status": "reached",
+          "title": "Rat nimmt Vorhaben zur Kenntnis und bittet um Information"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "deutsche-post"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0259",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127"
+        }
+      ],
+      "status": "completed",
+      "summary": "Der Rat nahm die geplante automatisierte Poststation zur Kenntnis und bat die Deutsche Post um eine verständliche Information zur Nutzung.\n",
+      "title": "Automatisierte Poststation",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "mobility",
+        "road-safety",
+        "public-space",
+        "construction"
+      ],
+      "dates": {
+        "createdAt": "2025-03-03",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-09-16"
+      },
+      "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n",
+      "id": "b4-sidewalk-renewal",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-03-03",
+          "status": "reached",
+          "title": "Rat priorisiert Gehwege und Querung"
+        },
+        {
+          "date": "2025-06-18",
+          "status": "reached",
+          "title": "Umfang und Kosten der Nebenanlagen werden beschlossen"
+        },
+        {
+          "date": "2025-09-16",
+          "status": "reached",
+          "title": "Rat beschließt Querungshilfe und zusätzliche Stellplätze"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "lower-saxony-road-authority"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0248",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37376&SILFDNR=1882"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0254",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38464&SILFDNR=2127"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-09-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0271",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.\n",
+      "title": "Nebenanlagen an der B4-Ortsdurchfahrt",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "cemeteries",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-11-12",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "description": "Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen\nGemeinschaftsgrabanlagen einzurichten. Weil frühere Ansätze von 10.000 Euro\nnicht ausreichten, beschloss der Samtgemeinderat für 2027, 2028 und 2029\njeweils 20.000 Euro.\n\nDie Verwaltung entscheidet anhand der Belegungs- und Flächensituation über\ndie Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und\nRothemühle; für Rötgesbüttel wurde bereits 2025 eine zweite Stele\nfinanziert.\n",
+      "id": "cemetery-community-graves-program",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-11-12",
+          "status": "reached",
+          "title": "Bauausschuss empfiehlt das mehrjährige Programm"
+        },
+        {
+          "date": "2026-01-13",
+          "status": "reached",
+          "title": "Samtgemeinderat stellt Mittel für 2027 bis 2029 ein"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0941",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000335&refresh=false&TOLFDNR=1003863"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 13. Januar 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954"
+        }
+      ],
+      "status": "decided",
+      "summary": "Für neue oder erweiterte Gemeinschaftsgrabanlagen sollen von 2027 bis 2029 jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf und verfügbaren Flächen.\n",
+      "title": "Gemeinschaftsgrabanlagen auf den Friedhöfen",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "childcare",
+        "administration",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-18"
+      },
+      "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und bat die\nSamtgemeinde um eine Prüfung der personellen und finanziellen Folgen einer\nzentralen Kita-Zuständigkeit.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien. In den\nausgewerteten öffentlichen Samtgemeindesitzungen bis zum 14. August 2026\nwar kein Prüfergebnis als eigener Tagesordnungspunkt dokumentiert.\n",
+      "id": "central-childcare-responsibility-review",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-06-18",
+          "status": "reached",
+          "title": "Rat beantragt Prüfung bei der Samtgemeinde"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "municipality-adenbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0256",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127"
+        }
+      ],
+      "status": "paused",
+      "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.\n",
+      "title": "Prüfung einer zentralen Kita-Zuständigkeit",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "childcare",
         "public-facilities",
         "urban-planning"
       ],
       "dates": {
-        "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "createdAt": "2025-03-03",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
-      "description": "Der Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
+      "description": "Bereits im März 2025 stimmte der Rat einem Einwohnerantrag zur\nKindertagesstätte zu. Zusätzlich beauftragte er einen Arbeitskreis mit einem\nKonzept zu Arbeitssicherheit, Arbeitszufriedenheit, Platzverhältnissen und\nAusstattung. Für Investitionen wurden zunächst 10.000 Euro zusätzlich in\nden Haushalt 2025 eingestellt.\n\nDer Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
       "id": "childcare-centre-expansion",
       "locations": [],
       "milestones": [
+        {
+          "date": "2025-03-03",
+          "status": "reached",
+          "title": "Rat stimmt Einwohnerantrag und Attraktivitätskonzept zu"
+        },
         {
           "date": "2025-12-16",
           "status": "reached",
@@ -107,14 +415,28 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zum Einwohnerantrag vom 3. März 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37370&SILFDNR=1882"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zum Attraktivitätskonzept vom 3. März 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37371&SILFDNR=1882"
+        },
+        {
+          "accessedAt": "2026-08-14",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 16. Dezember 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003519&SILFDNR=2151"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "minutes",
           "title": "Protokollauszug vom 17. März 2026",
@@ -137,7 +459,7 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n",
@@ -161,7 +483,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 17. März 2026",
@@ -184,7 +506,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
@@ -212,7 +534,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0292",
@@ -234,7 +556,7 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
       "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDie abgeschlossene Vorlage sah vor, dem Antrag grundsätzlich zuzustimmen.\nDie Verwaltung sollte außerdem Angaben zur Auslastung im Jahr 2025 und\nVergleichswerte aus Nachbargemeinden für eine weitere Beschlussvorlage\nzusammentragen.\n\nDie öffentliche Beratungsfolge weist die Entscheidung des Rates als\nerledigt aus. Ein separater öffentlicher Beschlussauszug mit dem endgültigen\nWortlaut war bei der letzten Prüfung nicht verfügbar.\n",
@@ -262,14 +584,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0297-01",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
@@ -286,16 +608,360 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "schools",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-02",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-02"
+      },
+      "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nunentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften\nGanztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Laut öffentlicher Beratungsfolge wurde die\nEntscheidung im Samtgemeindeausschuss gestoppt; eine ausgearbeitete\nVereinbarung sollte im Herbst erneut beraten werden.\n",
+      "id": "community-hall-school-meals-compensation",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-06-02",
+          "status": "reached",
+          "title": "Schulausschuss berät die Entschädigung"
+        },
+        {
+          "date": "2026-06-02",
+          "status": "postponed",
+          "title": "Weitere Entscheidung wird bis zu einer Vereinbarung zurückgestellt"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-06-02",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1042 und Beratungsfolge",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846"
+        }
+      ],
+      "status": "paused",
+      "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.\n",
+      "title": "Entschädigung für die Mensanutzung der Bürgerhalle",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "childcare",
+        "grants",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-11-19",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "description": "Vorgeschlagen war ein freiwilliger Zuschuss von 100 Euro je 2026 betreutem\nKind aus dem Papenteich. Bei 36 Kindern hätte die Förderung insgesamt\n3.600 Euro betragen.\n\nDer Fachausschuss empfahl den Antrag. Im Samtgemeinderat stimmten am\n13. Januar 2026 jedoch 15 Mitglieder dafür und 17 dagegen; der Zuschuss\nwurde damit abgelehnt.\n",
+      "id": "day-care-provider-subsidy-2026",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-11-19",
+          "status": "reached",
+          "title": "Fachausschuss empfiehlt den Zuschuss"
+        },
+        {
+          "date": "2026-01-13",
+          "status": "reached",
+          "title": "Samtgemeinderat lehnt den Zuschuss ab"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "tageseltern-im-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0911",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000254&refresh=false&TOLFDNR=1003839"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 13. Januar 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003839&SILFDNR=1954"
+        }
+      ],
+      "status": "rejected",
+      "summary": "Ein Zuschuss von 100 Euro je betreutem Kind aus dem Papenteich wurde im Samtgemeinderat beantragt und im Januar 2026 mehrheitlich abgelehnt.\n",
+      "title": "Zuschuss für den Verein Tageseltern im Papenteich",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "digitalization",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "description": "Die Samtgemeinde will Projekte für den Digitalpakt 2.0 vorbereiten und sich\nwie beim ersten Digitalpakt extern bei Konzeption, Leistungsverzeichnissen\nund Ausschreibungen unterstützen lassen.\n\nDer Samtgemeinderat beschloss am 13. Januar 2026 einstimmig, dafür\n30.000 Euro Planungskosten in den Haushalt 2026 aufzunehmen. Konkrete\nFörderprojekte und Bewilligungen sind damit noch nicht festgelegt.\n",
+      "id": "digital-pact-2-planning",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-11-25",
+          "status": "reached",
+          "title": "Schulausschuss berät die Vorbereitung"
+        },
+        {
+          "date": "2026-01-13",
+          "status": "reached",
+          "title": "Samtgemeinderat stellt Planungskosten bereit"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0948-01",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000461&refresh=false&TOLFDNR=1003864"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 13. Januar 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Für die Vorbereitung von Digitalisierungsprojekten an den Schulen wurden 30.000 Euro Planungskosten in den Haushalt 2026 aufgenommen.\n",
+      "title": "Vorbereitung auf den Digitalpakt 2.0",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "fire-protection",
+        "vehicles",
+        "procurement"
+      ],
+      "dates": {
+        "createdAt": "2025-05-15",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-24"
+      },
+      "description": "Ursprünglich wurden unterschiedliche Varianten für ein neues\nZugführungsfahrzeug beraten. Der Samtgemeinderat entschied sich am\n24. Juni 2025 schließlich dafür, einen gebrauchten\nMannschaftstransportwagen innerhalb der vorhandenen Haushaltsmittel zu\nbeschaffen.\n\nDer bisher von der Feuerwehr selbst beschaffte Mercedes Vito soll in das\nEigentum der Samtgemeinde übergehen und weiter als Zugführungsfahrzeug\ngenutzt werden. Ein öffentlicher Abschluss der Beschaffung war bis zum\n14. August 2026 nicht dokumentiert.\n",
+      "id": "fire-command-vehicle-roetgesbuettel",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-05-15",
+          "status": "reached",
+          "title": "Feuerschutzausschuss beginnt Variantenberatung"
+        },
+        {
+          "date": "2025-06-24",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt gebrauchten Mannschaftstransportwagen"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "volunteer-fire-department-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP2025/0805-2",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=7837&refresh=false&TOLFDNR=38679"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-24",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 24. Juni 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito bleibt als Zugführungsfahrzeug im Einsatz.\n",
+      "title": "Mannschaftstransportwagen für die Ortsfeuerwehr",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "fire-protection",
+        "public-facilities",
+        "construction"
+      ],
+      "dates": {
+        "createdAt": "2025-09-04",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-10-08"
+      },
+      "description": "Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der\nFahrzeughalle. Durch eine Anpassung der Stellplatzlänge für den dort\nabgestellten Mannschaftstransportwagen kann sie innerhalb der bestehenden\nHalle untergebracht werden.\n\nDie geschätzten Kosten von rund 23.000 Euro sollen aus dem Baubudget des\nFeuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die\nBerechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.\n",
+      "id": "fire-station-training-platform",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-09-04",
+          "status": "reached",
+          "title": "Feuerschutzausschuss berät den Antrag"
+        },
+        {
+          "date": "2025-10-08",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt die Installation"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "volunteer-fire-department-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-10-08",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0876-01",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000244&refresh=false&TOLFDNR=1001996"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-10-08",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 8. Oktober 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016"
+        }
+      ],
+      "status": "implementation",
+      "summary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.\n",
+      "title": "Übungsplattform im Feuerwehrhaus Rötgesbüttel",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "flood-protection",
+        "water-management",
+        "construction",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-09-16",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-09-16"
+      },
+      "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Ein ausdrücklicher öffentlicher\nFertigstellungsbeschluss war im Scanzeitraum nicht enthalten.\n",
+      "id": "flood-retention-basin-roetgesbuettel",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-09-16",
+          "status": "reached",
+          "title": "Rat bewilligt 50.000 Euro Mehrkosten"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-09-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0276",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.\n",
+      "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "waste",
         "public-space",
         "mobility"
       ],
       "dates": {
-        "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-06-25"
       },
-      "description": "Der Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
       "id": "glass-container-relocation",
       "locations": [
         {
@@ -306,6 +972,11 @@
         }
       ],
       "milestones": [
+        {
+          "date": "2025-06-18",
+          "status": "reached",
+          "title": "Rat reagiert auf Verschmutzungen am bisherigen Standort"
+        },
         {
           "date": "2025-12-16",
           "status": "reached",
@@ -337,21 +1008,28 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0253",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127"
+        },
+        {
+          "accessedAt": "2026-08-14",
           "publishedAt": "2025-12-16",
           "sourceType": "minutes",
           "title": "Beschlussauszug vom 16. Dezember 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0282-02",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
@@ -368,12 +1046,69 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "taxes",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-09-16",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-03-17"
+      },
+      "description": "Der Rat vertagte die Frage im September 2025 zunächst in die\nHaushaltsberatungen für 2026. Im März 2026 wurde über eine Anregung\nabgestimmt, die Hebesätze A und B so anzupassen, dass das bisherige\nSteueraufkommen der Gemeinde erhalten bleibt.\n\nFür diese Änderung gab es keine Ja-Stimme, neun Nein-Stimmen und eine\nEnthaltung. Der Antrag war damit abgelehnt.\n",
+      "id": "ground-tax-rates-2026",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-09-16",
+          "status": "reached",
+          "title": "Beratung wird in den Haushalt 2026 vertagt"
+        },
+        {
+          "date": "2026-03-17",
+          "status": "reached",
+          "title": "Änderung der Hebesätze wird abgelehnt"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-09-16",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 16. September 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000997&SILFDNR=2145"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-03-17",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 17. März 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005883&SILFDNR=1000260"
+        }
+      ],
+      "status": "rejected",
+      "summary": "Eine Änderung der Hebesätze A und B zur Sicherung eines gleichbleibenden Steueraufkommens wurde beraten und im März 2026 abgelehnt.\n",
+      "title": "Anregung zur Änderung der Grundsteuerhebesätze",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "mobility",
         "road-safety"
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
@@ -397,7 +1132,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0280",
@@ -411,6 +1146,271 @@
     },
     {
       "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "elections",
+        "municipal-law"
+      ],
+      "dates": {
+        "createdAt": "2026-01-13",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-01-13"
+      },
+      "description": "Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September\n2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,\nMeine, Rötgesbüttel, Schwülper und Vordorf.\n\nBei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch\nzwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der\nSamtgemeinderat.\n",
+      "id": "municipal-election-2026-electoral-area",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-01-13",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt einen gemeinsamen Wahlbereich"
+        },
+        {
+          "date": "2026-09-13",
+          "status": "planned",
+          "title": "Kommunalwahl"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0959",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000528&refresh=false&TOLFDNR=1003867"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-01-13",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 13. Januar 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003867&SILFDNR=1954"
+        }
+      ],
+      "status": "decided",
+      "summary": "Für die Samtgemeinderatswahl am 13. September 2026 bilden alle sechs Mitgliedsgemeinden gemeinsam einen Wahlbereich.\n",
+      "title": "Ein Wahlbereich für die Samtgemeinderatswahl 2026",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "climate",
+        "energy",
+        "strategic-planning"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-01-21"
+      },
+      "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 14. August 2026 nicht dokumentiert.\n",
+      "id": "municipal-heat-planning",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-01-21",
+          "status": "reached",
+          "title": "Samtgemeinderat stellt Planungsbudget für 2026 ein"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-01-21",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu SGP2024/0680-1",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633"
+        }
+      ],
+      "status": "decided",
+      "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
+      "title": "Kommunale Wärmeplanung für den Papenteich",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "playgrounds",
+        "children",
+        "public-space"
+      ],
+      "dates": {
+        "createdAt": "2025-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-03-03"
+      },
+      "description": "Vorgeschlagen war, auf dem Naturgrundstück zwischen der Riede und dem\nsüdlichen Fasanenweg schrittweise einen Spielplatz einzurichten. Für 2025\nund 2026 sollten zunächst jeweils 5.000 Euro bereitgestellt werden.\n\nIm Rat stimmten am 3. März 2025 jeweils sechs Mitglieder für und gegen den\nAntrag. Damit wurde er abgelehnt.\n",
+      "id": "nature-playground-proposal",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-02-24",
+          "status": "reached",
+          "title": "Fachausschuss berät den Antrag"
+        },
+        {
+          "date": "2025-03-03",
+          "status": "reached",
+          "title": "Rat lehnt den Antrag bei Stimmengleichheit ab"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0246",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37374&SILFDNR=1882"
+        }
+      ],
+      "status": "rejected",
+      "summary": "Der Antrag auf einen Spielplatz zwischen Riede und südlichem Fasanenweg erhielt im März 2025 keine Mehrheit.\n",
+      "title": "Vorschlag für einen Spielplatz am Fasanenweg",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "urban-planning",
+        "public-space"
+      ],
+      "dates": {
+        "createdAt": "2025-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-03-03"
+      },
+      "description": "Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in\nRötgesbüttel. In der Ratssitzung am 3. März 2025 wurde er zurückgezogen, weil\ndie Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit\nvermieden wurde.\n\nDer Status „abgeschlossen“ beschreibt hier das beendete politische\nVerfahren, nicht die Umsetzung einer Ortsmitte.\n",
+      "id": "new-town-centre-proposal",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-02-24",
+          "status": "reached",
+          "title": "Fachausschuss behandelt den Antrag"
+        },
+        {
+          "date": "2025-03-03",
+          "status": "cancelled",
+          "title": "Antrag wird im Rat zurückgezogen"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "minutes",
+          "title": "Protokollauszug zu Rötg/2025/0244",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882"
+        }
+      ],
+      "status": "completed",
+      "summary": "Ein Antrag auf Planungen für eine neue Ortsmitte wurde im März 2025 wegen fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung zurückgezogen.\n",
+      "title": "Vorschlag für eine „Neue Ortsmitte“",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "noise-protection",
+        "mobility",
+        "environment"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-01-21"
+      },
+      "description": "Der Samtgemeinderat beschloss am 21. Januar 2025 einstimmig, die überprüfte\nund überarbeitete Fassung des Lärmaktionsplans für die Mitgliedsgemeinden\nabzugeben. Der ausgewertete Beschluss dokumentiert damit den Abschluss\ndieser Überprüfungsrunde.\n",
+      "id": "noise-action-plan-review",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-01-21",
+          "status": "reached",
+          "title": "Überarbeitete Fassung wird zur Abgabe beschlossen"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-01-21",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu SGP/2024/0639",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36609&SILFDNR=1633"
+        }
+      ],
+      "status": "completed",
+      "summary": "Die Samtgemeinde hat den Lärmaktionsplan für ihre Mitgliedsgemeinden überprüft, überarbeitet und die neue Fassung zur Abgabe beschlossen.\n",
+      "title": "Überprüfung der Lärmaktionsplanung",
+      "visibility": "published"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -420,7 +1420,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
@@ -444,7 +1444,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0281",
@@ -466,7 +1466,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2025-12-16"
       },
       "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch\nnicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.\n",
@@ -497,7 +1497,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0279",
@@ -514,6 +1514,186 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "mobility",
+        "rail",
+        "road-safety"
+      ],
+      "dates": {
+        "createdAt": "2025-06-02",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-06-18"
+      },
+      "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
+      "id": "pfaenderweg-rail-crossing",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-06-02",
+          "status": "reached",
+          "title": "Fachausschuss berät die weitere Vorgehensweise"
+        },
+        {
+          "date": "2025-06-18",
+          "status": "reached",
+          "title": "Rat beauftragt Anwohner- und Bahngespräche"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "db-infrago"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-06-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu Rötg/2025/0255",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127"
+        }
+      ],
+      "status": "paused",
+      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
+      "title": "Bahnübergang am Pfänderweg",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "childcare",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2026-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-04-14"
+      },
+      "description": "Der Landkreis Gifhorn ist rechtlich für den Ganztagsanspruch von\nGrundschulkindern zuständig. Mit einer öffentlich-rechtlichen Vereinbarung\nwerden Aufgaben standortnah durch die teilnehmenden Kommunen als\nSchulträger umgesetzt.\n\nDie Vereinbarung regelt Zuständigkeiten und Budgets für Schul- und\nFerienzeiten. Der Samtgemeinderat beauftragte die Verwaltung am 14. April\n2026 einstimmig mit dem Abschluss; das Inkrafttreten war zum 1. August 2026\nvorgesehen.\n",
+      "id": "primary-school-youth-welfare-agreement",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-02-24",
+          "status": "reached",
+          "title": "Schulausschuss empfiehlt den Abschluss"
+        },
+        {
+          "date": "2026-04-14",
+          "status": "reached",
+          "title": "Samtgemeinderat beauftragt die Verwaltung"
+        },
+        {
+          "date": "2026-08-01",
+          "status": "reached",
+          "title": "Vorgesehenes Inkrafttreten der Vereinbarung"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "district-gifhorn"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-04-14",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/0983",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000693&refresh=false&TOLFDNR=1006220"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-04-14",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 14. April 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.\n",
+      "title": "Vereinbarung zur Ganztagsförderung von Grundschulkindern",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "culture",
+        "public-facilities",
+        "digitalization",
+        "accessibility"
+      ],
+      "dates": {
+        "createdAt": "2026-04-14",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-04-14"
+      },
+      "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nDie Verwaltung soll die Ergebnisse in einem Umsetzungs- und Finanzkonzept\nzur weiteren politischen Beratung vorlegen. Ein Enddatum wurde bewusst\nnicht festgelegt.\n",
+      "id": "public-library-development",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-04-14",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt Leitbild und Konzeptauftrag"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-04-14",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1000",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000779&refresh=false&TOLFDNR=1006224"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-04-14",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 14. April 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.\n",
+      "title": "Weiterentwicklung der Samtgemeindebücherei",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "regional-planning",
         "urban-planning",
         "renewable-energy",
@@ -521,7 +1701,7 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
@@ -546,7 +1726,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0296",
@@ -570,7 +1750,7 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "description": "Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse\nan einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die\nunterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem\nveröffentlichten Sachstand derzeit jedoch unwirtschaftlich.\n\nAls Alternative wurde geprüft, zwei bis drei bereits erschlossene\nGrundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,\ndafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am\n17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung\nabgelehnt.\n",
@@ -598,14 +1778,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0286-02",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000824&refresh=false&TOLFDNR=1005884"
         },
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 17. März 2026",
@@ -622,13 +1802,237 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "cemeteries",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-01-21"
+      },
+      "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher\nAbschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum\n14. August 2026 nicht dokumentiert.\n",
+      "id": "roetgesbuettel-cemetery-upgrades",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-01-21",
+          "status": "reached",
+          "title": "Mittel für zweite Stele werden bereitgestellt"
+        },
+        {
+          "date": "2025-01-21",
+          "status": "reached",
+          "title": "Zusätzliche Parkplatzmittel für 2026 werden beschlossen"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-01-21",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu SGP/2024/0643",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-01-21",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu SGP/2024/0668",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.\n",
+      "title": "Verbesserungen am Friedhof Rötgesbüttel",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "strategic-planning",
+        "public-facilities"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-11-25"
+      },
+      "description": "Der Schulausschuss nahm die aktualisierte Planung für 2025 bis 2031 zur\nKenntnis. Für die Grundschule Rötgesbüttel und die Margret-und-Rolf-\nRettich-Schule in Vordorf werden die Raumkapazitäten im gesamten\nBetrachtungszeitraum als ausreichend bewertet.\n\nSamtgemeindeweit werden ab 2028 überwiegend sinkende Grundschülerzahlen\nerwartet. Für die Oberschule Papenteich beschreibt die Vorlage eine leicht\nsteigende Tendenz und einen zusätzlichen Raumbedarf von einem\nUnterrichtsraum, der innerhalb des Bestands gelöst werden könne.\n",
+      "id": "school-development-plan-2025-2031",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-11-25",
+          "status": "reached",
+          "title": "Schulausschuss nimmt Fortschreibung zur Kenntnis"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-11-25",
+          "sourceType": "planningDocument",
+          "title": "Vorlage SGP/2025/0894 zur Schulentwicklungsplanung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-11-25",
+          "sourceType": "minutes",
+          "title": "Protokollauszug vom 25. November 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948"
+        }
+      ],
+      "status": "decided",
+      "summary": "Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der Schülerzahlen in der gesamten Samtgemeinde.\n",
+      "title": "Schulentwicklungsplanung 2025 bis 2031",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "digitalization",
+        "public-facilities"
+      ],
+      "dates": {
+        "createdAt": "2026-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-02-24"
+      },
+      "description": "Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr\n2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n",
+      "id": "school-it-standard-2026",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-02-24",
+          "status": "reached",
+          "title": "Schulausschuss beschließt den Ausstattungsstandard"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-02-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/0974",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-02-24",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 24. Februar 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096"
+        }
+      ],
+      "status": "implementation",
+      "summary": "Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter Netzwerkinfrastruktur.\n",
+      "title": "Neuer IT-Ausstattungsstandard für Grundschulen",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "urban-planning",
+        "housing"
+      ],
+      "dates": {
+        "createdAt": "2025-02-24",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-03-03"
+      },
+      "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene\nVerfahren. Er trifft keine Aussage über andere oder spätere Planungen für\ndas Gebiet.\n",
+      "id": "southfield-ii-change-proposal",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-02-24",
+          "status": "reached",
+          "title": "Fachausschuss behandelt den Antrag"
+        },
+        {
+          "date": "2025-03-03",
+          "status": "cancelled",
+          "title": "Antrag wird für 2025 zurückgezogen"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-03",
+          "sourceType": "minutes",
+          "title": "Protokollauszug zu Rötg/2025/0247",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882"
+        }
+      ],
+      "status": "completed",
+      "summary": "Ein Antrag auf wesentliche Änderungen am Planungsvorhaben Südfeld II wurde im März 2025 wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025 zurückgezogen.\n",
+      "title": "Änderungsantrag zum Planungsvorhaben Südfeld II",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "sports",
         "public-facilities",
         "renovation"
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-07-30",
+        "lastVerifiedAt": "2026-08-14",
         "updatedAt": "2026-03-17"
       },
       "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n",
@@ -652,7 +2056,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-07-30",
+          "accessedAt": "2026-08-14",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0291",
@@ -662,6 +2066,185 @@
       "status": "implementation",
       "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.\n",
       "title": "Sanierung und Modernisierung des Gemeindesportzentrums",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "sports",
+        "public-facilities",
+        "municipal-law"
+      ],
+      "dates": {
+        "createdAt": "2025-08-20",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-10-08"
+      },
+      "description": "Die bisherige Satzung war mehrfach geändert worden. Wegen des Neubaus der\nTurnhalle in Vordorf und zur besseren Übersicht für die Vereine legte die\nVerwaltung eine vollständige Neufassung vor.\n\nNach der Vorberatung im Bauausschuss stimmte der Samtgemeinderat der neuen\nBenutzungssatzung am 8. Oktober 2025 ohne Gegenstimme zu.\n",
+      "id": "sports-facilities-usage-rules",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-08-20",
+          "status": "reached",
+          "title": "Bauausschuss empfiehlt die Neufassung"
+        },
+        {
+          "date": "2025-10-08",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt die Neufassung"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-10-08",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2025/0866 und Beratungsfolge",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000010&refresh=false&TOLFDNR=1001993"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-10-08",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug vom 8. Oktober 2025",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001993&SILFDNR=1000016"
+        }
+      ],
+      "status": "decided",
+      "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.\n",
+      "title": "Benutzung der samtgemeindeeigenen Sportstätten",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "regional-planning",
+        "renewable-energy",
+        "environment"
+      ],
+      "dates": {
+        "createdAt": "2025-03-18",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2025-03-18"
+      },
+      "description": "Im Beteiligungsverfahren zum sachlichen Teilprogramm Windenergie schloss\nsich die Samtgemeinde nach dem öffentlichen Protokoll der Stellungnahme der\nGemeinde Meine an. Der gemeinsame Antrag von SPD, CDU und Grünen wurde am\n18. März 2025 einstimmig angenommen.\n\nDer Beschluss dokumentiert die Stellungnahme der Samtgemeinde in diesem\nBeteiligungsschritt; die abschließende Regionalplanung liegt beim\nRegionalverband Großraum Braunschweig.\n",
+      "id": "wind-energy-spatial-program",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2025-03-18",
+          "status": "reached",
+          "title": "Samtgemeinderat beschließt Stellungnahme"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "regional-association-greater-braunschweig"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2025-03-18",
+          "sourceType": "resolution",
+          "title": "Beschlussauszug zu SGP/2025/0778",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37587&SILFDNR=1927"
+        }
+      ],
+      "status": "completed",
+      "summary": "Die Samtgemeinde hat sich im Beteiligungsverfahren zum sachlichen Teilprogramm Windenergie einer Stellungnahme der Gemeinde Meine angeschlossen.\n",
+      "title": "Stellungnahme zum Teilprogramm Windenergie",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "winter-service",
+        "mobility",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2026-06-23",
+        "lastVerifiedAt": "2026-08-14",
+        "updatedAt": "2026-06-23"
+      },
+      "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nWegen der ab 1. Januar 2027 anzuwendenden Umsatzsteuerregelung für\njuristische Personen des öffentlichen Rechts wurde eine\nErgänzungsvereinbarung vorgelegt. Die öffentliche Beratungsfolge weist die\nEntscheidung des Samtgemeinderates vom 23. Juni 2026 als erledigt aus.\n",
+      "id": "winter-service-agreement",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-06-23",
+          "status": "reached",
+          "title": "Samtgemeinderat behandelt die Ergänzungsvereinbarung"
+        },
+        {
+          "date": "2027-01-01",
+          "status": "planned",
+          "title": "Neue Umsatzsteuerregelung soll berücksichtigt werden"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich",
+        "lower-saxony-road-authority"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-06-23",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1053-01 und Beratungsfolge",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476"
+        },
+        {
+          "accessedAt": "2026-08-14",
+          "publishedAt": "2026-06-23",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Samtgemeinderatssitzung vom 23. Juni 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000115&refresh=false"
+        }
+      ],
+      "status": "decided",
+      "summary": "Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.\n",
+      "title": "Ergänzungsvereinbarung zum Winterdienst",
       "visibility": "published"
     }
   ],

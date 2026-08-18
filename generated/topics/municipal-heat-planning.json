@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "climate",
+      "energy",
+      "strategic-planning"
+    ],
+    "dates": {
+      "createdAt": "2025-01-21",
+      "lastVerifiedAt": "2026-08-14",
+      "updatedAt": "2025-01-21"
+    },
+    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 14. August 2026 nicht dokumentiert.\n",
+    "id": "municipal-heat-planning",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2025-01-21",
+        "status": "reached",
+        "title": "Samtgemeinderat stellt Planungsbudget für 2026 ein"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-14",
+        "publishedAt": "2025-01-21",
+        "sourceType": "resolution",
+        "title": "Beschlussauszug zu SGP2024/0680-1",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633"
+      }
+    ],
+    "status": "decided",
+    "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
+    "title": "Kommunale Wärmeplanung für den Papenteich",
+    "visibility": "published"
+  }
+}
