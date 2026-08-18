@@ -206,6 +206,7 @@ future municipal handover:
 - [Operating model](docs/governance/operating-model.md)
 - [Municipal handover checklist](docs/governance/municipal-handover.md)
 - [Deployment procedure](docs/operations/deployment.md)
+- [Legal and privacy operations checklist](docs/operations/legal-and-privacy-checklist.md)
 - [Monitoring and recovery](docs/operations/monitoring-and-recovery.md)
 - [Visual identity](docs/brand/visual-identity.md)
 - [Contribution guide](CONTRIBUTING.md)

@@ -37,13 +37,23 @@ The application itself publishes no host port and is reachable only from the
 reverse proxy over an internal Docker network. Secrets, access tokens, private
 keys, and the deployment `.env` file must never be committed.
 
+The ignored deployment environment must also contain the complete operator,
+hosting-contract, and mail-account facts listed in `deploy/.env.example`.
+Missing, empty, or placeholder legal values make every application route
+return `503`; the health check therefore prevents the reverse proxy from
+admitting an incomplete release. Configure the same `LEGAL_*` runtime values
+before publishing a Sites version. Follow the
+[`legal-and-privacy-checklist.md`](legal-and-privacy-checklist.md) before every
+production change.
+
 ## Pre-DNS verification
 
 Before changing public DNS:
 
 1. Validate the Compose model with `docker compose config`.
 2. Build and start the containers on the target server.
-3. Confirm that the application container is healthy.
+3. Confirm that the application container is healthy and that the public legal
+   pages contain the reviewed production values.
 4. Confirm that the analytics and local-only dashboard containers are healthy.
 5. Verify that the dashboard port listens only on `127.0.0.1` and is reachable
    through an SSH tunnel.
