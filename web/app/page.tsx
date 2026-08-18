@@ -7,20 +7,23 @@ import { DEFAULT_AREA_ID, filterAreas } from "@/lib/areas";
 import { formatDate } from "@/lib/presentation";
 import {
   councilTopics,
+  isRoetgesbuettelCouncilTopic,
   topicFacets,
 } from "@/lib/topics";
 
 export const metadata: Metadata = {
   title: "Kommunale Themen im Überblick",
   description:
-    "Aktuelle Themen aus Gemeinde und Samtgemeinde – mit Rötgesbüttel als Standardsicht, Bearbeitungsstand und Originalquellen.",
+    "Aktuelle Themen aus dem Gemeinderat Rötgesbüttel – mit optionaler Samtgemeinde-Sicht, Bearbeitungsstand und Originalquellen.",
 };
 
 const visibleAreas = filterAreas(topicFacets.areas);
-const defaultAreaTopics = councilTopics.filter((topic) =>
-  topic.relevantAreaIds.includes(DEFAULT_AREA_ID),
+const defaultCouncilTopics = councilTopics.filter(
+  (topic) =>
+    topic.relevantAreaIds.includes(DEFAULT_AREA_ID) &&
+    isRoetgesbuettelCouncilTopic(topic),
 );
-const defaultAreaLatestVerificationDate = defaultAreaTopics.reduce(
+const defaultCouncilLatestVerificationDate = defaultCouncilTopics.reduce(
   (latest, topic) =>
     topic.dates.lastVerifiedAt > latest
       ? topic.dates.lastVerifiedAt
@@ -43,9 +46,9 @@ export default function TopicsPage() {
                 unseren Ort?
               </h1>
               <p className="hero__intro">
-                Aktuelle Themen aus Gemeinde und Samtgemeinde – verständlich
-                zusammengefasst, mit Bearbeitungsstand und direkten Links zu
-                den öffentlichen Quellen.
+                Aktuelle Themen aus dem Gemeinderat Rötgesbüttel – verständlich
+                zusammengefasst und direkt belegt. Themen der Samtgemeinde
+                können gezielt hinzugenommen werden.
               </p>
             </div>
             <aside className="hero__principle" aria-label="Unser Grundsatz">
@@ -60,8 +63,12 @@ export default function TopicsPage() {
             </aside>
           </div>
           <div className="hero__baseline">
-            <span>{defaultAreaTopics.length} Themen für Rötgesbüttel</span>
-            <span>Stand: {formatDate(defaultAreaLatestVerificationDate)}</span>
+            <span>
+              {defaultCouncilTopics.length} Themen aus dem Gemeinderat
+            </span>
+            <span>
+              Stand: {formatDate(defaultCouncilLatestVerificationDate)}
+            </span>
             <span>Quellen direkt verlinkt</span>
           </div>
         </section>

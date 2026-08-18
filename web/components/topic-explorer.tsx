@@ -10,7 +10,11 @@ import {
   topicAreaLabel,
 } from "@/lib/presentation";
 import { DEFAULT_AREA_ID, type AdministrativeArea } from "@/lib/areas";
-import type { TopicListItem, TopicStatus } from "@/lib/topics";
+import {
+  isRoetgesbuettelCouncilTopic,
+  type TopicListItem,
+  type TopicStatus,
+} from "@/lib/topics";
 import { StatusBadge } from "./status-badge";
 
 type TopicExplorerProps = {
@@ -19,6 +23,10 @@ type TopicExplorerProps = {
   categories: string[];
   areas: AdministrativeArea[];
 };
+
+type CouncilScope = "roetgesbuettel" | "include-joint-municipality";
+
+const DEFAULT_COUNCIL_SCOPE: CouncilScope = "roetgesbuettel";
 
 function normalize(value: string): string {
   return value.toLocaleLowerCase("de-DE").normalize("NFKD");
@@ -31,6 +39,9 @@ export function TopicExplorer({
   areas,
 }: TopicExplorerProps) {
   const [query, setQuery] = useState("");
+  const [councilScope, setCouncilScope] = useState<CouncilScope>(
+    DEFAULT_COUNCIL_SCOPE,
+  );
   const [area, setArea] = useState(DEFAULT_AREA_ID);
   const [status, setStatus] = useState<TopicStatus | "all">("all");
   const [category, setCategory] = useState("all");
@@ -38,6 +49,12 @@ export function TopicExplorer({
   const filteredItems = useMemo(() => {
     const normalizedQuery = normalize(query.trim());
     return items.filter((item) => {
+      if (
+        councilScope === "roetgesbuettel" &&
+        !isRoetgesbuettelCouncilTopic(item)
+      ) {
+        return false;
+      }
       if (!item.relevantAreaIds.includes(area)) return false;
       if (status !== "all" && item.status !== status) return false;
       if (category !== "all" && !item.categories.includes(category)) {
@@ -55,16 +72,18 @@ export function TopicExplorer({
       );
       return searchable.includes(normalizedQuery);
     });
-  }, [area, category, items, query, status]);
+  }, [area, category, councilScope, items, query, status]);
 
   const hasFilters =
     query !== "" ||
+    councilScope !== DEFAULT_COUNCIL_SCOPE ||
     area !== DEFAULT_AREA_ID ||
     status !== "all" ||
     category !== "all";
 
   function resetFilters() {
     setQuery("");
+    setCouncilScope(DEFAULT_COUNCIL_SCOPE);
     setArea(DEFAULT_AREA_ID);
     setStatus("all");
     setCategory("all");
@@ -85,6 +104,23 @@ export function TopicExplorer({
               value={query}
             />
           </div>
+        </div>
+        <div className="filter-panel__select">
+          <label htmlFor="council-scope-filter">Politische Ebene</label>
+          <select
+            id="council-scope-filter"
+            onChange={(event) =>
+              setCouncilScope(event.target.value as CouncilScope)
+            }
+            value={councilScope}
+          >
+            <option value="roetgesbuettel">
+              Gemeinderat Rötgesbüttel
+            </option>
+            <option value="include-joint-municipality">
+              Rötgesbüttel + Samtgemeinde
+            </option>
+          </select>
         </div>
         <div className="filter-panel__select">
           <label htmlFor="area-filter">Räumlicher Bezug</label>

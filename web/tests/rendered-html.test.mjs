@@ -34,9 +34,12 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /Kommunale Themen im Überblick · RötgesPortal/);
   assert.match(html, /Was bewegt/);
-  assert.match(html, /31(?:<!-- -->)* Themen für Rötgesbüttel/);
+  assert.match(html, /17(?:<!-- -->)* Themen aus dem Gemeinderat/);
   assert.match(html, /Wohngebiet Aukenroth/);
   assert.match(html, /Themen durchsuchen/);
+  assert.match(html, /Politische Ebene/);
+  assert.match(html, /Gemeinderat Rötgesbüttel/);
+  assert.match(html, /Rötgesbüttel \+ Samtgemeinde/);
   assert.match(html, /Bearbeitungsstand/);
   assert.match(html, /Räumlicher Bezug/);
   assert.match(html, /Gesamte Samtgemeinde/);

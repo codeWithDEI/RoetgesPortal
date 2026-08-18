@@ -88,6 +88,17 @@ type TopicDataset = {
   items: Topic[];
 };
 
+export const ROETGESBUETTEL_COUNCIL_ORGANIZATION_ID =
+  "municipality-roetgesbuettel";
+
+export function isRoetgesbuettelCouncilTopic(
+  topic: Pick<Topic, "organizations">,
+): boolean {
+  return topic.organizations.includes(
+    ROETGESBUETTEL_COUNCIL_ORGANIZATION_ID,
+  );
+}
+
 export const councilTopics = (councilData as CouncilData).items;
 export const topicFacets = (councilData as CouncilData).facets;
 export const topics = (topicData as TopicDataset).items;
