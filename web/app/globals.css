@@ -349,6 +349,33 @@ select {
   font-weight: 650;
 }
 
+.map-stage__attribution {
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  max-width: calc(100% - 20px);
+  padding: 5px 8px;
+  background: rgb(255 255 255 / 92%);
+  color: #34484f;
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+.map-stage__attribution a:hover,
+.map-stage__attribution a:focus-visible {
+  color: var(--green-deep);
+}
+
+.legal-address {
+  font-style: normal;
+  line-height: 1.65;
+}
+
 .mapped-topic-list {
   overflow-y: auto;
   border-left: 1px solid var(--line);

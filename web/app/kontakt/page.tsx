@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { InfoPage } from "@/components/info-page";
+import { getLegalConfig } from "@/lib/legal";
 
 export const metadata: Metadata = {
   title: "Kontakt und Korrekturen",
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const { operator } = getLegalConfig();
+
   return (
     <InfoPage
       eyebrow="Hinweise willkommen"
@@ -19,12 +22,21 @@ export default function ContactPage() {
           <h2>Korrektur oder Idee melden</h2>
           <p>
             Bitte nenne die betroffene Seite, die gewünschte Änderung und – wenn
-            möglich – eine öffentliche Quelle. Das GitHub-Issue bleibt zusammen
-            mit der Bearbeitung nachvollziehbar.
+            möglich – eine öffentliche Quelle. Nicht vertrauliche Hinweise
+            können als GitHub-Issue öffentlich nachvollziehbar bearbeitet
+            werden. Alternativ ist eine direkte Kontaktaufnahme per E-Mail
+            möglich.
           </p>
-          <a className="button-link" href="https://github.com/codeWithDEI/RoetgesPortal/issues/new" rel="noreferrer" target="_blank">
-            Hinweis auf GitHub öffnen <span aria-hidden="true">↗</span>
-          </a>
+          <div className="info-actions">
+            <a href={`mailto:${operator.email}`}>E-Mail schreiben</a>
+            <a
+              href="https://github.com/codeWithDEI/RoetgesPortal/issues/new"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Hinweis auf GitHub öffnen <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </article>
         <article>
           <p className="section-index">Amtliche Anliegen</p>
@@ -42,8 +54,9 @@ export default function ContactPage() {
       <section className="info-section info-section--notice">
         <p>
           <strong>Sicherheitslücke entdeckt?</strong> Bitte keine technischen
-          Details in einem öffentlichen Issue veröffentlichen. Nutze nach
-          Möglichkeit die private Sicherheitsmeldung des GitHub-Repositories.
+          Details in einem öffentlichen Issue veröffentlichen. Nutze die
+          Kontakt-E-Mail oder nach Möglichkeit die private Sicherheitsmeldung
+          des GitHub-Repositories.
         </p>
       </section>
     </InfoPage>

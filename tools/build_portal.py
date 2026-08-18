@@ -9,7 +9,6 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
-from import_roetgesmarkt import fix_feature
 from validate_content import REPOSITORY_ROOT, validate_repository
 
 
@@ -172,12 +171,6 @@ def write_geojson_dataset(
     source_path = repository_root / dataset["path"]
     with source_path.open("r", encoding="utf-8") as file:
         document = json.load(file)
-
-    if dataset.get("normalization") == "roetgesmarkt":
-        document["features"] = [
-            fix_feature(deepcopy(feature))
-            for feature in document.get("features", [])
-        ]
 
     relative_path = f"datasets/{dataset['id']}.geojson"
     write_json(output_root / relative_path, document)

@@ -38,9 +38,6 @@ jobs:
       - name: Validate deployment configuration
         run: python -c "import pathlib, yaml; yaml.safe_load(pathlib.Path('deploy/compose.yaml').read_text())"
 
-      - name: Rebuild historic map exports
-        run: python tools/import_roetgesmarkt.py
-
       - name: Build portal runtime artifacts
         run: python tools/build_portal.py
 

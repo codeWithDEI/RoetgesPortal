@@ -132,7 +132,7 @@ export function MapExplorer({
     let map: MapLibreMap | null = null;
 
     void import("maplibre-gl").then(
-      ({ AttributionControl, Map, NavigationControl, Popup, setWorkerUrl }) => {
+      ({ Map, NavigationControl, Popup, setWorkerUrl }) => {
         if (disposed || !containerRef.current) return;
 
         // Let Vite bundle the worker and its shared module into a regular
@@ -154,7 +154,8 @@ export function MapExplorer({
                 type: "raster",
                 tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
                 tileSize: 256,
-                attribution: "© OpenStreetMap contributors",
+                attribution:
+                  '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap contributors</a>',
               },
             },
             layers: [
@@ -168,7 +169,6 @@ export function MapExplorer({
         });
         mapRef.current = map;
         map.addControl(new NavigationControl({ showCompass: false }), "top-right");
-        map.addControl(new AttributionControl({ compact: false }), "bottom-right");
 
         map.on("load", () => {
           if (!map) return;
@@ -386,6 +386,23 @@ export function MapExplorer({
             ref={containerRef}
             role="region"
           />
+          <div className="map-stage__attribution">
+            <a
+              href="https://www.openstreetmap.org/copyright"
+              rel="noreferrer"
+              target="_blank"
+            >
+              © OpenStreetMap contributors
+            </a>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://www.openstreetmap.org/fixthemap"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Kartenfehler bei OpenStreetMap melden
+            </a>
+          </div>
         </div>
 
         <div className="mapped-topic-list">

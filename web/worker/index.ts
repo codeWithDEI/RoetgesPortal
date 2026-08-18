@@ -1,8 +1,13 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import {
+  assertLegalConfig,
+  setLegalEnvironment,
+  type LegalEnvironment,
+} from "@/lib/legal";
 
-interface Env {
+type Env = LegalEnvironment & {
   ASSETS: Fetcher;
   IMAGES: {
     input(stream: ReadableStream): {
@@ -11,7 +16,7 @@ interface Env {
       };
     };
   };
-}
+};
 
 interface ExecutionContext {
   waitUntil(promise: Promise<unknown>): void;
@@ -28,6 +33,14 @@ const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     let response: Response;
+
+    setLegalEnvironment(env);
+
+    try {
+      assertLegalConfig();
+    } catch {
+      return unavailableResponse(url);
+    }
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
@@ -60,5 +73,26 @@ const worker = {
     });
   },
 };
+
+function unavailableResponse(url: URL) {
+  const responseHeaders = new Headers({
+    "cache-control": "no-store",
+    "content-type": "text/plain; charset=utf-8",
+  });
+  responseHeaders.set("content-security-policy", "default-src 'none'; frame-ancestors 'none'");
+  responseHeaders.set("permissions-policy", "camera=(), microphone=(), geolocation=()");
+  responseHeaders.set("referrer-policy", "no-referrer");
+  responseHeaders.set("x-content-type-options", "nosniff");
+  responseHeaders.set("x-frame-options", "DENY");
+
+  if (url.protocol === "https:") {
+    responseHeaders.set("strict-transport-security", "max-age=31536000; includeSubDomains");
+  }
+
+  return new Response("Dienst vorübergehend nicht verfügbar.", {
+    headers: responseHeaders,
+    status: 503,
+  });
+}
 
 export default worker;

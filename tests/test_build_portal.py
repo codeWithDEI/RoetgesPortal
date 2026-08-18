@@ -167,10 +167,6 @@ class BuildPortalTests(unittest.TestCase):
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())
-            self.assertFalse(
-                (output / "views/flea-market/manifest.json").exists()
-            )
-
             council_items = json.loads(
                 (output / "views/council/items.json").read_text(
                     encoding="utf-8"

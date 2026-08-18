@@ -1,6 +1,0 @@
-id: roetgesmarkt-stands
-title: Rötgesmarkt stands
-description: Historic stand locations imported from the Rötgesmarkt map.
-type: geojson
-path: content/locations/roetgesmarkt_input.geojson
-normalization: roetgesmarkt

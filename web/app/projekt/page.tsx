@@ -38,13 +38,14 @@ export default function ProjectPage() {
       <section className="info-section info-section--split">
         <div>
           <p className="section-index">02 · Unabhängigkeit</p>
-          <h2>Noch kein offizielles Gemeindeportal</h2>
+          <h2>Privat und unabhängig betrieben</h2>
         </div>
         <div className="info-prose">
           <p>
-            Das Portal ist ein unabhängiges, nichtkommerzielles
-            Informationsangebot. Es ersetzt weder amtliche Bekanntmachungen
-            noch das Ratsinformationssystem oder die Website der Gemeinde.
+            RötgesPortal wird privat und unabhängig betrieben. Es ist keine
+            offizielle Plattform der Gemeinde Rötgesbüttel und ersetzt weder
+            amtliche Bekanntmachungen noch das Ratsinformationssystem oder die
+            Website der Gemeinde.
           </p>
           <p>
             Die eigenständige Wort-Bild-Marke verbindet eine gefaltete Karte
@@ -59,7 +60,33 @@ export default function ProjectPage() {
 
       <section className="info-section info-section--split">
         <div>
-          <p className="section-index">03 · Offenheit</p>
+          <p className="section-index">03 · Redaktionelle Grundsätze</p>
+          <h2>Sorgfalt soll öffentlich prüfbar sein</h2>
+        </div>
+        <div className="info-prose">
+          <p>
+            Primärquellen werden bevorzugt. Veröffentlichte Fakten müssen
+            anhand einer Quelle nachvollziehbar sein; Sachstand, mögliche
+            Auswirkungen und dokumentierte Positionen werden getrennt
+            dargestellt.
+          </p>
+          <p>
+            Meinung oder Kommentar wird nicht als Tatsache dargestellt und
+            müsste bei einer späteren Einführung eindeutig gekennzeichnet
+            werden. Veröffentlichte Themen zeigen ihre Quellen sowie das Datum
+            der letzten Prüfung oder Aktualisierung.
+          </p>
+          <p>
+            Fehler werden korrigiert. Mögliche politische, finanzielle oder
+            persönliche Interessenkonflikte sollen bei der redaktionellen
+            Prüfung berücksichtigt werden.
+          </p>
+        </div>
+      </section>
+
+      <section className="info-section info-section--split">
+        <div>
+          <p className="section-index">04 · Offenheit</p>
           <h2>Fehler sollen auffallen dürfen</h2>
         </div>
         <div className="info-prose">

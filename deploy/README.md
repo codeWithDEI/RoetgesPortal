@@ -10,16 +10,6 @@ and `REDIRECT_SITE_ADDRESSES` contain public hostnames whose DNS records point
 to the server. `CANONICAL_ORIGIN` is the destination for permanent redirects.
 Certificate state is retained in named Docker volumes.
 
-## Local smoke test
-
-The defaults expose HTTP on `http://localhost:8080` and HTTPS on port `8443`:
-
-```bash
-docker compose -f deploy/compose.yaml up --build -d
-curl --fail http://localhost:8080/api/health
-docker compose -f deploy/compose.yaml down
-```
-
 ## Server configuration
 
 Create the untracked environment file once on the server:
@@ -28,10 +18,31 @@ Create the untracked environment file once on the server:
 cp deploy/.env.example deploy/.env
 ```
 
-Review `deploy/.env`, then start the release:
+Review `deploy/.env` and replace every neutral legal placeholder with the exact
+operator, hosting-contract, and mail-account facts. The private deployment
+file remains ignored by Git. In addition to each provider's contracting name,
+record the contractual processing locations, hosting retention information,
+and any third-country transfer information. Do not infer these values from a
+server IP or email domain.
+
+The application returns `503` on every route, including `/api/health`, when a
+required value is missing or still looks like a placeholder. Docker Compose
+also refuses to create the web service when a value is empty. Hosted Sites
+deployments must configure the same `LEGAL_*` values as runtime settings.
+
+Then start the release:
 
 ```bash
 docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
+```
+
+For a local smoke test, use the same reviewed environment file; the defaults
+expose HTTP on `http://localhost:8080` and HTTPS on port `8443`:
+
+```bash
+docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
+curl --fail http://localhost:8080/api/health
+docker compose --env-file deploy/.env -f deploy/compose.yaml down
 ```
 
 The production values expose ports 80 and 443. The firewall and provider must
@@ -76,7 +87,7 @@ The dashboard is bound to `127.0.0.1` on the server and must not be opened in
 UFW or the provider firewall. View it through an SSH tunnel:
 
 ```bash
-ssh -L 8082:127.0.0.1:8082 daniel@109.230.236.162
+ssh -L 8082:127.0.0.1:8082 <server-user>@<server-host>
 ```
 
 Keep that session open and visit `http://localhost:8082` in a local browser.
