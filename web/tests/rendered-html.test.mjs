@@ -81,6 +81,65 @@ test("server-renders a source-backed topic detail", async () => {
   assert.match(html, /Rötgesbüttel/);
 });
 
+test("publishes canonical and source-backed structured metadata", async () => {
+  const overview = await render("/");
+  assert.equal(overview.status, 200);
+  const overviewHtml = await overview.text();
+  assert.match(
+    overviewHtml,
+    /<link rel="canonical" href="https:\/\/roetgesportal\.de\/"/,
+  );
+  assert.match(overviewHtml, /"@type":"WebSite"/);
+  assert.match(overviewHtml, /"name":"RötgesPortal"/);
+
+  const legacyOverview = await render("/themen");
+  assert.equal(legacyOverview.status, 200);
+  assert.match(
+    await legacyOverview.text(),
+    /<link rel="canonical" href="https:\/\/roetgesportal\.de\/"/,
+  );
+
+  const detail = await render("/themen/aukenroth-residential-development");
+  assert.equal(detail.status, 200);
+  const detailHtml = await detail.text();
+  assert.match(
+    detailHtml,
+    /<link rel="canonical" href="https:\/\/roetgesportal\.de\/themen\/aukenroth-residential-development"/,
+  );
+  assert.match(detailHtml, /property="og:title" content="Wohngebiet Aukenroth"/);
+  assert.match(detailHtml, /name="twitter:title" content="Wohngebiet Aukenroth"/);
+  assert.match(detailHtml, /"@type":"Article"/);
+  assert.match(detailHtml, /"@type":"BreadcrumbList"/);
+  assert.match(detailHtml, /"citation":\["https:\/\/www\.papenteich\.sitzung-online\.de\//);
+  assert.doesNotMatch(detailHtml, /property="og:image"[^>]*og\.png/);
+  assert.doesNotMatch(detailHtml, /name="twitter:image"[^>]*og\.png/);
+});
+
+test("publishes robots and sitemap discovery routes", async () => {
+  const robots = await render("/robots.txt");
+  assert.equal(robots.status, 200);
+  assert.match(robots.headers.get("content-type") ?? "", /^text\/plain\b/i);
+  const robotsText = await robots.text();
+  assert.match(robotsText, /User-Agent: \*/i);
+  assert.match(robotsText, /Disallow: \/api\//);
+  assert.match(robotsText, /Disallow: \/data\//);
+  assert.match(
+    robotsText,
+    /Sitemap: https:\/\/roetgesportal\.de\/sitemap\.xml/,
+  );
+
+  const sitemap = await render("/sitemap.xml");
+  assert.equal(sitemap.status, 200);
+  assert.match(sitemap.headers.get("content-type") ?? "", /^application\/xml\b/i);
+  const sitemapXml = await sitemap.text();
+  assert.match(sitemapXml, /<loc>https:\/\/roetgesportal\.de\/<\/loc>/);
+  assert.match(
+    sitemapXml,
+    /<loc>https:\/\/roetgesportal\.de\/themen\/fire-service-procurements-2026<\/loc>/,
+  );
+  assert.doesNotMatch(sitemapXml, /preview\.roetgesportal\.de|\/themen<\/loc>/);
+});
+
 test("returns not found for an unknown topic", async () => {
   const response = await render("/themen/unknown-topic");
   assert.equal(response.status, 404);

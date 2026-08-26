@@ -5,6 +5,7 @@ import { getLegalConfig } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Impressum",
   description: "Anbieter- und Verantwortlichkeitsangaben für RötgesPortal.",
+  alternates: { canonical: "/impressum" },
 };
 
 export default function LegalNoticePage() {

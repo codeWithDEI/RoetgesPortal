@@ -5,6 +5,7 @@ import { InfoPage } from "@/components/info-page";
 export const metadata: Metadata = {
   title: "Barrierefreiheit",
   description: "Hinweise zur Barrierefreiheit von RötgesPortal.",
+  alternates: { canonical: "/barrierefreiheit" },
 };
 
 export default function AccessibilityPage() {

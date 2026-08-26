@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Gemeinde- und Samtgemeindethemen auf der Karte",
   description:
     "Themen aus Gemeinde und Samtgemeinde mit nachvollziehbarem Ortsbezug auf einer interaktiven Karte.",
+  alternates: { canonical: "/karte" },
 };
 
 type CouncilMapManifest = {
