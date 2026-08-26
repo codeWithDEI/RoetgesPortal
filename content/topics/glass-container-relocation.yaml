@@ -1,9 +1,10 @@
 id: glass-container-relocation
 title: Neuer Standort für die Glascontainer
 summary: >
-  Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort
-  gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.
-status: council
+  Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der
+  Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der
+  Hauptstraße 13 vor.
+status: committee
 visibility: published
 
 areas:
@@ -19,8 +20,8 @@ organizations:
 
 dates:
   createdAt: "2025-06-18"
-  updatedAt: "2026-06-25"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-08-17"
+  lastVerifiedAt: "2026-08-26"
 
 description: |
   Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.
@@ -34,13 +35,17 @@ description: |
   Standorte bewertet.
 
   Der Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den
-  Festplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die
-  Container hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen
-  und die Standfläche zu pflastern.
+  Festplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der
+  Standort dort als ungeeignet angesehen wurde. Daraufhin prüfte die
+  Verwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.
 
-  Ein eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war
-  bei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte
-  Beschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.
+  Der Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus
+  Gründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,
+  fehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und
+  Einmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container
+  hinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die
+  Standfläche zu pflastern. Der Ausschuss soll darüber am 27. August 2026
+  beraten; ein neuer Beschluss liegt noch nicht vor.
 
 locations:
   - id: proposed-fairground-site
@@ -62,8 +67,11 @@ milestones:
     title: Fachausschuss empfiehlt den Festplatz
     status: reached
   - date: "2026-06-25"
-    title: Thema steht zur Entscheidung im Rat
+    title: Rat vertagt die Standortentscheidung
     status: reached
+  - date: "2026-08-27"
+    title: Ausschuss berät nach Ablehnung der K48-Alternativen erneut
+    status: planned
 
 sources:
   - title: Beschlussauszug zu Rötg/2025/0253
@@ -86,5 +94,15 @@ sources:
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
     publishedAt: "2026-06-25"
     accessedAt: "2026-08-14"
+  - title: Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-08-26"
+  - title: Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-08-26"
 
 positions: []

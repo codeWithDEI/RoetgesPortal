@@ -52,13 +52,49 @@
     "status": [
       "committee",
       "consultation",
-      "council",
       "decided",
       "implementation",
       "paused"
     ]
   },
   "items": [
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "fire-protection",
+        "vehicles",
+        "procurement"
+      ],
+      "dates": {
+        "createdAt": "2026-08-24",
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-24"
+      },
+      "detail": "../../topics/fire-service-procurements-2026.json",
+      "id": "fire-service-procurements-2026",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "committee",
+      "summary": "Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am 3. September 2026 im Feuerschutzausschuss beraten werden.",
+      "title": "Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr",
+      "upcomingMilestone": {
+        "date": "2026-09-03",
+        "status": "planned",
+        "title": "Feuerschutzausschuss berät die vier Vorlagen"
+      }
+    },
     {
       "areas": [
         "municipality-roetgesbuettel"
@@ -69,8 +105,8 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
       "detail": "../../topics/community-hall-fees.json",
       "id": "community-hall-fees",
@@ -81,8 +117,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "decided",
-      "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.",
+      "status": "paused",
+      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
     },
     {
@@ -96,8 +132,8 @@
       ],
       "dates": {
         "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
       "detail": "../../topics/glass-container-relocation.json",
       "id": "glass-container-relocation",
@@ -108,9 +144,52 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "council",
-      "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
-      "title": "Neuer Standort für die Glascontainer"
+      "status": "committee",
+      "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
+      "title": "Neuer Standort für die Glascontainer",
+      "upcomingMilestone": {
+        "date": "2026-08-27",
+        "status": "planned",
+        "title": "Ausschuss berät nach Ablehnung der K48-Alternativen erneut"
+      }
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "culture",
+        "public-facilities",
+        "digitalization",
+        "accessibility"
+      ],
+      "dates": {
+        "createdAt": "2026-04-14",
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
+      },
+      "detail": "../../topics/public-library-development.json",
+      "id": "public-library-development",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "committee",
+      "summary": "Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren, barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.",
+      "title": "Weiterentwicklung der Samtgemeindebücherei",
+      "upcomingMilestone": {
+        "date": "2026-09-02",
+        "status": "planned",
+        "title": "Ausschuss berät Bürgerbefragung und konkreten Stufenplan"
+      }
     },
     {
       "areas": [
@@ -123,8 +202,8 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
       "detail": "../../topics/aukenroth-residential-development.json",
       "id": "aukenroth-residential-development",
@@ -136,9 +215,14 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "consultation",
-      "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.",
-      "title": "Wohngebiet Aukenroth"
+      "status": "committee",
+      "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.",
+      "title": "Wohngebiet Aukenroth",
+      "upcomingMilestone": {
+        "date": "2026-08-27",
+        "status": "planned",
+        "title": "Ausschuss berät Auslegungsbeschluss und erneute Beteiligung"
+      }
     },
     {
       "areas": [
@@ -271,39 +355,6 @@
       "status": "implementation",
       "summary": "Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.",
       "title": "Vereinbarung zur Ganztagsförderung von Grundschulkindern"
-    },
-    {
-      "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "culture",
-        "public-facilities",
-        "digitalization",
-        "accessibility"
-      ],
-      "dates": {
-        "createdAt": "2026-04-14",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-04-14"
-      },
-      "detail": "../../topics/public-library-development.json",
-      "id": "public-library-development",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "implementation",
-      "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.",
-      "title": "Weiterentwicklung der Samtgemeindebücherei"
     },
     {
       "areas": [
