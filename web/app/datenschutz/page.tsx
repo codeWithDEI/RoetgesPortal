@@ -5,6 +5,7 @@ import { getLegalConfig } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Datenschutz",
   description: "Datenschutzhinweise für RötgesPortal.",
+  alternates: { canonical: "/datenschutz" },
 };
 
 export default function PrivacyPage() {

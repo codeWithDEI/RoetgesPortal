@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Über das Projekt",
   description:
     "Wie RötgesPortal kommunale Themen recherchiert, prüft und nachvollziehbar veröffentlicht.",
+  alternates: { canonical: "/projekt" },
 };
 
 const workflow = [

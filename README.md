@@ -208,6 +208,7 @@ future municipal handover:
 - [Deployment procedure](docs/operations/deployment.md)
 - [Legal and privacy operations checklist](docs/operations/legal-and-privacy-checklist.md)
 - [Monitoring and recovery](docs/operations/monitoring-and-recovery.md)
+- [Search discovery and Search Console](docs/operations/search-discovery.md)
 - [Visual identity](docs/brand/visual-identity.md)
 - [Contribution guide](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)

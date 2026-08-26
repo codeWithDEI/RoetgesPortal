@@ -5,6 +5,7 @@ import { getLegalConfig } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Kontakt und Korrekturen",
   description: "Kontaktwege für Hinweise und Korrekturen zum RötgesPortal.",
+  alternates: { canonical: "/kontakt" },
 };
 
 export default function ContactPage() {

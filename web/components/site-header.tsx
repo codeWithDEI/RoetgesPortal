@@ -25,7 +25,7 @@ export function SiteHeader() {
             </span>
           </Link>
           <nav className="primary-nav" aria-label="Hauptnavigation">
-            <Link href="/themen">Themen</Link>
+            <Link href="/">Themen</Link>
             <Link href="/karte">Karte</Link>
             <Link href="/projekt">Projekt</Link>
           </nav>

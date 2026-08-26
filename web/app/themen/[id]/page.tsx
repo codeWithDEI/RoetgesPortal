@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StatusBadge } from "@/components/status-badge";
+import { StructuredData } from "@/components/structured-data";
 import {
   categoryLabel,
   formatDate,
@@ -12,6 +13,7 @@ import {
   topicAreaLabel,
 } from "@/lib/presentation";
 import { getTopic, topics } from "@/lib/topics";
+import { absoluteUrl, SITE_NAME } from "@/lib/site";
 
 type TopicPageProps = {
   params: Promise<{ id: string }>;
@@ -34,6 +36,26 @@ export async function generateMetadata({
   return {
     title: topic.title,
     description: topic.summary.trim(),
+    alternates: {
+      canonical: `/themen/${topic.id}`,
+    },
+    openGraph: {
+      type: "article",
+      title: topic.title,
+      description: topic.summary.trim(),
+      url: absoluteUrl(`/themen/${topic.id}`),
+      siteName: SITE_NAME,
+      locale: "de_DE",
+      publishedTime: topic.dates.createdAt,
+      modifiedTime: topic.dates.updatedAt,
+      images: [],
+    },
+    twitter: {
+      card: "summary",
+      title: topic.title,
+      description: topic.summary.trim(),
+      images: [],
+    },
   };
 }
 
@@ -46,13 +68,60 @@ export default async function TopicPage({ params }: TopicPageProps) {
   const paragraphs = (topic.description ?? topic.summary)
     .trim()
     .split(/\n{2,}/);
+  const topicUrl = absoluteUrl(`/themen/${topic.id}`);
 
   return (
     <>
+      <StructuredData
+        data={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              headline: topic.title,
+              description: topic.summary.trim(),
+              inLanguage: "de-DE",
+              datePublished: topic.dates.createdAt,
+              dateModified: topic.dates.updatedAt,
+              mainEntityOfPage: topicUrl,
+              url: topicUrl,
+              author: {
+                "@type": "Organization",
+                name: SITE_NAME,
+                url: absoluteUrl("/projekt"),
+              },
+              publisher: {
+                "@type": "Organization",
+                name: SITE_NAME,
+                url: absoluteUrl("/"),
+                logo: absoluteUrl("/roetgesportal-mark.svg"),
+              },
+              citation: topic.sources.map((source) => source.url),
+            },
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Themen",
+                  item: absoluteUrl("/"),
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: topic.title,
+                  item: topicUrl,
+                },
+              ],
+            },
+          ],
+        }}
+      />
       <SiteHeader />
       <main className="topic-detail" id="main-content">
         <div className="topic-detail__shell">
-          <Link className="back-link" href="/themen">
+          <Link className="back-link" href="/">
             <span aria-hidden="true">←</span>
             Alle Themen
           </Link>

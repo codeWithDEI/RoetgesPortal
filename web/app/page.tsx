@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { StructuredData } from "@/components/structured-data";
 import { TopicExplorer } from "@/components/topic-explorer";
 import { DEFAULT_AREA_ID, filterAreas } from "@/lib/areas";
 import { formatDate } from "@/lib/presentation";
@@ -10,11 +11,15 @@ import {
   isRoetgesbuettelCouncilTopic,
   topicFacets,
 } from "@/lib/topics";
+import { absoluteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Kommunale Themen im Überblick",
   description:
     "Aktuelle Themen aus dem Gemeinderat Rötgesbüttel – mit optionaler Samtgemeinde-Sicht, Bearbeitungsstand und Originalquellen.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const visibleAreas = filterAreas(topicFacets.areas);
@@ -34,6 +39,22 @@ const defaultCouncilLatestVerificationDate = defaultCouncilTopics.reduce(
 export default function TopicsPage() {
   return (
     <>
+      <StructuredData
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: SITE_NAME,
+          url: absoluteUrl("/"),
+          description: SITE_DESCRIPTION,
+          inLanguage: "de-DE",
+          publisher: {
+            "@type": "Organization",
+            name: SITE_NAME,
+            url: absoluteUrl("/"),
+            logo: absoluteUrl("/roetgesportal-mark.svg"),
+          },
+        }}
+      />
       <SiteHeader />
       <main id="main-content">
         <section className="hero">
