@@ -81,10 +81,10 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
-      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDer veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus\nGutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen\nin die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und\neine Waldbewertung wurden bereits beauftragt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am\n25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war\nbei der letzten Prüfung noch nicht verfügbar.\n",
+      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss soll den nächsten Verfahrensschritt am 27. August 2026\nvorberaten.\n",
       "id": "aukenroth-residential-development",
       "locations": [],
       "milestones": [
@@ -97,6 +97,11 @@
           "date": "2026-06-25",
           "status": "reached",
           "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
+        },
+        {
+          "date": "2026-08-27",
+          "status": "planned",
+          "title": "Ausschuss berät Auslegungsbeschluss und erneute Beteiligung"
         }
       ],
       "organizations": [
@@ -129,10 +134,24 @@
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0304 zum Auslegungsbeschluss",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "agenda",
+          "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
         }
       ],
-      "status": "consultation",
-      "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.\n",
+      "status": "committee",
+      "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.\n",
       "title": "Wohngebiet Aukenroth",
       "visibility": "published"
     },
@@ -556,10 +575,10 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
-      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDie abgeschlossene Vorlage sah vor, dem Antrag grundsätzlich zuzustimmen.\nDie Verwaltung sollte außerdem Angaben zur Auslastung im Jahr 2025 und\nVergleichswerte aus Nachbargemeinden für eine weitere Beschlussvorlage\nzusammentragen.\n\nDie öffentliche Beratungsfolge weist die Entscheidung des Rates als\nerledigt aus. Ein separater öffentlicher Beschlussauszug mit dem endgültigen\nWortlaut war bei der letzten Prüfung nicht verfügbar.\n",
+      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDer Kultur- und Sportausschuss behandelte die Neufassung am 17. August 2026.\nDie öffentliche Beratungsfolge kennzeichnet diesen Schritt als erledigt,\ndie vorgesehenen Beratungen im Verwaltungsausschuss und Rat dagegen als\ngestoppt. Ein öffentlicher Beschlussauszug mit der Begründung war bei der\nletzten Prüfung nicht verfügbar; die Neufassung wird deshalb nicht als\nbeschlossen dargestellt.\n",
       "id": "community-hall-fees",
       "locations": [],
       "milestones": [
@@ -571,7 +590,12 @@
         {
           "date": "2026-06-25",
           "status": "reached",
-          "title": "Behandlung im Rat"
+          "title": "Rat beauftragt die Vorbereitung einer Neufassung"
+        },
+        {
+          "date": "2026-08-17",
+          "status": "reached",
+          "title": "Ausschuss berät Neufassung; weitere Beratungsfolge gestoppt"
         }
       ],
       "organizations": [
@@ -596,10 +620,24 @@
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0303 zur Neufassung der Gebührensatzung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "agenda",
+          "title": "Sitzung des Kultur- und Sportausschusses vom 17. August 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000326&refresh=false"
         }
       ],
-      "status": "decided",
-      "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.\n",
+      "status": "paused",
+      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.\n",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
       "visibility": "published"
     },
@@ -843,6 +881,85 @@
     },
     {
       "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "fire-protection",
+        "vehicles",
+        "procurement"
+      ],
+      "dates": {
+        "createdAt": "2026-08-24",
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-24"
+      },
+      "description": "Dem Feuerschutzausschuss liegen vier zusammengehörige Vorlagen zur\nAusstattung der Gemeindefeuerwehr vor. Für die Feuerwehr Rothemühle-Walle\nwird ein Ford Transit Custom als Mannschaftstransportwagen für 74.096,15 Euro\nvorgeschlagen. Die Fertigstellung ist laut Angebot für Dezember 2026\nvorgesehen.\n\nFür Zug 4 soll ein Rettungsboot RTB 420 mit Trailer und 40-PS-Außenbordmotor\nfür 34.999,51 Euro beschafft werden. Für die Gemeindefeuerwehr ist außerdem\nein Hyundai Tucson Hybrid als Kommandowagen für 56.507,77 Euro vorgesehen.\nAlle drei Angebote liegen innerhalb der jeweiligen Haushaltsansätze.\n\nDer bisherige VW Caddy des Gemeindebrandmeisters soll nach Lieferung des\nneuen Kommandowagens nicht verkauft, sondern dem hauptamtlichen Gerätewart\nfür Dienstfahrten zugeordnet werden.\n\nDie Angaben stammen aus den Beschlussvorschlägen. Die Beratung im\nFeuerschutzausschuss ist für den 3. September 2026 vorgesehen; endgültige\nEntscheidungen werden deshalb noch nicht dargestellt.\n",
+      "id": "fire-service-procurements-2026",
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-09-03",
+          "status": "planned",
+          "title": "Feuerschutzausschuss berät die vier Vorlagen"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1076 zum MTW Rothemühle-Walle",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001223&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1077 zum Rettungsboot für Zug 4",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001225&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1075 zum Kommandowagen",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001222&refresh=false&TOLFDNR=1008477"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-24",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1083 zur Weiterverwendung des VW Caddy",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001265&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-24",
+          "sourceType": "agenda",
+          "title": "Sitzung des Feuerschutzausschusses vom 3. September 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000124&refresh=false"
+        }
+      ],
+      "status": "committee",
+      "summary": "Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am 3. September 2026 im Feuerschutzausschuss beraten werden.\n",
+      "title": "Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr",
+      "visibility": "published"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -958,10 +1075,10 @@
       ],
       "dates": {
         "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-25"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
-      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Der Ausschuss soll darüber am 27. August 2026\nberaten; ein neuer Beschluss liegt noch nicht vor.\n",
       "id": "glass-container-relocation",
       "locations": [
         {
@@ -995,7 +1112,12 @@
         {
           "date": "2026-06-25",
           "status": "reached",
-          "title": "Thema steht zur Entscheidung im Rat"
+          "title": "Rat vertagt die Standortentscheidung"
+        },
+        {
+          "date": "2026-08-27",
+          "status": "planned",
+          "title": "Ausschuss berät nach Ablehnung der K48-Alternativen erneut"
         }
       ],
       "organizations": [
@@ -1034,10 +1156,24 @@
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "agenda",
+          "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
         }
       ],
-      "status": "council",
-      "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.\n",
+      "status": "committee",
+      "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
       "title": "Neuer Standort für die Glascontainer",
       "visibility": "published"
     },
@@ -1642,10 +1778,10 @@
       ],
       "dates": {
         "createdAt": "2026-04-14",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-04-14"
+        "lastVerifiedAt": "2026-08-26",
+        "updatedAt": "2026-08-17"
       },
-      "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nDie Verwaltung soll die Ergebnisse in einem Umsetzungs- und Finanzkonzept\nzur weiteren politischen Beratung vorlegen. Ein Enddatum wurde bewusst\nnicht festgelegt.\n",
+      "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nAn der anschließenden Bürgerbefragung beteiligten sich 446 Personen. Sie ist\nlaut Vorlage nur eingeschränkt repräsentativ, bestätigt aber insbesondere\nden Bedarf nach mehr Platz, einem größeren und aktuelleren Medienbestand,\ndigitalen Angeboten sowie familienfreundlichen Öffnungszeiten.\n\nDer neue Beschlussvorschlag sieht einen zentralen, ebenerdigen und\nbarrierefreien Standort mit rund 500 Quadratmetern vor. Ein Anbau an das\nRathaus soll in einer Machbarkeitsstudie geprüft werden. Angestrebt werden\naußerdem 20.000 bis 25.000 Medien, mindestens 1,5 Vollzeitstellen,\nÖffnungszeiten in Richtung 18 Wochenstunden, Onleihe und weitere digitale\nAngebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027\nentschieden werden.\n\nDer Ausschuss für Jugend, Senioren und Integration soll den Stufenplan am\n2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht\nabschließend beschlossen.\n",
       "id": "public-library-development",
       "locations": [],
       "milestones": [
@@ -1653,6 +1789,11 @@
           "date": "2026-04-14",
           "status": "reached",
           "title": "Samtgemeinderat beschließt Leitbild und Konzeptauftrag"
+        },
+        {
+          "date": "2026-09-02",
+          "status": "planned",
+          "title": "Ausschuss berät Bürgerbefragung und konkreten Stufenplan"
         }
       ],
       "organizations": [
@@ -1682,10 +1823,17 @@
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 14. April 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103"
+        },
+        {
+          "accessedAt": "2026-08-26",
+          "publishedAt": "2026-08-17",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1074 zur Bürgerbefragung und Weiterentwicklung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247"
         }
       ],
-      "status": "implementation",
-      "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.\n",
+      "status": "committee",
+      "summary": "Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren, barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.\n",
       "title": "Weiterentwicklung der Samtgemeindebücherei",
       "visibility": "published"
     },

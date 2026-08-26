@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2026-06-01",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-06-25"
+      "lastVerifiedAt": "2026-08-26",
+      "updatedAt": "2026-08-17"
     },
-    "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDer veröffentlichte Vorentwurf ist noch nicht abschließend. Ergebnisse aus\nGutachten sowie aus der Beteiligung von Öffentlichkeit und Behörden sollen\nin die weitere Planung einfließen. Artenschutzrechtliche Kartierungen und\neine Waldbewertung wurden bereits beauftragt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Die beiden Vorlagen wurden am\n25. Juni 2026 im Rat behandelt. Ein eigener öffentlicher Beschlussauszug war\nbei der letzten Prüfung noch nicht verfügbar.\n",
+    "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss soll den nächsten Verfahrensschritt am 27. August 2026\nvorberaten.\n",
     "id": "aukenroth-residential-development",
     "locations": [],
     "milestones": [
@@ -27,6 +27,11 @@
         "date": "2026-06-25",
         "status": "reached",
         "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
+      },
+      {
+        "date": "2026-08-27",
+        "status": "planned",
+        "title": "Ausschuss berät Auslegungsbeschluss und erneute Beteiligung"
       }
     ],
     "organizations": [
@@ -59,10 +64,24 @@
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-17",
+        "sourceType": "proposal",
+        "title": "Vorlage Rötg/2026/0304 zum Auslegungsbeschluss",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-17",
+        "sourceType": "agenda",
+        "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
       }
     ],
-    "status": "consultation",
-    "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.\n",
+    "status": "committee",
+    "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.\n",
     "title": "Wohngebiet Aukenroth",
     "visibility": "published"
   }

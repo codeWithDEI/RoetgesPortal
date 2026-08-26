@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "fire-protection",
+      "vehicles",
+      "procurement"
+    ],
+    "dates": {
+      "createdAt": "2026-08-24",
+      "lastVerifiedAt": "2026-08-26",
+      "updatedAt": "2026-08-24"
+    },
+    "description": "Dem Feuerschutzausschuss liegen vier zusammengehörige Vorlagen zur\nAusstattung der Gemeindefeuerwehr vor. Für die Feuerwehr Rothemühle-Walle\nwird ein Ford Transit Custom als Mannschaftstransportwagen für 74.096,15 Euro\nvorgeschlagen. Die Fertigstellung ist laut Angebot für Dezember 2026\nvorgesehen.\n\nFür Zug 4 soll ein Rettungsboot RTB 420 mit Trailer und 40-PS-Außenbordmotor\nfür 34.999,51 Euro beschafft werden. Für die Gemeindefeuerwehr ist außerdem\nein Hyundai Tucson Hybrid als Kommandowagen für 56.507,77 Euro vorgesehen.\nAlle drei Angebote liegen innerhalb der jeweiligen Haushaltsansätze.\n\nDer bisherige VW Caddy des Gemeindebrandmeisters soll nach Lieferung des\nneuen Kommandowagens nicht verkauft, sondern dem hauptamtlichen Gerätewart\nfür Dienstfahrten zugeordnet werden.\n\nDie Angaben stammen aus den Beschlussvorschlägen. Die Beratung im\nFeuerschutzausschuss ist für den 3. September 2026 vorgesehen; endgültige\nEntscheidungen werden deshalb noch nicht dargestellt.\n",
+    "id": "fire-service-procurements-2026",
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-09-03",
+        "status": "planned",
+        "title": "Feuerschutzausschuss berät die vier Vorlagen"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1076 zum MTW Rothemühle-Walle",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001223&refresh=false"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1077 zum Rettungsboot für Zug 4",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001225&refresh=false"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1075 zum Kommandowagen",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001222&refresh=false&TOLFDNR=1008477"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-24",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1083 zur Weiterverwendung des VW Caddy",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001265&refresh=false"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-24",
+        "sourceType": "agenda",
+        "title": "Sitzung des Feuerschutzausschusses vom 3. September 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000124&refresh=false"
+      }
+    ],
+    "status": "committee",
+    "summary": "Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am 3. September 2026 im Feuerschutzausschuss beraten werden.\n",
+    "title": "Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr",
+    "visibility": "published"
+  }
+}

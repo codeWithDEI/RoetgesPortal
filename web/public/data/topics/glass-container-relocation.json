@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-06-18",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-06-25"
+      "lastVerifiedAt": "2026-08-26",
+      "updatedAt": "2026-08-17"
     },
-    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Die Vorlage für die Ratssitzung am 25. Juni schlug vor, die\nContainer hinter dem Zaun auf dem Grundstück Hauptstraße 13 aufzustellen\nund die Standfläche zu pflastern.\n\nEin eigener öffentlicher Beschlussauszug zur Ratssitzung vom 25. Juni war\nbei der letzten Prüfung noch nicht verfügbar. Der veröffentlichte\nBeschlussvorschlag wird deshalb nicht als endgültiger Beschluss dargestellt.\n",
+    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Der Ausschuss soll darüber am 27. August 2026\nberaten; ein neuer Beschluss liegt noch nicht vor.\n",
     "id": "glass-container-relocation",
     "locations": [
       {
@@ -48,7 +48,12 @@
       {
         "date": "2026-06-25",
         "status": "reached",
-        "title": "Thema steht zur Entscheidung im Rat"
+        "title": "Rat vertagt die Standortentscheidung"
+      },
+      {
+        "date": "2026-08-27",
+        "status": "planned",
+        "title": "Ausschuss berät nach Ablehnung der K48-Alternativen erneut"
       }
     ],
     "organizations": [
@@ -87,10 +92,24 @@
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-17",
+        "sourceType": "proposal",
+        "title": "Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255"
+      },
+      {
+        "accessedAt": "2026-08-26",
+        "publishedAt": "2026-08-17",
+        "sourceType": "agenda",
+        "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
       }
     ],
-    "status": "council",
-    "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.\n",
+    "status": "committee",
+    "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
     "title": "Neuer Standort für die Glascontainer",
     "visibility": "published"
   }

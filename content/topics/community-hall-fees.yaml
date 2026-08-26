@@ -1,9 +1,10 @@
 id: community-hall-fees
 title: Gebühren für Bürgerhalle und Gemeinschaftsräume
 summary: >
-  Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen
-  überprüft und angepasst werden.
-status: decided
+  Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und
+  Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss
+  und Rat sind derzeit gestoppt.
+status: paused
 visibility: published
 
 areas:
@@ -18,22 +19,25 @@ organizations:
 
 dates:
   createdAt: "2026-06-04"
-  updatedAt: "2026-06-25"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-08-17"
+  lastVerifiedAt: "2026-08-26"
 
 description: |
   Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und
   Sportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage
   über eine Anpassung einig.
 
-  Die abgeschlossene Vorlage sah vor, dem Antrag grundsätzlich zuzustimmen.
-  Die Verwaltung sollte außerdem Angaben zur Auslastung im Jahr 2025 und
-  Vergleichswerte aus Nachbargemeinden für eine weitere Beschlussvorlage
-  zusammentragen.
+  Der Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte
+  die Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie
+  um Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen
+  Gebührenvergleich mit Nachbargemeinden und dem Umland.
 
-  Die öffentliche Beratungsfolge weist die Entscheidung des Rates als
-  erledigt aus. Ein separater öffentlicher Beschlussauszug mit dem endgültigen
-  Wortlaut war bei der letzten Prüfung nicht verfügbar.
+  Der Kultur- und Sportausschuss behandelte die Neufassung am 17. August 2026.
+  Die öffentliche Beratungsfolge kennzeichnet diesen Schritt als erledigt,
+  die vorgesehenen Beratungen im Verwaltungsausschuss und Rat dagegen als
+  gestoppt. Ein öffentlicher Beschlussauszug mit der Begründung war bei der
+  letzten Prüfung nicht verfügbar; die Neufassung wird deshalb nicht als
+  beschlossen dargestellt.
 
 locations: []
 
@@ -42,7 +46,10 @@ milestones:
     title: Beratung im Kultur- und Sportausschuss
     status: reached
   - date: "2026-06-25"
-    title: Behandlung im Rat
+    title: Rat beauftragt die Vorbereitung einer Neufassung
+    status: reached
+  - date: "2026-08-17"
+    title: Ausschuss berät Neufassung; weitere Beratungsfolge gestoppt
     status: reached
 
 sources:
@@ -56,5 +63,15 @@ sources:
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
     publishedAt: "2026-06-25"
     accessedAt: "2026-08-14"
+  - title: Vorlage Rötg/2026/0303 zur Neufassung der Gebührensatzung
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-08-26"
+  - title: Sitzung des Kultur- und Sportausschusses vom 17. August 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000326&refresh=false
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-08-26"
 
 positions: []

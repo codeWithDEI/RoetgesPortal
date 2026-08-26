@@ -163,7 +163,7 @@ class BuildPortalTests(unittest.TestCase):
 
             self.assertEqual(first_build, second_build)
             self.assertEqual(7, counts["areas"])
-            self.assertEqual(39, counts["topics"])
+            self.assertEqual(40, counts["topics"])
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())

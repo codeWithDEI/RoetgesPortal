@@ -1,0 +1,79 @@
+id: fire-service-procurements-2026
+title: Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr
+summary: >
+  Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am
+  3. September 2026 im Feuerschutzausschuss beraten werden.
+status: committee
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - fire-protection
+  - vehicles
+  - procurement
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-08-24"
+  updatedAt: "2026-08-24"
+  lastVerifiedAt: "2026-08-26"
+
+description: |
+  Dem Feuerschutzausschuss liegen vier zusammengehörige Vorlagen zur
+  Ausstattung der Gemeindefeuerwehr vor. Für die Feuerwehr Rothemühle-Walle
+  wird ein Ford Transit Custom als Mannschaftstransportwagen für 74.096,15 Euro
+  vorgeschlagen. Die Fertigstellung ist laut Angebot für Dezember 2026
+  vorgesehen.
+
+  Für Zug 4 soll ein Rettungsboot RTB 420 mit Trailer und 40-PS-Außenbordmotor
+  für 34.999,51 Euro beschafft werden. Für die Gemeindefeuerwehr ist außerdem
+  ein Hyundai Tucson Hybrid als Kommandowagen für 56.507,77 Euro vorgesehen.
+  Alle drei Angebote liegen innerhalb der jeweiligen Haushaltsansätze.
+
+  Der bisherige VW Caddy des Gemeindebrandmeisters soll nach Lieferung des
+  neuen Kommandowagens nicht verkauft, sondern dem hauptamtlichen Gerätewart
+  für Dienstfahrten zugeordnet werden.
+
+  Die Angaben stammen aus den Beschlussvorschlägen. Die Beratung im
+  Feuerschutzausschuss ist für den 3. September 2026 vorgesehen; endgültige
+  Entscheidungen werden deshalb noch nicht dargestellt.
+
+locations: []
+
+milestones:
+  - date: "2026-09-03"
+    title: Feuerschutzausschuss berät die vier Vorlagen
+    status: planned
+
+sources:
+  - title: Vorlage SGP/2026/1076 zum MTW Rothemühle-Walle
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001223&refresh=false
+    publishedAt: "2026-08-24"
+    accessedAt: "2026-08-26"
+  - title: Vorlage SGP/2026/1077 zum Rettungsboot für Zug 4
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001225&refresh=false
+    publishedAt: "2026-08-24"
+    accessedAt: "2026-08-26"
+  - title: Vorlage SGP/2026/1075 zum Kommandowagen
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001222&refresh=false&TOLFDNR=1008477
+    publishedAt: "2026-08-24"
+    accessedAt: "2026-08-26"
+  - title: Vorlage SGP/2026/1083 zur Weiterverwendung des VW Caddy
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001265&refresh=false
+    publishedAt: "2026-08-24"
+    accessedAt: "2026-08-26"
+  - title: Sitzung des Feuerschutzausschusses vom 3. September 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000124&refresh=false
+    publishedAt: "2026-08-24"
+    accessedAt: "2026-08-26"
+
+positions: []

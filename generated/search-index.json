@@ -238,8 +238,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "decided",
-      "summary": "Die Gebühren für die Bürgerhalle und weitere Gemeinschaftsräume sollen überprüft und angepasst werden.",
+      "status": "paused",
+      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
     },
     {
@@ -437,6 +437,33 @@
         "joint-municipality-papenteich"
       ],
       "categories": [
+        "fire-protection",
+        "vehicles",
+        "procurement"
+      ],
+      "detail": "topics/fire-service-procurements-2026.json",
+      "id": "fire-service-procurements-2026",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "committee",
+      "summary": "Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am 3. September 2026 im Feuerschutzausschuss beraten werden.",
+      "title": "Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
         "schools",
         "digitalization",
         "public-facilities"
@@ -477,8 +504,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "council",
-      "summary": "Für die Glascontainer an der Alten Heerstraße wird ein neuer Standort gesucht. Zuletzt wurde der Festplatz an der Hauptstraße 13 vorgeschlagen.",
+      "status": "committee",
+      "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
       "title": "Neuer Standort für die Glascontainer"
     },
     {
@@ -826,8 +853,8 @@
         "municipality-schwuelper",
         "municipality-vordorf"
       ],
-      "status": "implementation",
-      "summary": "Die Bücherei soll räumlich, personell und digital weiterentwickelt werden; die Verwaltung erarbeitet dafür ein Umsetzungs- und Finanzkonzept.",
+      "status": "committee",
+      "summary": "Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren, barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.",
       "title": "Weiterentwicklung der Samtgemeindebücherei"
     },
     {
@@ -849,8 +876,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "consultation",
-      "summary": "Für ein neues Wohngebiet Aukenroth sollen ein Bebauungsplan aufgestellt und der Flächennutzungsplan geändert werden.",
+      "status": "committee",
+      "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.",
       "title": "Wohngebiet Aukenroth"
     },
     {
