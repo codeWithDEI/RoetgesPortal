@@ -103,6 +103,13 @@ export const councilTopics = (councilData as CouncilData).items;
 export const topicFacets = (councilData as CouncilData).facets;
 export const topics = (topicData as TopicDataset).items;
 
+export const topicsByRecentUpdate = [...topics].sort((left, right) => {
+  const dateComparison = right.dates.updatedAt.localeCompare(
+    left.dates.updatedAt,
+  );
+  return dateComparison || left.title.localeCompare(right.title, "de-DE");
+});
+
 export function getTopic(id: string): Topic | undefined {
   return topics.find((topic) => topic.id === id);
 }
@@ -114,3 +121,5 @@ export const latestVerificationDate = topics.reduce(
       : latest,
   "",
 );
+
+export const latestUpdateDate = topicsByRecentUpdate[0]?.dates.updatedAt ?? "";

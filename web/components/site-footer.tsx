@@ -10,6 +10,10 @@ export function SiteFooter() {
         </div>
         <nav className="footer-nav" aria-label="Weitere Informationen">
           <Link href="/projekt">Projekt</Link>
+          <Link href="/neu">Neu &amp; aktualisiert</Link>
+          <a href="/feed.xml" type="application/rss+xml">
+            RSS-Feed
+          </a>
           <Link href="/barrierefreiheit">Barrierefreiheit</Link>
           <Link href="/datenschutz">Datenschutz</Link>
           <Link href="/impressum">Impressum</Link>

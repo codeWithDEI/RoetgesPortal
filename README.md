@@ -183,7 +183,8 @@ git diff --exit-code -- generated
 ## Web application
 
 The public web application presents generated council topics as a
-German-language list and an OpenStreetMap-based MapLibre view. Both default to
+German-language list, a chronological update stream, an RSS feed, and an
+OpenStreetMap-based MapLibre view. The topic and map views default to
 Rötgesbüttel and provide administrative-area, status, and category filters with
 links to source-backed detail pages:
 

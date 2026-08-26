@@ -100,6 +100,50 @@ test("server-renders project and trust pages", async () => {
   }
 });
 
+test("server-renders the chronological update stream", async () => {
+  const response = await render("/neu");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /Neu &amp; aktualisiert/);
+  assert.match(html, /Zuletzt bearbeitet/);
+  assert.match(html, /40(?:<!-- -->)* veröffentlichte Themen/);
+  assert.match(html, /RSS-Feed abonnieren/);
+  assert.match(
+    html,
+    /rel="alternate" type="application\/rss\+xml" href="http:\/\/localhost:3000\/feed\.xml"/,
+  );
+  assert.match(html, /Feuerschutz/);
+  assert.match(html, /Beschaffung/);
+  assert.ok(
+    html.indexOf("Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr") <
+      html.indexOf("Weiterentwicklung der Samtgemeindebücherei"),
+  );
+});
+
+test("publishes a deterministic RSS update feed", async () => {
+  const response = await render("/feed.xml");
+  assert.equal(response.status, 200);
+  assert.match(
+    response.headers.get("content-type") ?? "",
+    /^application\/rss\+xml\b/i,
+  );
+  assert.match(response.headers.get("cache-control") ?? "", /max-age=300/);
+
+  const xml = await response.text();
+  assert.match(xml, /^<\?xml version="1\.0" encoding="UTF-8"\?>/);
+  assert.match(xml, /<rss version="2\.0"/);
+  assert.match(xml, /<title>RötgesPortal – Neu und aktualisiert<\/title>/);
+  assert.match(xml, /<atom:link href="https:\/\/roetgesportal\.de\/feed\.xml"/);
+  assert.equal((xml.match(/<item>/g) ?? []).length, 25);
+  assert.match(xml, /<category>Feuerschutz<\/category>/);
+  assert.ok(
+    xml.indexOf("Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr") <
+      xml.indexOf("Weiterentwicklung der Samtgemeindebücherei"),
+  );
+  assert.doesNotMatch(xml, /preview\.roetgesportal\.de/);
+});
+
 test("renders complete legal and privacy disclosures from runtime configuration", async () => {
   const legalNotice = await render("/impressum");
   assert.equal(legalNotice.status, 200);
