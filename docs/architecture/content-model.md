@@ -85,6 +85,10 @@ files:
 - Reusable standalone geography belongs in a GeoJSON dataset.
 - Topic-specific geography is stored as a GeoJSON file referenced by the
   topic's `locations` collection.
+- A topic location may keep an empty `coordinates` array while editors are
+  still locating it. The generator omits that feature until coordinates are
+  added. Editors may change the geometry type from `Point` to another GeoJSON
+  geometry when a line or area describes the impact more accurately.
 - Map presentations only select and present geographic data; they never embed
   coordinates or rendering-library configuration.
 

@@ -32,7 +32,11 @@ description: |
   Abschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum
   14. August 2026 nicht dokumentiert.
 
-locations: []
+locations:
+  - id: cemetery
+    label: Friedhof Rötgesbüttel
+    impactType: direct
+    geoJsonFile: content/locations/roetgesbuettel-cemetery-upgrades.geojson
 
 milestones:
   - date: "2025-01-21"

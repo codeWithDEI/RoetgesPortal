@@ -11,12 +11,12 @@
       {
         "clustering": false,
         "data": "layers/council-topics.geojson",
-        "featureCount": 2,
+        "featureCount": 5,
         "id": "council-topics",
         "preset": "council-topic-status",
         "source": "active-topic-locations",
         "title": "Ratsthemen",
-        "topicCount": 2,
+        "topicCount": 5,
         "visibleByDefault": true
       }
     ],

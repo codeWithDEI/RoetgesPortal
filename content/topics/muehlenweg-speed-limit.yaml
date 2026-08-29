@@ -31,7 +31,11 @@ description: |
   Der Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine
   Entscheidung der zuständigen Straßenverkehrsbehörde.
 
-locations: []
+locations:
+  - id: affected-road-section
+    label: Betroffener Abschnitt des Mühlenwegs
+    impactType: affectedArea
+    geoJsonFile: content/locations/muehlenweg-speed-limit.geojson
 
 milestones:
   - date: "2025-12-16"

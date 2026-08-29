@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [10.523529,52.422340],
+            [10.526243,52.422320],
+            [10.525889,52.421685],
+            [10.523840,52.421640],
+            [10.523529,52.422340]
+          ]
+        ]
+      },
+      "properties": {
+        "precision": "approximate",
+        "sourceNote": "Location manually assigned from the public topic record"
+      }
+    }
+  ]
+}

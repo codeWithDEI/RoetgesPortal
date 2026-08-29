@@ -41,7 +41,11 @@ description: |
   voraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit
   jeweils vollständigem Raumkonzept erforderlich.
 
-locations: []
+locations:
+  - id: childcare-centre
+    label: Kindertagesstätte Rötgesbüttel
+    impactType: direct
+    geoJsonFile: content/locations/childcare-centre-expansion.geojson
 
 milestones:
   - date: "2025-03-03"

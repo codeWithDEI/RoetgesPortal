@@ -34,7 +34,11 @@ description: |
   weiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein
   späterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.
 
-locations: []
+locations:
+  - id: rail-crossing
+    label: Bahnübergang am Pfänderweg
+    impactType: direct
+    geoJsonFile: content/locations/pfaenderweg-rail-crossing.geojson
 
 milestones:
   - date: "2025-06-02"

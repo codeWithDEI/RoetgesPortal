@@ -15,7 +15,14 @@
     },
     "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene\nVerfahren. Er trifft keine Aussage über andere oder spätere Planungen für\ndas Gebiet.\n",
     "id": "southfield-ii-change-proposal",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/southfield-ii-change-proposal.geojson",
+        "id": "planning-area",
+        "impactType": "direct",
+        "label": "Plangebiet Südfeld II"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-02-24",

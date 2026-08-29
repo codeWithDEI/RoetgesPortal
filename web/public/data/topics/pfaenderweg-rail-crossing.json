@@ -16,7 +16,14 @@
     },
     "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
     "id": "pfaenderweg-rail-crossing",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/pfaenderweg-rail-crossing.geojson",
+        "id": "rail-crossing",
+        "impactType": "direct",
+        "label": "Bahnübergang am Pfänderweg"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-06-02",

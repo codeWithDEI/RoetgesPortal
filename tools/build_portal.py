@@ -199,6 +199,13 @@ def make_topic_location_collection(
             for index, source_feature in enumerate(
                 collection.get("features", [])
             ):
+                geometry = source_feature.get("geometry")
+                if (
+                    not isinstance(geometry, dict)
+                    or not geometry.get("coordinates")
+                ):
+                    continue
+
                 feature = deepcopy(source_feature)
                 feature_identifier = feature.get("id", index)
                 feature["id"] = (
@@ -390,10 +397,11 @@ def build_portal(
                     layer_manifest["featureCount"] = len(
                         collection["features"]
                     )
-                    layer_manifest["topicCount"] = sum(
-                        1
-                        for topic in selected_topics
-                        if topic.get("locations")
+                    layer_manifest["topicCount"] = len(
+                        {
+                            feature["properties"]["topicId"]
+                            for feature in collection["features"]
+                        }
                     )
                 else:
                     layer_manifest["data"] = (

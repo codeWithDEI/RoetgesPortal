@@ -170,7 +170,7 @@ test("server-renders the chronological update stream", async () => {
   assert.match(html, /RSS-Feed abonnieren/);
   assert.match(
     html,
-    /rel="alternate" type="application\/rss\+xml" href="http:\/\/localhost:3000\/feed\.xml"/,
+    /rel="alternate" type="application\/rss\+xml" href="https:\/\/roetgesportal\.de\/feed\.xml"/,
   );
   assert.match(html, /Feuerschutz/);
   assert.match(html, /Beschaffung/);
@@ -248,7 +248,7 @@ test("server-renders the source-backed council map", async () => {
 
   const html = await response.text();
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
-  assert.match(html, /2(?:<!-- -->)* verortete Themen/);
+  assert.match(html, /5(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
   assert.match(html, /Kartendaten: OpenStreetMap/);
   assert.match(html, /href="https:\/\/www\.openstreetmap\.org\/copyright"/);

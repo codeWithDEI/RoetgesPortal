@@ -86,7 +86,14 @@
       },
       "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss soll den nächsten Verfahrensschritt am 27. August 2026\nvorberaten.\n",
       "id": "aukenroth-residential-development",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/aukenroth-residential-development.geojson",
+          "id": "planning-area",
+          "impactType": "direct",
+          "label": "Plangebiet Aukenroth"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-06-01",
@@ -170,7 +177,14 @@
       },
       "description": "Die Deutsche Post beantragte im Verfahren nach dem Postgesetz eine\nautomatisierte Station in Rötgesbüttel. Der Rat stellte das kommunale\nBenehmen her, nahm das Vorhaben zur Kenntnis und bat um Informationen für\ndie Bürgerinnen und Bürger zur Funktionsweise.\n\nDer Beschluss schließt die kommunale Befassung ab. Ob und wann die Station\nanschließend in Betrieb ging, geht aus diesem Beschluss nicht hervor.\n",
       "id": "automated-post-station",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/automated-post-station.geojson",
+          "id": "station-site",
+          "impactType": "direct",
+          "label": "Standort der automatisierten Poststation"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-06-18",
@@ -218,7 +232,14 @@
       },
       "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n",
       "id": "b4-sidewalk-renewal",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/b4-sidewalk-renewal.geojson",
+          "id": "affected-corridor",
+          "impactType": "affectedArea",
+          "label": "Betroffener Abschnitt der B4-Ortsdurchfahrt"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-03-03",
@@ -405,7 +426,14 @@
       },
       "description": "Bereits im März 2025 stimmte der Rat einem Einwohnerantrag zur\nKindertagesstätte zu. Zusätzlich beauftragte er einen Arbeitskreis mit einem\nKonzept zu Arbeitssicherheit, Arbeitszufriedenheit, Platzverhältnissen und\nAusstattung. Für Investitionen wurden zunächst 10.000 Euro zusätzlich in\nden Haushalt 2025 eingestellt.\n\nDer Rat bat die Kindergartenleitung im Dezember 2025 um ein pädagogisches\nKonzept. Dieses soll anschließend im Arbeitskreis KiTa und im zuständigen\nFachausschuss beraten werden. Für mögliche weitere Planungsleistungen wurden\n38.000 Euro im Haushalt 2026 vorgesehen.\n\nIm März 2026 erläuterte das DRK, dass die bestehende Einrichtung mit sieben\nGruppen Bestandsschutz genießt. Bauliche oder strukturelle Änderungen\nkönnten jedoch eine neue Prüfung der Betriebsgenehmigung auslösen. Dann wäre\nvoraussichtlich eine Aufteilung in zwei eigenständige Einrichtungen mit\njeweils vollständigem Raumkonzept erforderlich.\n",
       "id": "childcare-centre-expansion",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/childcare-centre-expansion.geojson",
+          "id": "childcare-centre",
+          "impactType": "direct",
+          "label": "Kindertagesstätte Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-03-03",
@@ -483,7 +511,14 @@
       },
       "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n",
       "id": "childcare-sanitary-facilities",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/childcare-sanitary-facilities.geojson",
+          "id": "childcare-centre",
+          "impactType": "direct",
+          "label": "Kindertagesstätte Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-03-17",
@@ -530,7 +565,14 @@
       },
       "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
       "id": "community-centre-old-fire-station",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/community-centre-old-fire-station.geojson",
+          "id": "old-fire-station",
+          "impactType": "direct",
+          "label": "Alte Feuerwehr"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-12-16",
@@ -580,7 +622,14 @@
       },
       "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDer Kultur- und Sportausschuss behandelte die Neufassung am 17. August 2026.\nDie öffentliche Beratungsfolge kennzeichnet diesen Schritt als erledigt,\ndie vorgesehenen Beratungen im Verwaltungsausschuss und Rat dagegen als\ngestoppt. Ein öffentlicher Beschlussauszug mit der Begründung war bei der\nletzten Prüfung nicht verfügbar; die Neufassung wird deshalb nicht als\nbeschlossen dargestellt.\n",
       "id": "community-hall-fees",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/community-hall-fees.geojson",
+          "id": "affected-facilities",
+          "impactType": "indirect",
+          "label": "Bürgerhalle, Gemeinschaftsräume und Festplatz"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-06-04",
@@ -657,7 +706,14 @@
       },
       "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nunentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften\nGanztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Laut öffentlicher Beratungsfolge wurde die\nEntscheidung im Samtgemeindeausschuss gestoppt; eine ausgearbeitete\nVereinbarung sollte im Herbst erneut beraten werden.\n",
       "id": "community-hall-school-meals-compensation",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/community-hall-school-meals-compensation.geojson",
+          "id": "community-hall",
+          "impactType": "indirect",
+          "label": "Bürgerhalle Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-06-02",
@@ -974,7 +1030,14 @@
       },
       "description": "Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der\nFahrzeughalle. Durch eine Anpassung der Stellplatzlänge für den dort\nabgestellten Mannschaftstransportwagen kann sie innerhalb der bestehenden\nHalle untergebracht werden.\n\nDie geschätzten Kosten von rund 23.000 Euro sollen aus dem Baubudget des\nFeuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die\nBerechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.\n",
       "id": "fire-station-training-platform",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/fire-station-training-platform.geojson",
+          "id": "fire-station",
+          "impactType": "direct",
+          "label": "Feuerwehrhaus Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-09-04",
@@ -1034,7 +1097,14 @@
       },
       "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Ein ausdrücklicher öffentlicher\nFertigstellungsbeschluss war im Scanzeitraum nicht enthalten.\n",
       "id": "flood-retention-basin-roetgesbuettel",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/flood-retention-basin-roetgesbuettel.geojson",
+          "id": "retention-basin",
+          "impactType": "direct",
+          "label": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-09-16",
@@ -1249,7 +1319,14 @@
       },
       "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
       "id": "muehlenweg-speed-limit",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/muehlenweg-speed-limit.geojson",
+          "id": "affected-road-section",
+          "impactType": "affectedArea",
+          "label": "Betroffener Abschnitt des Mühlenwegs"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-12-16",
@@ -1409,7 +1486,14 @@
       },
       "description": "Vorgeschlagen war, auf dem Naturgrundstück zwischen der Riede und dem\nsüdlichen Fasanenweg schrittweise einen Spielplatz einzurichten. Für 2025\nund 2026 sollten zunächst jeweils 5.000 Euro bereitgestellt werden.\n\nIm Rat stimmten am 3. März 2025 jeweils sechs Mitglieder für und gegen den\nAntrag. Damit wurde er abgelehnt.\n",
       "id": "nature-playground-proposal",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/nature-playground-proposal.geojson",
+          "id": "proposed-site",
+          "impactType": "alternative",
+          "label": "Vorgeschlagene Fläche zwischen Riede und Fasanenweg"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-02-24",
@@ -1561,7 +1645,14 @@
       },
       "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
       "id": "northern-town-sign-relocation",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/northern-town-sign-relocation.geojson",
+          "id": "proposed-sign-location",
+          "impactType": "direct",
+          "label": "Vorgesehener Standort nördlich der Ampelanlage Pfänderweg"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-12-16",
@@ -1661,7 +1752,14 @@
       },
       "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
       "id": "pfaenderweg-rail-crossing",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/pfaenderweg-rail-crossing.geojson",
+          "id": "rail-crossing",
+          "impactType": "direct",
+          "label": "Bahnübergang am Pfänderweg"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-06-02",
@@ -1783,7 +1881,14 @@
       },
       "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nAn der anschließenden Bürgerbefragung beteiligten sich 446 Personen. Sie ist\nlaut Vorlage nur eingeschränkt repräsentativ, bestätigt aber insbesondere\nden Bedarf nach mehr Platz, einem größeren und aktuelleren Medienbestand,\ndigitalen Angeboten sowie familienfreundlichen Öffnungszeiten.\n\nDer neue Beschlussvorschlag sieht einen zentralen, ebenerdigen und\nbarrierefreien Standort mit rund 500 Quadratmetern vor. Ein Anbau an das\nRathaus soll in einer Machbarkeitsstudie geprüft werden. Angestrebt werden\naußerdem 20.000 bis 25.000 Medien, mindestens 1,5 Vollzeitstellen,\nÖffnungszeiten in Richtung 18 Wochenstunden, Onleihe und weitere digitale\nAngebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027\nentschieden werden.\n\nDer Ausschuss für Jugend, Senioren und Integration soll den Stufenplan am\n2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht\nabschließend beschlossen.\n",
       "id": "public-library-development",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/public-library-development.geojson",
+          "id": "proposed-library-site",
+          "impactType": "alternative",
+          "label": "Geprüfter Büchereistandort am Rathaus"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-04-14",
@@ -1854,7 +1959,14 @@
       },
       "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
       "id": "regional-spatial-plan-2025",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/regional-spatial-plan-2025.geojson",
+          "id": "proposed-photovoltaic-area",
+          "impactType": "direct",
+          "label": "Vorgesehene Freiflächenphotovoltaikfläche in Flur 6"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-03-17",
@@ -1903,7 +2015,14 @@
       },
       "description": "Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse\nan einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die\nunterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem\nveröffentlichten Sachstand derzeit jedoch unwirtschaftlich.\n\nAls Alternative wurde geprüft, zwei bis drei bereits erschlossene\nGrundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,\ndafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am\n17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung\nabgelehnt.\n",
       "id": "rodelberg-development",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/rodelberg-development.geojson",
+          "id": "municipal-property",
+          "impactType": "direct",
+          "label": "Gemeindeeigene Fläche am Rodelberg"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-12-16",
@@ -1961,7 +2080,14 @@
       },
       "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher\nAbschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum\n14. August 2026 nicht dokumentiert.\n",
       "id": "roetgesbuettel-cemetery-upgrades",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/roetgesbuettel-cemetery-upgrades.geojson",
+          "id": "cemetery",
+          "impactType": "direct",
+          "label": "Friedhof Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-01-21",
@@ -2134,7 +2260,14 @@
       },
       "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene\nVerfahren. Er trifft keine Aussage über andere oder spätere Planungen für\ndas Gebiet.\n",
       "id": "southfield-ii-change-proposal",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/southfield-ii-change-proposal.geojson",
+          "id": "planning-area",
+          "impactType": "direct",
+          "label": "Plangebiet Südfeld II"
+        }
+      ],
       "milestones": [
         {
           "date": "2025-02-24",
@@ -2185,7 +2318,14 @@
       },
       "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n",
       "id": "sports-centre-modernisation",
-      "locations": [],
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/sports-centre-modernisation.geojson",
+          "id": "sports-centre",
+          "impactType": "direct",
+          "label": "Gemeindesportzentrum Rötgesbüttel"
+        }
+      ],
       "milestones": [
         {
           "date": "2026-03-17",

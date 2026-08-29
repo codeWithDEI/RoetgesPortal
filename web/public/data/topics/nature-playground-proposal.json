@@ -16,7 +16,14 @@
     },
     "description": "Vorgeschlagen war, auf dem Naturgrundstück zwischen der Riede und dem\nsüdlichen Fasanenweg schrittweise einen Spielplatz einzurichten. Für 2025\nund 2026 sollten zunächst jeweils 5.000 Euro bereitgestellt werden.\n\nIm Rat stimmten am 3. März 2025 jeweils sechs Mitglieder für und gegen den\nAntrag. Damit wurde er abgelehnt.\n",
     "id": "nature-playground-proposal",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/nature-playground-proposal.geojson",
+        "id": "proposed-site",
+        "impactType": "alternative",
+        "label": "Vorgeschlagene Fläche zwischen Riede und Fasanenweg"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-02-24",

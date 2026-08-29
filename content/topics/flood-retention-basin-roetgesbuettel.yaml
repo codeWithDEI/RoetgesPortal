@@ -34,7 +34,11 @@ description: |
   Auszahlung einstimmig zu. Ein ausdrücklicher öffentlicher
   Fertigstellungsbeschluss war im Scanzeitraum nicht enthalten.
 
-locations: []
+locations:
+  - id: retention-basin
+    label: Hochwasserrückhaltebecken an der Rötgesbütteler Riede
+    impactType: direct
+    geoJsonFile: content/locations/flood-retention-basin-roetgesbuettel.geojson
 
 milestones:
   - date: "2025-09-16"

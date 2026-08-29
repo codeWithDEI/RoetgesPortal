@@ -15,7 +15,14 @@
     },
     "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDer Kultur- und Sportausschuss behandelte die Neufassung am 17. August 2026.\nDie öffentliche Beratungsfolge kennzeichnet diesen Schritt als erledigt,\ndie vorgesehenen Beratungen im Verwaltungsausschuss und Rat dagegen als\ngestoppt. Ein öffentlicher Beschlussauszug mit der Begründung war bei der\nletzten Prüfung nicht verfügbar; die Neufassung wird deshalb nicht als\nbeschlossen dargestellt.\n",
     "id": "community-hall-fees",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/community-hall-fees.geojson",
+        "id": "affected-facilities",
+        "impactType": "indirect",
+        "label": "Bürgerhalle, Gemeinschaftsräume und Festplatz"
+      }
+    ],
     "milestones": [
       {
         "date": "2026-06-04",

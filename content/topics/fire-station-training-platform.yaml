@@ -33,7 +33,11 @@ description: |
   Feuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die
   Berechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.
 
-locations: []
+locations:
+  - id: fire-station
+    label: Feuerwehrhaus Rötgesbüttel
+    impactType: direct
+    geoJsonFile: content/locations/fire-station-training-platform.geojson
 
 milestones:
   - date: "2025-09-04"

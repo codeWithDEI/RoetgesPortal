@@ -29,7 +29,11 @@ description: |
   beschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die
   Haushaltsberatungen 2027 vorzusehen.
 
-locations: []
+locations:
+  - id: sports-centre
+    label: Gemeindesportzentrum Rötgesbüttel
+    impactType: direct
+    geoJsonFile: content/locations/sports-centre-modernisation.geojson
 
 milestones:
   - date: "2026-03-17"

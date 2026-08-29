@@ -33,7 +33,11 @@ description: |
   Nach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027
   vorgesehen.
 
-locations: []
+locations:
+  - id: proposed-sign-location
+    label: Vorgesehener Standort nördlich der Ampelanlage Pfänderweg
+    impactType: direct
+    geoJsonFile: content/locations/northern-town-sign-relocation.geojson
 
 milestones:
   - date: "2025-12-16"

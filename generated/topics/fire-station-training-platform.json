@@ -16,7 +16,14 @@
     },
     "description": "Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der\nFahrzeughalle. Durch eine Anpassung der Stellplatzlänge für den dort\nabgestellten Mannschaftstransportwagen kann sie innerhalb der bestehenden\nHalle untergebracht werden.\n\nDie geschätzten Kosten von rund 23.000 Euro sollen aus dem Baubudget des\nFeuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die\nBerechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.\n",
     "id": "fire-station-training-platform",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/fire-station-training-platform.geojson",
+        "id": "fire-station",
+        "impactType": "direct",
+        "label": "Feuerwehrhaus Rötgesbüttel"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-09-04",

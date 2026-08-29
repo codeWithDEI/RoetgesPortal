@@ -31,7 +31,11 @@ description: |
   Verfahren. Er trifft keine Aussage über andere oder spätere Planungen für
   das Gebiet.
 
-locations: []
+locations:
+  - id: planning-area
+    label: Plangebiet Südfeld II
+    impactType: direct
+    geoJsonFile: content/locations/southfield-ii-change-proposal.geojson
 
 milestones:
   - date: "2025-02-24"

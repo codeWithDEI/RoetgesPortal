@@ -39,7 +39,11 @@ description: |
   letzten Prüfung nicht verfügbar; die Neufassung wird deshalb nicht als
   beschlossen dargestellt.
 
-locations: []
+locations:
+  - id: affected-facilities
+    label: Bürgerhalle, Gemeinschaftsräume und Festplatz
+    impactType: indirect
+    geoJsonFile: content/locations/community-hall-fees.geojson
 
 milestones:
   - date: "2026-06-04"

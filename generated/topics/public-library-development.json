@@ -17,7 +17,14 @@
     },
     "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nAn der anschließenden Bürgerbefragung beteiligten sich 446 Personen. Sie ist\nlaut Vorlage nur eingeschränkt repräsentativ, bestätigt aber insbesondere\nden Bedarf nach mehr Platz, einem größeren und aktuelleren Medienbestand,\ndigitalen Angeboten sowie familienfreundlichen Öffnungszeiten.\n\nDer neue Beschlussvorschlag sieht einen zentralen, ebenerdigen und\nbarrierefreien Standort mit rund 500 Quadratmetern vor. Ein Anbau an das\nRathaus soll in einer Machbarkeitsstudie geprüft werden. Angestrebt werden\naußerdem 20.000 bis 25.000 Medien, mindestens 1,5 Vollzeitstellen,\nÖffnungszeiten in Richtung 18 Wochenstunden, Onleihe und weitere digitale\nAngebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027\nentschieden werden.\n\nDer Ausschuss für Jugend, Senioren und Integration soll den Stufenplan am\n2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht\nabschließend beschlossen.\n",
     "id": "public-library-development",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/public-library-development.geojson",
+        "id": "proposed-library-site",
+        "impactType": "alternative",
+        "label": "Geprüfter Büchereistandort am Rathaus"
+      }
+    ],
     "milestones": [
       {
         "date": "2026-04-14",
