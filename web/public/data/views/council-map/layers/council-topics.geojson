@@ -3,6 +3,43 @@
     {
       "geometry": {
         "coordinates": [
+          10.529923,
+          52.414556
+        ],
+        "type": "Point"
+      },
+      "id": "community-hall-fees:affected-facilities:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "public-facilities",
+          "finance"
+        ],
+        "detailPath": "/themen/community-hall-fees",
+        "impactType": "indirect",
+        "locationId": "affected-facilities",
+        "locationLabel": "Bürgerhalle, Gemeinschaftsräume und Festplatz",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "community-hall-fees",
+        "topicStatus": "paused",
+        "topicSummary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.",
+        "topicTitle": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           10.53101,
           52.414115
         ],
@@ -100,6 +137,200 @@
     {
       "geometry": {
         "coordinates": [
+          10.530159,
+          52.414743
+        ],
+        "type": "Point"
+      },
+      "id": "community-hall-school-meals-compensation:community-hall:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "schools",
+          "public-facilities",
+          "finance"
+        ],
+        "detailPath": "/themen/community-hall-school-meals-compensation",
+        "impactType": "indirect",
+        "locationId": "community-hall",
+        "locationLabel": "Bürgerhalle Rötgesbüttel",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "joint-municipality-papenteich"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "community-hall-school-meals-compensation",
+        "topicStatus": "paused",
+        "topicSummary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
+        "topicTitle": "Entschädigung für die Mensanutzung der Bürgerhalle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.529186,
+          52.414591
+        ],
+        "type": "Point"
+      },
+      "id": "childcare-centre-expansion:childcare-centre:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "childcare",
+          "public-facilities",
+          "urban-planning"
+        ],
+        "detailPath": "/themen/childcare-centre-expansion",
+        "impactType": "direct",
+        "locationId": "childcare-centre",
+        "locationLabel": "Kindertagesstätte Rötgesbüttel",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "drk-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "childcare-centre-expansion",
+        "topicStatus": "committee",
+        "topicSummary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.",
+        "topicTitle": "Erweiterung der Kindertagesstätte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.529897,
+          52.415044
+        ],
+        "type": "Point"
+      },
+      "id": "community-centre-old-fire-station:old-fire-station:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "public-facilities",
+          "community",
+          "renovation"
+        ],
+        "detailPath": "/themen/community-centre-old-fire-station",
+        "impactType": "direct",
+        "locationId": "old-fire-station",
+        "locationLabel": "Alte Feuerwehr",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "community-centre-old-fire-station",
+        "topicStatus": "implementation",
+        "topicSummary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
+        "topicTitle": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.529269,
+          52.414802
+        ],
+        "type": "Point"
+      },
+      "id": "childcare-sanitary-facilities:childcare-centre:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "childcare",
+          "public-facilities",
+          "renovation"
+        ],
+        "detailPath": "/themen/childcare-sanitary-facilities",
+        "impactType": "direct",
+        "locationId": "childcare-centre",
+        "locationLabel": "Kindertagesstätte Rötgesbüttel",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "drk-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "childcare-sanitary-facilities",
+        "topicStatus": "implementation",
+        "topicSummary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
+        "topicTitle": "Sanierung der Sanitärräume in der Kindertagesstätte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.527445,
+          52.413094
+        ],
+        "type": "Point"
+      },
+      "id": "rodelberg-development:municipal-property:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "municipal-property",
+          "housing",
+          "urban-planning",
+          "drainage"
+        ],
+        "detailPath": "/themen/rodelberg-development",
+        "impactType": "direct",
+        "locationId": "municipal-property",
+        "locationLabel": "Gemeindeeigene Fläche am Rodelberg",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "rodelberg-development",
+        "topicStatus": "paused",
+        "topicSummary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
+        "topicTitle": "Weitere Nutzung der Fläche Rodelberg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             10.528786,
             52.409632
@@ -182,6 +413,84 @@
     {
       "geometry": {
         "coordinates": [
+          10.534258,
+          52.418329
+        ],
+        "type": "Point"
+      },
+      "id": "northern-town-sign-relocation:proposed-sign-location:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety",
+          "noise-protection"
+        ],
+        "detailPath": "/themen/northern-town-sign-relocation",
+        "impactType": "direct",
+        "locationId": "proposed-sign-location",
+        "locationLabel": "Vorgesehener Standort nördlich der Ampelanlage Pfänderweg",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "northern-town-sign-relocation",
+        "topicStatus": "implementation",
+        "topicSummary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
+        "topicTitle": "Versetzung des Ortsschildes am nördlichen Ortseingang"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.530245,
+          52.41276
+        ],
+        "type": "Point"
+      },
+      "id": "fire-station-training-platform:fire-station:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "fire-protection",
+          "public-facilities",
+          "construction"
+        ],
+        "detailPath": "/themen/fire-station-training-platform",
+        "impactType": "direct",
+        "locationId": "fire-station",
+        "locationLabel": "Feuerwehrhaus Rötgesbüttel",
+        "organizations": [
+          "joint-municipality-papenteich",
+          "volunteer-fire-department-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "fire-station-training-platform",
+        "topicStatus": "implementation",
+        "topicSummary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.",
+        "topicTitle": "Übungsplattform im Feuerwehrhaus Rötgesbüttel"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             10.533957,
             52.417655
@@ -222,6 +531,45 @@
         "topicStatus": "implementation",
         "topicSummary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
         "topicTitle": "Nebenanlagen an der B4-Ortsdurchfahrt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.528142,
+          52.419919
+        ],
+        "type": "Point"
+      },
+      "id": "pfaenderweg-rail-crossing:rail-crossing:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "rail",
+          "road-safety"
+        ],
+        "detailPath": "/themen/pfaenderweg-rail-crossing",
+        "impactType": "direct",
+        "locationId": "rail-crossing",
+        "locationLabel": "Bahnübergang am Pfänderweg",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "db-infrago"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "pfaenderweg-rail-crossing",
+        "topicStatus": "paused",
+        "topicSummary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
+        "topicTitle": "Bahnübergang am Pfänderweg"
       },
       "type": "Feature"
     }

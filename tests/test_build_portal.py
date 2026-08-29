@@ -245,14 +245,23 @@ class BuildPortalTests(unittest.TestCase):
                     / "views/council-map/layers/council-topics.geojson"
                 ).read_text(encoding="utf-8")
             )
-            self.assertEqual(5, len(council_map["features"]))
+            self.assertEqual(14, len(council_map["features"]))
             self.assertEqual(
                 {
                     "aukenroth-residential-development",
                     "b4-sidewalk-renewal",
+                    "childcare-centre-expansion",
+                    "childcare-sanitary-facilities",
+                    "community-centre-old-fire-station",
+                    "community-hall-fees",
+                    "community-hall-school-meals-compensation",
+                    "fire-station-training-platform",
                     "glass-container-relocation",
                     "muehlenweg-speed-limit",
+                    "northern-town-sign-relocation",
                     "parking-restrictions-schulgarten-eikhof",
+                    "pfaenderweg-rail-crossing",
+                    "rodelberg-development",
                 },
                 {
                     feature["properties"]["topicId"]
@@ -265,7 +274,7 @@ class BuildPortalTests(unittest.TestCase):
                 ).read_text(encoding="utf-8")
             )
             self.assertEqual(
-                5,
+                14,
                 council_map_manifest["presentation"]["layers"][0][
                     "topicCount"
                 ],
