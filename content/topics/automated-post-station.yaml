@@ -31,7 +31,11 @@ description: |
   Der Beschluss schließt die kommunale Befassung ab. Ob und wann die Station
   anschließend in Betrieb ging, geht aus diesem Beschluss nicht hervor.
 
-locations: []
+locations:
+  - id: station-site
+    label: Standort der automatisierten Poststation
+    impactType: direct
+    geoJsonFile: content/locations/automated-post-station.geojson
 
 milestones:
   - date: "2025-06-18"

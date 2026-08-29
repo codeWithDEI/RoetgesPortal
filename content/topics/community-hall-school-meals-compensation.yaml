@@ -34,7 +34,11 @@ description: |
   Entscheidung im Samtgemeindeausschuss gestoppt; eine ausgearbeitete
   Vereinbarung sollte im Herbst erneut beraten werden.
 
-locations: []
+locations:
+  - id: community-hall
+    label: Bürgerhalle Rötgesbüttel
+    impactType: indirect
+    geoJsonFile: content/locations/community-hall-school-meals-compensation.geojson
 
 milestones:
   - date: "2026-06-02"

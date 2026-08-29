@@ -47,7 +47,11 @@ description: |
   Wegeausschuss soll den nächsten Verfahrensschritt am 27. August 2026
   vorberaten.
 
-locations: []
+locations:
+  - id: planning-area
+    label: Plangebiet Aukenroth
+    impactType: direct
+    geoJsonFile: content/locations/aukenroth-residential-development.geojson
 
 milestones:
   - date: "2026-06-01"

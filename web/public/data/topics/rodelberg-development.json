@@ -17,7 +17,14 @@
     },
     "description": "Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse\nan einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die\nunterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem\nveröffentlichten Sachstand derzeit jedoch unwirtschaftlich.\n\nAls Alternative wurde geprüft, zwei bis drei bereits erschlossene\nGrundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,\ndafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am\n17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung\nabgelehnt.\n",
     "id": "rodelberg-development",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/rodelberg-development.geojson",
+        "id": "municipal-property",
+        "impactType": "direct",
+        "label": "Gemeindeeigene Fläche am Rodelberg"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-12-16",

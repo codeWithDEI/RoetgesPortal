@@ -144,6 +144,51 @@ class BuildPortalTests(unittest.TestCase):
         self.assertEqual("Junction", properties["locationLabel"])
         self.assertEqual("/themen/road-safety", properties["detailPath"])
 
+    def test_topic_location_without_coordinates_is_not_emitted(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            repository_root = Path(directory)
+            location_path = repository_root / "pending.geojson"
+            location_path.write_text(
+                json.dumps(
+                    {
+                        "type": "FeatureCollection",
+                        "features": [
+                            {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [],
+                                },
+                                "properties": {
+                                    "precision": "approximate",
+                                },
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            topic = {
+                "id": "pending-location",
+                "title": "Pending location",
+                "summary": "Coordinates still need to be added.",
+                "status": "committee",
+                "locations": [
+                    {
+                        "id": "site",
+                        "label": "Site",
+                        "impactType": "direct",
+                        "geoJsonFile": "pending.geojson",
+                    }
+                ],
+            }
+
+            collection = make_topic_location_collection(
+                repository_root, [topic]
+            )
+
+        self.assertEqual([], collection["features"])
+
     def test_repository_build_is_deterministic_and_excludes_drafts(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
@@ -200,16 +245,30 @@ class BuildPortalTests(unittest.TestCase):
                     / "views/council-map/layers/council-topics.geojson"
                 ).read_text(encoding="utf-8")
             )
-            self.assertEqual(2, len(council_map["features"]))
+            self.assertEqual(5, len(council_map["features"]))
             self.assertEqual(
                 {
+                    "aukenroth-residential-development",
+                    "b4-sidewalk-renewal",
                     "glass-container-relocation",
+                    "muehlenweg-speed-limit",
                     "parking-restrictions-schulgarten-eikhof",
                 },
                 {
                     feature["properties"]["topicId"]
                     for feature in council_map["features"]
                 },
+            )
+            council_map_manifest = json.loads(
+                (
+                    output / "views/council-map/manifest.json"
+                ).read_text(encoding="utf-8")
+            )
+            self.assertEqual(
+                5,
+                council_map_manifest["presentation"]["layers"][0][
+                    "topicCount"
+                ],
             )
 
 

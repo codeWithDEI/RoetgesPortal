@@ -17,7 +17,14 @@
     },
     "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n",
     "id": "b4-sidewalk-renewal",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/b4-sidewalk-renewal.geojson",
+        "id": "affected-corridor",
+        "impactType": "affectedArea",
+        "label": "Betroffener Abschnitt der B4-Ortsdurchfahrt"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-03-03",

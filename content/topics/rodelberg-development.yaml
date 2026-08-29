@@ -35,7 +35,11 @@ description: |
   17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung
   abgelehnt.
 
-locations: []
+locations:
+  - id: municipal-property
+    label: Gemeindeeigene Fläche am Rodelberg
+    impactType: direct
+    geoJsonFile: content/locations/rodelberg-development.geojson
 
 milestones:
   - date: "2025-12-16"

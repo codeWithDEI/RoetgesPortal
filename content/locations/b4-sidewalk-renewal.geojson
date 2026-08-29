@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10.533957,52.417655],
+          [10.530567,52.412655]
+        ]
+      },
+      "properties": {
+        "precision": "approximate",
+        "sourceNote": "Location manually assigned from the public topic record"
+      }
+    }
+  ]
+}

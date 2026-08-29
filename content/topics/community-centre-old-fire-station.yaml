@@ -32,7 +32,11 @@ description: |
   rund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue
   Variante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.
 
-locations: []
+locations:
+  - id: old-fire-station
+    label: Alte Feuerwehr
+    impactType: direct
+    geoJsonFile: content/locations/community-centre-old-fire-station.geojson
 
 milestones:
   - date: "2025-12-16"

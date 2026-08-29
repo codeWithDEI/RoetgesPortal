@@ -29,7 +29,11 @@ description: |
   einer Konzeption beziehungsweise mit der beratenden Unterstützung der
   Gemeinde zu beauftragen.
 
-locations: []
+locations:
+  - id: childcare-centre
+    label: Kindertagesstätte Rötgesbüttel
+    impactType: direct
+    geoJsonFile: content/locations/childcare-sanitary-facilities.geojson
 
 milestones:
   - date: "2026-03-17"

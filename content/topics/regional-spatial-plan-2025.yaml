@@ -40,7 +40,11 @@ description: |
   Die Stellungnahme wurde einstimmig beschlossen. Über die endgültige
   Ausgestaltung des regionalen Programms entscheidet der Regionalverband.
 
-locations: []
+locations:
+  - id: proposed-photovoltaic-area
+    label: Vorgesehene Freiflächenphotovoltaikfläche in Flur 6
+    impactType: direct
+    geoJsonFile: content/locations/regional-spatial-plan-2025.geojson
 
 milestones:
   - date: "2026-03-17"

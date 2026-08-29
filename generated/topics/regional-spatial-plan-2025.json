@@ -17,7 +17,14 @@
     },
     "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
     "id": "regional-spatial-plan-2025",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/regional-spatial-plan-2025.geojson",
+        "id": "proposed-photovoltaic-area",
+        "impactType": "direct",
+        "label": "Vorgesehene Freiflächenphotovoltaikfläche in Flur 6"
+      }
+    ],
     "milestones": [
       {
         "date": "2026-03-17",

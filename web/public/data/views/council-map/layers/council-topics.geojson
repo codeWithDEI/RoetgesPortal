@@ -41,6 +41,109 @@
     {
       "geometry": {
         "coordinates": [
+          [
+            [
+              10.523529,
+              52.42234
+            ],
+            [
+              10.526243,
+              52.42232
+            ],
+            [
+              10.525889,
+              52.421685
+            ],
+            [
+              10.52384,
+              52.42164
+            ],
+            [
+              10.523529,
+              52.42234
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "aukenroth-residential-development:planning-area:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "urban-planning",
+          "housing",
+          "environment"
+        ],
+        "detailPath": "/themen/aukenroth-residential-development",
+        "impactType": "direct",
+        "locationId": "planning-area",
+        "locationLabel": "Plangebiet Aukenroth",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "joint-municipality-papenteich"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "aukenroth-residential-development",
+        "topicStatus": "committee",
+        "topicSummary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.",
+        "topicTitle": "Wohngebiet Aukenroth"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            10.528786,
+            52.409632
+          ],
+          [
+            10.534022,
+            52.409147
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "muehlenweg-speed-limit:affected-road-section:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety"
+        ],
+        "detailPath": "/themen/muehlenweg-speed-limit",
+        "impactType": "affectedArea",
+        "locationId": "affected-road-section",
+        "locationLabel": "Betroffener Abschnitt des Mühlenwegs",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "muehlenweg-speed-limit",
+        "topicStatus": "implementation",
+        "topicSummary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.",
+        "topicTitle": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           10.52723,
           52.41463
         ],
@@ -73,6 +176,52 @@
         "topicStatus": "implementation",
         "topicSummary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.",
         "topicTitle": "Halteverbot Am Schulgarten und Am Eikhof"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            10.533957,
+            52.417655
+          ],
+          [
+            10.530567,
+            52.412655
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "b4-sidewalk-renewal:affected-corridor:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety",
+          "public-space",
+          "construction"
+        ],
+        "detailPath": "/themen/b4-sidewalk-renewal",
+        "impactType": "affectedArea",
+        "locationId": "affected-corridor",
+        "locationLabel": "Betroffener Abschnitt der B4-Ortsdurchfahrt",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "lower-saxony-road-authority"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "b4-sidewalk-renewal",
+        "topicStatus": "implementation",
+        "topicSummary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
+        "topicTitle": "Nebenanlagen an der B4-Ortsdurchfahrt"
       },
       "type": "Feature"
     }

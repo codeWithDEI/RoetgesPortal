@@ -46,7 +46,11 @@ description: |
   2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht
   abschließend beschlossen.
 
-locations: []
+locations:
+  - id: proposed-library-site
+    label: Geprüfter Büchereistandort am Rathaus
+    impactType: alternative
+    geoJsonFile: content/locations/public-library-development.geojson
 
 milestones:
   - date: "2026-04-14"

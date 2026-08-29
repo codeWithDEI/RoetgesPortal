@@ -16,7 +16,14 @@
     },
     "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher\nAbschluss der beiden Maßnahmen war in den ausgewerteten Sitzungen bis zum\n14. August 2026 nicht dokumentiert.\n",
     "id": "roetgesbuettel-cemetery-upgrades",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/roetgesbuettel-cemetery-upgrades.geojson",
+        "id": "cemetery",
+        "impactType": "direct",
+        "label": "Friedhof Rötgesbüttel"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-01-21",

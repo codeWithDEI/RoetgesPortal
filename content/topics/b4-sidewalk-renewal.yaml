@@ -37,7 +37,11 @@ description: |
   Stunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für
   2027 wurden ebenfalls beschlossen.
 
-locations: []
+locations:
+  - id: affected-corridor
+    label: Betroffener Abschnitt der B4-Ortsdurchfahrt
+    impactType: affectedArea
+    geoJsonFile: content/locations/b4-sidewalk-renewal.geojson
 
 milestones:
   - date: "2025-03-03"

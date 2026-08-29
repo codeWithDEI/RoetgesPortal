@@ -16,7 +16,14 @@
     },
     "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
     "id": "northern-town-sign-relocation",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/northern-town-sign-relocation.geojson",
+        "id": "proposed-sign-location",
+        "impactType": "direct",
+        "label": "Vorgesehener Standort nördlich der Ampelanlage Pfänderweg"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-12-16",

@@ -17,7 +17,14 @@
     },
     "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Ein ausdrücklicher öffentlicher\nFertigstellungsbeschluss war im Scanzeitraum nicht enthalten.\n",
     "id": "flood-retention-basin-roetgesbuettel",
-    "locations": [],
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/flood-retention-basin-roetgesbuettel.geojson",
+        "id": "retention-basin",
+        "impactType": "direct",
+        "label": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede"
+      }
+    ],
     "milestones": [
       {
         "date": "2025-09-16",

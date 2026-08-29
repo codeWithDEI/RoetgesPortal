@@ -30,7 +30,11 @@ description: |
   Im Rat stimmten am 3. März 2025 jeweils sechs Mitglieder für und gegen den
   Antrag. Damit wurde er abgelehnt.
 
-locations: []
+locations:
+  - id: proposed-site
+    label: Vorgeschlagene Fläche zwischen Riede und Fasanenweg
+    impactType: alternative
+    geoJsonFile: content/locations/nature-playground-proposal.geojson
 
 milestones:
   - date: "2025-02-24"
