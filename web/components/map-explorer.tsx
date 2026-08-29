@@ -56,7 +56,15 @@ type MapExplorerProps = {
 };
 
 const sourceId = "council-topic-locations";
+const polygonFillLayerId = "council-topic-polygons-fill";
+const polygonOutlineLayerId = "council-topic-polygons-outline";
+const lineLayerId = "council-topic-lines";
 const pointLayerId = "council-topic-points";
+const interactiveLayerIds = [
+  polygonFillLayerId,
+  lineLayerId,
+  pointLayerId,
+];
 
 const statusColors: Record<TopicStatus, string> = {
   idea: "#65777d",
@@ -71,18 +79,48 @@ const statusColors: Record<TopicStatus, string> = {
   rejected: "#8a4b2d",
 };
 
-function featureCoordinates(feature: TopicMapFeature): [number, number] | null {
-  if (feature.geometry.type !== "Point") return null;
-  return feature.geometry.coordinates as [number, number];
+type MapBounds = [[number, number], [number, number]];
+
+function featureBounds(feature: TopicMapFeature): MapBounds | null {
+  let minLongitude = Number.POSITIVE_INFINITY;
+  let minLatitude = Number.POSITIVE_INFINITY;
+  let maxLongitude = Number.NEGATIVE_INFINITY;
+  let maxLatitude = Number.NEGATIVE_INFINITY;
+
+  function visitCoordinates(value: unknown) {
+    if (
+      Array.isArray(value) &&
+      value.length >= 2 &&
+      typeof value[0] === "number" &&
+      typeof value[1] === "number"
+    ) {
+      minLongitude = Math.min(minLongitude, value[0]);
+      minLatitude = Math.min(minLatitude, value[1]);
+      maxLongitude = Math.max(maxLongitude, value[0]);
+      maxLatitude = Math.max(maxLatitude, value[1]);
+      return;
+    }
+    if (Array.isArray(value)) value.forEach(visitCoordinates);
+  }
+
+  visitCoordinates(feature.geometry.coordinates);
+  if (!Number.isFinite(minLongitude) || !Number.isFinite(minLatitude)) {
+    return null;
+  }
+  return [
+    [minLongitude, minLatitude],
+    [maxLongitude, maxLatitude],
+  ];
 }
 
 function mapFilter(
+  geometryType: "Point" | "LineString" | "Polygon",
   area: string,
   status: TopicStatus | "all",
   category: string,
 ): FilterSpecification {
   const expressions: FilterSpecification[] = [
-    ["==", ["geometry-type"], "Point"],
+    ["==", ["geometry-type"], geometryType],
     ["in", area, ["get", "relevantAreaIds"]],
   ];
   if (status !== "all") {
@@ -177,10 +215,57 @@ export function MapExplorer({
             data: collection as never,
           });
           map.addLayer({
+            id: polygonFillLayerId,
+            type: "fill",
+            source: sourceId,
+            filter: mapFilter("Polygon", DEFAULT_AREA_ID, "all", "all"),
+            paint: {
+              "fill-color": [
+                "match",
+                ["get", "topicStatus"],
+                ...Object.entries(statusColors).flat(),
+                "#006080",
+              ] as never,
+              "fill-opacity": 0.24,
+            },
+          });
+          map.addLayer({
+            id: polygonOutlineLayerId,
+            type: "line",
+            source: sourceId,
+            filter: mapFilter("Polygon", DEFAULT_AREA_ID, "all", "all"),
+            paint: {
+              "line-color": [
+                "match",
+                ["get", "topicStatus"],
+                ...Object.entries(statusColors).flat(),
+                "#006080",
+              ] as never,
+              "line-opacity": 0.95,
+              "line-width": ["interpolate", ["linear"], ["zoom"], 10, 2, 18, 5],
+            },
+          });
+          map.addLayer({
+            id: lineLayerId,
+            type: "line",
+            source: sourceId,
+            filter: mapFilter("LineString", DEFAULT_AREA_ID, "all", "all"),
+            paint: {
+              "line-color": [
+                "match",
+                ["get", "topicStatus"],
+                ...Object.entries(statusColors).flat(),
+                "#006080",
+              ] as never,
+              "line-opacity": 0.95,
+              "line-width": ["interpolate", ["linear"], ["zoom"], 10, 3, 18, 7],
+            },
+          });
+          map.addLayer({
             id: pointLayerId,
             type: "circle",
             source: sourceId,
-            filter: mapFilter(DEFAULT_AREA_ID, "all", "all"),
+            filter: mapFilter("Point", DEFAULT_AREA_ID, "all", "all"),
             paint: {
               "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 8, 18, 13],
               "circle-color": [
@@ -197,7 +282,7 @@ export function MapExplorer({
 
           const showPopup = (event: MapLayerMouseEvent) => {
             const feature = event.features?.[0];
-            if (!feature || feature.geometry.type !== "Point") return;
+            if (!feature) return;
             const properties = feature.properties as unknown as TopicMapProperties;
             const popupContent = document.createElement("article");
             popupContent.className = "map-popup";
@@ -218,16 +303,16 @@ export function MapExplorer({
 
             popupContent.append(location, title, summary, link);
             new Popup({ offset: 16, closeButton: true })
-              .setLngLat(feature.geometry.coordinates as [number, number])
+              .setLngLat(event.lngLat)
               .setDOMContent(popupContent)
               .addTo(map as MapLibreMap);
           };
 
-          map.on("click", pointLayerId, showPopup);
-          map.on("mouseenter", pointLayerId, () => {
+          map.on("click", interactiveLayerIds, showPopup);
+          map.on("mouseenter", interactiveLayerIds, () => {
             if (map) map.getCanvas().style.cursor = "pointer";
           });
-          map.on("mouseleave", pointLayerId, () => {
+          map.on("mouseleave", interactiveLayerIds, () => {
             if (map) map.getCanvas().style.cursor = "";
           });
         });
@@ -243,8 +328,22 @@ export function MapExplorer({
 
   useEffect(() => {
     const map = mapRef.current;
-    if (map?.getLayer(pointLayerId)) {
-      map.setFilter(pointLayerId, mapFilter(area, status, category));
+    const layers: Array<[
+      string,
+      "Point" | "LineString" | "Polygon",
+    ]> = [
+      [polygonFillLayerId, "Polygon"],
+      [polygonOutlineLayerId, "Polygon"],
+      [lineLayerId, "LineString"],
+      [pointLayerId, "Point"],
+    ];
+    for (const [layerId, geometryType] of layers) {
+      if (map?.getLayer(layerId)) {
+        map.setFilter(
+          layerId,
+          mapFilter(geometryType, area, status, category),
+        );
+      }
     }
   }, [area, category, status]);
 
@@ -299,9 +398,14 @@ export function MapExplorer({
   );
 
   function focusFeature(feature: TopicMapFeature) {
-    const coordinates = featureCoordinates(feature);
-    if (!coordinates) return;
-    mapRef.current?.flyTo({ center: coordinates, zoom: 17 });
+    const map = mapRef.current;
+    const bounds = featureBounds(feature);
+    if (!map || !bounds) return;
+    if (feature.geometry.type === "Point") {
+      map.flyTo({ center: bounds[0], zoom: 17 });
+      return;
+    }
+    map.fitBounds(bounds, { duration: 900, maxZoom: 17, padding: 64 });
   }
 
   return (
@@ -365,7 +469,7 @@ export function MapExplorer({
         </label>
         <span className="map-filters__count" aria-live="polite">
           {filteredFeatures.length}{" "}
-          {filteredFeatures.length === 1 ? "Ort" : "Orte"}
+          {filteredFeatures.length === 1 ? "Ortsbezug" : "Ortsbezüge"}
         </span>
       </div>
 
@@ -407,7 +511,7 @@ export function MapExplorer({
 
         <div className="mapped-topic-list">
           <div className="mapped-topic-list__heading">
-            <strong>Orte in dieser Ansicht</strong>
+            <strong>Ortsbezüge in dieser Ansicht</strong>
             <span>Auswahl öffnet den Kartenausschnitt</span>
           </div>
           {filteredFeatures.length > 0 ? (
@@ -430,14 +534,14 @@ export function MapExplorer({
             </ol>
           ) : (
             <p className="mapped-topic-list__empty">
-              Zu dieser Filterauswahl ist aktuell kein Ort hinterlegt.
+              Zu dieser Filterauswahl ist aktuell kein Ortsbezug hinterlegt.
             </p>
           )}
         </div>
       </div>
 
       <div className="map-note">
-        <strong>Noch ohne Kartenpunkt?</strong>
+        <strong>Noch ohne Kartenbezug?</strong>
         <p>
           Ein Thema kann vollständig dokumentiert sein, ohne einen eindeutigen
           Ort zu haben. Die vollständige Übersicht findest du weiterhin unter{" "}
