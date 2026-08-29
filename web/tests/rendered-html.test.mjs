@@ -248,7 +248,7 @@ test("server-renders the source-backed council map", async () => {
 
   const html = await response.text();
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
-  assert.match(html, /5(?:<!-- -->)* verortete Themen/);
+  assert.match(html, /14(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
   assert.match(html, /Kartendaten: OpenStreetMap/);
   assert.match(html, /href="https:\/\/www\.openstreetmap\.org\/copyright"/);

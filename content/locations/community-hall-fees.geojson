@@ -5,7 +5,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [10.529923,52.414556]
       },
       "properties": {
         "precision": "approximate",
