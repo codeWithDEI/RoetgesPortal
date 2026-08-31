@@ -1,77 +1,74 @@
 @startuml
-title RötgesPortal – MVP System Architecture
+title RötgesPortal – Current System Architecture
 
 skinparam componentStyle rectangle
 skinparam shadowing false
+skinparam nodesep 35
+skinparam ranksep 40
 
 actor "Editors" as Editor
 actor "Citizens" as Citizen
+actor "Operator" as Operator
 
 cloud "GitHub Repository" {
-  folder "Editorial Content" {
-    file "content/topics/*.yaml" as Topics
-    file "content/locations/*.geojson" as Locations
-    file "content/datasets/*.yaml" as Datasets
-    file "content/views/*.yaml" as Views
-  }
-
-  folder "Content Contracts" {
-    file "schemas/topic.schema.json" as TopicSchema
-    file "schemas/dataset.schema.json" as DatasetSchema
-    file "schemas/view.schema.json" as ViewSchema
-  }
-
-  folder "Build" {
+  package "Content pipeline" {
+    file "Editorial YAML\ntopics, areas, datasets, views" as Content
+    file "Location GeoJSON" as Locations
+    file "JSON Schemas" as Schemas
     component "Content Validator" as Validator
     component "Portal Generator" as Generator
-    file "generated/datasets/*" as GeneratedDatasets
-    file "generated/views/*" as GeneratedViews
-    file "search-index.json" as SearchIndex
+    file "Generated runtime artifacts\nJSON, GeoJSON, search index" as Generated
+  }
+
+  package "Application and operations" {
+    file "Web application" as WebSource
+    file "Docker Compose and Caddy configuration" as Deployment
   }
 }
 
-component "GitHub Actions\nCI/CD" as Pipeline
+component "GitHub Actions\nValidation" as Pipeline
 
-node "Static Hosting" as Hosting {
-  component "RötgesPortal Web App" as Portal
+node "Production VPS" as Hosting {
+  component "Caddy\nTLS and redirects" as Caddy
+  component "Stateless RötgesPortal\nWeb App" as Portal
+  file "Bundled runtime data\nJSON, GeoJSON, search index" as RuntimeData
+  file "Privacy-reduced\naccess logs" as AccessLogs
+  component "GoAccess\nreport generator" as Analytics
+  component "Private analytics\ndashboard" as Dashboard
 }
 
 cloud "OpenStreetMap" as OSM
 cloud "Public Sources" as Sources {
-  component "Council Information System" as RIS
-  component "Municipal Websites" as Municipality
-  component "Public Documents" as Documents
+  component "Council Information System"
+  component "Municipal Websites"
+  component "Public Documents"
 }
 
-Editor --> Topics : maintain topics
+Editor --> Content : maintain reviewed content
 Editor --> Locations : maintain geographic impact
-Editor --> Datasets : register reusable inputs
-Editor --> Views : define routes, sources,\nand presentation
-
-Topics --> Validator
+Content --> Validator
 Locations --> Validator
-Datasets --> Validator
-Views --> Validator
-TopicSchema --> Validator : schema
-DatasetSchema --> Validator : schema
-ViewSchema --> Validator : schema
+Schemas --> Validator : contracts
 Validator --> Generator : validated content
-Generator --> GeneratedDatasets
-Generator --> GeneratedViews
-Generator --> SearchIndex
+Generator --> Generated
 
 Pipeline --> Validator : on commit / PR
-Pipeline --> Generator : after validation
-Pipeline --> Hosting : Deployment
+Pipeline --> WebSource : build, test, and lint
+Pipeline --> Deployment : validate configuration
+Operator --> Hosting : deploy reviewed\nmain commit
 
-Citizen --> Portal : browse, search,\nfilter, optionally map
-Portal --> GeneratedDatasets
-Portal --> GeneratedViews
-Portal --> SearchIndex
+Citizen --> Caddy : browse, search,\nfilter, and map over HTTPS
+Caddy --> Portal : internal network
+WebSource ..> Portal : built application
+Deployment ..> Hosting : Compose configuration
+Generated ..> RuntimeData : packaged with release
+Portal --> RuntimeData : read-only
 Portal --> OSM : map tiles when required
+Caddy --> AccessLogs : sanitized page requests
+AccessLogs --> Analytics
+Analytics --> Dashboard
+Operator --> Dashboard : SSH tunnel only
 
-Topics ..> RIS : source links
-Topics ..> Municipality : source links
-Topics ..> Documents : source links
+Content ..> Sources : source links
 
 @enduml
