@@ -10,7 +10,8 @@ gold location marker. It intentionally avoids official municipal symbols.
 
 ## Local development
 
-From the repository root, generate the runtime data first:
+Use Node.js 22.13 or newer and pnpm 11.9. From the repository root, generate the
+runtime data first:
 
 ```bash
 python3 tools/build_portal.py
@@ -41,16 +42,23 @@ a source-backed detail page, trust pages, security headers, the health
 endpoint, and the not-found response.
 
 The `/karte` route renders generated topic-location GeoJSON with MapLibre on an
-OpenStreetMap base layer. The tile endpoint remains isolated in the map
-component and CSP so it can be replaced by another OSM-derived or self-hosted
-service without changing editorial content or generated artifacts.
+OpenStreetMap base layer. Dedicated layers display Point, LineString, and
+Polygon features. All supported geometries share the public filters, popup
+details, and list-based viewport focus. The tile endpoint remains isolated in
+the map component and CSP so it can be replaced by another OSM-derived or
+self-hosted service without changing editorial content or generated artifacts.
 
 `GET /api/health` provides a non-cached availability response for external
 monitoring. Security headers are added by the worker entry point.
 
-For the future container deployment, build from the repository root so the
-reviewed generated data is included:
+The production deployment builds from the repository root so the reviewed
+generated data is included:
 
 ```bash
 docker build -f web/Dockerfile -t roetgesportal .
 ```
+
+The public service runs behind Caddy through the Docker Compose configuration
+under `deploy/`. The application container has no public host port. See
+[`../deploy/README.md`](../deploy/README.md) for releases, TLS, private
+page-request statistics, and rollback guidance.

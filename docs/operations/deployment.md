@@ -18,9 +18,9 @@ pnpm test
 pnpm lint
 ```
 
-The current public preview can use the Sites deployment configuration in
-`web/.openai/hosting.json`. The self-hosted preview uses the Docker Compose
-deployment in `deploy/` and `web/Dockerfile`:
+The production service uses the Docker Compose deployment in `deploy/` and
+`web/Dockerfile`. The Sites configuration in `web/.openai/hosting.json` remains
+available for optional short-lived review deployments:
 
 ```bash
 cp deploy/.env.example deploy/.env
@@ -61,14 +61,17 @@ Before changing public DNS:
 7. Point the DNS record to the server.
 8. Confirm HTTPS issuance and `/api/health` from outside the server.
 
-## Release procedure
+## Production release procedure
 
 1. Merge a reviewed pull request with green checks.
-2. Tag or otherwise record the exact release commit.
-3. Build an immutable application image from that commit.
-4. Deploy to staging and check `/api/health`, core pages, and source links.
-5. Promote the same image to production.
-6. Record the version, time, operator, and rollback target.
+2. Record the currently deployed commit as the rollback target.
+3. Fast-forward the server checkout of `main` to the reviewed merge commit.
+4. Rebuild and recreate the Compose services from that exact checkout.
+5. Wait for the web, analytics, and private dashboard health checks to pass.
+6. Verify `/api/health`, core pages, generated data, map assets, and a sample of
+   source links through the public canonical domain.
+7. Record the deployed commit, time, operator, and rollback target.
 
-Rollback means deploying the previous known-good immutable image. Editorial data
-is part of the release, so application and content roll back together.
+Rollback means checking out the previous known-good commit and recreating the
+services from it. Editorial data is part of the release, so application and
+content roll back together.

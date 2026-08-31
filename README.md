@@ -1,9 +1,10 @@
 # RötgesPortal
 
-RötgesPortal aims to present municipal topics in Rötgesbüttel neutrally,
-transparently, and with their geographic impact. The project deliberately
-starts as a statically generated portal: editorial content is maintained as
-YAML and geographic data as GeoJSON. The MVP does not require a database.
+RötgesPortal presents municipal topics in Rötgesbüttel neutrally,
+transparently, and with their geographic impact. The project deliberately uses
+a content-first, stateless architecture: editorial content is maintained as
+YAML and geographic data as GeoJSON. The production service does not require a
+database.
 
 ## Architecture principle
 
@@ -65,7 +66,7 @@ plantuml -tsvg docs/architecture/*.puml
 ├── generated/           # generated runtime and import data
 ├── schemas/             # machine-readable content contracts
 ├── tools/               # validation, build, and historic imports
-└── web/                 # static topic portal and future map application
+└── web/                 # public topic portal, map, and trust pages
 ```
 
 ## Importing Rötgesmarkt data
@@ -171,13 +172,27 @@ list data includes administrative-area, status, and category facets, stable
 sorting, links to topic details, and the next planned milestone when one
 exists.
 
-Run all local checks with:
+Run the complete CI-equivalent check sequence with Python 3.12 or newer,
+Node.js 22.13 or newer, and pnpm 11.9:
 
 ```bash
+python3 -m compileall -q tools tests
 python3 -m unittest discover -s tests -v
 python3 tools/validate_content.py
+python3 -c "import pathlib, yaml; yaml.safe_load(pathlib.Path('deploy/compose.yaml').read_text())"
+python3 tools/import_roetgesmarkt.py
 python3 tools/build_portal.py
 git diff --exit-code -- generated
+
+corepack enable
+corepack prepare pnpm@11.9.0 --activate
+cd web
+pnpm install --frozen-lockfile --ignore-scripts
+pnpm build
+pnpm test
+pnpm lint
+cd ..
+git diff --exit-code -- web/public/data
 ```
 
 ## Web application
@@ -186,7 +201,9 @@ The public web application presents generated council topics as a
 German-language list, a chronological update stream, an RSS feed, and an
 OpenStreetMap-based MapLibre view. The topic and map views default to
 Rötgesbüttel and provide administrative-area, status, and category filters with
-links to source-backed detail pages:
+links to source-backed detail pages. The map renders Point, LineString, and
+Polygon features, supports feature popups, and fits the viewport to the selected
+spatial reference:
 
 ```bash
 cd web
@@ -220,10 +237,12 @@ municipal symbols are intentionally not used. Until an official operating
 agreement exists, the portal remains visibly labeled as independent and must
 not imply municipal endorsement.
 
-## Self-hosting baseline
+## Production hosting
 
-The current public preview does not require a dedicated server. A stateless
-container and reverse-proxy baseline is available for a future VPS:
+The public service runs at [roetgesportal.de](https://roetgesportal.de) on a
+self-managed VPS. Docker Compose builds the stateless web application and runs
+it behind Caddy, which terminates TLS and redirects the `www` and `preview`
+hostnames to the canonical domain:
 
 ```bash
 cp deploy/.env.example deploy/.env
@@ -231,4 +250,11 @@ docker compose --env-file deploy/.env -f deploy/compose.yaml up --build -d
 ```
 
 See [the deployment documentation](docs/operations/deployment.md) before using
-it in production. The health endpoint is available at `/api/health`.
+it in production. The deployment also creates a privacy-reduced GoAccess
+page-request report that is available only through an SSH tunnel; it does not
+attempt to identify unique visitors. Optional short-lived review deployments
+can use the Sites configuration in `web/.openai/hosting.json`.
+
+The public health endpoint is available at
+[`/api/health`](https://roetgesportal.de/api/health). Operational details are
+documented in [`deploy/README.md`](deploy/README.md).
