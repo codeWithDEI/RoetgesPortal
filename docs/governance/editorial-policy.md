@@ -35,14 +35,16 @@ original document.
 
 ## Publication workflow
 
-1. An editor creates or updates a YAML topic and records the access date of all
-   sources.
-2. The validator checks the content contract and source requirements.
-3. A reviewer checks neutrality, wording, dates, links, and the selected topic
-   status.
-4. The change is merged through a pull request and generated public data is
+1. The optional content monitor records public agenda changes in a non-public
+   review queue. It does not create or update a topic.
+2. An editor verifies the official source, creates or updates a YAML topic, and
+   records the access date of all sources.
+3. The validator checks the content contract and source requirements.
+4. A reviewer checks relevance, neutrality, wording, dates, links, and the
+   selected topic status.
+5. The change is merged through a pull request and generated public data is
    rebuilt.
-5. The published page shows its update and verification dates.
+6. The published page shows its update and verification dates.
 
 Authors should not be the only reviewer for topics in which they have a direct
 political, financial, or personal interest. Any unavoidable conflict should be

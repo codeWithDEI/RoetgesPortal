@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://roetgesportal.example/schemas/content-monitor.schema.json",
+  "title": "RötgesPortal content monitor configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "sourceId",
+    "baseUrl",
+    "lookbackMonths",
+    "requestDelaySeconds",
+    "requestTimeoutSeconds",
+    "bodies",
+    "ignoredAgendaTitlePatterns"
+  ],
+  "properties": {
+    "version": {"const": 1},
+    "sourceId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "baseUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "lookbackMonths": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "requestDelaySeconds": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 10
+    },
+    "requestTimeoutSeconds": {
+      "type": "integer",
+      "minimum": 5,
+      "maximum": 120
+    },
+    "bodies": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {"pattern": "^[0-9]+$"},
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "area", "level"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "area": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "level": {"enum": ["municipality", "joint-municipality"]}
+        }
+      }
+    },
+    "ignoredAgendaTitlePatterns": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    }
+  }
+}

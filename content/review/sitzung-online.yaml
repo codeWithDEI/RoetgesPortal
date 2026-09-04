@@ -1,0 +1,235 @@
+id: sitzung-online
+type: contentReviewQueue
+version: 1
+source:
+  id: papenteich-sitzung-online
+  baseUrl: https://www.papenteich.sitzung-online.de/public/
+publicAgendaOnly: true
+meetings:
+- id: '1000427'
+  title: Sitzung des Bauausschusses (zusammen mit dem AK "Klima und Energie")
+  date: '2026-08-17'
+  time: '18:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false
+  body:
+    id: '11'
+    name: Bauausschuss
+    level: joint-municipality
+  area: joint-municipality-papenteich
+  agendaItems:
+  - id: '1008064'
+    number: '5'
+    title: Vorstellung der Machbarkeitsstudie "Rathaus"
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008064&SILFDNR=1000427
+    proposal:
+      id: '1001169'
+      reference: SGP/2026/1060
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:0359465dc42da4ceac146b371ea1fd318bd162921eb886899f9427c51a00cc40
+- id: '1000326'
+  title: Sitzung des Kultur- und Sportausschusses der Gemeinde Rötgesbüttel
+  date: '2026-08-17'
+  time: '19:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000326&refresh=false
+  body:
+    id: '46'
+    name: Kultur- und Sportausschuss der Gemeinde Rötgesbüttel
+    level: municipality
+  area: municipality-roetgesbuettel
+  agendaItems:
+  - id: '1008087'
+    number: '5'
+    title: Gebührensatzung der Gemeinde Rötgesbüttel für die Nutzung der öffentlichen Gebäude und des Festplatzes
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008087&SILFDNR=1000326
+    proposal:
+      id: '1001198'
+      reference: Rötg/2026/0303
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087
+    matchedTopicIds:
+    - community-hall-fees
+    reviewStatus: tracked
+    fingerprint: sha256:225929a6fcec0b99e334c0e34e3378edad92788a21fab28c95961c616ec41489
+- id: '1000327'
+  title: Sitzung des Jugend-, Senioren- und Sozialausschusses der Gemeinde Rötgesbüttel
+  date: '2026-08-24'
+  time: '19:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000327&refresh=false
+  body:
+    id: '45'
+    name: Jugend-, Senioren- und Sozialausschuss der Gemeinde Rötgesbüttel
+    level: municipality
+  area: municipality-roetgesbuettel
+  agendaItems:
+  - id: '1008231'
+    number: '5'
+    title: Bericht vom Jugendtreff
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008231&SILFDNR=1000327
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:ab8bc420630ee7de5a1b3dccf0e0365ef2bed7efc1230f47bc376ac5d2f17be4
+  - id: '1008232'
+    number: '6'
+    title: Bericht vom Seniorenkreis
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008232&SILFDNR=1000327
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:ec560795c413b15384a88d86b8fc70de40ffa6564a30bc8b2fc330b707c2714f
+- id: '1000328'
+  title: Sitzung des Umwelt-, Bau - und Wegeausschusses der Gemeinde Rötgesbüttel
+  date: '2026-08-27'
+  time: '19:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false
+  body:
+    id: '47'
+    name: Umwelt-, Bau- und Wegeausschuss der Gemeinde Rötgesbüttel
+    level: municipality
+  area: municipality-roetgesbuettel
+  agendaItems:
+  - id: '1008256'
+    number: '5'
+    title: 'Bebauungsplan "Aukenroth" der Gemeinde Rötgesbüttel hier: Auslegungsbeschluss gemäß § 3 Abs. 2 BauGB und Beteiligung der Behörden und sonstigen Träger öffentlicher Belange gem. § 4 Abs. 2 BauGB'
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008256&SILFDNR=1000328
+    proposal:
+      id: '1001227'
+      reference: Rötg/2026/0304
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256
+    matchedTopicIds:
+    - aukenroth-residential-development
+    reviewStatus: tracked
+    fingerprint: sha256:67adf08f09fa3512ecd1e4658946e6c806cff09c86351810fd45a25bca5ad37a
+  - id: '1008255'
+    number: '6'
+    title: Versetzung der Glascontainer "Alte Heerstraße", Rötgesbüttel und Pflasterung des neuen Standortes
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008255&SILFDNR=1000328
+    proposal:
+      id: '1001228'
+      reference: Rötg/2025/0282-03
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255
+    matchedTopicIds:
+    - glass-container-relocation
+    reviewStatus: tracked
+    fingerprint: sha256:fc5adfcf1eae9c92a6fb28ff9918fe68f79ea7d6a7a95135b9959d7c4636d45d
+- id: '1000120'
+  title: Sitzung des Ausschusses für Jugend, Senioren und Integration
+  date: '2026-09-02'
+  time: '18:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000120&refresh=false
+  body:
+    id: '34'
+    name: Ausschuss für Jugend, Senioren und Integration
+    level: joint-municipality
+  area: joint-municipality-papenteich
+  agendaItems:
+  - id: '1008247'
+    number: '5'
+    title: Bücherei - Vorstellung des Ergebnisses der Bürgerbefragung und weiteres Vorgehen
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008247&SILFDNR=1000120
+    proposal:
+      id: '1001221'
+      reference: SGP/2026/1074
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247
+    matchedTopicIds:
+    - public-library-development
+    reviewStatus: tracked
+    fingerprint: sha256:fcb31cb7d7712fb5e328b876ad0bfcda64e8638345ba5bcb7209df62e41e91db
+  - id: '1007923'
+    number: '8'
+    title: Integrationsbericht
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007923&SILFDNR=1000120
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:ffb4f87d4798a66f9d0a692790f7532da367481486639f16340f13ddbec4b790
+- id: '1000124'
+  title: Sitzung des Feuerschutzausschusses
+  date: '2026-09-03'
+  time: '18:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000124&refresh=false
+  body:
+    id: '12'
+    name: Feuerschutzausschuss
+    level: joint-municipality
+  area: joint-municipality-papenteich
+  agendaItems:
+  - id: '1008478'
+    number: '6'
+    title: Kauf eines MTW für die Feuerwehr Rothemühle-Walle
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008478&SILFDNR=1000124
+    proposal:
+      id: '1001223'
+      reference: SGP/2026/1076
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001223&refresh=false&TOLFDNR=1008478
+    matchedTopicIds:
+    - fire-service-procurements-2026
+    reviewStatus: tracked
+    fingerprint: sha256:519df7bb48dea141c4e474b530ad109164795f6b899f686e58e999f3fd987ec8
+  - id: '1008479'
+    number: '7'
+    title: Kauf eines Rettungsbootes für den Zug 4
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008479&SILFDNR=1000124
+    proposal:
+      id: '1001225'
+      reference: SGP/2026/1077
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001225&refresh=false&TOLFDNR=1008479
+    matchedTopicIds:
+    - fire-service-procurements-2026
+    reviewStatus: tracked
+    fingerprint: sha256:b060e5e656e6719178b9c3375e95178492d06e729c2e962691b69efa7472a0fe
+  - id: '1008477'
+    number: '8'
+    title: Kauf eines KdoW für die Gemeindefeuerwehr
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008477&SILFDNR=1000124
+    proposal:
+      id: '1001222'
+      reference: SGP/2026/1075
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001222&refresh=false&TOLFDNR=1008477
+    matchedTopicIds:
+    - fire-service-procurements-2026
+    reviewStatus: tracked
+    fingerprint: sha256:329252289ac3a6b6efebdd08f7c3f29cfcf940f5e4bc536ccee81ac309522df5
+  - id: '1008480'
+    number: '9'
+    title: Weiterverwendung des VW Caddy im Bereich der Feuerwehr
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008480&SILFDNR=1000124
+    proposal:
+      id: '1001265'
+      reference: SGP/2026/1083
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001265&refresh=false&TOLFDNR=1008480
+    matchedTopicIds:
+    - fire-service-procurements-2026
+    reviewStatus: tracked
+    fingerprint: sha256:e3225c95c2c582ea61392a45635bf9b6e28531deab949bdbd61f251d6499990c
+- id: '1000125'
+  title: Sitzung des Schulausschusses
+  date: '2026-09-08'
+  time: '18:00'
+  url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false
+  body:
+    id: '13'
+    name: Schulausschuss
+    level: joint-municipality
+  area: joint-municipality-papenteich
+  agendaItems:
+  - id: '1008546'
+    number: '5'
+    title: Sachstand zu den Restarbeiten im Mensagebäude der Grundschule Meine
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008546&SILFDNR=1000125
+    proposal:
+      id: '1001285'
+      reference: SGP/2026/1085
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001285&refresh=false&TOLFDNR=1008546
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:7e370f592c909e7af0db7c07bbca37a9bc456850f0ff080d7f78d585018d87bf
+  - id: '1008500'
+    number: '6'
+    title: 'Grundschule Adenbüttel: Anbau eines AUR / Erweiterung der Bestandmensa - Planungsentwurf für die Genehmigungsplanung'
+    detailUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008500&SILFDNR=1000125
+    proposal:
+      id: '1001273'
+      reference: SGP/2026/1084
+      url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500
+    matchedTopicIds: []
+    reviewStatus: new
+    fingerprint: sha256:70540a7a2a4070cfeb80e996140d499b9df1b688184a7a398b09c88db8087d77

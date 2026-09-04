@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from collections.abc import Iterable
 from pathlib import Path
@@ -24,6 +25,7 @@ COLLECTIONS = {
     "topics": ("content/topics", "schemas/topic.schema.json"),
     "datasets": ("content/datasets", "schemas/dataset.schema.json"),
     "views": ("content/views", "schemas/view.schema.json"),
+    "review": ("content/review", "schemas/content-review.schema.json"),
 }
 
 
@@ -220,6 +222,97 @@ def validate_topic_areas(
     return errors
 
 
+def validate_review_references(
+    review_documents: dict[str, dict[str, Any]],
+    topics: dict[str, dict[str, Any]],
+    areas: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Validate review queues without making them part of public content."""
+    errors: list[str] = []
+    for review_id, review in review_documents.items():
+        meeting_ids: set[str] = set()
+        item_ids: set[tuple[str, str]] = set()
+        for meeting in review.get("meetings", []):
+            if not isinstance(meeting, dict):
+                continue
+            meeting_id = meeting.get("id")
+            if isinstance(meeting_id, str):
+                if meeting_id in meeting_ids:
+                    errors.append(
+                        f"review '{review_id}': duplicate meeting id '{meeting_id}'"
+                    )
+                meeting_ids.add(meeting_id)
+
+            area_id = meeting.get("area")
+            if isinstance(area_id, str) and area_id not in areas:
+                errors.append(
+                    f"review '{review_id}', meeting '{meeting_id}': unknown area "
+                    f"'{area_id}'"
+                )
+
+            for item in meeting.get("agendaItems", []):
+                if not isinstance(item, dict):
+                    continue
+                item_id = item.get("id")
+                key = (str(meeting_id), str(item_id))
+                if key in item_ids:
+                    errors.append(
+                        f"review '{review_id}': duplicate agenda item "
+                        f"'{meeting_id}/{item_id}'"
+                    )
+                item_ids.add(key)
+                for topic_id in item.get("matchedTopicIds", []):
+                    if isinstance(topic_id, str) and topic_id not in topics:
+                        errors.append(
+                            f"review '{review_id}', agenda item "
+                            f"'{meeting_id}/{item_id}': unknown topic '{topic_id}'"
+                        )
+    return errors
+
+
+def validate_monitor_configuration(
+    areas: dict[str, dict[str, Any]],
+    repository_root: Path = REPOSITORY_ROOT,
+) -> list[str]:
+    """Validate the source registry and its administrative area references."""
+    path = repository_root / "config/content-monitor.yaml"
+    schema_path = repository_root / "schemas/content-monitor.schema.json"
+    errors: list[str] = []
+    try:
+        document = load_yaml(path)
+        schema = load_json(schema_path)
+    except (OSError, ValueError, json.JSONDecodeError, yaml.YAMLError) as error:
+        return [f"{path.relative_to(repository_root)}: {error}"]
+
+    Draft202012Validator.check_schema(schema)
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    for error in sorted(
+        validator.iter_errors(document),
+        key=lambda item: tuple(str(part) for part in item.path),
+    ):
+        errors.append(
+            f"{path.relative_to(repository_root)}:{format_path(error.absolute_path)}: "
+            f"{error.message}"
+        )
+
+    for body_id, body in document.get("bodies", {}).items():
+        if not isinstance(body, dict):
+            continue
+        area_id = body.get("area")
+        if isinstance(area_id, str) and area_id not in areas:
+            errors.append(
+                f"content monitor body '{body_id}': unknown area '{area_id}'"
+            )
+    for pattern in document.get("ignoredAgendaTitlePatterns", []):
+        if not isinstance(pattern, str):
+            continue
+        try:
+            re.compile(pattern)
+        except re.error as error:
+            errors.append(f"content monitor pattern '{pattern}': {error}")
+    return errors
+
+
 def validate_views(
     views: dict[str, dict[str, Any]], datasets: dict[str, dict[str, Any]]
 ) -> list[str]:
@@ -363,6 +456,16 @@ def validate_repository(
     errors.extend(validate_topic_paths(all_documents["topics"], repository_root))
     errors.extend(
         validate_views(all_documents["views"], all_documents["datasets"])
+    )
+    errors.extend(
+        validate_review_references(
+            all_documents["review"],
+            all_documents["topics"],
+            all_documents["areas"],
+        )
+    )
+    errors.extend(
+        validate_monitor_configuration(all_documents["areas"], repository_root)
     )
 
     return all_documents, errors
