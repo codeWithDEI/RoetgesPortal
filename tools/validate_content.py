@@ -26,6 +26,10 @@ COLLECTIONS = {
     "datasets": ("content/datasets", "schemas/dataset.schema.json"),
     "views": ("content/views", "schemas/view.schema.json"),
     "review": ("content/review", "schemas/content-review.schema.json"),
+    "reviewDecisions": (
+        "content/review/decisions",
+        "schemas/content-review-decisions.schema.json",
+    ),
 }
 
 
@@ -270,6 +274,39 @@ def validate_review_references(
     return errors
 
 
+def validate_review_decisions(
+    decision_documents: dict[str, dict[str, Any]],
+    topics: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Validate human decisions independently from generated candidates."""
+    errors: list[str] = []
+    for document_id, document in decision_documents.items():
+        candidate_ids: set[str] = set()
+        for item in document.get("items", []):
+            if not isinstance(item, dict):
+                continue
+            candidate_id = item.get("candidateId")
+            if isinstance(candidate_id, str):
+                if candidate_id in candidate_ids:
+                    errors.append(
+                        f"review decisions '{document_id}': duplicate candidate "
+                        f"'{candidate_id}'"
+                    )
+                candidate_ids.add(candidate_id)
+
+            topic_id = item.get("topicId")
+            if (
+                item.get("decision") == "update-topic"
+                and isinstance(topic_id, str)
+                and topic_id not in topics
+            ):
+                errors.append(
+                    f"review decisions '{document_id}', candidate "
+                    f"'{candidate_id}': unknown topic '{topic_id}'"
+                )
+    return errors
+
+
 def validate_monitor_configuration(
     areas: dict[str, dict[str, Any]],
     repository_root: Path = REPOSITORY_ROOT,
@@ -462,6 +499,11 @@ def validate_repository(
             all_documents["review"],
             all_documents["topics"],
             all_documents["areas"],
+        )
+    )
+    errors.extend(
+        validate_review_decisions(
+            all_documents["reviewDecisions"], all_documents["topics"]
         )
     )
     errors.extend(

@@ -37,14 +37,17 @@ original document.
 
 1. The optional content monitor records public agenda changes in a non-public
    review queue. It does not create or update a topic.
-2. An editor verifies the official source, creates or updates a YAML topic, and
+2. An editor verifies the official source and records a disposition in the
+   separate decision ledger. A stored source fingerprint makes later changes
+   visible and reopens stale decisions.
+3. For a planned content change, the editor creates or updates a YAML topic and
    records the access date of all sources.
-3. The validator checks the content contract and source requirements.
-4. A reviewer checks relevance, neutrality, wording, dates, links, and the
+4. The validator checks the content contract and source requirements.
+5. A reviewer checks relevance, neutrality, wording, dates, links, and the
    selected topic status.
-5. The change is merged through a pull request and generated public data is
+6. The change is merged through a pull request and generated public data is
    rebuilt.
-6. The published page shows its update and verification dates.
+7. The published page shows its update and verification dates.
 
 Authors should not be the only reviewer for topics in which they have a direct
 political, financial, or personal interest. Any unavoidable conflict should be

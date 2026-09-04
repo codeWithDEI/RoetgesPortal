@@ -111,7 +111,9 @@ verifiable source.
 
 The content monitor discovers new and changed public agenda items from the
 Papenteich ALLRIS calendar. It writes only to a non-public review queue and
-never creates or publishes topic content automatically:
+never creates or publishes topic content automatically. Human dispositions are
+kept separately in `content/review/decisions/sitzung-online.yaml`, so scanner
+runs cannot overwrite them:
 
 ```bash
 python3 tools/scan_sitzung_online.py

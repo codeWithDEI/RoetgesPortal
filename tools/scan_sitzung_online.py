@@ -34,6 +34,9 @@ except ImportError as error:
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = REPOSITORY_ROOT / "config/content-monitor.yaml"
 DEFAULT_OUTPUT = REPOSITORY_ROOT / "content/review/sitzung-online.yaml"
+DEFAULT_DECISIONS = (
+    REPOSITORY_ROOT / "content/review/decisions/sitzung-online.yaml"
+)
 DEFAULT_SCHEMA = REPOSITORY_ROOT / "schemas/content-monitor.schema.json"
 USER_AGENT = "RoetgesPortal content monitor (+https://roetgesportal.de/kontakt)"
 
@@ -506,7 +509,22 @@ def merge_queue(
     }
 
 
-def queue_report(previous: dict[str, Any] | None, current: dict[str, Any]) -> str:
+def decision_index(
+    decisions: dict[str, Any] | None,
+) -> dict[str, dict[str, Any]]:
+    """Index human decisions separately from the generated review queue."""
+    return {
+        item["candidateId"]: item
+        for item in (decisions or {}).get("items", [])
+        if isinstance(item, dict) and isinstance(item.get("candidateId"), str)
+    }
+
+
+def queue_report(
+    previous: dict[str, Any] | None,
+    current: dict[str, Any],
+    decisions: dict[str, Any] | None = None,
+) -> str:
     def meetings(queue: dict[str, Any] | None) -> dict[str, dict[str, Any]]:
         return {meeting["id"]: meeting for meeting in (queue or {}).get("meetings", [])}
 
@@ -528,10 +546,30 @@ def queue_report(previous: dict[str, Any] | None, current: dict[str, Any]) -> st
         for key in new_items.keys() & old_items.keys()
         if new_items[key] != old_items[key]
     )
-    untracked = sum(
-        item.get("reviewStatus") == "new" for item in new_items.values()
-    )
 
+    decisions_by_id = decision_index(decisions)
+    unreviewed: list[tuple[str, str]] = []
+    stale: list[tuple[str, str]] = []
+    planned: list[tuple[str, str]] = []
+    no_topic: list[tuple[str, str]] = []
+    deferred: list[tuple[str, str]] = []
+    for key, item in new_items.items():
+        if item.get("reviewStatus") != "new":
+            continue
+        candidate_id = f"{key[0]}/{key[1]}"
+        decision = decisions_by_id.get(candidate_id)
+        if decision is None:
+            unreviewed.append(key)
+        elif decision.get("reviewedFingerprint") != item.get("fingerprint"):
+            stale.append(key)
+        elif decision.get("decision") in {"create-topic", "update-topic"}:
+            planned.append(key)
+        elif decision.get("decision") == "no-topic":
+            no_topic.append(key)
+        elif decision.get("decision") == "defer":
+            deferred.append(key)
+
+    actionable = sorted([*unreviewed, *stale, *planned])
     lines = [
         "# Content monitor result",
         "",
@@ -539,23 +577,43 @@ def queue_report(previous: dict[str, Any] | None, current: dict[str, Any]) -> st
         f"- New public agenda candidates: {len(added)}",
         f"- Changed candidates: {len(changed)}",
         f"- Removed candidates: {len(removed)}",
-        f"- Candidates not yet matched to a topic: {untracked}",
+        f"- Candidates requiring editorial action: {len(actionable)}",
+        f"- Unreviewed candidates: {len(unreviewed)}",
+        f"- Planned topic changes: {len(planned)}",
+        f"- Stale editorial decisions: {len(stale)}",
+        f"- Decisions recorded as no topic: {len(no_topic)}",
+        f"- Deferred candidates: {len(deferred)}",
     ]
     if added:
-        lines.extend(["", "## New candidates"])
+        lines.extend(["", "## New source candidates"])
         for meeting_id, item_id in added:
             item = new_items[(meeting_id, item_id)]
             lines.append(f"- `{meeting_id}/{item_id}` — {item['title']}")
     if changed:
-        lines.extend(["", "## Changed candidates"])
+        lines.extend(["", "## Changed source candidates"])
         for meeting_id, item_id in changed:
             item = new_items[(meeting_id, item_id)]
             lines.append(f"- `{meeting_id}/{item_id}` — {item['title']}")
     if removed:
-        lines.extend(["", "## Removed candidates"])
+        lines.extend(["", "## Removed source candidates"])
         for meeting_id, item_id in removed:
             item = old_items[(meeting_id, item_id)]
             lines.append(f"- `{meeting_id}/{item_id}` — {item['title']}")
+    if actionable:
+        lines.extend(["", "## Editorial action required"])
+        for meeting_id, item_id in actionable:
+            item = new_items[(meeting_id, item_id)]
+            candidate_id = f"{meeting_id}/{item_id}"
+            decision = decisions_by_id.get(candidate_id)
+            if (meeting_id, item_id) in unreviewed:
+                label = "unreviewed"
+            elif (meeting_id, item_id) in stale:
+                label = "source changed since review"
+            else:
+                label = decision["decision"]
+                if decision.get("topicId"):
+                    label += f" → {decision['topicId']}"
+            lines.append(f"- `{candidate_id}` ({label}) — {item['title']}")
     lines.extend(
         [
             "",
@@ -653,6 +711,7 @@ def parse_arguments() -> argparse.Namespace:
     )
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--decisions", type=Path, default=DEFAULT_DECISIONS)
     parser.add_argument("--report", type=Path)
     parser.add_argument("--months", type=int)
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
@@ -670,7 +729,12 @@ def main() -> None:
         arguments.today,
         arguments.months,
     )
-    report = queue_report(previous, current)
+    decisions = (
+        load_yaml_mapping(arguments.decisions)
+        if arguments.decisions.exists()
+        else None
+    )
+    report = queue_report(previous, current, decisions)
     print(report)
     if arguments.report:
         arguments.report.parent.mkdir(parents=True, exist_ok=True)
