@@ -60,5 +60,6 @@ jobs:
           if-no-files-found: error
           path: |
             content/review/sitzung-online.yaml
+            content/review/decisions/sitzung-online.yaml
             content-monitor-report.md
             content-monitor.diff

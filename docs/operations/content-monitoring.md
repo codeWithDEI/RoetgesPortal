@@ -3,7 +3,9 @@
 RötgesPortal can inspect the public Papenteich ALLRIS calendar for changed or
 new agenda items. The monitor is a discovery aid, not a publication system.
 Its output is stored in `content/review/sitzung-online.yaml`, which is excluded
-from the public generator and web application.
+from the public generator and web application. Human decisions are stored
+separately in `content/review/decisions/sitzung-online.yaml`; the scanner never
+rewrites that file.
 
 ## Safety boundaries
 
@@ -48,6 +50,34 @@ topics. A queue item is marked `tracked` when that stable identifier is already
 cited; otherwise it is marked `new`. This is a technical hint only and does not
 replace editorial judgment.
 
+## Recording editorial decisions
+
+Do not edit the generated queue to record a decision. Add one entry to the
+separate decisions file instead:
+
+```yaml
+- candidateId: 1000427/1008064
+  decision: create-topic
+  topicId: papenteich-town-hall-feasibility-study
+  reason: The proposal concerns a durable joint-municipality project.
+  reviewedFingerprint: sha256:...
+  reviewedAt: "2026-09-04"
+```
+
+Copy `candidateId` and `fingerprint` exactly from the generated queue. Four
+decisions are available:
+
+- `create-topic` plans a new topic and requires its future topic ID;
+- `update-topic` plans a change to an existing topic and requires its ID;
+- `no-topic` records that the item does not warrant public portal content;
+- `defer` records that a decision should wait for more official information.
+
+The monitor compares `reviewedFingerprint` with the current source fingerprint.
+If ALLRIS later changes an item that was marked `no-topic` or `defer`, the
+decision becomes stale and the report returns it to editorial review. A
+`create-topic` or `update-topic` decision remains actionable until the relevant
+ALLRIS agenda or proposal ID appears in the cited sources of a topic.
+
 ## Manual GitHub preview
 
 The `Preview content monitor` workflow can be started manually from the
@@ -56,6 +86,7 @@ push a branch or open a pull request. The run summary shows the number of new,
 changed, and removed candidates. A downloadable artifact contains:
 
 - the complete proposed review queue;
+- the current human decision ledger;
 - a Markdown summary;
 - the exact Git diff against the committed queue.
 
@@ -68,12 +99,15 @@ after the parser and candidate quality have proved stable.
 For each relevant queue item:
 
 1. Open the linked agenda item and proposal on the official source.
-2. Decide whether an existing topic needs an update or a new topic is needed.
-3. Summarize the material in plain German without copying long passages.
+2. Record `create-topic`, `update-topic`, `no-topic`, or `defer` in the separate
+   decision ledger.
+3. For a planned topic change, summarize the official material in plain German
+   without copying long passages.
 4. Record the official sources and verification date in the topic YAML.
-5. Submit the topic change through the normal reviewed pull-request workflow.
+5. Submit content changes through the normal reviewed pull-request workflow.
+6. Run the monitor again after the content change so stable ALLRIS identifiers
+   can mark the candidate as tracked.
 
-Items that are procedural, irrelevant to the portal, or already sufficiently
-covered require no public content change. They can remain in the review queue;
-the queue itself is operational evidence and is never presented as editorial
-content.
+Items that are procedural, irrelevant to the portal, or lack sourceable facts
+can be recorded as `no-topic`. The generated queue and decision ledger are
+operational evidence and are never presented as editorial content.
