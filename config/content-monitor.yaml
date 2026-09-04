@@ -1,0 +1,71 @@
+version: 1
+sourceId: papenteich-sitzung-online
+baseUrl: https://www.papenteich.sitzung-online.de/public/
+lookbackMonths: 2
+requestDelaySeconds: 0.25
+requestTimeoutSeconds: 20
+
+bodies:
+  "44":
+    name: Rat der Gemeinde Rötgesbüttel
+    area: municipality-roetgesbuettel
+    level: municipality
+  "48":
+    name: Verwaltungsausschuss der Gemeinde Rötgesbüttel
+    area: municipality-roetgesbuettel
+    level: municipality
+  "45":
+    name: Jugend-, Senioren- und Sozialausschuss der Gemeinde Rötgesbüttel
+    area: municipality-roetgesbuettel
+    level: municipality
+  "46":
+    name: Kultur- und Sportausschuss der Gemeinde Rötgesbüttel
+    area: municipality-roetgesbuettel
+    level: municipality
+  "47":
+    name: Umwelt-, Bau- und Wegeausschuss der Gemeinde Rötgesbüttel
+    area: municipality-roetgesbuettel
+    level: municipality
+  "1":
+    name: Samtgemeinderat
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "3":
+    name: Samtgemeindeausschuss
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "13":
+    name: Schulausschuss
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "9":
+    name: Ausschuss für Haushalt und Finanzen
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "12":
+    name: Feuerschutzausschuss
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "11":
+    name: Bauausschuss
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "14":
+    name: Ausschuss für Umwelt und Planung
+    area: joint-municipality-papenteich
+    level: joint-municipality
+  "34":
+    name: Ausschuss für Jugend, Senioren und Integration
+    area: joint-municipality-papenteich
+    level: joint-municipality
+
+ignoredAgendaTitlePatterns:
+  - "^Eröffnung"
+  - "^Feststellung (der|des)"
+  - "^Genehmigung (der|des)"
+  - "^Mitteilungen"
+  - "^Bericht(e)? (der|des)"
+  - "^Einwohnerfragestunde"
+  - "^Anfragen und Anregungen"
+  - "^Anfragen"
+  - "^Schließung"

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="de">
+  <body>
+    <div id="calendar">Loading</div>
+    <script>
+      Wicket.Timer.set('id1', function(){
+        Wicket.Ajax.ajax({"u":"./si010?0-1.0-&MM=8&YY=2026"});
+      }, 1);
+    </script>
+  </body>
+</html>

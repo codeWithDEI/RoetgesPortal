@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://roetgesportal.example/schemas/content-review.schema.json",
+  "title": "RötgesPortal content review queue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "version",
+    "source",
+    "publicAgendaOnly",
+    "meetings"
+  ],
+  "properties": {
+    "id": {"const": "sitzung-online"},
+    "type": {"const": "contentReviewQueue"},
+    "version": {"const": 1},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "baseUrl"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "baseUrl": {"type": "string", "format": "uri"}
+      }
+    },
+    "publicAgendaOnly": {"const": true},
+    "meetings": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/meeting"}
+    }
+  },
+  "$defs": {
+    "identifier": {"type": "string", "pattern": "^[0-9]+$"},
+    "meeting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "date",
+        "time",
+        "url",
+        "body",
+        "area",
+        "agendaItems"
+      ],
+      "properties": {
+        "id": {"$ref": "#/$defs/identifier"},
+        "title": {"type": "string", "minLength": 1},
+        "date": {"type": "string", "format": "date"},
+        "time": {
+          "type": "string",
+          "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$"
+        },
+        "url": {"type": "string", "format": "uri"},
+        "body": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "name", "level"],
+          "properties": {
+            "id": {"$ref": "#/$defs/identifier"},
+            "name": {"type": "string", "minLength": 1},
+            "level": {"enum": ["municipality", "joint-municipality"]}
+          }
+        },
+        "area": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "agendaItems": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/agendaItem"}
+        }
+      }
+    },
+    "agendaItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "number",
+        "title",
+        "detailUrl",
+        "matchedTopicIds",
+        "reviewStatus",
+        "fingerprint"
+      ],
+      "properties": {
+        "id": {"$ref": "#/$defs/identifier"},
+        "number": {"type": "string"},
+        "title": {"type": "string", "minLength": 1},
+        "detailUrl": {"type": "string", "format": "uri"},
+        "proposal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "reference", "url"],
+          "properties": {
+            "id": {"$ref": "#/$defs/identifier"},
+            "reference": {"type": "string", "minLength": 1},
+            "url": {"type": "string", "format": "uri"}
+          }
+        },
+        "matchedTopicIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "uniqueItems": true
+        },
+        "reviewStatus": {"enum": ["new", "tracked"]},
+        "fingerprint": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        }
+      }
+    }
+  }
+}
