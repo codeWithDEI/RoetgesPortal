@@ -51,10 +51,12 @@ plantuml -tsvg docs/architecture/*.puml
 
 ```text
 .
+├── config/              # source registries for operational tools
 ├── content/
 │   ├── areas/           # administrative areas and their hierarchy
 │   ├── datasets/        # reusable inputs with stable IDs
 │   ├── locations/       # manually maintained GeoJSON sources
+│   ├── review/          # non-public machine-assisted review queues
 │   ├── topics/          # one municipal topic per YAML file
 │   └── views/           # routes, data selection, and presentation
 ├── deploy/              # reproducible self-hosting baseline
@@ -105,6 +107,22 @@ Facts, geographic impact, and publicly documented positions are modeled
 separately. Every published topic and position must cite at least one
 verifiable source.
 
+## Monitoring official agenda changes
+
+The content monitor discovers new and changed public agenda items from the
+Papenteich ALLRIS calendar. It writes only to a non-public review queue and
+never creates or publishes topic content automatically:
+
+```bash
+python3 tools/scan_sitzung_online.py
+```
+
+The manually triggered `Preview content monitor` GitHub workflow has read-only
+repository permissions and provides the proposed queue, summary, and diff as a
+downloadable artifact. See the
+[content monitoring procedure](docs/operations/content-monitoring.md) for its
+safety boundaries and editorial handoff.
+
 ## Defining portal views
 
 Datasets decouple physical inputs from their presentation:
@@ -143,9 +161,10 @@ python3 tools/validate_content.py
 ```
 
 In addition to the JSON Schemas, the validator checks IDs, file references,
-area hierarchies and topic-area references, dataset and source references,
-unique routes, source and layer IDs, zoom ranges, and compatible filters. CI
-runs the same validation for every pull request.
+area hierarchies and topic-area references, review-queue and monitor-registry
+references, dataset and source references, unique routes, source and layer IDs,
+zoom ranges, and compatible filters. CI runs the same validation for every pull
+request.
 
 ## Generating runtime data
 
@@ -224,6 +243,7 @@ future municipal handover:
 - [Operating model](docs/governance/operating-model.md)
 - [Municipal handover checklist](docs/governance/municipal-handover.md)
 - [Deployment procedure](docs/operations/deployment.md)
+- [Content change monitoring](docs/operations/content-monitoring.md)
 - [Legal and privacy operations checklist](docs/operations/legal-and-privacy-checklist.md)
 - [Monitoring and recovery](docs/operations/monitoring-and-recovery.md)
 - [Search discovery and Search Console](docs/operations/search-discovery.md)
