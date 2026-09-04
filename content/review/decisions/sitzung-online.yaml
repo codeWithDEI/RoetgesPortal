@@ -1,0 +1,42 @@
+id: sitzung-online
+type: contentReviewDecisions
+version: 1
+
+items:
+  - candidateId: 1000427/1008064
+    decision: create-topic
+    topicId: papenteich-town-hall-feasibility-study
+    reason: The feasibility study concerns a durable joint-municipality infrastructure project.
+    reviewedFingerprint: sha256:0359465dc42da4ceac146b371ea1fd318bd162921eb886899f9427c51a00cc40
+    reviewedAt: "2026-09-04"
+
+  - candidateId: 1000327/1008231
+    decision: no-topic
+    reason: The agenda item is an informational youth-centre report without a published decision or durable project update.
+    reviewedFingerprint: sha256:ab8bc420630ee7de5a1b3dccf0e0365ef2bed7efc1230f47bc376ac5d2f17be4
+    reviewedAt: "2026-09-04"
+
+  - candidateId: 1000327/1008232
+    decision: no-topic
+    reason: The agenda item is an informational senior-group report without a published decision or durable project update.
+    reviewedFingerprint: sha256:ec560795c413b15384a88d86b8fc70de40ffa6564a30bc8b2fc330b707c2714f
+    reviewedAt: "2026-09-04"
+
+  - candidateId: 1000120/1007923
+    decision: no-topic
+    reason: No public proposal, decision, or sourceable substantive update is linked to the integration report.
+    reviewedFingerprint: sha256:ffb4f87d4798a66f9d0a692790f7532da367481486639f16340f13ddbec4b790
+    reviewedAt: "2026-09-04"
+
+  - candidateId: 1000125/1008546
+    decision: no-topic
+    reason: The public report only announces an oral update and contains no sourceable facts or decision.
+    reviewedFingerprint: sha256:7e370f592c909e7af0db7c07bbca37a9bc456850f0ff080d7f78d585018d87bf
+    reviewedAt: "2026-09-04"
+
+  - candidateId: 1000125/1008500
+    decision: create-topic
+    topicId: adenbuettel-primary-school-extension
+    reason: The proposal advances a concrete school extension from concept to approval planning.
+    reviewedFingerprint: sha256:70540a7a2a4070cfeb80e996140d499b9df1b688184a7a398b09c88db8087d77
+    reviewedAt: "2026-09-04"

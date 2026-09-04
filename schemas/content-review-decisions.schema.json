@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://roetgesportal.example/schemas/content-review-decisions.schema.json",
+  "title": "RötgesPortal content review decisions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "version", "items"],
+  "properties": {
+    "id": {"const": "sitzung-online"},
+    "type": {"const": "contentReviewDecisions"},
+    "version": {"const": 1},
+    "items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/decision"}
+    }
+  },
+  "$defs": {
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidateId",
+        "decision",
+        "reason",
+        "reviewedFingerprint",
+        "reviewedAt"
+      ],
+      "properties": {
+        "candidateId": {
+          "type": "string",
+          "pattern": "^[0-9]+/[0-9]+$"
+        },
+        "decision": {
+          "enum": ["create-topic", "update-topic", "no-topic", "defer"]
+        },
+        "topicId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "reason": {"type": "string", "minLength": 1},
+        "reviewedFingerprint": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        },
+        "reviewedAt": {"type": "string", "format": "date"}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "decision": {"enum": ["create-topic", "update-topic"]}
+            },
+            "required": ["decision"]
+          },
+          "then": {"required": ["topicId"]}
+        }
+      ]
+    }
+  }
+}
