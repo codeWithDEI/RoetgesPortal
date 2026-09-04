@@ -1,0 +1,70 @@
+id: adenbuettel-primary-school-extension
+title: Erweiterung der Grundschule Adenbüttel
+summary: >
+  Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und
+  einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die
+  Ausschussberatungen stehen noch aus.
+status: committee
+visibility: published
+
+areas:
+  - municipality-adenbuettel
+
+categories:
+  - schools
+  - public-facilities
+  - construction
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-08-31"
+  updatedAt: "2026-08-31"
+  lastVerifiedAt: "2026-09-04"
+
+description: |
+  Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der
+  Grundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte
+  Entwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist
+  ein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26
+  Schülerinnen und Schüler in vorgefertigter Holzständerbauweise.
+
+  Zugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum
+  erweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt
+  werden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits
+  weitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer
+  zusätzlichen Photovoltaikanlage beantragt werden.
+
+  Der Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im
+  Haushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000
+  Euro sollen aus der Investitionsnummer für die Aufstockung der Mensa in
+  Meine gedeckt werden.
+
+  Der Schulausschuss soll den Entwurf am 8. September 2026 beraten. Danach
+  sind eine Empfehlung des Bauausschusses und die Entscheidung des
+  Samtgemeindeausschusses vorgesehen. Die Planung und Kosten sind daher noch
+  nicht beschlossen.
+
+locations:
+  - id: primary-school
+    label: Grundschule Adenbüttel
+    impactType: direct
+    geoJsonFile: content/locations/adenbuettel-primary-school-extension.geojson
+
+milestones:
+  - date: "2026-09-08"
+    title: Schulausschuss berät Entwurf und Kostenberechnung
+    status: planned
+
+sources:
+  - title: Vorlage SGP/2026/1084 zur Erweiterung der Grundschule Adenbüttel
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500
+    accessedAt: "2026-09-04"
+  - title: Sitzung des Schulausschusses vom 8. September 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false
+    accessedAt: "2026-09-04"
+
+positions: []

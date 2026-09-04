@@ -3,6 +3,64 @@
   "items": [
     {
       "areas": [
+        "municipality-adenbuettel"
+      ],
+      "categories": [
+        "schools",
+        "public-facilities",
+        "construction"
+      ],
+      "dates": {
+        "createdAt": "2026-08-31",
+        "lastVerifiedAt": "2026-09-04",
+        "updatedAt": "2026-08-31"
+      },
+      "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt\nwerden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nDer Schulausschuss soll den Entwurf am 8. September 2026 beraten. Danach\nsind eine Empfehlung des Bauausschusses und die Entscheidung des\nSamtgemeindeausschusses vorgesehen. Die Planung und Kosten sind daher noch\nnicht beschlossen.\n",
+      "id": "adenbuettel-primary-school-extension",
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/adenbuettel-primary-school-extension.geojson",
+          "id": "primary-school",
+          "impactType": "direct",
+          "label": "Grundschule Adenbüttel"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-09-08",
+          "status": "planned",
+          "title": "Schulausschuss berät Entwurf und Kostenberechnung"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-09-04",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1084 zur Erweiterung der Grundschule Adenbüttel",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500"
+        },
+        {
+          "accessedAt": "2026-09-04",
+          "sourceType": "agenda",
+          "title": "Sitzung des Schulausschusses vom 8. September 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false"
+        }
+      ],
+      "status": "committee",
+      "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die Ausschussberatungen stehen noch aus.\n",
+      "title": "Erweiterung der Grundschule Adenbüttel",
+      "visibility": "published"
+    },
+    {
+      "areas": [
         "joint-municipality-papenteich"
       ],
       "categories": [
@@ -1681,6 +1739,71 @@
       "status": "implementation",
       "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.\n",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "public-facilities",
+        "construction",
+        "strategic-planning"
+      ],
+      "dates": {
+        "createdAt": "2026-08-17",
+        "lastVerifiedAt": "2026-09-04",
+        "updatedAt": "2026-08-17"
+      },
+      "description": "Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vor. Der Ausschuss nahm die Studie zur Kenntnis.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nIn der Beratungsfolge ist außerdem eine Kenntnisnahme durch den\nSamtgemeindeausschuss vorgesehen. Ein Sitzungstermin ist dort derzeit noch\nnicht genannt. Das Thema bleibt deshalb im Ausschussstatus.\n",
+      "id": "papenteich-town-hall-feasibility-study",
+      "locations": [
+        {
+          "geoJsonFile": "content/locations/papenteich-town-hall-feasibility-study.geojson",
+          "id": "town-hall",
+          "impactType": "direct",
+          "label": "Rathaus der Samtgemeinde Papenteich"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-08-17",
+          "status": "reached",
+          "title": "Bauausschuss nimmt Machbarkeitsstudie zur Kenntnis"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-09-04",
+          "publishedAt": "2026-08-17",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1060 zur Machbarkeitsstudie Rathaus",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064"
+        },
+        {
+          "accessedAt": "2026-09-04",
+          "publishedAt": "2026-08-17",
+          "sourceType": "agenda",
+          "title": "Sitzung des Bauausschusses vom 17. August 2026",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false"
+        }
+      ],
+      "status": "committee",
+      "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.\n",
+      "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde",
       "visibility": "published"
     },
     {
