@@ -297,6 +297,26 @@ select {
   text-transform: uppercase;
 }
 
+.map-filters__search {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(180px, 0.45fr) minmax(0, 1.55fr);
+  align-items: center;
+}
+
+.map-filters__search .search-field {
+  min-width: 0;
+}
+
+.map-filters__search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.92rem;
+  text-transform: none;
+}
+
 .map-filters select {
   width: 100%;
   border: 0;
@@ -1806,6 +1826,10 @@ select {
   }
 
   .map-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .map-filters__search {
     grid-template-columns: 1fr;
   }
 

@@ -22,6 +22,7 @@ import {
   areaIsAvailableForCouncilScope,
   matchesTopicFilters,
   type CouncilScope,
+  type TopicFilters,
 } from "@/lib/topic-filters";
 import { StatusBadge } from "./status-badge";
 
@@ -128,6 +129,7 @@ function mapFilter(
   area: string,
   status: TopicStatus | "all",
   category: string,
+  visibleFeatureIds: string[],
 ): FilterSpecification {
   const expressions: FilterSpecification[] = [
     ["==", ["geometry-type"], geometryType],
@@ -146,7 +148,43 @@ function mapFilter(
   if (category !== "all") {
     expressions.push(["in", category, ["get", "categories"]]);
   }
+  expressions.push([
+    "in",
+    ["id"],
+    ["literal", visibleFeatureIds],
+  ] as FilterSpecification);
   return ["all", ...expressions] as FilterSpecification;
+}
+
+function matchesMapFeatureFilters(
+  feature: TopicMapFeature,
+  filters: TopicFilters,
+): boolean {
+  return matchesTopicFilters(
+    {
+      title: feature.properties.topicTitle,
+      summary: feature.properties.topicSummary,
+      status: feature.properties.topicStatus,
+      categories: feature.properties.categories,
+      organizations: feature.properties.organizations,
+      relevantAreaIds: feature.properties.relevantAreaIds,
+      searchTerms: [
+        feature.properties.locationLabel,
+        ...feature.properties.categories.map(categoryLabel),
+        ...feature.properties.areas.map(areaLabel),
+      ],
+    },
+    filters,
+  );
+}
+
+function matchingFeatureIds(
+  features: TopicMapFeature[],
+  filters: TopicFilters,
+): string[] {
+  return features
+    .filter((feature) => matchesMapFeatureFilters(feature, filters))
+    .flatMap((feature) => (feature.id === undefined ? [] : [feature.id]));
 }
 
 export function MapExplorer({
@@ -160,17 +198,18 @@ export function MapExplorer({
   const mapRef = useRef<MapLibreMap | null>(null);
   const [collection, setCollection] = useState<TopicMapCollection | null>(null);
   const [loadError, setLoadError] = useState(false);
+  const [query, setQuery] = useState("");
   const [councilScope, setCouncilScope] = useState<CouncilScope>(
     DEFAULT_COUNCIL_SCOPE,
   );
   const [area, setArea] = useState(DEFAULT_AREA_ID);
   const [status, setStatus] = useState<TopicStatus | "all">("all");
   const [category, setCategory] = useState("all");
-  const filtersRef = useRef({ councilScope, area, status, category });
+  const filtersRef = useRef({ query, councilScope, area, status, category });
 
   useEffect(() => {
-    filtersRef.current = { councilScope, area, status, category };
-  }, [area, category, councilScope, status]);
+    filtersRef.current = { query, councilScope, area, status, category };
+  }, [area, category, councilScope, query, status]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -236,6 +275,10 @@ export function MapExplorer({
         map.on("load", () => {
           if (!map) return;
           const activeFilters = filtersRef.current;
+          const visibleFeatureIds = matchingFeatureIds(
+            collection.features,
+            activeFilters,
+          );
           map.addSource(sourceId, {
             type: "geojson",
             data: collection as never,
@@ -250,6 +293,7 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
+              visibleFeatureIds,
             ),
             paint: {
               "fill-color": [
@@ -271,6 +315,7 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
+              visibleFeatureIds,
             ),
             paint: {
               "line-color": [
@@ -293,6 +338,7 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
+              visibleFeatureIds,
             ),
             paint: {
               "line-color": [
@@ -315,6 +361,7 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
+              visibleFeatureIds,
             ),
             paint: {
               "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 8, 18, 13],
@@ -387,6 +434,11 @@ export function MapExplorer({
       [lineLayerId, "LineString"],
       [pointLayerId, "Point"],
     ];
+    const activeFilters = { query, councilScope, area, status, category };
+    const visibleFeatureIds = matchingFeatureIds(
+      collection?.features ?? [],
+      activeFilters,
+    );
     for (const [layerId, geometryType] of layers) {
       if (map?.getLayer(layerId)) {
         map.setFilter(
@@ -397,11 +449,12 @@ export function MapExplorer({
             area,
             status,
             category,
+            visibleFeatureIds,
           ),
         );
       }
     }
-  }, [area, category, councilScope, status]);
+  }, [area, category, collection, councilScope, query, status]);
 
   const areas = useMemo(
     () =>
@@ -452,28 +505,19 @@ export function MapExplorer({
   const filteredFeatures = useMemo(
     () =>
       collection?.features.filter((feature) =>
-        matchesTopicFilters(
-          {
-            title: feature.properties.topicTitle,
-            summary: feature.properties.topicSummary,
-            status: feature.properties.topicStatus,
-            categories: feature.properties.categories,
-            organizations: feature.properties.organizations,
-            relevantAreaIds: feature.properties.relevantAreaIds,
-          },
-          {
-            query: "",
-            councilScope,
-            area,
-            status,
-            category,
-          },
-        ),
+        matchesMapFeatureFilters(feature, {
+          query,
+          councilScope,
+          area,
+          status,
+          category,
+        }),
       ) ?? [],
-    [area, category, collection, councilScope, status],
+    [area, category, collection, councilScope, query, status],
   );
 
   const hasFilters =
+    query !== "" ||
     councilScope !== DEFAULT_COUNCIL_SCOPE ||
     area !== DEFAULT_AREA_ID ||
     status !== "all" ||
@@ -485,6 +529,7 @@ export function MapExplorer({
   }
 
   function resetFilters() {
+    setQuery("");
     setCouncilScope(DEFAULT_COUNCIL_SCOPE);
     setArea(DEFAULT_AREA_ID);
     setStatus("all");
@@ -516,6 +561,19 @@ export function MapExplorer({
       </div>
 
       <div className="map-filters" aria-label="Kartenfilter">
+        <label className="map-filters__search" htmlFor="map-topic-search">
+          <span>Ortsbezüge durchsuchen</span>
+          <span className="search-field">
+            <span aria-hidden="true">⌕</span>
+            <input
+              id="map-topic-search"
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="z. B. Kita, Festplatz oder Pfänderweg"
+              type="search"
+              value={query}
+            />
+          </span>
+        </label>
         <label>
           Politische Ebene
           <select
@@ -655,7 +713,8 @@ export function MapExplorer({
             </ol>
           ) : (
             <p className="mapped-topic-list__empty">
-              Zu dieser Filterauswahl ist aktuell kein Ortsbezug hinterlegt.
+              Zu dieser Suche und Filterauswahl ist aktuell kein Ortsbezug
+              hinterlegt.
             </p>
           )}
         </div>

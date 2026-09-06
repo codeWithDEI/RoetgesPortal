@@ -250,6 +250,8 @@ test("server-renders the source-backed council map", async () => {
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
   assert.match(html, /14(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
+  assert.match(html, /Ortsbezüge durchsuchen/);
+  assert.match(html, /id="map-topic-search"/);
   assert.match(html, /Kartendaten: OpenStreetMap/);
   assert.match(html, /href="https:\/\/www\.openstreetmap\.org\/copyright"/);
   assert.match(html, /© OpenStreetMap contributors/);

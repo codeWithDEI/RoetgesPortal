@@ -28,7 +28,10 @@ export function normalizeFilterText(value: string): string {
   return value
     .toLocaleLowerCase("de-DE")
     .normalize("NFKD")
-    .replace(/\p{M}/gu, "");
+    .replace(/\p{M}/gu, "")
+    .replace(/ß/g, "ss")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
 }
 
 export function matchesCouncilScope(
@@ -78,15 +81,18 @@ export function matchesTopicFilters(
     return false;
   }
 
-  const normalizedQuery = normalizeFilterText(filters.query.trim());
-  if (!normalizedQuery) return true;
+  const queryTokens = normalizeFilterText(filters.query)
+    .split(" ")
+    .filter(Boolean);
+  if (queryTokens.length === 0) return true;
 
-  return normalizeFilterText(
+  const searchable = normalizeFilterText(
     [
       topic.title,
       topic.summary,
       ...topic.categories,
       ...(topic.searchTerms ?? []),
     ].join(" "),
-  ).includes(normalizedQuery);
+  );
+  return queryTokens.every((token) => searchable.includes(token));
 }
