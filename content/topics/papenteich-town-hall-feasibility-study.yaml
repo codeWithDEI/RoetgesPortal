@@ -1,0 +1,63 @@
+id: papenteich-town-hall-feasibility-study
+title: Machbarkeitsstudie zum Rathaus der Samtgemeinde
+summary: >
+  Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus
+  zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die
+  Varianten und mögliche Kosten bislang nicht näher.
+status: committee
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+
+categories:
+  - public-facilities
+  - construction
+  - strategic-planning
+
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-08-17"
+  updatedAt: "2026-08-17"
+  lastVerifiedAt: "2026-09-04"
+
+description: |
+  Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August
+  2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der
+  Samtgemeinde Papenteich vor. Der Ausschuss nahm die Studie zur Kenntnis.
+
+  Die veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage
+  an, enthält aber keine Beschreibung der untersuchten Varianten und keine
+  Kostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über
+  die weitere Umsetzung ist darin nicht dokumentiert.
+
+  In der Beratungsfolge ist außerdem eine Kenntnisnahme durch den
+  Samtgemeindeausschuss vorgesehen. Ein Sitzungstermin ist dort derzeit noch
+  nicht genannt. Das Thema bleibt deshalb im Ausschussstatus.
+
+locations:
+  - id: town-hall
+    label: Rathaus der Samtgemeinde Papenteich
+    impactType: direct
+    geoJsonFile: content/locations/papenteich-town-hall-feasibility-study.geojson
+
+milestones:
+  - date: "2026-08-17"
+    title: Bauausschuss nimmt Machbarkeitsstudie zur Kenntnis
+    status: reached
+
+sources:
+  - title: Vorlage SGP/2026/1060 zur Machbarkeitsstudie Rathaus
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-09-04"
+  - title: Sitzung des Bauausschusses vom 17. August 2026
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false
+    publishedAt: "2026-08-17"
+    accessedAt: "2026-09-04"
+
+positions: []

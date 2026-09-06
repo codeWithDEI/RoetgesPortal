@@ -172,6 +172,28 @@
     },
     {
       "areas": [
+        "municipality-adenbuettel"
+      ],
+      "categories": [
+        "schools",
+        "public-facilities",
+        "construction"
+      ],
+      "detail": "topics/adenbuettel-primary-school-extension.json",
+      "id": "adenbuettel-primary-school-extension",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel"
+      ],
+      "status": "committee",
+      "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die Ausschussberatungen stehen noch aus.",
+      "title": "Erweiterung der Grundschule Adenbüttel"
+    },
+    {
+      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -384,6 +406,33 @@
       "status": "decided",
       "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.",
       "title": "Kommunale Wärmeplanung für den Papenteich"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "public-facilities",
+        "construction",
+        "strategic-planning"
+      ],
+      "detail": "topics/papenteich-town-hall-feasibility-study.json",
+      "id": "papenteich-town-hall-feasibility-study",
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "committee",
+      "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.",
+      "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde"
     },
     {
       "areas": [

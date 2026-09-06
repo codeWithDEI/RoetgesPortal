@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "public-facilities",
+      "construction",
+      "strategic-planning"
+    ],
+    "dates": {
+      "createdAt": "2026-08-17",
+      "lastVerifiedAt": "2026-09-04",
+      "updatedAt": "2026-08-17"
+    },
+    "description": "Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vor. Der Ausschuss nahm die Studie zur Kenntnis.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nIn der Beratungsfolge ist außerdem eine Kenntnisnahme durch den\nSamtgemeindeausschuss vorgesehen. Ein Sitzungstermin ist dort derzeit noch\nnicht genannt. Das Thema bleibt deshalb im Ausschussstatus.\n",
+    "id": "papenteich-town-hall-feasibility-study",
+    "locations": [
+      {
+        "geoJsonFile": "content/locations/papenteich-town-hall-feasibility-study.geojson",
+        "id": "town-hall",
+        "impactType": "direct",
+        "label": "Rathaus der Samtgemeinde Papenteich"
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2026-08-17",
+        "status": "reached",
+        "title": "Bauausschuss nimmt Machbarkeitsstudie zur Kenntnis"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-09-04",
+        "publishedAt": "2026-08-17",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1060 zur Machbarkeitsstudie Rathaus",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064"
+      },
+      {
+        "accessedAt": "2026-09-04",
+        "publishedAt": "2026-08-17",
+        "sourceType": "agenda",
+        "title": "Sitzung des Bauausschusses vom 17. August 2026",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false"
+      }
+    ],
+    "status": "committee",
+    "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.\n",
+    "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde",
+    "visibility": "published"
+  }
+}

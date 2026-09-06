@@ -166,7 +166,7 @@ test("server-renders the chronological update stream", async () => {
   const html = await response.text();
   assert.match(html, /Neu &amp; aktualisiert/);
   assert.match(html, /Zuletzt bearbeitet/);
-  assert.match(html, /40(?:<!-- -->)* veröffentlichte Themen/);
+  assert.match(html, /42(?:<!-- -->)* veröffentlichte Themen/);
   assert.match(html, /RSS-Feed abonnieren/);
   assert.match(
     html,
