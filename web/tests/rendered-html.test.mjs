@@ -61,7 +61,7 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /Rötgesbüttel \+ Samtgemeinde/);
   assert.match(html, /Bearbeitungsstand/);
   assert.match(html, /Räumlicher Bezug/);
-  assert.match(html, /Gesamte Samtgemeinde/);
+  assert.doesNotMatch(html, /Gesamte Samtgemeinde/);
   assert.match(html, /href="\/impressum"/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/i);
 });
@@ -250,11 +250,17 @@ test("server-renders the source-backed council map", async () => {
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
   assert.match(html, /14(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
+  assert.match(html, /Ortsbezüge durchsuchen/);
+  assert.match(html, /id="map-topic-search"/);
   assert.match(html, /Kartendaten: OpenStreetMap/);
   assert.match(html, /href="https:\/\/www\.openstreetmap\.org\/copyright"/);
   assert.match(html, /© OpenStreetMap contributors/);
   assert.match(html, /Kartenfehler bei OpenStreetMap melden/);
+  assert.match(html, /Politische Ebene/);
+  assert.match(html, /Gemeinderat Rötgesbüttel/);
+  assert.match(html, /Rötgesbüttel \+ Samtgemeinde/);
   assert.match(html, /Räumlicher Bezug/);
+  assert.doesNotMatch(html, /Gesamte Samtgemeinde/);
 });
 
 test("exposes a non-cached health endpoint", async () => {
