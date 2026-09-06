@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import mapLibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type {
   FilterSpecification,
+  GeoJSONSource,
   Map as MapLibreMap,
   MapLayerMouseEvent,
 } from "maplibre-gl";
@@ -129,7 +130,6 @@ function mapFilter(
   area: string,
   status: TopicStatus | "all",
   category: string,
-  visibleFeatureIds: string[],
 ): FilterSpecification {
   const expressions: FilterSpecification[] = [
     ["==", ["geometry-type"], geometryType],
@@ -148,11 +148,6 @@ function mapFilter(
   if (category !== "all") {
     expressions.push(["in", category, ["get", "categories"]]);
   }
-  expressions.push([
-    "in",
-    ["id"],
-    ["literal", visibleFeatureIds],
-  ] as FilterSpecification);
   return ["all", ...expressions] as FilterSpecification;
 }
 
@@ -178,13 +173,16 @@ function matchesMapFeatureFilters(
   );
 }
 
-function matchingFeatureIds(
-  features: TopicMapFeature[],
+function filteredMapCollection(
+  collection: TopicMapCollection,
   filters: TopicFilters,
-): string[] {
-  return features
-    .filter((feature) => matchesMapFeatureFilters(feature, filters))
-    .flatMap((feature) => (feature.id === undefined ? [] : [feature.id]));
+): TopicMapCollection {
+  return {
+    ...collection,
+    features: collection.features.filter((feature) =>
+      matchesMapFeatureFilters(feature, filters),
+    ),
+  };
 }
 
 export function MapExplorer({
@@ -275,13 +273,9 @@ export function MapExplorer({
         map.on("load", () => {
           if (!map) return;
           const activeFilters = filtersRef.current;
-          const visibleFeatureIds = matchingFeatureIds(
-            collection.features,
-            activeFilters,
-          );
           map.addSource(sourceId, {
             type: "geojson",
-            data: collection as never,
+            data: filteredMapCollection(collection, activeFilters) as never,
           });
           map.addLayer({
             id: polygonFillLayerId,
@@ -293,7 +287,6 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
-              visibleFeatureIds,
             ),
             paint: {
               "fill-color": [
@@ -315,7 +308,6 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
-              visibleFeatureIds,
             ),
             paint: {
               "line-color": [
@@ -338,7 +330,6 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
-              visibleFeatureIds,
             ),
             paint: {
               "line-color": [
@@ -361,7 +352,6 @@ export function MapExplorer({
               activeFilters.area,
               activeFilters.status,
               activeFilters.category,
-              visibleFeatureIds,
             ),
             paint: {
               "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 8, 18, 13],
@@ -435,10 +425,10 @@ export function MapExplorer({
       [pointLayerId, "Point"],
     ];
     const activeFilters = { query, councilScope, area, status, category };
-    const visibleFeatureIds = matchingFeatureIds(
-      collection?.features ?? [],
-      activeFilters,
-    );
+    const source = map?.getSource(sourceId) as GeoJSONSource | undefined;
+    if (source && collection) {
+      source.setData(filteredMapCollection(collection, activeFilters) as never);
+    }
     for (const [layerId, geometryType] of layers) {
       if (map?.getLayer(layerId)) {
         map.setFilter(
@@ -449,7 +439,6 @@ export function MapExplorer({
             area,
             status,
             category,
-            visibleFeatureIds,
           ),
         );
       }
