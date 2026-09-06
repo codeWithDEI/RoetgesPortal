@@ -11,10 +11,16 @@ import {
 } from "@/lib/presentation";
 import { DEFAULT_AREA_ID, type AdministrativeArea } from "@/lib/areas";
 import {
-  isRoetgesbuettelCouncilTopic,
   type TopicListItem,
   type TopicStatus,
 } from "@/lib/topics";
+import {
+  DEFAULT_COUNCIL_SCOPE,
+  areaForCouncilScope,
+  areaIsAvailableForCouncilScope,
+  matchesTopicFilters,
+  type CouncilScope,
+} from "@/lib/topic-filters";
 import { StatusBadge } from "./status-badge";
 
 type TopicExplorerProps = {
@@ -23,14 +29,6 @@ type TopicExplorerProps = {
   categories: string[];
   areas: AdministrativeArea[];
 };
-
-type CouncilScope = "roetgesbuettel" | "include-joint-municipality";
-
-const DEFAULT_COUNCIL_SCOPE: CouncilScope = "roetgesbuettel";
-
-function normalize(value: string): string {
-  return value.toLocaleLowerCase("de-DE").normalize("NFKD");
-}
 
 export function TopicExplorer({
   items,
@@ -46,33 +44,30 @@ export function TopicExplorer({
   const [status, setStatus] = useState<TopicStatus | "all">("all");
   const [category, setCategory] = useState("all");
 
-  const filteredItems = useMemo(() => {
-    const normalizedQuery = normalize(query.trim());
-    return items.filter((item) => {
-      if (
-        councilScope === "roetgesbuettel" &&
-        !isRoetgesbuettelCouncilTopic(item)
-      ) {
-        return false;
-      }
-      if (!item.relevantAreaIds.includes(area)) return false;
-      if (status !== "all" && item.status !== status) return false;
-      if (category !== "all" && !item.categories.includes(category)) {
-        return false;
-      }
-      if (!normalizedQuery) return true;
+  const availableAreas = useMemo(
+    () =>
+      areas.filter((itemArea) =>
+        areaIsAvailableForCouncilScope(itemArea.id, councilScope),
+      ),
+    [areas, councilScope],
+  );
 
-      const searchable = normalize(
-        [
-          item.title,
-          item.summary,
-          ...item.categories.map(categoryLabel),
-          ...item.areas.map(areaLabel),
-        ].join(" "),
-      );
-      return searchable.includes(normalizedQuery);
-    });
-  }, [area, category, councilScope, items, query, status]);
+  const filteredItems = useMemo(
+    () =>
+      items.filter((item) =>
+        matchesTopicFilters(
+          {
+            ...item,
+            searchTerms: [
+              ...item.categories.map(categoryLabel),
+              ...item.areas.map(areaLabel),
+            ],
+          },
+          { query, councilScope, area, status, category },
+        ),
+      ),
+    [area, category, councilScope, items, query, status],
+  );
 
   const hasFilters =
     query !== "" ||
@@ -87,6 +82,11 @@ export function TopicExplorer({
     setArea(DEFAULT_AREA_ID);
     setStatus("all");
     setCategory("all");
+  }
+
+  function changeCouncilScope(nextScope: CouncilScope) {
+    setCouncilScope(nextScope);
+    setArea((currentArea) => areaForCouncilScope(currentArea, nextScope));
   }
 
   return (
@@ -110,7 +110,7 @@ export function TopicExplorer({
           <select
             id="council-scope-filter"
             onChange={(event) =>
-              setCouncilScope(event.target.value as CouncilScope)
+              changeCouncilScope(event.target.value as CouncilScope)
             }
             value={councilScope}
           >
@@ -129,7 +129,7 @@ export function TopicExplorer({
             onChange={(event) => setArea(event.target.value)}
             value={area}
           >
-            {areas.map((itemArea) => (
+            {availableAreas.map((itemArea) => (
               <option key={itemArea.id} value={itemArea.id}>
                 {itemArea.type === "jointMunicipality"
                   ? "Gesamte Samtgemeinde"
