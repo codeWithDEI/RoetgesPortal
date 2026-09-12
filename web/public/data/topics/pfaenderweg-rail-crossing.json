@@ -11,11 +11,18 @@
     ],
     "dates": {
       "createdAt": "2025-06-02",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-06-18"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
     "id": "pfaenderweg-rail-crossing",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2025-06-18",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127",
+      "summary": "Der Rat beauftragte weitere Gespräche zu den Sichtflächen und zu alternativen Lösungen für den Bahnübergang.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/pfaenderweg-rail-crossing.geojson",
@@ -47,14 +54,19 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-06-18",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0255",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127"
       }
     ],
-    "status": "paused",
+    "status": "implementation",
+    "statusBasis": {
+      "scope": "implementation",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127",
+      "summary": "Der Rat beauftragte Gespräche mit Anwohnenden und der Bahn; nur die bisherige Variante soll gegebenenfalls beendet werden.\n"
+    },
     "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
     "title": "Bahnübergang am Pfänderweg",
     "visibility": "published"

@@ -11,11 +11,18 @@
     ],
     "dates": {
       "createdAt": "2025-01-21",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-01-21"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
-    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 14. August 2026 nicht dokumentiert.\n",
+    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 12. September 2026 nicht dokumentiert.\n",
     "id": "municipal-heat-planning",
+    "latestDecision": {
+      "body": "Samtgemeinderat Papenteich",
+      "date": "2025-01-21",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
+      "summary": "Der Samtgemeinderat stellte 90.000 Euro für die Wärmeplanung im Finanzplanjahr 2026 bereit.\n"
+    },
     "locations": [],
     "milestones": [
       {
@@ -39,14 +46,19 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-01-21",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu SGP2024/0680-1",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633"
       }
     ],
-    "status": "decided",
+    "status": "open",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
+      "summary": "Das Planungsbudget ist beschlossen; eine Beauftragung oder ein Beginn der Wärmeplanung ist öffentlich noch nicht dokumentiert.\n"
+    },
     "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
     "title": "Kommunale Wärmeplanung für den Papenteich",
     "visibility": "published"

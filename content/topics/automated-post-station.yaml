@@ -3,7 +3,21 @@ title: Automatisierte Poststation
 summary: >
   Der Rat nahm die geplante automatisierte Poststation zur Kenntnis und bat
   die Deutsche Post um eine verständliche Information zur Nutzung.
-status: completed
+status: announced
+statusBasis:
+  scope: topic
+  summary: >
+    Der Beschluss dokumentiert die geplante Station, aber keine spätere
+    Inbetriebnahme.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127
+latestDecision:
+  date: "2025-06-18"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: noted
+  summary: >
+    Der Rat nahm das Vorhaben zur Kenntnis und bat die Deutsche Post um
+    verständliche Informationen zur Nutzung.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127
 visibility: published
 
 areas:
@@ -19,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2025-06-18"
-  updatedAt: "2025-06-18"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Die Deutsche Post beantragte im Verfahren nach dem Postgesetz eine
@@ -28,8 +42,8 @@ description: |
   Benehmen her, nahm das Vorhaben zur Kenntnis und bat um Informationen für
   die Bürgerinnen und Bürger zur Funktionsweise.
 
-  Der Beschluss schließt die kommunale Befassung ab. Ob und wann die Station
-  anschließend in Betrieb ging, geht aus diesem Beschluss nicht hervor.
+  Der Beschluss dokumentiert nur die kommunale Kenntnisnahme. Ob und wann die
+  Station anschließend in Betrieb ging, geht daraus nicht hervor.
 
 locations:
   - id: station-site
@@ -47,6 +61,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127
     publishedAt: "2025-06-18"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

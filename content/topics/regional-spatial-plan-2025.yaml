@@ -4,7 +4,22 @@ summary: >
   Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung
   genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche
   gefordert.
-status: consultation
+status: completed
+statusBasis:
+  scope: topic
+  summary: >
+    Die im Titel bezeichnete kommunale Stellungnahme wurde vom Rat
+    beschlossen und abgegeben; das regionale Gesamtverfahren läuft davon
+    unabhängig weiter.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260
+latestDecision:
+  date: "2026-03-17"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat beschloss die Stellungnahme zum Entwurf des Regionalen
+    Raumordnungsprogramms einstimmig.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260
 visibility: published
 
 areas:
@@ -23,8 +38,8 @@ organizations:
 
 dates:
   createdAt: "2026-03-17"
-  updatedAt: "2026-03-17"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er
@@ -56,6 +71,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []
