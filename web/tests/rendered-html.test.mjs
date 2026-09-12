@@ -59,7 +59,7 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /Politische Ebene/);
   assert.match(html, /Gemeinderat Rötgesbüttel/);
   assert.match(html, /Rötgesbüttel \+ Samtgemeinde/);
-  assert.match(html, /Bearbeitungsstand/);
+  assert.match(html, /Themenstand/);
   assert.match(html, /Räumlicher Bezug/);
   assert.doesNotMatch(html, /Gesamte Samtgemeinde/);
   assert.match(html, /href="\/impressum"/);
