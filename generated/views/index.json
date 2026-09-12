@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "views": [
     {
-      "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit Bearbeitungsstand und Quellen.",
+      "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit Themenstand und Quellen.",
       "id": "council",
       "manifest": "council/manifest.json",
       "presentationType": "list",

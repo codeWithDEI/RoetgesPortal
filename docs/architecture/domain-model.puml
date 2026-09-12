@@ -10,6 +10,8 @@ class Topic {
   +summary: markdown
   +description: markdown
   +status: TopicStatus
+  +statusBasis: StatusBasis
+  +latestDecision: LatestDecision
   +visibility: Visibility
   +areas: string[]
   +createdAt: date
@@ -20,14 +22,45 @@ class Topic {
 enum TopicStatus {
   idea
   announced
+  open
   consultation
   committee
   council
   decided
   implementation
+  active
   completed
   paused
   rejected
+}
+
+class StatusBasis {
+  +scope: StatusScope
+  +summary: string
+  +sourceUrl: uri
+}
+
+enum StatusScope {
+  topic
+  proposal
+  implementation
+}
+
+class LatestDecision {
+  +date: date
+  +body: string
+  +outcome: DecisionOutcome
+  +summary: string
+  +sourceUrl: uri
+}
+
+enum DecisionOutcome {
+  adopted
+  rejected
+  withdrawn
+  deferred
+  noted
+  no-decision
 }
 
 enum Visibility {
@@ -202,6 +235,8 @@ class Position {
 }
 
 Topic "1" o-- "0..*" ImpactLocation
+Topic "1" o-- "0..1" StatusBasis
+Topic "1" o-- "0..1" LatestDecision
 Topic "*" -- "1..*" AdministrativeArea : applies to >
 AdministrativeArea "0..1" <-- "0..*" AdministrativeArea : parent
 Topic "1" o-- "0..*" Milestone

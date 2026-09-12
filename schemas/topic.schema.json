@@ -34,15 +34,65 @@
       "enum": [
         "idea",
         "announced",
+        "open",
         "consultation",
         "committee",
         "council",
         "decided",
         "implementation",
+        "active",
         "completed",
         "paused",
         "rejected"
       ]
+    },
+    "statusBasis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "summary", "sourceUrl"],
+      "properties": {
+        "scope": {
+          "enum": ["topic", "proposal", "implementation"]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "latestDecision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "body", "outcome", "summary", "sourceUrl"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "body": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outcome": {
+          "enum": [
+            "adopted",
+            "rejected",
+            "withdrawn",
+            "deferred",
+            "noted",
+            "no-decision"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
     },
     "visibility": {
       "enum": ["draft", "published", "archived"]

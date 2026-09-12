@@ -1,6 +1,6 @@
 {
   "data": "items.json",
-  "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit Bearbeitungsstand und Quellen.",
+  "description": "Aktuelle Themen aus Gemeinde und Samtgemeinde mit Themenstand und Quellen.",
   "id": "council",
   "presentation": {
     "facets": [
@@ -13,7 +13,7 @@
     "type": "list"
   },
   "route": "/themen",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "sources": [
     {
       "artifact": "../../datasets/topics.json",

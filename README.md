@@ -107,6 +107,28 @@ Facts, geographic impact, and publicly documented positions are modeled
 separately. Every published topic and position must cite at least one
 verifiable source.
 
+The top-level `status` describes the lifecycle of the exact subject named by
+the topic. It is independent from the result of an individual motion and from
+technical workflow labels in the council information system. New or materially
+updated topics record the evidence for that phase in `statusBasis`. A formal
+decision is represented separately as `latestDecision`, including its outcome
+and a source already listed on the topic.
+
+```yaml
+status: implementation
+statusBasis:
+  scope: topic
+  summary: The commissioned review is still in progress.
+  sourceUrl: https://example.org/resolution
+
+latestDecision:
+  date: "2026-06-18"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: Der Rat beauftragte die Verwaltung mit der Prüfung.
+  sourceUrl: https://example.org/resolution
+```
+
 ## Monitoring official agenda changes
 
 The content monitor discovers new and changed public agenda items from the
@@ -164,9 +186,9 @@ python3 tools/validate_content.py
 
 In addition to the JSON Schemas, the validator checks IDs, file references,
 area hierarchies and topic-area references, review-queue and monitor-registry
-references, dataset and source references, unique routes, source and layer IDs,
-zoom ranges, and compatible filters. CI runs the same validation for every pull
-request.
+references, status and decision evidence, dataset and source references, unique
+routes, source and layer IDs, zoom ranges, and compatible filters. CI runs the
+same validation for every pull request.
 
 ## Generating runtime data
 

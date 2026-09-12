@@ -1,4 +1,5 @@
 import type {
+  DecisionOutcome,
   Milestone,
   TopicSource,
   TopicStatus,
@@ -10,14 +11,25 @@ export { areaLabel, areaScopeLabel } from "./areas";
 export const statusLabels: Record<TopicStatus, string> = {
   idea: "Idee",
   announced: "Angekündigt",
+  open: "Offen",
   consultation: "Beteiligung",
   committee: "Im Ausschuss",
   council: "Im Rat",
   decided: "Beschlossen",
   implementation: "In Umsetzung",
+  active: "Aktiv",
   completed: "Abgeschlossen",
   paused: "Pausiert",
   rejected: "Abgelehnt",
+};
+
+export const decisionOutcomeLabels: Record<DecisionOutcome, string> = {
+  adopted: "Beschlossen",
+  rejected: "Abgelehnt",
+  withdrawn: "Zurückgezogen",
+  deferred: "Vertagt",
+  noted: "Zur Kenntnis genommen",
+  "no-decision": "Ohne Beschluss",
 };
 
 export const categoryLabels: Record<string, string> = {

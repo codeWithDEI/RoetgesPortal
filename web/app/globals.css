@@ -909,6 +909,19 @@ select {
   font-size: 0.72rem;
 }
 
+.topic-card__status {
+  display: grid;
+  gap: 6px;
+}
+
+.topic-card__status small {
+  color: var(--ink-soft);
+  font-size: 0.6rem;
+  font-weight: 750;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
 .status-badge {
   display: inline-flex;
   align-items: center;
@@ -943,6 +956,7 @@ select {
 }
 
 .status-badge[data-status="decided"],
+.status-badge[data-status="active"],
 .status-badge[data-status="completed"] {
   background: #d9e9dd;
   color: #2d6847;
@@ -1392,6 +1406,20 @@ select {
   line-height: 0.98;
 }
 
+.topic-detail__status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topic-detail__status > span:first-child {
+  color: var(--ink-soft);
+  font-size: 0.65rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .topic-detail__header > div > p {
   max-width: 760px;
   margin: 28px 0 0;
@@ -1601,6 +1629,58 @@ select {
   color: var(--ink-soft);
   font-size: 0.78rem;
   line-height: 1.65;
+}
+
+.aside-block--decision strong {
+  display: block;
+  color: var(--green-deep);
+  font-size: 1rem;
+}
+
+.aside-block--decision > p:not(.eyebrow),
+.aside-block--status-basis > p:not(.eyebrow) {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.65;
+}
+
+.aside-block--decision dl {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 0;
+}
+
+.aside-block--decision dl > div {
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  gap: 10px;
+}
+
+.aside-block--decision dt,
+.aside-block--decision dd {
+  margin: 0;
+  font-size: 0.7rem;
+  line-height: 1.45;
+}
+
+.aside-block--decision dt {
+  color: var(--ink-soft);
+}
+
+.aside-block--decision dd {
+  font-weight: 680;
+}
+
+.aside-block--decision a,
+.aside-block--status-basis a {
+  display: inline-flex;
+  gap: 6px;
+  margin-top: 16px;
+  color: var(--green);
+  font-size: 0.72rem;
+  font-weight: 720;
+  text-underline-offset: 4px;
 }
 
 @media (max-width: 900px) {

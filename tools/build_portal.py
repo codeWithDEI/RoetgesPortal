@@ -14,7 +14,7 @@ from validate_content import REPOSITORY_ROOT, validate_repository
 
 
 DEFAULT_OUTPUT = REPOSITORY_ROOT / "generated"
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 
 def nested_value(document: dict[str, Any], field: str) -> Any:
@@ -127,6 +127,8 @@ def make_list_item(topic: dict[str, Any]) -> dict[str, Any]:
     milestone = upcoming_milestone(topic)
     if milestone is not None:
         item["upcomingMilestone"] = milestone
+    if "latestDecision" in topic:
+        item["latestDecision"] = topic["latestDecision"]
     return item
 
 
@@ -211,7 +213,7 @@ def make_topic_location_collection(
                 feature["id"] = (
                     f"{topic['id']}:{location['id']}:{feature_identifier}"
                 )
-                feature["properties"] = {
+                feature_properties = {
                     **(feature.get("properties") or {}),
                     "topicId": topic["id"],
                     "topicTitle": topic["title"],
@@ -228,6 +230,11 @@ def make_topic_location_collection(
                     "impactType": location["impactType"],
                     "detailPath": f"/themen/{topic['id']}",
                 }
+                if "latestDecision" in topic:
+                    feature_properties["latestDecisionOutcome"] = topic[
+                        "latestDecision"
+                    ]["outcome"]
+                feature["properties"] = feature_properties
                 features.append(feature)
 
     return {
@@ -432,8 +439,11 @@ def build_portal(
         },
     )
 
-    search_items = [
-        {
+    search_items: list[dict[str, Any]] = []
+    for topic in sorted(
+        published_topics, key=lambda item: (item["title"], item["id"])
+    ):
+        search_item = {
             "id": topic["id"],
             "title": topic["title"],
             "summary": topic["summary"].strip(),
@@ -446,10 +456,9 @@ def build_portal(
             ),
             "detail": f"topics/{topic['id']}.json",
         }
-        for topic in sorted(
-            published_topics, key=lambda item: (item["title"], item["id"])
-        )
-    ]
+        if "latestDecision" in topic:
+            search_item["latestDecision"] = topic["latestDecision"]
+        search_items.append(search_item)
     write_json(
         output_root / "search-index.json",
         {

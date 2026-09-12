@@ -80,11 +80,13 @@ const interactiveLayerIds = [
 const statusColors: Record<TopicStatus, string> = {
   idea: "#65777d",
   announced: "#65777d",
+  open: "#65777d",
   consultation: "#8b6d18",
   committee: "#315e71",
   council: "#006080",
   decided: "#2d6847",
   implementation: "#007da4",
+  active: "#2d6847",
   completed: "#2d6847",
   paused: "#a35832",
   rejected: "#8a4b2d",
@@ -595,7 +597,7 @@ export function MapExplorer({
           </select>
         </label>
         <label>
-          Bearbeitungsstand
+          Themenstand
           <select
             onChange={(event) =>
               setStatus(event.target.value as TopicStatus | "all")

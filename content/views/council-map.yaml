@@ -11,11 +11,14 @@ sources:
       visibility:
         - published
       status:
+        - announced
+        - open
         - consultation
         - committee
         - council
         - decided
         - implementation
+        - active
         - paused
     sort:
       - field: dates.updatedAt

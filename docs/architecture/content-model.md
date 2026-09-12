@@ -26,6 +26,26 @@ Files under `content/topics/` describe municipal matters, their current state,
 administrative scope, citations, milestones, and geographic impact. A topic
 must never contain view-specific colors, marker icons, routes, or zoom levels.
 
+The topic `status` is the lifecycle phase of the exact subject named in the
+title. It is not the result of an individual motion and must not be copied from
+technical ALLRIS labels such as `Erledigt`, `Geplant`, or `Gestoppt`.
+
+`statusBasis` explains why the phase is justified and points to one of the
+topic's listed sources. Its `scope` distinguishes a broad municipal matter, a
+proposal-scoped topic, and an implementation measure. `latestDecision` records
+the most recent formal decision independently, using one of these outcomes:
+
+- `adopted`;
+- `rejected`;
+- `withdrawn`;
+- `deferred`;
+- `noted`;
+- `no-decision`.
+
+This separation allows a broad topic to remain in implementation even when one
+alternative was rejected. Conversely, a proposal-scoped topic can be completed
+while its latest decision clearly states that the proposal was withdrawn.
+
 ### Datasets
 
 Files under `content/datasets/` register reusable inputs. A dataset can point
@@ -76,6 +96,8 @@ files:
 10. Every presentation and map layer must reference a source from its view.
 11. Every topic area must exist, and the administrative hierarchy must be
     acyclic.
+12. `statusBasis.sourceUrl` and `latestDecision.sourceUrl` must match a source
+    listed on the same topic.
 
 ## Geographic conventions
 

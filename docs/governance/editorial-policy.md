@@ -33,6 +33,34 @@ formal status, and attributed positions must be traceable to a source. Avoid
 copying long passages; summarize them in plain language and link to the
 original document.
 
+## Topic phase and decision outcomes
+
+The topic `status` always describes the lifecycle of the exact subject named in
+the title. It must not be inferred directly from the outcome of one proposal or
+from technical workflow labels in ALLRIS. Formal decisions are recorded
+separately in `latestDecision`.
+
+- `decided` requires an adopted resolution about the titled subject. Taking a
+  report or plan into account without a vote is recorded as `noted`.
+- `open` describes a documented issue whose next substantive step remains
+  unresolved and for which no active formal procedure is evidenced.
+- `implementation` requires evidence that execution, procurement, or a
+  commissioned review has started. A budget allocation alone is not execution.
+- `active` describes a published plan, rule, or continuing service that is
+  currently applicable after its adoption or publication.
+- `completed` requires completion of the titled subject. The end of a council
+  consultation does not mean that a broadly titled project was completed.
+- `paused` requires an explicit source for suspension or deferral. A missing
+  update or the ALLRIS label `Gestoppt` is not sufficient evidence.
+- `rejected` is only suitable when the topic title itself is scoped to the
+  rejected proposal. A rejected alternative does not reject the broader topic.
+- A withdrawn motion uses the `withdrawn` decision outcome and is never
+  described as rejected.
+
+New or materially updated topics should include a `statusBasis` that summarizes
+the evidence and references a source already listed on the topic. If a formal
+decision is known, `latestDecision` should be included as well.
+
 ## Publication workflow
 
 1. The optional content monitor records public agenda changes in a non-public

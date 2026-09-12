@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import {
   areaLabel,
   categoryLabel,
+  decisionOutcomeLabels,
   formatCompactDate,
   statusLabels,
   topicAreaLabel,
@@ -139,7 +140,7 @@ export function TopicExplorer({
           </select>
         </div>
         <div className="filter-panel__select">
-          <label htmlFor="status-filter">Bearbeitungsstand</label>
+          <label htmlFor="status-filter">Themenstand</label>
           <select
             id="status-filter"
             onChange={(event) =>
@@ -192,7 +193,16 @@ export function TopicExplorer({
           {filteredItems.map((topic) => (
             <article className="topic-card" key={topic.id}>
               <div className="topic-card__meta">
-                <StatusBadge status={topic.status} />
+                <span className="topic-card__status">
+                  <small>Themenstand</small>
+                  <StatusBadge status={topic.status} />
+                </span>
+                {topic.latestDecision ? (
+                  <span>
+                    Letzte Entscheidung:{" "}
+                    {decisionOutcomeLabels[topic.latestDecision.outcome]}
+                  </span>
+                ) : null}
                 <span>
                   Aktualisiert am {formatCompactDate(topic.dates.updatedAt)}
                 </span>

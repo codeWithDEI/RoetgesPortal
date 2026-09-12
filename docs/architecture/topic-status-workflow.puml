@@ -12,29 +12,49 @@ skinparam state {
 
 [*] --> idea
 idea --> announced : publicly announced
+idea --> open : documented issue without an active procedure
+announced --> open : follow-up remains unresolved
+open --> consultation : public input requested
+open --> committee : referred for preparation
+open --> implementation : follow-up commissioned
+open --> completed : titled subject concluded
 announced --> consultation : public input requested
 announced --> committee : referred for preparation
 consultation --> committee : input evaluated
 committee --> council : recommendation submitted
 council --> decided : resolution adopted
 decided --> implementation : execution required
+decided --> active : rule or plan takes effect
 decided --> completed : no execution phase required
 implementation --> completed : work finished
+active --> completed : validity or use ends
 
 committee --> consultation : more public input needed
 council --> committee : referred back
 
-consultation --> rejected : proposal withdrawn or rejected
-committee --> rejected : proposal withdrawn or rejected
-council --> rejected : resolution rejects proposal
+consultation --> completed : titled subject concluded
+committee --> completed : titled subject concluded
+council --> completed : titled subject concluded
+council --> rejected : titled proposal rejected
+
+state "Latest decision (recorded separately)" as decision {
+  [*] --> adopted
+  [*] --> rejectedOutcome
+  [*] --> withdrawn
+  [*] --> deferred
+  [*] --> noted
+  [*] --> noDecision
+}
 
 idea --> paused
 announced --> paused
+open --> paused
 consultation --> paused
 committee --> paused
 council --> paused
 implementation --> paused
 paused --> consultation : resumed with public input
+paused --> open : resumed without a formal procedure
 paused --> committee : resumed in committee
 paused --> council : resumed in council
 paused --> implementation : execution resumed
@@ -55,5 +75,10 @@ end note
 note bottom of decided
   The workflow communicates a typical path.
   It does not replace the formal municipal process.
+end note
+
+note right of decision
+  A decision outcome never changes the topic phase automatically.
+  ALLRIS workflow labels are not topic phases.
 end note
 @enduml

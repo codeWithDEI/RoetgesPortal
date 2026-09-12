@@ -1,6 +1,6 @@
 id: council
 title: Woran arbeitet der Rat?
-description: Aktuelle Themen aus Gemeinde und Samtgemeinde mit Bearbeitungsstand und Quellen.
+description: Aktuelle Themen aus Gemeinde und Samtgemeinde mit Themenstand und Quellen.
 route: /themen
 visibility: published
 
@@ -11,11 +11,14 @@ sources:
       visibility:
         - published
       status:
+        - announced
+        - open
         - consultation
         - committee
         - council
         - decided
         - implementation
+        - active
         - paused
     sort:
       - field: dates.updatedAt

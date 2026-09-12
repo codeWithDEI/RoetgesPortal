@@ -32,7 +32,7 @@
     "type": "map"
   },
   "route": "/karte",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "sources": [
     {
       "artifact": "../../datasets/topics.json",

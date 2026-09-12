@@ -4,14 +4,40 @@ import topicData from "../public/data/datasets/topics.json";
 export type TopicStatus =
   | "idea"
   | "announced"
+  | "open"
   | "consultation"
   | "committee"
   | "council"
   | "decided"
   | "implementation"
+  | "active"
   | "completed"
   | "paused"
   | "rejected";
+
+export type TopicStatusScope = "topic" | "proposal" | "implementation";
+
+export type DecisionOutcome =
+  | "adopted"
+  | "rejected"
+  | "withdrawn"
+  | "deferred"
+  | "noted"
+  | "no-decision";
+
+export type TopicStatusBasis = {
+  scope: TopicStatusScope;
+  summary: string;
+  sourceUrl: string;
+};
+
+export type LatestDecision = {
+  date: string;
+  body: string;
+  outcome: DecisionOutcome;
+  summary: string;
+  sourceUrl: string;
+};
 
 export type TopicDates = {
   createdAt: string;
@@ -49,6 +75,8 @@ export type Topic = {
   summary: string;
   description?: string;
   status: TopicStatus;
+  statusBasis?: TopicStatusBasis;
+  latestDecision?: LatestDecision;
   visibility: "draft" | "published" | "archived";
   categories: string[];
   organizations: string[];
@@ -65,6 +93,7 @@ export type TopicListItem = Pick<
   | "title"
   | "summary"
   | "status"
+  | "latestDecision"
   | "categories"
   | "organizations"
   | "areas"
