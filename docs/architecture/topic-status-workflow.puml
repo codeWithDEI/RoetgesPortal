@@ -24,9 +24,19 @@ implementation --> completed : work finished
 committee --> consultation : more public input needed
 council --> committee : referred back
 
-consultation --> rejected : proposal withdrawn or rejected
-committee --> rejected : proposal withdrawn or rejected
-council --> rejected : resolution rejects proposal
+consultation --> completed : titled subject concluded
+committee --> completed : titled subject concluded
+council --> completed : titled subject concluded
+council --> rejected : titled proposal rejected
+
+state "Latest decision (recorded separately)" as decision {
+  [*] --> adopted
+  [*] --> rejectedOutcome
+  [*] --> withdrawn
+  [*] --> deferred
+  [*] --> noted
+  [*] --> noDecision
+}
 
 idea --> paused
 announced --> paused
@@ -55,5 +65,10 @@ end note
 note bottom of decided
   The workflow communicates a typical path.
   It does not replace the formal municipal process.
+end note
+
+note right of decision
+  A decision outcome never changes the topic phase automatically.
+  ALLRIS workflow labels are not topic phases.
 end note
 @enduml

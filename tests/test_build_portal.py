@@ -85,6 +85,13 @@ class BuildPortalTests(unittest.TestCase):
             "title": "Road safety",
             "summary": "A short summary.",
             "status": "committee",
+            "latestDecision": {
+                "date": "2026-02-01",
+                "body": "Municipal council",
+                "outcome": "adopted",
+                "summary": "The review was commissioned.",
+                "sourceUrl": "https://example.org/resolution",
+            },
             "categories": ["mobility"],
             "organizations": ["municipality"],
             "dates": {
@@ -112,6 +119,18 @@ class BuildPortalTests(unittest.TestCase):
         self.assertEqual(
             "Next milestone", item["upcomingMilestone"]["title"]
         )
+        self.assertEqual("adopted", item["latestDecision"]["outcome"])
+
+    def test_list_item_omits_an_unknown_latest_decision(self) -> None:
+        topic = {
+            "id": "road-safety",
+            "title": "Road safety",
+            "summary": "A short summary.",
+            "status": "committee",
+            "dates": {},
+        }
+
+        self.assertNotIn("latestDecision", make_list_item(topic))
 
     def test_topic_locations_become_enriched_geojson_features(self) -> None:
         topic = {

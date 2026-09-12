@@ -226,6 +226,32 @@ def validate_topic_areas(
     return errors
 
 
+def validate_topic_status_references(
+    topics: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Require status evidence and decisions to cite a listed topic source."""
+    errors: list[str] = []
+    for topic_id, topic in topics.items():
+        source_urls = {
+            source.get("url")
+            for source in topic.get("sources", [])
+            if isinstance(source, dict) and isinstance(source.get("url"), str)
+        }
+
+        for field in ("statusBasis", "latestDecision"):
+            evidence = topic.get(field)
+            if not isinstance(evidence, dict):
+                continue
+            source_url = evidence.get("sourceUrl")
+            if isinstance(source_url, str) and source_url not in source_urls:
+                errors.append(
+                    f"topic '{topic_id}': {field}.sourceUrl must match a "
+                    "listed topic source"
+                )
+
+    return errors
+
+
 def validate_review_references(
     review_documents: dict[str, dict[str, Any]],
     topics: dict[str, dict[str, Any]],
@@ -490,6 +516,7 @@ def validate_repository(
     errors.extend(
         validate_topic_areas(all_documents["topics"], all_documents["areas"])
     )
+    errors.extend(validate_topic_status_references(all_documents["topics"]))
     errors.extend(validate_topic_paths(all_documents["topics"], repository_root))
     errors.extend(
         validate_views(all_documents["views"], all_documents["datasets"])

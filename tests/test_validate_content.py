@@ -13,6 +13,7 @@ sys.path.insert(0, str(REPOSITORY_ROOT / "tools"))
 from validate_content import (  # noqa: E402
     validate_area_hierarchy,
     validate_topic_areas,
+    validate_topic_status_references,
     validate_views,
 )
 
@@ -43,6 +44,39 @@ class ValidateAreaTests(unittest.TestCase):
         self.assertEqual(
             ["topic 'topic': unknown area 'unknown'"],
             validate_topic_areas(topics, areas),
+        )
+
+
+class ValidateTopicStatusTests(unittest.TestCase):
+    def test_accepts_status_evidence_that_cites_a_topic_source(self) -> None:
+        source_url = "https://example.org/resolution"
+        topics = {
+            "topic": {
+                "sources": [{"url": source_url}],
+                "statusBasis": {"sourceUrl": source_url},
+                "latestDecision": {"sourceUrl": source_url},
+            }
+        }
+
+        self.assertEqual([], validate_topic_status_references(topics))
+
+    def test_rejects_unlisted_status_and_decision_sources(self) -> None:
+        topics = {
+            "topic": {
+                "sources": [{"url": "https://example.org/listed"}],
+                "statusBasis": {"sourceUrl": "https://example.org/missing"},
+                "latestDecision": {"sourceUrl": "https://example.org/other"},
+            }
+        }
+
+        errors = validate_topic_status_references(topics)
+
+        self.assertEqual(2, len(errors))
+        self.assertTrue(
+            any("statusBasis.sourceUrl" in error for error in errors)
+        )
+        self.assertTrue(
+            any("latestDecision.sourceUrl" in error for error in errors)
         )
 
 

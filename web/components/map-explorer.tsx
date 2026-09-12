@@ -595,7 +595,7 @@ export function MapExplorer({
           </select>
         </label>
         <label>
-          Bearbeitungsstand
+          Themenstand
           <select
             onChange={(event) =>
               setStatus(event.target.value as TopicStatus | "all")

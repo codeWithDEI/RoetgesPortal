@@ -7,6 +7,7 @@ import { StatusBadge } from "@/components/status-badge";
 import { StructuredData } from "@/components/structured-data";
 import {
   categoryLabel,
+  decisionOutcomeLabels,
   formatDate,
   milestoneStatusLabels,
   sourceTypeLabels,
@@ -128,7 +129,10 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
           <header className="topic-detail__header">
             <div>
-              <StatusBadge status={topic.status} />
+              <div className="topic-detail__status">
+                <span>Themenstand</span>
+                <StatusBadge status={topic.status} />
+              </div>
               <h1>{topic.title}</h1>
               <p>{topic.summary}</p>
             </div>
@@ -223,6 +227,45 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </article>
 
             <aside className="topic-detail__aside">
+              {topic.latestDecision ? (
+                <div className="aside-block aside-block--decision">
+                  <p className="eyebrow">Letzte Entscheidung</p>
+                  <strong>
+                    {decisionOutcomeLabels[topic.latestDecision.outcome]}
+                  </strong>
+                  <p>{topic.latestDecision.summary}</p>
+                  <dl>
+                    <div>
+                      <dt>Gremium</dt>
+                      <dd>{topic.latestDecision.body}</dd>
+                    </div>
+                    <div>
+                      <dt>Datum</dt>
+                      <dd>{formatDate(topic.latestDecision.date)}</dd>
+                    </div>
+                  </dl>
+                  <a
+                    href={topic.latestDecision.sourceUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Entscheidungsquelle öffnen <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              ) : null}
+              {topic.statusBasis ? (
+                <div className="aside-block aside-block--status-basis">
+                  <p className="eyebrow">Grundlage des Themenstands</p>
+                  <p>{topic.statusBasis.summary}</p>
+                  <a
+                    href={topic.statusBasis.sourceUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Statusquelle öffnen <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              ) : null}
               <div className="aside-block">
                 <p className="eyebrow">Themenbereiche</p>
                 <ul className="detail-tags">

@@ -1,4 +1,5 @@
 import type {
+  DecisionOutcome,
   Milestone,
   TopicSource,
   TopicStatus,
@@ -18,6 +19,15 @@ export const statusLabels: Record<TopicStatus, string> = {
   completed: "Abgeschlossen",
   paused: "Pausiert",
   rejected: "Abgelehnt",
+};
+
+export const decisionOutcomeLabels: Record<DecisionOutcome, string> = {
+  adopted: "Beschlossen",
+  rejected: "Abgelehnt",
+  withdrawn: "Zurückgezogen",
+  deferred: "Vertagt",
+  noted: "Zur Kenntnis genommen",
+  "no-decision": "Ohne Beschluss",
 };
 
 export const categoryLabels: Record<string, string> = {
