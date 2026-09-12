@@ -5,6 +5,20 @@ summary: >
   im März 2025 wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025
   zurückgezogen.
 status: completed
+statusBasis:
+  scope: proposal
+  summary: >
+    Das in diesem Thema beschriebene Änderungsverfahren endete mit der
+    Rücknahme des Antrags für das Jahr 2025.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882
+latestDecision:
+  date: "2025-03-03"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: withdrawn
+  summary: >
+    Der Änderungsantrag wurde wegen der Arbeitsbelastung der Verwaltung für
+    das Jahr 2025 zurückgezogen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882
 visibility: published
 
 areas:
@@ -19,17 +33,17 @@ organizations:
 
 dates:
   createdAt: "2025-02-24"
-  updatedAt: "2025-03-03"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.
   In der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der
   Arbeitsbelastung der Verwaltung zurückgezogen.
 
-  Der Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene
-  Verfahren. Er trifft keine Aussage über andere oder spätere Planungen für
-  das Gebiet.
+  Der Themenstand bezieht sich nur auf dieses Antragsverfahren. Der Ausgang
+  wird getrennt als „zurückgezogen“ ausgewiesen und trifft keine Aussage über
+  andere oder spätere Planungen für das Gebiet.
 
 locations:
   - id: planning-area
@@ -50,6 +64,6 @@ sources:
     sourceType: minutes
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882
     publishedAt: "2025-03-03"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

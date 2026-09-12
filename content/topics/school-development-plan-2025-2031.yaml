@@ -4,7 +4,20 @@ summary: >
   Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im
   Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der
   Schülerzahlen in der gesamten Samtgemeinde.
-status: decided
+status: active
+statusBasis:
+  scope: topic
+  summary: >
+    Die fortgeschriebene Planung wurde veröffentlicht und deckt den laufenden
+    Betrachtungszeitraum 2025 bis 2031 ab.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474
+latestDecision:
+  date: "2025-11-25"
+  body: Schulausschuss der Samtgemeinde Papenteich
+  outcome: noted
+  summary: >
+    Der Schulausschuss nahm die Fortschreibung ohne Abstimmung zur Kenntnis.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948
 visibility: published
 
 areas:
@@ -20,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2025-11-25"
-  updatedAt: "2025-11-25"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Der Schulausschuss nahm die aktualisierte Planung für 2025 bis 2031 zur
@@ -46,11 +59,11 @@ sources:
     sourceType: planningDocument
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474
     publishedAt: "2025-11-25"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
   - title: Protokollauszug vom 25. November 2025
     sourceType: minutes
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948
     publishedAt: "2025-11-25"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

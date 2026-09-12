@@ -3,7 +3,22 @@ title: Weitere Nutzung der Fläche Rodelberg
 summary: >
   Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft;
   wirtschaftliche und technische Hindernisse bestehen fort.
-status: paused
+status: open
+statusBasis:
+  scope: topic
+  summary: >
+    Die weitere Nutzung bleibt ungeklärt: Hindernisse bestehen fort und nur
+    eine untersuchte Alternative wurde abgelehnt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260
+latestDecision:
+  date: "2026-03-17"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: rejected
+  summary: >
+    Der Rat lehnte den Auftrag für eine alternative Planung von zwei bis drei
+    Grundstücken ab; über die weitere Nutzung der gesamten Fläche wurde damit
+    nicht abschließend entschieden.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260
 visibility: published
 
 areas:
@@ -20,8 +35,8 @@ organizations:
 
 dates:
   createdAt: "2025-12-16"
-  updatedAt: "2026-03-17"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse
@@ -54,11 +69,11 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000824&refresh=false&TOLFDNR=1005884
     publishedAt: "2026-03-17"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
   - title: Beschlussauszug vom 17. März 2026
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

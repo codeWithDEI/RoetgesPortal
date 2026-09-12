@@ -4,7 +4,20 @@ summary: >
   Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus
   zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die
   Varianten und mögliche Kosten bislang nicht näher.
-status: committee
+status: completed
+statusBasis:
+  scope: topic
+  summary: >
+    Die Machbarkeitsstudie wurde erstellt und im Bauausschuss vorgestellt;
+    eine spätere Entscheidung über das Rathaus ist nicht Teil dieses Themas.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064
+latestDecision:
+  date: "2026-08-17"
+  body: Bauausschuss der Samtgemeinde Papenteich
+  outcome: noted
+  summary: >
+    Der Bauausschuss nahm die vorgestellte Machbarkeitsstudie zur Kenntnis.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064
 visibility: published
 
 areas:
@@ -20,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2026-08-17"
-  updatedAt: "2026-08-17"
-  lastVerifiedAt: "2026-09-04"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August
@@ -33,9 +46,9 @@ description: |
   Kostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über
   die weitere Umsetzung ist darin nicht dokumentiert.
 
-  In der Beratungsfolge ist außerdem eine Kenntnisnahme durch den
-  Samtgemeindeausschuss vorgesehen. Ein Sitzungstermin ist dort derzeit noch
-  nicht genannt. Das Thema bleibt deshalb im Ausschussstatus.
+  Die Erstellung und Vorstellung der Studie ist damit abgeschlossen. Eine
+  spätere Auswahl einer Variante oder Entscheidung über das Rathaus wäre ein
+  eigenes Thema und ist aus den veröffentlichten Unterlagen nicht ableitbar.
 
 locations:
   - id: town-hall
@@ -53,11 +66,11 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064
     publishedAt: "2026-08-17"
-    accessedAt: "2026-09-04"
+    accessedAt: "2026-09-12"
   - title: Sitzung des Bauausschusses vom 17. August 2026
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false
     publishedAt: "2026-08-17"
-    accessedAt: "2026-09-04"
+    accessedAt: "2026-09-12"
 
 positions: []
