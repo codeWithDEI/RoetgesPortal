@@ -12,11 +12,18 @@
     ],
     "dates": {
       "createdAt": "2026-03-17",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-03-17"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
     "id": "regional-spatial-plan-2025",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2026-03-17",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260",
+      "summary": "Der Rat beschloss die Stellungnahme zum Entwurf des Regionalen Raumordnungsprogramms einstimmig.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/regional-spatial-plan-2025.geojson",
@@ -44,14 +51,19 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2026-03-17",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2026/0296",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260"
       }
     ],
-    "status": "consultation",
+    "status": "completed",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260",
+      "summary": "Die im Titel bezeichnete kommunale Stellungnahme wurde vom Rat beschlossen und abgegeben; das regionale Gesamtverfahren läuft davon unabhängig weiter.\n"
+    },
     "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.\n",
     "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025",
     "visibility": "published"

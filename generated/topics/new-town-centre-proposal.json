@@ -10,11 +10,18 @@
     ],
     "dates": {
       "createdAt": "2025-02-24",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-03-03"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
-    "description": "Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in\nRötgesbüttel. In der Ratssitzung am 3. März 2025 wurde er zurückgezogen, weil\ndie Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit\nvermieden wurde.\n\nDer Status „abgeschlossen“ beschreibt hier das beendete politische\nVerfahren, nicht die Umsetzung einer Ortsmitte.\n",
+    "description": "Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in\nRötgesbüttel. In der Ratssitzung am 3. März 2025 wurde er zurückgezogen, weil\ndie Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit\nvermieden wurde.\n\nDer Themenstand beschreibt nur das beendete Antragsverfahren, nicht die\nUmsetzung einer Ortsmitte. Der Ausgang wird getrennt als „zurückgezogen“\nausgewiesen.\n",
     "id": "new-town-centre-proposal",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2025-03-03",
+      "outcome": "withdrawn",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882",
+      "summary": "Der Antrag wurde wegen fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung zurückgezogen.\n"
+    },
     "locations": [],
     "milestones": [
       {
@@ -38,7 +45,7 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-03-03",
         "sourceType": "minutes",
         "title": "Protokollauszug zu Rötg/2025/0244",
@@ -46,6 +53,11 @@
       }
     ],
     "status": "completed",
+    "statusBasis": {
+      "scope": "proposal",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882",
+      "summary": "Das in diesem Thema beschriebene Antragsverfahren endete mit der Rücknahme des Antrags.\n"
+    },
     "summary": "Ein Antrag auf Planungen für eine neue Ortsmitte wurde im März 2025 wegen fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung zurückgezogen.\n",
     "title": "Vorschlag für eine „Neue Ortsmitte“",
     "visibility": "published"

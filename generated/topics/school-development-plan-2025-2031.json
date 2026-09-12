@@ -11,11 +11,18 @@
     ],
     "dates": {
       "createdAt": "2025-11-25",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-11-25"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     "description": "Der Schulausschuss nahm die aktualisierte Planung für 2025 bis 2031 zur\nKenntnis. Für die Grundschule Rötgesbüttel und die Margret-und-Rolf-\nRettich-Schule in Vordorf werden die Raumkapazitäten im gesamten\nBetrachtungszeitraum als ausreichend bewertet.\n\nSamtgemeindeweit werden ab 2028 überwiegend sinkende Grundschülerzahlen\nerwartet. Für die Oberschule Papenteich beschreibt die Vorlage eine leicht\nsteigende Tendenz und einen zusätzlichen Raumbedarf von einem\nUnterrichtsraum, der innerhalb des Bestands gelöst werden könne.\n",
     "id": "school-development-plan-2025-2031",
+    "latestDecision": {
+      "body": "Schulausschuss der Samtgemeinde Papenteich",
+      "date": "2025-11-25",
+      "outcome": "noted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948",
+      "summary": "Der Schulausschuss nahm die Fortschreibung ohne Abstimmung zur Kenntnis.\n"
+    },
     "locations": [],
     "milestones": [
       {
@@ -39,21 +46,26 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-11-25",
         "sourceType": "planningDocument",
         "title": "Vorlage SGP/2025/0894 zur Schulentwicklungsplanung",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-11-25",
         "sourceType": "minutes",
         "title": "Protokollauszug vom 25. November 2025",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948"
       }
     ],
-    "status": "decided",
+    "status": "active",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000172&refresh=false&TOLFDNR=1002474",
+      "summary": "Die fortgeschriebene Planung wurde veröffentlicht und deckt den laufenden Betrachtungszeitraum 2025 bis 2031 ab.\n"
+    },
     "summary": "Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der Schülerzahlen in der gesamten Samtgemeinde.\n",
     "title": "Schulentwicklungsplanung 2025 bis 2031",
     "visibility": "published"

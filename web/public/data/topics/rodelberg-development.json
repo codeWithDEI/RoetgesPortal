@@ -12,11 +12,18 @@
     ],
     "dates": {
       "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-03-17"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     "description": "Gespräche mit zwei möglichen Investoren ergaben grundsätzliches Interesse\nan einer Wohnbebauung. Die Entsorgung des vorhandenen Bauschutts und die\nunterdimensionierte Regenwasserkanalisation machen eine Entwicklung nach dem\nveröffentlichten Sachstand derzeit jedoch unwirtschaftlich.\n\nAls Alternative wurde geprüft, zwei bis drei bereits erschlossene\nGrundstücke an der Straße Zum Sportplatz direkt zu vermarkten. Der Auftrag,\ndafür Änderungen des Bebauungsplans erarbeiten zu lassen, wurde im Rat am\n17. März 2026 mit sechs Nein- bei vier Ja-Stimmen und einer Enthaltung\nabgelehnt.\n",
     "id": "rodelberg-development",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2026-03-17",
+      "outcome": "rejected",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260",
+      "summary": "Der Rat lehnte den Auftrag für eine alternative Planung von zwei bis drei Grundstücken ab; über die weitere Nutzung der gesamten Fläche wurde damit nicht abschließend entschieden.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/rodelberg-development.geojson",
@@ -47,21 +54,26 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2026-03-17",
         "sourceType": "proposal",
         "title": "Vorlage Rötg/2025/0286-02",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000824&refresh=false&TOLFDNR=1005884"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2026-03-17",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 17. März 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260"
       }
     ],
-    "status": "paused",
+    "status": "open",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260",
+      "summary": "Die weitere Nutzung bleibt ungeklärt: Hindernisse bestehen fort und nur eine untersuchte Alternative wurde abgelehnt.\n"
+    },
     "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.\n",
     "title": "Weitere Nutzung der Fläche Rodelberg",
     "visibility": "published"

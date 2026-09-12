@@ -10,11 +10,18 @@
     ],
     "dates": {
       "createdAt": "2025-02-24",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-03-03"
+      "lastVerifiedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
-    "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Status „abgeschlossen“ bezieht sich auf dieses zurückgezogene\nVerfahren. Er trifft keine Aussage über andere oder spätere Planungen für\ndas Gebiet.\n",
+    "description": "Der Antrag betraf wesentliche Änderungen am Planungsvorhaben „Südfeld II“.\nIn der Ratssitzung am 3. März 2025 wurde er für das Jahr 2025 wegen der\nArbeitsbelastung der Verwaltung zurückgezogen.\n\nDer Themenstand bezieht sich nur auf dieses Antragsverfahren. Der Ausgang\nwird getrennt als „zurückgezogen“ ausgewiesen und trifft keine Aussage über\nandere oder spätere Planungen für das Gebiet.\n",
     "id": "southfield-ii-change-proposal",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2025-03-03",
+      "outcome": "withdrawn",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882",
+      "summary": "Der Änderungsantrag wurde wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025 zurückgezogen.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/southfield-ii-change-proposal.geojson",
@@ -45,7 +52,7 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-12",
         "publishedAt": "2025-03-03",
         "sourceType": "minutes",
         "title": "Protokollauszug zu Rötg/2025/0247",
@@ -53,6 +60,11 @@
       }
     ],
     "status": "completed",
+    "statusBasis": {
+      "scope": "proposal",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37375&SILFDNR=1882",
+      "summary": "Das in diesem Thema beschriebene Änderungsverfahren endete mit der Rücknahme des Antrags für das Jahr 2025.\n"
+    },
     "summary": "Ein Antrag auf wesentliche Änderungen am Planungsvorhaben Südfeld II wurde im März 2025 wegen der Arbeitsbelastung der Verwaltung für das Jahr 2025 zurückgezogen.\n",
     "title": "Änderungsantrag zum Planungsvorhaben Südfeld II",
     "visibility": "published"
