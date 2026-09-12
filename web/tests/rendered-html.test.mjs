@@ -81,6 +81,19 @@ test("server-renders a source-backed topic detail", async () => {
   assert.match(html, /Rötgesbüttel/);
 });
 
+test("separates the topic phase from the latest decision", async () => {
+  const response = await render("/themen/automated-post-station");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /Themenstand/);
+  assert.match(html, /Angekündigt/);
+  assert.match(html, /Letzte Entscheidung/);
+  assert.match(html, /Zur Kenntnis genommen/);
+  assert.match(html, /Grundlage des Themenstands/);
+  assert.match(html, /Entscheidungsquelle öffnen/);
+});
+
 test("publishes canonical and source-backed structured metadata", async () => {
   const overview = await render("/");
   assert.equal(overview.status, 200);

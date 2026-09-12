@@ -4,7 +4,21 @@ summary: >
   Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit
   der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender
   Sichtflächen nicht weiterverfolgt werden kann.
-status: paused
+status: implementation
+statusBasis:
+  scope: implementation
+  summary: >
+    Der Rat beauftragte Gespräche mit Anwohnenden und der Bahn; nur die
+    bisherige Variante soll gegebenenfalls beendet werden.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127
+latestDecision:
+  date: "2025-06-18"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat beauftragte weitere Gespräche zu den Sichtflächen und zu
+    alternativen Lösungen für den Bahnübergang.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127
 visibility: published
 
 areas:
@@ -21,8 +35,8 @@ organizations:
 
 dates:
   createdAt: "2025-06-02"
-  updatedAt: "2025-06-18"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.
@@ -53,6 +67,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127
     publishedAt: "2025-06-18"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

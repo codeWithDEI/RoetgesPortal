@@ -32,12 +32,12 @@
       "municipal-law",
       "municipal-property",
       "noise-protection",
+      "postal-services",
       "procurement",
       "public-facilities",
+      "public-services",
       "public-space",
       "rail",
-      "regional-planning",
-      "renewable-energy",
       "renovation",
       "road-safety",
       "schools",
@@ -50,14 +50,379 @@
       "winter-service"
     ],
     "status": [
+      "active",
+      "announced",
       "committee",
-      "consultation",
       "decided",
       "implementation",
-      "paused"
+      "open"
     ]
   },
   "items": [
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "public-services",
+        "postal-services"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/automated-post-station.json",
+      "id": "automated-post-station",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-06-18",
+        "outcome": "noted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38468&SILFDNR=2127",
+        "summary": "Der Rat nahm das Vorhaben zur Kenntnis und bat die Deutsche Post um verständliche Informationen zur Nutzung.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "deutsche-post"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "announced",
+      "summary": "Der Rat nahm die geplante automatisierte Poststation zur Kenntnis und bat die Deutsche Post um eine verständliche Information zur Nutzung.",
+      "title": "Automatisierte Poststation"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "mobility",
+        "rail",
+        "road-safety"
+      ],
+      "dates": {
+        "createdAt": "2025-06-02",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/pfaenderweg-rail-crossing.json",
+      "id": "pfaenderweg-rail-crossing",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-06-18",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127",
+        "summary": "Der Rat beauftragte weitere Gespräche zu den Sichtflächen und zu alternativen Lösungen für den Bahnübergang.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "db-infrago"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
+      "title": "Bahnübergang am Pfänderweg"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "sports",
+        "public-facilities",
+        "municipal-law"
+      ],
+      "dates": {
+        "createdAt": "2025-08-20",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/sports-facilities-usage-rules.json",
+      "id": "sports-facilities-usage-rules",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2025-10-08",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001993&SILFDNR=1000016",
+        "summary": "Der Samtgemeinderat beschloss die Neufassung der Benutzungssatzung ohne Gegenstimme.\n"
+      },
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "active",
+      "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.",
+      "title": "Benutzung der samtgemeindeeigenen Sportstätten"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "schools",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-02",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/community-hall-school-meals-compensation.json",
+      "id": "community-hall-school-meals-compensation",
+      "latestDecision": {
+        "body": "Schulausschuss der Samtgemeinde Papenteich",
+        "date": "2026-06-02",
+        "outcome": "deferred",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846",
+        "summary": "Die weitere Entscheidung wurde bis zur Ausarbeitung einer Vereinbarung zurückgestellt.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "open",
+      "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
+      "title": "Entschädigung für die Mensanutzung der Bürgerhalle"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-04",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/community-hall-fees.json",
+      "id": "community-hall-fees",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-06-25",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633",
+        "summary": "Der Rat beauftragte die Vorbereitung einer Neufassung der Gebührensatzung.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "open",
+      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; ein abschließender öffentlicher Beschluss ist noch nicht dokumentiert.",
+      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "climate",
+        "energy",
+        "strategic-planning"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/municipal-heat-planning.json",
+      "id": "municipal-heat-planning",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2025-01-21",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
+        "summary": "Der Samtgemeinderat stellte 90.000 Euro für die Wärmeplanung im Finanzplanjahr 2026 bereit.\n"
+      },
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "open",
+      "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.",
+      "title": "Kommunale Wärmeplanung für den Papenteich"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "childcare",
+        "administration",
+        "intergovernmental-cooperation"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/central-childcare-responsibility-review.json",
+      "id": "central-childcare-responsibility-review",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-06-18",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127",
+        "summary": "Der Rat beantragte bei der Samtgemeinde die Prüfung einer zentralen Kita-Zuständigkeit und ihrer Folgen.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "municipality-adenbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "implementation",
+      "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.",
+      "title": "Prüfung einer zentralen Kita-Zuständigkeit"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "schools",
+        "strategic-planning",
+        "public-facilities"
+      ],
+      "dates": {
+        "createdAt": "2025-11-25",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/school-development-plan-2025-2031.json",
+      "id": "school-development-plan-2025-2031",
+      "latestDecision": {
+        "body": "Schulausschuss der Samtgemeinde Papenteich",
+        "date": "2025-11-25",
+        "outcome": "noted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002474&SILFDNR=1948",
+        "summary": "Der Schulausschuss nahm die Fortschreibung ohne Abstimmung zur Kenntnis.\n"
+      },
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "status": "active",
+      "summary": "Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der Schülerzahlen in der gesamten Samtgemeinde.",
+      "title": "Schulentwicklungsplanung 2025 bis 2031"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "cemeteries",
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2025-01-21",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/roetgesbuettel-cemetery-upgrades.json",
+      "id": "roetgesbuettel-cemetery-upgrades",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2025-01-21",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633",
+        "summary": "Der Samtgemeinderat stellte Mittel für eine zweite Stele und für die Instandsetzung der Parkplätze bereit.\n"
+      },
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "decided",
+      "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.",
+      "title": "Verbesserungen am Friedhof Rötgesbüttel"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "municipal-property",
+        "housing",
+        "urban-planning",
+        "drainage"
+      ],
+      "dates": {
+        "createdAt": "2025-12-16",
+        "lastVerifiedAt": "2026-09-12",
+        "updatedAt": "2026-09-12"
+      },
+      "detail": "../../topics/rodelberg-development.json",
+      "id": "rodelberg-development",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-03-17",
+        "outcome": "rejected",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005884&SILFDNR=1000260",
+        "summary": "Der Rat lehnte den Auftrag für eine alternative Planung von zwei bis drei Grundstücken ab; über die weitere Nutzung der gesamten Fläche wurde damit nicht abschließend entschieden.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "open",
+      "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
+      "title": "Weitere Nutzung der Fläche Rodelberg"
+    },
     {
       "areas": [
         "municipality-adenbuettel"
@@ -126,64 +491,6 @@
         "status": "planned",
         "title": "Feuerschutzausschuss berät die vier Vorlagen"
       }
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "public-facilities",
-        "finance"
-      ],
-      "dates": {
-        "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-08-26",
-        "updatedAt": "2026-08-17"
-      },
-      "detail": "../../topics/community-hall-fees.json",
-      "id": "community-hall-fees",
-      "organizations": [
-        "municipality-roetgesbuettel"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "paused",
-      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.",
-      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
-    },
-    {
-      "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "public-facilities",
-        "construction",
-        "strategic-planning"
-      ],
-      "dates": {
-        "createdAt": "2026-08-17",
-        "lastVerifiedAt": "2026-09-04",
-        "updatedAt": "2026-08-17"
-      },
-      "detail": "../../topics/papenteich-town-hall-feasibility-study.json",
-      "id": "papenteich-town-hall-feasibility-study",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "committee",
-      "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.",
-      "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde"
     },
     {
       "areas": [
@@ -325,34 +632,6 @@
         "status": "planned",
         "title": "Neue Umsatzsteuerregelung soll berücksichtigt werden"
       }
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "schools",
-        "public-facilities",
-        "finance"
-      ],
-      "dates": {
-        "createdAt": "2026-06-02",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-02"
-      },
-      "detail": "../../topics/community-hall-school-meals-compensation.json",
-      "id": "community-hall-school-meals-compensation",
-      "organizations": [
-        "municipality-roetgesbuettel",
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "paused",
-      "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
-      "title": "Entschädigung für die Mensanutzung der Bürgerhalle"
     },
     {
       "areas": [
@@ -530,64 +809,6 @@
       "status": "implementation",
       "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.",
       "title": "Sanierung und Modernisierung des Gemeindesportzentrums"
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "regional-planning",
-        "urban-planning",
-        "renewable-energy",
-        "environment"
-      ],
-      "dates": {
-        "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-03-17"
-      },
-      "detail": "../../topics/regional-spatial-plan-2025.json",
-      "id": "regional-spatial-plan-2025",
-      "organizations": [
-        "municipality-roetgesbuettel",
-        "joint-municipality-papenteich",
-        "regional-association-greater-braunschweig"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "consultation",
-      "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.",
-      "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025"
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "municipal-property",
-        "housing",
-        "urban-planning",
-        "drainage"
-      ],
-      "dates": {
-        "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-03-17"
-      },
-      "detail": "../../topics/rodelberg-development.json",
-      "id": "rodelberg-development",
-      "organizations": [
-        "municipality-roetgesbuettel"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "paused",
-      "summary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
-      "title": "Weitere Nutzung der Fläche Rodelberg"
     },
     {
       "areas": [
@@ -805,70 +1026,6 @@
     },
     {
       "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "schools",
-        "strategic-planning",
-        "public-facilities"
-      ],
-      "dates": {
-        "createdAt": "2025-11-25",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-11-25"
-      },
-      "detail": "../../topics/school-development-plan-2025-2031.json",
-      "id": "school-development-plan-2025-2031",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "decided",
-      "summary": "Die fortgeschriebene Schulentwicklungsplanung erwartet für Rötgesbüttel im Betrachtungszeitraum ausreichende Räume und beschreibt die Entwicklung der Schülerzahlen in der gesamten Samtgemeinde.",
-      "title": "Schulentwicklungsplanung 2025 bis 2031"
-    },
-    {
-      "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "sports",
-        "public-facilities",
-        "municipal-law"
-      ],
-      "dates": {
-        "createdAt": "2025-08-20",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-10-08"
-      },
-      "detail": "../../topics/sports-facilities-usage-rules.json",
-      "id": "sports-facilities-usage-rules",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "decided",
-      "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.",
-      "title": "Benutzung der samtgemeindeeigenen Sportstätten"
-    },
-    {
-      "areas": [
         "municipality-roetgesbuettel"
       ],
       "categories": [
@@ -979,127 +1136,6 @@
       "status": "implementation",
       "summary": "Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito bleibt als Zugführungsfahrzeug im Einsatz.",
       "title": "Mannschaftstransportwagen für die Ortsfeuerwehr"
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "mobility",
-        "rail",
-        "road-safety"
-      ],
-      "dates": {
-        "createdAt": "2025-06-02",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-06-18"
-      },
-      "detail": "../../topics/pfaenderweg-rail-crossing.json",
-      "id": "pfaenderweg-rail-crossing",
-      "organizations": [
-        "municipality-roetgesbuettel",
-        "db-infrago"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "paused",
-      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
-      "title": "Bahnübergang am Pfänderweg"
-    },
-    {
-      "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "childcare",
-        "administration",
-        "intergovernmental-cooperation"
-      ],
-      "dates": {
-        "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-06-18"
-      },
-      "detail": "../../topics/central-childcare-responsibility-review.json",
-      "id": "central-childcare-responsibility-review",
-      "organizations": [
-        "municipality-roetgesbuettel",
-        "municipality-adenbuettel",
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "paused",
-      "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.",
-      "title": "Prüfung einer zentralen Kita-Zuständigkeit"
-    },
-    {
-      "areas": [
-        "joint-municipality-papenteich"
-      ],
-      "categories": [
-        "climate",
-        "energy",
-        "strategic-planning"
-      ],
-      "dates": {
-        "createdAt": "2025-01-21",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-01-21"
-      },
-      "detail": "../../topics/municipal-heat-planning.json",
-      "id": "municipal-heat-planning",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-adenbuettel",
-        "municipality-didderse",
-        "municipality-meine",
-        "municipality-roetgesbuettel",
-        "municipality-schwuelper",
-        "municipality-vordorf"
-      ],
-      "status": "decided",
-      "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.",
-      "title": "Kommunale Wärmeplanung für den Papenteich"
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "cemeteries",
-        "public-facilities",
-        "finance"
-      ],
-      "dates": {
-        "createdAt": "2025-01-21",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-01-21"
-      },
-      "detail": "../../topics/roetgesbuettel-cemetery-upgrades.json",
-      "id": "roetgesbuettel-cemetery-upgrades",
-      "organizations": [
-        "joint-municipality-papenteich"
-      ],
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "implementation",
-      "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.",
-      "title": "Verbesserungen am Friedhof Rötgesbüttel"
     }
   ],
   "schemaVersion": 3,

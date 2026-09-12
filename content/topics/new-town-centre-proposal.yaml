@@ -5,6 +5,20 @@ summary: >
   fehlender Dringlichkeit und der Arbeitsbelastung der Verwaltung
   zurückgezogen.
 status: completed
+statusBasis:
+  scope: proposal
+  summary: >
+    Das in diesem Thema beschriebene Antragsverfahren endete mit der
+    Rücknahme des Antrags.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882
+latestDecision:
+  date: "2025-03-03"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: withdrawn
+  summary: >
+    Der Antrag wurde wegen fehlender Dringlichkeit und der Arbeitsbelastung
+    der Verwaltung zurückgezogen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882
 visibility: published
 
 areas:
@@ -19,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2025-02-24"
-  updatedAt: "2025-03-03"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-12"
+  lastVerifiedAt: "2026-09-12"
 
 description: |
   Der Antrag zielte auf Planungen zur Schaffung einer „Neuen Ortsmitte“ in
@@ -28,8 +42,9 @@ description: |
   die Dringlichkeit nicht mehr gesehen und zusätzliche Verwaltungsarbeit
   vermieden wurde.
 
-  Der Status „abgeschlossen“ beschreibt hier das beendete politische
-  Verfahren, nicht die Umsetzung einer Ortsmitte.
+  Der Themenstand beschreibt nur das beendete Antragsverfahren, nicht die
+  Umsetzung einer Ortsmitte. Der Ausgang wird getrennt als „zurückgezogen“
+  ausgewiesen.
 
 locations: []
 
@@ -46,6 +61,6 @@ sources:
     sourceType: minutes
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37372&SILFDNR=1882
     publishedAt: "2025-03-03"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-12"
 
 positions: []

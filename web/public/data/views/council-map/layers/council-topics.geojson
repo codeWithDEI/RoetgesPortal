@@ -3,6 +3,86 @@
     {
       "geometry": {
         "coordinates": [
+          10.528142,
+          52.419919
+        ],
+        "type": "Point"
+      },
+      "id": "pfaenderweg-rail-crossing:rail-crossing:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "rail",
+          "road-safety"
+        ],
+        "detailPath": "/themen/pfaenderweg-rail-crossing",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "rail-crossing",
+        "locationLabel": "Bahnübergang am Pfänderweg",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "db-infrago"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "pfaenderweg-rail-crossing",
+        "topicStatus": "implementation",
+        "topicSummary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
+        "topicTitle": "Bahnübergang am Pfänderweg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.530159,
+          52.414743
+        ],
+        "type": "Point"
+      },
+      "id": "community-hall-school-meals-compensation:community-hall:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "schools",
+          "public-facilities",
+          "finance"
+        ],
+        "detailPath": "/themen/community-hall-school-meals-compensation",
+        "impactType": "indirect",
+        "latestDecisionOutcome": "deferred",
+        "locationId": "community-hall",
+        "locationLabel": "Bürgerhalle Rötgesbüttel",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "joint-municipality-papenteich"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "community-hall-school-meals-compensation",
+        "topicStatus": "open",
+        "topicSummary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
+        "topicTitle": "Entschädigung für die Mensanutzung der Bürgerhalle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           10.529923,
           52.414556
         ],
@@ -19,6 +99,7 @@
         ],
         "detailPath": "/themen/community-hall-fees",
         "impactType": "indirect",
+        "latestDecisionOutcome": "adopted",
         "locationId": "affected-facilities",
         "locationLabel": "Bürgerhalle, Gemeinschaftsräume und Festplatz",
         "organizations": [
@@ -31,9 +112,49 @@
         ],
         "sourceNote": "Location manually assigned from the public topic record",
         "topicId": "community-hall-fees",
-        "topicStatus": "paused",
-        "topicSummary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; die weiteren Beratungen in Verwaltungsausschuss und Rat sind derzeit gestoppt.",
+        "topicStatus": "open",
+        "topicSummary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; ein abschließender öffentlicher Beschluss ist noch nicht dokumentiert.",
         "topicTitle": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.527445,
+          52.413094
+        ],
+        "type": "Point"
+      },
+      "id": "rodelberg-development:municipal-property:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "municipal-property",
+          "housing",
+          "urban-planning",
+          "drainage"
+        ],
+        "detailPath": "/themen/rodelberg-development",
+        "impactType": "direct",
+        "latestDecisionOutcome": "rejected",
+        "locationId": "municipal-property",
+        "locationLabel": "Gemeindeeigene Fläche am Rodelberg",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "rodelberg-development",
+        "topicStatus": "open",
+        "topicSummary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
+        "topicTitle": "Weitere Nutzung der Fläche Rodelberg"
       },
       "type": "Feature"
     },
@@ -131,45 +252,6 @@
         "topicStatus": "committee",
         "topicSummary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.",
         "topicTitle": "Wohngebiet Aukenroth"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.530159,
-          52.414743
-        ],
-        "type": "Point"
-      },
-      "id": "community-hall-school-meals-compensation:community-hall:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "schools",
-          "public-facilities",
-          "finance"
-        ],
-        "detailPath": "/themen/community-hall-school-meals-compensation",
-        "impactType": "indirect",
-        "locationId": "community-hall",
-        "locationLabel": "Bürgerhalle Rötgesbüttel",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "joint-municipality-papenteich"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "community-hall-school-meals-compensation",
-        "topicStatus": "paused",
-        "topicSummary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
-        "topicTitle": "Entschädigung für die Mensanutzung der Bürgerhalle"
       },
       "type": "Feature"
     },
@@ -286,45 +368,6 @@
         "topicStatus": "implementation",
         "topicSummary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
         "topicTitle": "Sanierung der Sanitärräume in der Kindertagesstätte"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.527445,
-          52.413094
-        ],
-        "type": "Point"
-      },
-      "id": "rodelberg-development:municipal-property:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "municipal-property",
-          "housing",
-          "urban-planning",
-          "drainage"
-        ],
-        "detailPath": "/themen/rodelberg-development",
-        "impactType": "direct",
-        "locationId": "municipal-property",
-        "locationLabel": "Gemeindeeigene Fläche am Rodelberg",
-        "organizations": [
-          "municipality-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "rodelberg-development",
-        "topicStatus": "paused",
-        "topicSummary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
-        "topicTitle": "Weitere Nutzung der Fläche Rodelberg"
       },
       "type": "Feature"
     },
@@ -531,45 +574,6 @@
         "topicStatus": "implementation",
         "topicSummary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
         "topicTitle": "Nebenanlagen an der B4-Ortsdurchfahrt"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.528142,
-          52.419919
-        ],
-        "type": "Point"
-      },
-      "id": "pfaenderweg-rail-crossing:rail-crossing:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "mobility",
-          "rail",
-          "road-safety"
-        ],
-        "detailPath": "/themen/pfaenderweg-rail-crossing",
-        "impactType": "direct",
-        "locationId": "rail-crossing",
-        "locationLabel": "Bahnübergang am Pfänderweg",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "db-infrago"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "pfaenderweg-rail-crossing",
-        "topicStatus": "paused",
-        "topicSummary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
-        "topicTitle": "Bahnübergang am Pfänderweg"
       },
       "type": "Feature"
     }
