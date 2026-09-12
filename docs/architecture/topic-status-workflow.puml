@@ -18,8 +18,10 @@ consultation --> committee : input evaluated
 committee --> council : recommendation submitted
 council --> decided : resolution adopted
 decided --> implementation : execution required
+decided --> active : rule or plan takes effect
 decided --> completed : no execution phase required
 implementation --> completed : work finished
+active --> completed : validity or use ends
 
 committee --> consultation : more public input needed
 council --> committee : referred back

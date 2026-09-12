@@ -9,6 +9,7 @@ export type TopicStatus =
   | "council"
   | "decided"
   | "implementation"
+  | "active"
   | "completed"
   | "paused"
   | "rejected";

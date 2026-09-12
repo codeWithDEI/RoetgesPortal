@@ -16,6 +16,7 @@ export const statusLabels: Record<TopicStatus, string> = {
   council: "Im Rat",
   decided: "Beschlossen",
   implementation: "In Umsetzung",
+  active: "Aktiv",
   completed: "Abgeschlossen",
   paused: "Pausiert",
   rejected: "Abgelehnt",

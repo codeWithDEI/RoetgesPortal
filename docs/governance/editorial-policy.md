@@ -44,6 +44,8 @@ separately in `latestDecision`.
   report or plan into account without a vote is recorded as `noted`.
 - `implementation` requires evidence that execution, procurement, or a
   commissioned review has started. A budget allocation alone is not execution.
+- `active` describes a published plan, rule, or continuing service that is
+  currently applicable after its adoption or publication.
 - `completed` requires completion of the titled subject. The end of a council
   consultation does not mean that a broadly titled project was completed.
 - `paused` requires an explicit source for suspension or deferral. A missing

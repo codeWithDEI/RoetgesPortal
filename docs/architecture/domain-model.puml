@@ -27,6 +27,7 @@ enum TopicStatus {
   council
   decided
   implementation
+  active
   completed
   paused
   rejected

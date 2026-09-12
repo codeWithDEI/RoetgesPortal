@@ -85,6 +85,7 @@ const statusColors: Record<TopicStatus, string> = {
   council: "#006080",
   decided: "#2d6847",
   implementation: "#007da4",
+  active: "#2d6847",
   completed: "#2d6847",
   paused: "#a35832",
   rejected: "#8a4b2d",

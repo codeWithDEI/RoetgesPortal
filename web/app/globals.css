@@ -956,6 +956,7 @@ select {
 }
 
 .status-badge[data-status="decided"],
+.status-badge[data-status="active"],
 .status-badge[data-status="completed"] {
   background: #d9e9dd;
   color: #2d6847;
