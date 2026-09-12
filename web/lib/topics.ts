@@ -4,6 +4,7 @@ import topicData from "../public/data/datasets/topics.json";
 export type TopicStatus =
   | "idea"
   | "announced"
+  | "open"
   | "consultation"
   | "committee"
   | "council"

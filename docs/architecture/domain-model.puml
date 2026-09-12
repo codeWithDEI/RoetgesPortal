@@ -22,6 +22,7 @@ class Topic {
 enum TopicStatus {
   idea
   announced
+  open
   consultation
   committee
   council

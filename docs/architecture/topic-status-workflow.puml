@@ -12,6 +12,12 @@ skinparam state {
 
 [*] --> idea
 idea --> announced : publicly announced
+idea --> open : documented issue without an active procedure
+announced --> open : follow-up remains unresolved
+open --> consultation : public input requested
+open --> committee : referred for preparation
+open --> implementation : follow-up commissioned
+open --> completed : titled subject concluded
 announced --> consultation : public input requested
 announced --> committee : referred for preparation
 consultation --> committee : input evaluated
@@ -42,11 +48,13 @@ state "Latest decision (recorded separately)" as decision {
 
 idea --> paused
 announced --> paused
+open --> paused
 consultation --> paused
 committee --> paused
 council --> paused
 implementation --> paused
 paused --> consultation : resumed with public input
+paused --> open : resumed without a formal procedure
 paused --> committee : resumed in committee
 paused --> council : resumed in council
 paused --> implementation : execution resumed

@@ -80,6 +80,7 @@ const interactiveLayerIds = [
 const statusColors: Record<TopicStatus, string> = {
   idea: "#65777d",
   announced: "#65777d",
+  open: "#65777d",
   consultation: "#8b6d18",
   committee: "#315e71",
   council: "#006080",

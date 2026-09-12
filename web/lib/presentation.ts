@@ -11,6 +11,7 @@ export { areaLabel, areaScopeLabel } from "./areas";
 export const statusLabels: Record<TopicStatus, string> = {
   idea: "Idee",
   announced: "Angekündigt",
+  open: "Offen",
   consultation: "Beteiligung",
   committee: "Im Ausschuss",
   council: "Im Rat",

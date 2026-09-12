@@ -42,6 +42,8 @@ separately in `latestDecision`.
 
 - `decided` requires an adopted resolution about the titled subject. Taking a
   report or plan into account without a vote is recorded as `noted`.
+- `open` describes a documented issue whose next substantive step remains
+  unresolved and for which no active formal procedure is evidenced.
 - `implementation` requires evidence that execution, procurement, or a
   commissioned review has started. A budget allocation alone is not execution.
 - `active` describes a published plan, rule, or continuing service that is
