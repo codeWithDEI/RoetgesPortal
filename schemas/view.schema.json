@@ -75,11 +75,13 @@
             "enum": [
               "idea",
               "announced",
+              "open",
               "consultation",
               "committee",
               "council",
               "decided",
               "implementation",
+              "active",
               "completed",
               "paused",
               "rejected"
