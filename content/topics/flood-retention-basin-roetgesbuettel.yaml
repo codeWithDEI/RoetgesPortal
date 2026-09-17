@@ -4,6 +4,13 @@ summary: >
   Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat
   bewilligte dafür im September 2025 zusätzlich 50.000 Euro.
 status: implementation
+statusBasis:
+  scope: topic
+  summary: >
+    Der Beschluss erläutert bereits ausgeführte Bauarbeiten und dadurch
+    entstandene Mehrkosten. Eine Fertigstellung des gesamten Beckens wird
+    darin nicht bestätigt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145
 visibility: published
 
 areas:
@@ -20,8 +27,8 @@ organizations:
 
 dates:
   createdAt: "2025-09-16"
-  updatedAt: "2025-09-16"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse
@@ -31,8 +38,8 @@ description: |
 
   Nach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von
   zunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen
-  Auszahlung einstimmig zu. Ein ausdrücklicher öffentlicher
-  Fertigstellungsbeschluss war im Scanzeitraum nicht enthalten.
+  Auszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte
+  Arbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.
 
 locations:
   - id: retention-basin
@@ -50,6 +57,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145
     publishedAt: "2025-09-16"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

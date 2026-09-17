@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-11-25",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-06-02"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Zum 1. August\n2026 wurde dieses Angebot für die Jahrgänge 1 bis 4 eingeführt.\n\nFür Rötgesbüttel wurde zusätzliches Mensapersonal für den Freitag\nvorgesehen. Die Schülerbeförderung soll nach dem Fahrplan ab August 2026\nsichergestellt sein. Ferienbetreuung wird weiterhin an den Standorten Meine\nund Schwülper durch das DRK organisiert; eine ergänzende Schulbetreuung kam\nmangels Mindestteilnehmerzahl an keinem Standort zustande.\n",
+    "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Der Bericht vom\nJuni 2026 kündigte die Einführung für die Jahrgänge 1 bis 4 zum 1. August\n2026 an. Eine nachträgliche Bestätigung dieses Starts enthalten die\nverlinkten Quellen nicht. Der stufenweise Rechtsanspruch ist davon zu\nunterscheiden: Er sollte ab 2026/27 zunächst für Erstklässler gelten und\nbis 2029/30 auf die Klassen 1 bis 4 ausgeweitet werden.\n\nLaut Juni-Bericht war das Mensapersonal für den Freitag unter anderem in\nRötgesbüttel bereits aufgestockt. Die Schülerbeförderung wurde für den neuen\nFahrplan ab August zugesagt. Die Ferienbetreuung sollte weiter über das\nDRK in Meine und Schwülper organisiert werden. Für eine ergänzende\nSchulbetreuung erreichten die damaligen Anmeldungen an keinem Standort\ndie erforderliche Mindestteilnehmerzahl.\n",
     "id": "all-day-primary-schools-2026",
     "locations": [],
     "milestones": [
@@ -27,11 +27,6 @@
         "date": "2026-06-02",
         "status": "reached",
         "title": "Schulausschuss erhält Umsetzungsbericht"
-      },
-      {
-        "date": "2026-08-01",
-        "status": "reached",
-        "title": "Fünftägiger Ganztag beginnt an allen Grundschulen"
       }
     ],
     "organizations": [
@@ -50,14 +45,14 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-11-25",
         "sourceType": "resolution",
         "title": "Beschlussauszug zur Ausgestaltung des Ganztags",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002482&SILFDNR=1948"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-02",
         "sourceType": "proposal",
         "title": "Sachstandsbericht SGP/2026/1028",
@@ -65,7 +60,12 @@
       }
     ],
     "status": "implementation",
-    "summary": "Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise auf alle Klassen ausgeweitet.\n",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000923&refresh=false&TOLFDNR=1006772",
+      "summary": "Der Juni-Bericht beschreibt bereits aufgestocktes Mensapersonal und beschaffte Ausstattung. Diese Vorbereitungen belegen Umsetzung, aber noch nicht den späteren Betriebsstart an allen Schulen.\n"
+    },
+    "summary": "Der Bericht vom Juni 2026 dokumentiert Vorbereitungen für offenen Ganztag an fünf Tagen an allen Grundschulen. Den angekündigten Betriebsstart im August bestätigt diese Quelle noch nicht.\n",
     "title": "Fünftägiger Ganztag an den Grundschulen",
     "visibility": "published"
   }

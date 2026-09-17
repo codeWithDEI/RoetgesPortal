@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-06-02",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
+    "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen.\nOb diese Gespräche stattfanden und welche Ergebnisse sie hatten, geht aus\ndem verlinkten Beschluss nicht hervor.\n",
     "id": "pfaenderweg-rail-crossing",
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
@@ -54,20 +54,20 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-06-18",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0255",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127"
       }
     ],
-    "status": "implementation",
+    "status": "open",
     "statusBasis": {
-      "scope": "implementation",
+      "scope": "topic",
       "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127",
-      "summary": "Der Rat beauftragte Gespräche mit Anwohnenden und der Bahn; nur die bisherige Variante soll gegebenenfalls beendet werden.\n"
+      "summary": "Beschlossen sind weitere Gespräche und gegebenenfalls das Ende der bisherigen Variante. Eine tragfähige Lösung oder deren Umsetzung ist durch die verlinkte Quelle nicht belegt.\n"
     },
-    "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
+    "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig. Der Rat beauftragte Gespräche über Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
     "title": "Bahnübergang am Pfänderweg",
     "visibility": "published"
   }

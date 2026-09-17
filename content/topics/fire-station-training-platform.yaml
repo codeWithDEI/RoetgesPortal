@@ -3,7 +3,22 @@ title: Übungsplattform im Feuerwehrhaus Rötgesbüttel
 summary: >
   In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro
   eine statisch berechnete Arbeits- und Übungsplattform entstehen.
-status: implementation
+status: decided
+statusBasis:
+  scope: topic
+  summary: >
+    Die Plattform wurde beschlossen und die Auftragserteilung delegiert. Ein erteilter
+    Auftrag oder eine begonnene Installation wird in den verlinkten Quellen nicht
+    bestätigt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016
+latestDecision:
+  date: "2025-10-08"
+  body: Samtgemeinderat Papenteich
+  outcome: adopted
+  summary: >
+    Der Samtgemeinderat beschloss Berechnung, Beauftragung und Installation der Plattform
+    und delegierte die Auftragserteilung an die Samtgemeindebürgermeisterin.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016
 visibility: published
 
 areas:
@@ -20,8 +35,8 @@ organizations:
 
 dates:
   createdAt: "2025-09-04"
-  updatedAt: "2025-10-08"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der
@@ -52,11 +67,11 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000244&refresh=false&TOLFDNR=1001996
     publishedAt: "2025-10-08"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug vom 8. Oktober 2025
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016
     publishedAt: "2025-10-08"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

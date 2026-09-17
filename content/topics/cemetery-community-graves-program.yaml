@@ -5,6 +5,13 @@ summary: >
   jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf
   und verfügbaren Flächen.
 status: decided
+statusBasis:
+  scope: topic
+  summary: >
+    Der Samtgemeinderat beschloss die Mittel für 2027 bis 2029 und überließ
+    der Verwaltung die Reihenfolge nach Bedarf. Dies belegt das Programm,
+    nicht den Baubeginn einzelner Anlagen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954
 visibility: published
 
 areas:
@@ -20,8 +27,8 @@ organizations:
 
 dates:
   createdAt: "2025-11-12"
-  updatedAt: "2026-01-13"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen
@@ -31,8 +38,8 @@ description: |
 
   Die Verwaltung entscheidet anhand der Belegungs- und Flächensituation über
   die Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und
-  Rothemühle; für Rötgesbüttel wurde bereits 2025 eine zweite Stele
-  finanziert.
+  Rothemühle. Für Rötgesbüttel hatte der Rat bereits im Januar 2025
+  Haushaltsmittel für eine zweite Stele bereitgestellt.
 
 locations: []
 
@@ -45,15 +52,20 @@ milestones:
     status: reached
 
 sources:
+  - title: Beschluss über Haushaltsmittel für die zweite Stele in Rötgesbüttel
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633
+    publishedAt: "2025-01-21"
+    accessedAt: "2026-09-17"
   - title: Vorlage SGP/2025/0941
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000335&refresh=false&TOLFDNR=1003863
     publishedAt: "2026-01-13"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug vom 13. Januar 2026
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954
     publishedAt: "2026-01-13"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

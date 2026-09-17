@@ -1,16 +1,16 @@
 id: regional-spatial-plan-2025
 title: Stellungnahme zum Regionalen Raumordnungsprogramm 2025
 summary: >
-  Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung
-  genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche
-  gefordert.
+  Der Rat beschloss eine Stellungnahme zum Entwurf des Regionalen
+  Raumordnungsprogramms mit Forderungen zur Baulandplanung und zu einer
+  Photovoltaikfläche.
 status: completed
 statusBasis:
   scope: topic
   summary: >
-    Die im Titel bezeichnete kommunale Stellungnahme wurde vom Rat
-    beschlossen und abgegeben; das regionale Gesamtverfahren läuft davon
-    unabhängig weiter.
+    Beratung und Beschlussfassung über die kommunale Stellungnahme sind
+    abgeschlossen. Ihre Übermittlung und das regionale Gesamtverfahren sind
+    damit nicht als abgeschlossen belegt.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260
 latestDecision:
   date: "2026-03-17"
@@ -38,8 +38,8 @@ organizations:
 
 dates:
   createdAt: "2026-03-17"
-  updatedAt: "2026-09-12"
-  lastVerifiedAt: "2026-09-12"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er
@@ -71,6 +71,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-09-12"
+    accessedAt: "2026-09-17"
 
 positions: []

@@ -3,7 +3,21 @@ title: Versetzung des Ortsschildes am nördlichen Ortseingang
 summary: >
   Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich
   der Ampelanlage Pfänderweg versetzt werden.
-status: implementation
+status: open
+statusBasis:
+  scope: topic
+  summary: >
+    Der Rat befürwortete die spätere Versetzung und einen Antrag an den Landkreis. Eine
+    Genehmigung oder Ausführung geht aus dem verlinkten Beschluss nicht hervor.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
+latestDecision:
+  date: "2025-12-16"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Nach Ablehnung einer sofortigen Beantragung beschloss der Rat die angestrebte
+    Versetzung im Zuge der B4-Sanierung und einen entsprechenden Antrag an den Landkreis.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
 visibility: published
 
 areas:
@@ -20,8 +34,8 @@ organizations:
 
 dates:
   createdAt: "2025-12-16"
-  updatedAt: "2025-12-16"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.
@@ -31,7 +45,8 @@ description: |
   Landkreis Gifhorn zu stellen.
 
   Nach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027
-  vorgesehen.
+  vorgesehen. Eine Entscheidung des Landkreises über die Versetzung oder
+  bereits ausgeführte Arbeiten dokumentiert die verlinkte Quelle nicht.
 
 locations:
   - id: proposed-sign-location
@@ -49,6 +64,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
     publishedAt: "2025-12-16"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

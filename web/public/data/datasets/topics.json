@@ -12,10 +12,10 @@
       ],
       "dates": {
         "createdAt": "2026-08-31",
-        "lastVerifiedAt": "2026-09-04",
-        "updatedAt": "2026-08-31"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt\nwerden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nDer Schulausschuss soll den Entwurf am 8. September 2026 beraten. Danach\nsind eine Empfehlung des Bauausschusses und die Entscheidung des\nSamtgemeindeausschusses vorgesehen. Die Planung und Kosten sind daher noch\nnicht beschlossen.\n",
+      "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt\nwerden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nIn der Beratungsfolge waren der Schulausschuss am 8. September und der\nBauausschuss am 16. September 2026 vorgesehen. Die abschließende Entscheidung\nist dem Samtgemeindeausschuss zugeordnet. Die verlinkten Quellen enthalten\nkein öffentliches Ergebnis dieser Beratungen und bestätigen daher keine\nabschließende Zustimmung zum Entwurf und zur Kostenberechnung.\n",
       "id": "adenbuettel-primary-school-extension",
       "locations": [
         {
@@ -25,13 +25,7 @@
           "label": "Grundschule Adenbüttel"
         }
       ],
-      "milestones": [
-        {
-          "date": "2026-09-08",
-          "status": "planned",
-          "title": "Schulausschuss berät Entwurf und Kostenberechnung"
-        }
-      ],
+      "milestones": [],
       "organizations": [
         "joint-municipality-papenteich"
       ],
@@ -42,20 +36,25 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-04",
+          "accessedAt": "2026-09-17",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1084 zur Erweiterung der Grundschule Adenbüttel",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500"
         },
         {
-          "accessedAt": "2026-09-04",
+          "accessedAt": "2026-09-17",
           "sourceType": "agenda",
           "title": "Sitzung des Schulausschusses vom 8. September 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false"
         }
       ],
       "status": "committee",
-      "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die Ausschussberatungen stehen noch aus.\n",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500",
+        "summary": "Entwurf und Kosten wurden zur Ausschussberatung vorgelegt. Die verlinkte Vorlage belegt keine abschließende Zustimmung des Samtgemeindeausschusses.\n"
+      },
+      "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.\n",
       "title": "Erweiterung der Grundschule Adenbüttel",
       "visibility": "published"
     },
@@ -70,10 +69,10 @@
       ],
       "dates": {
         "createdAt": "2025-11-25",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-02"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Zum 1. August\n2026 wurde dieses Angebot für die Jahrgänge 1 bis 4 eingeführt.\n\nFür Rötgesbüttel wurde zusätzliches Mensapersonal für den Freitag\nvorgesehen. Die Schülerbeförderung soll nach dem Fahrplan ab August 2026\nsichergestellt sein. Ferienbetreuung wird weiterhin an den Standorten Meine\nund Schwülper durch das DRK organisiert; eine ergänzende Schulbetreuung kam\nmangels Mindestteilnehmerzahl an keinem Standort zustande.\n",
+      "description": "Der Schulausschuss erteilte im November 2025 das Einvernehmen für einen\noffenen Ganztag an allen Grundschulen an fünf Wochentagen. Der Bericht vom\nJuni 2026 kündigte die Einführung für die Jahrgänge 1 bis 4 zum 1. August\n2026 an. Eine nachträgliche Bestätigung dieses Starts enthalten die\nverlinkten Quellen nicht. Der stufenweise Rechtsanspruch ist davon zu\nunterscheiden: Er sollte ab 2026/27 zunächst für Erstklässler gelten und\nbis 2029/30 auf die Klassen 1 bis 4 ausgeweitet werden.\n\nLaut Juni-Bericht war das Mensapersonal für den Freitag unter anderem in\nRötgesbüttel bereits aufgestockt. Die Schülerbeförderung wurde für den neuen\nFahrplan ab August zugesagt. Die Ferienbetreuung sollte weiter über das\nDRK in Meine und Schwülper organisiert werden. Für eine ergänzende\nSchulbetreuung erreichten die damaligen Anmeldungen an keinem Standort\ndie erforderliche Mindestteilnehmerzahl.\n",
       "id": "all-day-primary-schools-2026",
       "locations": [],
       "milestones": [
@@ -86,11 +85,6 @@
           "date": "2026-06-02",
           "status": "reached",
           "title": "Schulausschuss erhält Umsetzungsbericht"
-        },
-        {
-          "date": "2026-08-01",
-          "status": "reached",
-          "title": "Fünftägiger Ganztag beginnt an allen Grundschulen"
         }
       ],
       "organizations": [
@@ -109,14 +103,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-11-25",
           "sourceType": "resolution",
           "title": "Beschlussauszug zur Ausgestaltung des Ganztags",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1002482&SILFDNR=1948"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-02",
           "sourceType": "proposal",
           "title": "Sachstandsbericht SGP/2026/1028",
@@ -124,7 +118,12 @@
         }
       ],
       "status": "implementation",
-      "summary": "Seit dem Schuljahr 2026/27 bieten alle Grundschulen im Papenteich an fünf Tagen offenen Ganztag an; der Rechtsanspruch wird bis 2029/30 stufenweise auf alle Klassen ausgeweitet.\n",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000923&refresh=false&TOLFDNR=1006772",
+        "summary": "Der Juni-Bericht beschreibt bereits aufgestocktes Mensapersonal und beschaffte Ausstattung. Diese Vorbereitungen belegen Umsetzung, aber noch nicht den späteren Betriebsstart an allen Schulen.\n"
+      },
+      "summary": "Der Bericht vom Juni 2026 dokumentiert Vorbereitungen für offenen Ganztag an fünf Tagen an allen Grundschulen. Den angekündigten Betriebsstart im August bestätigt diese Quelle noch nicht.\n",
       "title": "Fünftägiger Ganztag an den Grundschulen",
       "visibility": "published"
     },
@@ -139,10 +138,10 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-08-26",
-        "updatedAt": "2026-08-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss soll den nächsten Verfahrensschritt am 27. August 2026\nvorberaten.\n",
+      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss war für den 27. August 2026 zur Vorberatung vorgesehen. Ein\nErgebnis dieser Beratung oder ein abschließender Auslegungsbeschluss ist\ndurch die verlinkten Quellen nicht belegt.\n",
       "id": "aukenroth-residential-development",
       "locations": [
         {
@@ -162,11 +161,6 @@
           "date": "2026-06-25",
           "status": "reached",
           "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
-        },
-        {
-          "date": "2026-08-27",
-          "status": "planned",
-          "title": "Ausschuss berät Auslegungsbeschluss und erneute Beteiligung"
         }
       ],
       "organizations": [
@@ -180,35 +174,35 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0304 zum Auslegungsbeschluss",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
@@ -216,6 +210,11 @@
         }
       ],
       "status": "committee",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256",
+        "summary": "Die Vorlage bestätigt die abgeschlossene frühzeitige Beteiligung und bereitet den nächsten Verfahrensschritt vor. Ein abschließender Auslegungsbeschluss ist durch diese Quelle nicht belegt.\n"
+      },
       "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.\n",
       "title": "Wohngebiet Aukenroth",
       "visibility": "published"
@@ -297,11 +296,18 @@
       ],
       "dates": {
         "createdAt": "2025-03-03",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-09-16"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n",
+      "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von bis zu 30 Prozent, höchstens 100.000 Euro,\nvorgesehen. Bei höheren Kosten wäre erneut zu beraten. Die Querungshilfe\nsollte nach dem Juni-Beschluss zunächst nicht gebaut werden.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n\nDiese Beschlüsse dokumentieren die vorgesehenen Maßnahmen und ihre\nFinanzierung, aber noch keinen Beginn der Bauarbeiten.\n",
       "id": "b4-sidewalk-renewal",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-09-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145",
+        "summary": "Der Rat beschloss die Querungshilfe, zusätzliche Stellplätze sowie Förderanträge und Haushaltsmittel für 2027.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/b4-sidewalk-renewal.geojson",
@@ -338,28 +344,33 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-03-03",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0248",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37376&SILFDNR=1882"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-18",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0254",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38464&SILFDNR=2127"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-09-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0271",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145"
         }
       ],
-      "status": "implementation",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145",
+        "summary": "Der Rat beschloss Maßnahmen, Finanzierungsbedingungen und die Vorbereitung der Umsetzung. Einen Beginn der Bauarbeiten dokumentieren die verlinkten Beschlüsse nicht.\n"
+      },
       "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.\n",
       "title": "Nebenanlagen an der B4-Ortsdurchfahrt",
       "visibility": "published"
@@ -375,10 +386,10 @@
       ],
       "dates": {
         "createdAt": "2025-11-12",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-01-13"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen\nGemeinschaftsgrabanlagen einzurichten. Weil frühere Ansätze von 10.000 Euro\nnicht ausreichten, beschloss der Samtgemeinderat für 2027, 2028 und 2029\njeweils 20.000 Euro.\n\nDie Verwaltung entscheidet anhand der Belegungs- und Flächensituation über\ndie Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und\nRothemühle; für Rötgesbüttel wurde bereits 2025 eine zweite Stele\nfinanziert.\n",
+      "description": "Die Samtgemeinde verfolgt das Ziel, möglichst auf allen Friedhöfen\nGemeinschaftsgrabanlagen einzurichten. Weil frühere Ansätze von 10.000 Euro\nnicht ausreichten, beschloss der Samtgemeinderat für 2027, 2028 und 2029\njeweils 20.000 Euro.\n\nDie Verwaltung entscheidet anhand der Belegungs- und Flächensituation über\ndie Reihenfolge. Die Vorlage nennt zunächst Wedelheine, Grassel und\nRothemühle. Für Rötgesbüttel hatte der Rat bereits im Januar 2025\nHaushaltsmittel für eine zweite Stele bereitgestellt.\n",
       "id": "cemetery-community-graves-program",
       "locations": [],
       "milestones": [
@@ -408,14 +419,21 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
+          "publishedAt": "2025-01-21",
+          "sourceType": "resolution",
+          "title": "Beschluss über Haushaltsmittel für die zweite Stele in Rötgesbüttel",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633"
+        },
+        {
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2025/0941",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000335&refresh=false&TOLFDNR=1003863"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 13. Januar 2026",
@@ -423,6 +441,11 @@
         }
       ],
       "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003863&SILFDNR=1954",
+        "summary": "Der Samtgemeinderat beschloss die Mittel für 2027 bis 2029 und überließ der Verwaltung die Reihenfolge nach Bedarf. Dies belegt das Programm, nicht den Baubeginn einzelner Anlagen.\n"
+      },
       "summary": "Für neue oder erweiterte Gemeinschaftsgrabanlagen sollen von 2027 bis 2029 jährlich 20.000 Euro bereitstehen; die Reihenfolge richtet sich nach Bedarf und verfügbaren Flächen.\n",
       "title": "Gemeinschaftsgrabanlagen auf den Friedhöfen",
       "visibility": "published"
@@ -438,24 +461,24 @@
       ],
       "dates": {
         "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und bat die\nSamtgemeinde um eine Prüfung der personellen und finanziellen Folgen einer\nzentralen Kita-Zuständigkeit.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien. In den\nausgewerteten öffentlichen Samtgemeindesitzungen bis zum 12. September 2026\nwar kein Prüfergebnis als eigener Tagesordnungspunkt dokumentiert.\n",
+      "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und beauftragte\ndie Gemeindeverwaltung, bei der Samtgemeinde eine Prüfung der personellen\nund finanziellen Folgen einer zentralen Kita-Zuständigkeit zu beantragen.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien.\nDer verlinkte Beschluss dokumentiert weder eine Annahme des Prüfauftrags\ndurch die Samtgemeinde noch einen Beginn oder ein Ergebnis der Prüfung.\n",
       "id": "central-childcare-responsibility-review",
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2025-06-18",
         "outcome": "adopted",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127",
-        "summary": "Der Rat beantragte bei der Samtgemeinde die Prüfung einer zentralen Kita-Zuständigkeit und ihrer Folgen.\n"
+        "summary": "Der Rat beauftragte die Gemeindeverwaltung, bei der Samtgemeinde eine Prüfung der zentralen Kita-Zuständigkeit und ihrer Folgen zu beantragen.\n"
       },
       "locations": [],
       "milestones": [
         {
           "date": "2025-06-18",
           "status": "reached",
-          "title": "Rat beantragt Prüfung bei der Samtgemeinde"
+          "title": "Rat beschließt, eine Prüfung bei der Samtgemeinde zu beantragen"
         }
       ],
       "organizations": [
@@ -475,20 +498,20 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-18",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0256",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127"
         }
       ],
-      "status": "implementation",
+      "status": "open",
       "statusBasis": {
-        "scope": "implementation",
+        "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127",
-        "summary": "Der Rat hat die Prüfung beauftragt; eine ausdrückliche Unterbrechung ist in den öffentlichen Quellen nicht dokumentiert.\n"
+        "summary": "Belegt ist der Auftrag, bei der Samtgemeinde eine Prüfung zu beantragen. Eine Annahme oder ein Beginn dieser Prüfung ist damit nicht belegt.\n"
       },
-      "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.\n",
+      "summary": "Der Rat beschloss, bei der Samtgemeinde eine Prüfung zur Bündelung von Kita-Aufgaben zu beantragen. Ob die Samtgemeinde die Prüfung aufgenommen hat, geht aus der verlinkten Quelle nicht hervor.\n",
       "title": "Prüfung einer zentralen Kita-Zuständigkeit",
       "visibility": "published"
     },
@@ -588,11 +611,18 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-03-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n",
+      "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n\nDas DRK erläuterte in der Beratung, dass es Unterstützung mit einem\nArchitekten anbieten, aber kein vollständiges Konzept selbst liefern\nkönne. Der Beschluss belegt noch keine begonnene Sanierung.\n",
       "id": "childcare-sanitary-facilities",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-03-17",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260",
+        "summary": "Der Rat beschloss, das DRK mit einer Konzeption beziehungsweise beratender Unterstützung zur Vorbereitung der Sanierung zu beauftragen.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/childcare-sanitary-facilities.geojson",
@@ -605,7 +635,7 @@
         {
           "date": "2026-03-17",
           "status": "reached",
-          "title": "Rat beauftragt das DRK mit Konzeption und Beratung"
+          "title": "Rat beschließt Konzeption beziehungsweise Beratung durch das DRK"
         }
       ],
       "organizations": [
@@ -619,14 +649,19 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 17. März 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260"
         }
       ],
-      "status": "implementation",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260",
+        "summary": "Der Rat beschloss die Vorbereitung eines Konzepts beziehungsweise Beratung durch das DRK. Ein Beginn der Sanierungsarbeiten ist damit nicht belegt.\n"
+      },
       "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.\n",
       "title": "Sanierung der Sanitärräume in der Kindertagesstätte",
       "visibility": "published"
@@ -642,11 +677,18 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-03-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
       "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
       "id": "community-centre-old-fire-station",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-03-17",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260",
+        "summary": "Der Rat ersetzte Variante 1 durch Variante 6; die zusätzlichen Kosten von rund 14.000 Euro sollen im Haushalt 2027 berücksichtigt werden.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/community-centre-old-fire-station.geojson",
@@ -677,14 +719,19 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0292",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260"
         }
       ],
-      "status": "implementation",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260",
+        "summary": "Die Umbauvariante 6 wurde beschlossen. Der verlinkte Beschluss dokumentiert noch keinen Beginn der Ausführung.\n"
+      },
       "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.\n",
       "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr",
       "visibility": "published"
@@ -699,16 +746,16 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDer Kultur- und Sportausschuss behandelte die Neufassung am 17. August 2026.\nDie öffentliche Beratungsfolge kennzeichnet diesen Schritt als erledigt,\ndie vorgesehenen Beratungen im Verwaltungsausschuss und Rat dagegen als\ngestoppt. Diese technischen Verfahrensangaben belegen keine inhaltliche\nPause. Ein abschließender öffentlicher Beschlussauszug war bei der letzten\nPrüfung nicht verfügbar.\n",
+      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nFür den 17. August 2026 war eine Beratung der Neufassung im Kultur- und\nSportausschuss angekündigt. Die Beratungsfolge kennzeichnet diesen Schritt\nals erledigt, die vorgesehenen Beratungen im Verwaltungsausschuss und Rat\ndagegen als gestoppt. Diese technischen Verfahrensangaben belegen weder\nein Beratungsergebnis noch eine inhaltliche Pause. Ein abschließender\nBeschluss über die Gebühren ist durch die verlinkten Quellen nicht belegt.\n",
       "id": "community-hall-fees",
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2026-06-25",
         "outcome": "adopted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087",
         "summary": "Der Rat beauftragte die Vorbereitung einer Neufassung der Gebührensatzung.\n"
       },
       "locations": [
@@ -729,11 +776,6 @@
           "date": "2026-06-25",
           "status": "reached",
           "title": "Rat beauftragt die Vorbereitung einer Neufassung"
-        },
-        {
-          "date": "2026-08-17",
-          "status": "reached",
-          "title": "Ausschuss berät die Neufassung"
         }
       ],
       "organizations": [
@@ -746,28 +788,28 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0297-01",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0303 zur Neufassung der Gebührensatzung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Kultur- und Sportausschusses vom 17. August 2026",
@@ -778,7 +820,7 @@
       "statusBasis": {
         "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087",
-        "summary": "Nach der Ausschussberatung ist kein abschließender öffentlicher Beschluss belegt; technische ALLRIS-Markierungen werden nicht als Themenpause gewertet.\n"
+        "summary": "Die Vorbereitung einer Neufassung wurde beschlossen. Die verlinkte Vorlage belegt weder die endgültige Gebührenänderung noch eine inhaltliche Pause; technische ALLRIS-Markierungen sind keine Beschlüsse.\n"
       },
       "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; ein abschließender öffentlicher Beschluss ist noch nicht dokumentiert.\n",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
@@ -795,17 +837,17 @@
       ],
       "dates": {
         "createdAt": "2026-06-02",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nunentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften\nGanztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Die weitere Entscheidung wurde bis zur\nAusarbeitung einer Vereinbarung zurückgestellt. Laut Vorlage sollte sie im\nHerbst erneut beraten werden.\n",
+      "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nlaut Vorlage unentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem\nfür August 2026 vorgesehenen fünften Ganztag sollte auch freitags eine\nmögliche Vermietung entfallen.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Der Schulausschuss nahm am 2. Juni 2026 die\ngeänderte Empfehlung einstimmig an, die Mittel einzuplanen und eine\nÄnderungsvereinbarung auszuarbeiten. Eine Vertagung dieser Empfehlung\ndokumentiert das Protokoll nicht.\n\nDie abschließende Entscheidung ist laut Beratungsfolge dem\nSamtgemeindeausschuss zugeordnet. Eine unterzeichnete Vereinbarung oder\ndessen Beschluss ist durch die verlinkten Quellen nicht belegt. Laut\nVorlage sollte die ausgearbeitete Vereinbarung im Herbst vorgelegt werden.\n",
       "id": "community-hall-school-meals-compensation",
       "latestDecision": {
         "body": "Schulausschuss der Samtgemeinde Papenteich",
         "date": "2026-06-02",
-        "outcome": "deferred",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846",
-        "summary": "Die weitere Entscheidung wurde bis zur Ausarbeitung einer Vereinbarung zurückgestellt.\n"
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846",
+        "summary": "Der Schulausschuss nahm die geänderte Empfehlung einstimmig an: jährlich 3.000 Euro ab 2027 einplanen und eine Änderungsvereinbarung vorbereiten. Dies ist noch kein Nachweis des endgültigen Vertrags.\n"
       },
       "locations": [
         {
@@ -819,12 +861,7 @@
         {
           "date": "2026-06-02",
           "status": "reached",
-          "title": "Schulausschuss berät die Entschädigung"
-        },
-        {
-          "date": "2026-06-02",
-          "status": "postponed",
-          "title": "Weitere Entscheidung wird bis zu einer Vereinbarung zurückgestellt"
+          "title": "Schulausschuss empfiehlt Entschädigung und Änderungsvereinbarung"
         }
       ],
       "organizations": [
@@ -838,7 +875,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
+          "publishedAt": "2026-06-02",
+          "sourceType": "resolution",
+          "title": "Geänderter Beschluss des Schulausschusses vom 2. Juni 2026, TOP 8",
+          "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846"
+        },
+        {
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-02",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1042 und Beratungsfolge",
@@ -848,10 +892,10 @@
       "status": "open",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846",
-        "summary": "Die Vereinbarung steht noch aus; die technische ALLRIS-Markierung einer späteren Sitzung belegt keine Pause des gesamten Themas.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846",
+        "summary": "Die Ausschussempfehlung ist belegt. Ein abschließender Beschluss des Samtgemeindeausschusses oder eine unterzeichnete Änderungsvereinbarung geht aus den verlinkten Quellen nicht hervor.\n"
       },
-      "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.\n",
+      "summary": "Der Schulausschuss empfahl jährlich 3.000 Euro Entschädigung ab 2027 für die Mensanutzung am Freitag und die Vorbereitung einer Änderungsvereinbarung. Ein abschließender Vertrag ist durch die verlinkten Quellen nicht belegt.\n",
       "title": "Entschädigung für die Mensanutzung der Bürgerhalle",
       "visibility": "published"
     },
@@ -930,11 +974,18 @@
       ],
       "dates": {
         "createdAt": "2025-11-25",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-01-13"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
       "description": "Die Samtgemeinde will Projekte für den Digitalpakt 2.0 vorbereiten und sich\nwie beim ersten Digitalpakt extern bei Konzeption, Leistungsverzeichnissen\nund Ausschreibungen unterstützen lassen.\n\nDer Samtgemeinderat beschloss am 13. Januar 2026 einstimmig, dafür\n30.000 Euro Planungskosten in den Haushalt 2026 aufzunehmen. Konkrete\nFörderprojekte und Bewilligungen sind damit noch nicht festgelegt.\n",
       "id": "digital-pact-2-planning",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2026-01-13",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954",
+        "summary": "Der Samtgemeinderat beschloss 30.000 Euro Planungskosten für den Digitalpakt 2.0 im Haushalt 2026.\n"
+      },
       "locations": [],
       "milestones": [
         {
@@ -963,21 +1014,26 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2025/0948-01",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000461&refresh=false&TOLFDNR=1003864"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 13. Januar 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954"
         }
       ],
-      "status": "implementation",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003864&SILFDNR=1954",
+        "summary": "Beschlossen ist ein Planungsbudget von 30.000 Euro. Eine bereits begonnene externe Planung geht aus den verlinkten Quellen nicht hervor.\n"
+      },
       "summary": "Für die Vorbereitung von Digitalisierungsprojekten an den Schulen wurden 30.000 Euro Planungskosten in den Haushalt 2026 aufgenommen.\n",
       "title": "Vorbereitung auf den Digitalpakt 2.0",
       "visibility": "published"
@@ -993,11 +1049,18 @@
       ],
       "dates": {
         "createdAt": "2025-05-15",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-06-24"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Ursprünglich wurden unterschiedliche Varianten für ein neues\nZugführungsfahrzeug beraten. Der Samtgemeinderat entschied sich am\n24. Juni 2025 schließlich dafür, einen gebrauchten\nMannschaftstransportwagen innerhalb der vorhandenen Haushaltsmittel zu\nbeschaffen.\n\nDer bisher von der Feuerwehr selbst beschaffte Mercedes Vito soll in das\nEigentum der Samtgemeinde übergehen und weiter als Zugführungsfahrzeug\ngenutzt werden. Ein öffentlicher Abschluss der Beschaffung war bis zum\n14. August 2026 nicht dokumentiert.\n",
+      "description": "Ursprünglich wurden unterschiedliche Varianten für ein neues\nZugführungsfahrzeug beraten. Der Samtgemeinderat entschied sich am\n24. Juni 2025 schließlich dafür, einen gebrauchten\nMannschaftstransportwagen innerhalb der vorhandenen Haushaltsmittel zu\nbeschaffen.\n\nDer bisher von der Feuerwehr selbst beschaffte Mercedes Vito soll in das\nEigentum der Samtgemeinde übergehen und weiter als Zugführungsfahrzeug\ngenutzt werden. Einen bereits erteilten Auftrag oder erfolgten Kauf\ndokumentieren die verlinkten Quellen nicht.\n",
       "id": "fire-command-vehicle-roetgesbuettel",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2025-06-24",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936",
+        "summary": "Der Samtgemeinderat beauftragte die Verwaltung mit der Beschaffung eines gebrauchten Mannschaftstransportwagens innerhalb der vorhandenen Haushaltsmittel.\n"
+      },
       "locations": [],
       "milestones": [
         {
@@ -1022,21 +1085,26 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP2025/0805-2",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=7837&refresh=false&TOLFDNR=38679"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-24",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 24. Juni 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936"
         }
       ],
-      "status": "implementation",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936",
+        "summary": "Die Beschaffung eines gebrauchten Mannschaftstransportwagens wurde beschlossen. Ein erfolgter Auftrag oder Kauf ist durch die verlinkten Quellen nicht belegt.\n"
+      },
       "summary": "Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito bleibt als Zugführungsfahrzeug im Einsatz.\n",
       "title": "Mannschaftstransportwagen für die Ortsfeuerwehr",
       "visibility": "published"
@@ -1052,19 +1120,13 @@
       ],
       "dates": {
         "createdAt": "2026-08-24",
-        "lastVerifiedAt": "2026-08-26",
-        "updatedAt": "2026-08-24"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Dem Feuerschutzausschuss liegen vier zusammengehörige Vorlagen zur\nAusstattung der Gemeindefeuerwehr vor. Für die Feuerwehr Rothemühle-Walle\nwird ein Ford Transit Custom als Mannschaftstransportwagen für 74.096,15 Euro\nvorgeschlagen. Die Fertigstellung ist laut Angebot für Dezember 2026\nvorgesehen.\n\nFür Zug 4 soll ein Rettungsboot RTB 420 mit Trailer und 40-PS-Außenbordmotor\nfür 34.999,51 Euro beschafft werden. Für die Gemeindefeuerwehr ist außerdem\nein Hyundai Tucson Hybrid als Kommandowagen für 56.507,77 Euro vorgesehen.\nAlle drei Angebote liegen innerhalb der jeweiligen Haushaltsansätze.\n\nDer bisherige VW Caddy des Gemeindebrandmeisters soll nach Lieferung des\nneuen Kommandowagens nicht verkauft, sondern dem hauptamtlichen Gerätewart\nfür Dienstfahrten zugeordnet werden.\n\nDie Angaben stammen aus den Beschlussvorschlägen. Die Beratung im\nFeuerschutzausschuss ist für den 3. September 2026 vorgesehen; endgültige\nEntscheidungen werden deshalb noch nicht dargestellt.\n",
+      "description": "Dem Feuerschutzausschuss liegen vier zusammengehörige Vorlagen zur\nAusstattung der Gemeindefeuerwehr vor. Für die Feuerwehr Rothemühle-Walle\nwird ein Ford Transit Custom als Mannschaftstransportwagen für 74.096,15 Euro\nvorgeschlagen. Die Fertigstellung ist laut Angebot für Dezember 2026\nvorgesehen.\n\nFür Zug 4 soll ein Rettungsboot RTB 420 mit Trailer und 40-PS-Außenbordmotor\nfür 34.999,51 Euro beschafft werden. Für die Gemeindefeuerwehr ist außerdem\nein Hyundai Tucson Hybrid als Kommandowagen für 56.507,77 Euro vorgesehen.\nAlle drei Angebote liegen innerhalb der jeweiligen Haushaltsansätze.\n\nDer bisherige VW Caddy des Gemeindebrandmeisters soll nach Lieferung des\nneuen Kommandowagens nicht verkauft, sondern dem hauptamtlichen Gerätewart\nfür Dienstfahrten zugeordnet werden.\n\nDie Angaben stammen aus den Beschlussvorschlägen. Die Beratung im\nFeuerschutzausschuss war für den 3. September 2026 vorgesehen. Die\nabschließenden Entscheidungen sind dem Samtgemeindeausschuss zugeordnet.\nDie verlinkten Quellen bestätigen weder das Beratungsergebnis noch die\nabschließenden Beschaffungsentscheidungen.\n",
       "id": "fire-service-procurements-2026",
       "locations": [],
-      "milestones": [
-        {
-          "date": "2026-09-03",
-          "status": "planned",
-          "title": "Feuerschutzausschuss berät die vier Vorlagen"
-        }
-      ],
+      "milestones": [],
       "organizations": [
         "joint-municipality-papenteich"
       ],
@@ -1080,35 +1142,35 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1076 zum MTW Rothemühle-Walle",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001223&refresh=false"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1077 zum Rettungsboot für Zug 4",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001225&refresh=false"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1075 zum Kommandowagen",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001222&refresh=false&TOLFDNR=1008477"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1083 zur Weiterverwendung des VW Caddy",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001265&refresh=false"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-24",
           "sourceType": "agenda",
           "title": "Sitzung des Feuerschutzausschusses vom 3. September 2026",
@@ -1116,7 +1178,12 @@
         }
       ],
       "status": "committee",
-      "summary": "Vier Beschaffungs- und Fahrzeugvorlagen für die Gemeindefeuerwehr sollen am 3. September 2026 im Feuerschutzausschuss beraten werden.\n",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000124&refresh=false",
+        "summary": "Die Vorlagen wurden zur Vorberatung angekündigt. Die Tagesordnung belegt weder das Beratungsergebnis noch abschließende Beschaffungsentscheidungen.\n"
+      },
+      "summary": "Vier Beschaffungs- und Fahrzeugvorlagen waren für den Feuerschutzausschuss am 3. September 2026 angekündigt. Abschließende Entscheidungen sind durch die verlinkten Quellen nicht bestätigt.\n",
       "title": "Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr",
       "visibility": "published"
     },
@@ -1131,11 +1198,18 @@
       ],
       "dates": {
         "createdAt": "2025-09-04",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-10-08"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
       "description": "Orts- und Samtgemeindefeuerwehr beantragten eine Übungsplattform in der\nFahrzeughalle. Durch eine Anpassung der Stellplatzlänge für den dort\nabgestellten Mannschaftstransportwagen kann sie innerhalb der bestehenden\nHalle untergebracht werden.\n\nDie geschätzten Kosten von rund 23.000 Euro sollen aus dem Baubudget des\nFeuerwehrhauses gedeckt werden. Der Samtgemeinderat beschloss die\nBerechnung, Beauftragung und Installation am 8. Oktober 2025 einstimmig.\n",
       "id": "fire-station-training-platform",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2025-10-08",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016",
+        "summary": "Der Samtgemeinderat beschloss Berechnung, Beauftragung und Installation der Plattform und delegierte die Auftragserteilung an die Samtgemeindebürgermeisterin.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/fire-station-training-platform.geojson",
@@ -1167,21 +1241,26 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-10-08",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2025/0876-01",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000244&refresh=false&TOLFDNR=1001996"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-10-08",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 8. Oktober 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016"
         }
       ],
-      "status": "implementation",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001996&SILFDNR=1000016",
+        "summary": "Die Plattform wurde beschlossen und die Auftragserteilung delegiert. Ein erteilter Auftrag oder eine begonnene Installation wird in den verlinkten Quellen nicht bestätigt.\n"
+      },
       "summary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.\n",
       "title": "Übungsplattform im Feuerwehrhaus Rötgesbüttel",
       "visibility": "published"
@@ -1198,10 +1277,10 @@
       ],
       "dates": {
         "createdAt": "2025-09-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-09-16"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Ein ausdrücklicher öffentlicher\nFertigstellungsbeschluss war im Scanzeitraum nicht enthalten.\n",
+      "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte\nArbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.\n",
       "id": "flood-retention-basin-roetgesbuettel",
       "locations": [
         {
@@ -1228,7 +1307,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-09-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0276",
@@ -1236,6 +1315,11 @@
         }
       ],
       "status": "implementation",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145",
+        "summary": "Der Beschluss erläutert bereits ausgeführte Bauarbeiten und dadurch entstandene Mehrkosten. Eine Fertigstellung des gesamten Beckens wird darin nicht bestätigt.\n"
+      },
       "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.\n",
       "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede",
       "visibility": "published"
@@ -1251,10 +1335,10 @@
       ],
       "dates": {
         "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-08-26",
-        "updatedAt": "2026-08-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Der Ausschuss soll darüber am 27. August 2026\nberaten; ein neuer Beschluss liegt noch nicht vor.\n",
+      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die aktualisierte Beratungsfolge sieht eine Ratsentscheidung am\n22. September 2026 vor. Ein endgültiger Standortbeschluss ist damit noch\nnicht belegt.\n",
       "id": "glass-container-relocation",
       "locations": [
         {
@@ -1291,9 +1375,9 @@
           "title": "Rat vertagt die Standortentscheidung"
         },
         {
-          "date": "2026-08-27",
+          "date": "2026-09-22",
           "status": "planned",
-          "title": "Ausschuss berät nach Ablehnung der K48-Alternativen erneut"
+          "title": "Vorgesehene Ratsentscheidung über den neuen Standort"
         }
       ],
       "organizations": [
@@ -1306,42 +1390,42 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-18",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0253",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-12-16",
           "sourceType": "minutes",
           "title": "Beschlussauszug vom 16. Dezember 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0282-02",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
@@ -1349,6 +1433,11 @@
         }
       ],
       "status": "committee",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255",
+        "summary": "Nach der Vertagung im Juni liegt ein erneuter Standortvorschlag vor. Die Vorlage sieht eine Ratsentscheidung am 22. September 2026 vor, belegt aber noch keinen endgültigen Standortbeschluss.\n"
+      },
       "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
       "title": "Neuer Standort für die Glascontainer",
       "visibility": "published"
@@ -1420,11 +1509,18 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-12-16"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
+      "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
       "id": "muehlenweg-speed-limit",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-12-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
+        "summary": "Der Rat beschloss, beim Landkreis Gifhorn eine Reduzierung von 100 auf 70 km/h zu beantragen.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/muehlenweg-speed-limit.geojson",
@@ -1451,15 +1547,20 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0280",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151"
         }
       ],
-      "status": "implementation",
-      "summary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.\n",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
+        "summary": "Der Rat beschloss einen Antrag an den Landkreis. Eine verkehrsrechtliche Anordnung oder die Umsetzung von Tempo 70 ist in der verlinkten Quelle nicht belegt.\n"
+      },
+      "summary": "Der Rat beschloss, beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h zu beantragen.\n",
       "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg",
       "visibility": "published"
     },
@@ -1473,10 +1574,10 @@
       ],
       "dates": {
         "createdAt": "2026-01-13",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-01-13"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September\n2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,\nMeine, Rötgesbüttel, Schwülper und Vordorf.\n\nBei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch\nzwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der\nSamtgemeinderat.\n",
+      "description": "Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September\n2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,\nMeine, Rötgesbüttel, Schwülper und Vordorf.\n\nBei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch\nzwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der\nSamtgemeinderat.\n\nDieses Thema dokumentiert die Festlegung des Wahlbereichs, nicht die\nDurchführung oder das Ergebnis der Wahl.\n",
       "id": "municipal-election-2026-electoral-area",
       "locations": [],
       "milestones": [
@@ -1484,11 +1585,6 @@
           "date": "2026-01-13",
           "status": "reached",
           "title": "Samtgemeinderat beschließt einen gemeinsamen Wahlbereich"
-        },
-        {
-          "date": "2026-09-13",
-          "status": "planned",
-          "title": "Kommunalwahl"
         }
       ],
       "organizations": [
@@ -1506,14 +1602,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2025/0959",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000528&refresh=false&TOLFDNR=1003867"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-01-13",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 13. Januar 2026",
@@ -1521,7 +1617,12 @@
         }
       ],
       "status": "decided",
-      "summary": "Für die Samtgemeinderatswahl am 13. September 2026 bilden alle sechs Mitgliedsgemeinden gemeinsam einen Wahlbereich.\n",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003867&SILFDNR=1954",
+        "summary": "Der Beschluss legt einen gemeinsamen Wahlbereich fest. Der Status bezieht sich auf diese Festlegung, nicht auf die Durchführung oder das Ergebnis der Wahl.\n"
+      },
+      "summary": "Der Samtgemeinderat beschloss für die Wahl am 13. September 2026 einen gemeinsamen Wahlbereich für alle sechs Mitgliedsgemeinden.\n",
       "title": "Ein Wahlbereich für die Samtgemeinderatswahl 2026",
       "visibility": "published"
     },
@@ -1536,10 +1637,10 @@
       ],
       "dates": {
         "createdAt": "2025-01-21",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 12. September 2026 nicht dokumentiert.\n",
+      "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine spätere\nBeauftragung oder ein fertiger Wärmeplan geht aus der verlinkten Quelle\nnicht hervor.\n",
       "id": "municipal-heat-planning",
       "latestDecision": {
         "body": "Samtgemeinderat Papenteich",
@@ -1571,7 +1672,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-01-21",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu SGP2024/0680-1",
@@ -1582,7 +1683,7 @@
       "statusBasis": {
         "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
-        "summary": "Das Planungsbudget ist beschlossen; eine Beauftragung oder ein Beginn der Wärmeplanung ist öffentlich noch nicht dokumentiert.\n"
+        "summary": "Das Planungsbudget ist beschlossen. Eine Beauftragung oder ein Beginn der Wärmeplanung wird durch die verlinkte Quelle nicht belegt.\n"
       },
       "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
       "title": "Kommunale Wärmeplanung für den Papenteich",
@@ -1770,11 +1871,18 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-12-16"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen.\n",
+      "description": "Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.\nAnschließend beschloss der Rat einstimmig, das Ortsschild im Zuge der\nSanierungsarbeiten an der Ortsdurchfahrt B4 an eine Stelle nördlich der\nAmpelanlage Pfänderweg zu versetzen und einen entsprechenden Antrag beim\nLandkreis Gifhorn zu stellen.\n\nNach dem öffentlichen Beschlussauszug sind die Sanierungsarbeiten für 2027\nvorgesehen. Eine Entscheidung des Landkreises über die Versetzung oder\nbereits ausgeführte Arbeiten dokumentiert die verlinkte Quelle nicht.\n",
       "id": "northern-town-sign-relocation",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-12-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151",
+        "summary": "Nach Ablehnung einer sofortigen Beantragung beschloss der Rat die angestrebte Versetzung im Zuge der B4-Sanierung und einen entsprechenden Antrag an den Landkreis.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/northern-town-sign-relocation.geojson",
@@ -1801,14 +1909,19 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0281",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151"
         }
       ],
-      "status": "implementation",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151",
+        "summary": "Der Rat befürwortete die spätere Versetzung und einen Antrag an den Landkreis. Eine Genehmigung oder Ausführung geht aus dem verlinkten Beschluss nicht hervor.\n"
+      },
       "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.\n",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang",
       "visibility": "published"
@@ -1824,18 +1937,11 @@
       ],
       "dates": {
         "createdAt": "2026-08-17",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vor. Der Ausschuss nahm die Studie zur Kenntnis.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nDie Erstellung und Vorstellung der Studie ist damit abgeschlossen. Eine\nspätere Auswahl einer Variante oder Entscheidung über das Rathaus wäre ein\neigenes Thema und ist aus den veröffentlichten Unterlagen nicht ableitbar.\n",
+      "description": "Das Architekturbüro Jensen Gronau sollte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vorstellen. Die Tagesordnung bestätigt die\nAnkündigung, dokumentiert aber keine tatsächlich erfolgte Vorstellung\noder Kenntnisnahme.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nDer Status bleibt deshalb offen. Weder ein Abschluss der Studie noch\neine Entscheidung über das Rathaus wird aus dem Sitzungstermin oder den\ntechnischen Verfahrensmarkierungen abgeleitet. Das bedeutet nicht, dass\nkeine Vorstellung stattfand, sondern dass hierfür ein Beleg fehlt.\n",
       "id": "papenteich-town-hall-feasibility-study",
-      "latestDecision": {
-        "body": "Bauausschuss der Samtgemeinde Papenteich",
-        "date": "2026-08-17",
-        "outcome": "noted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064",
-        "summary": "Der Bauausschuss nahm die vorgestellte Machbarkeitsstudie zur Kenntnis.\n"
-      },
       "locations": [
         {
           "geoJsonFile": "content/locations/papenteich-town-hall-feasibility-study.geojson",
@@ -1844,13 +1950,7 @@
           "label": "Rathaus der Samtgemeinde Papenteich"
         }
       ],
-      "milestones": [
-        {
-          "date": "2026-08-17",
-          "status": "reached",
-          "title": "Bauausschuss nimmt Machbarkeitsstudie zur Kenntnis"
-        }
-      ],
+      "milestones": [],
       "organizations": [
         "joint-municipality-papenteich"
       ],
@@ -1866,27 +1966,27 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1060 zur Machbarkeitsstudie Rathaus",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Bauausschusses vom 17. August 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false"
         }
       ],
-      "status": "completed",
+      "status": "open",
       "statusBasis": {
         "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064",
-        "summary": "Die Machbarkeitsstudie wurde erstellt und im Bauausschuss vorgestellt; eine spätere Entscheidung über das Rathaus ist nicht Teil dieses Themas.\n"
+        "summary": "Belegt ist die Ankündigung einer Tischvorlage. Ein öffentliches Ergebnis oder die abgeschlossene Vorstellung der Studie lässt sich aus den verlinkten Unterlagen nicht bestätigen.\n"
       },
-      "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.\n",
+      "summary": "Für den Bauausschuss war eine Machbarkeitsstudie zum Rathaus angekündigt. Die verlinkten Unterlagen bestätigen weder deren Vorstellung noch ein Beratungsergebnis und nennen keine Varianten oder Kosten.\n",
       "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde",
       "visibility": "published"
     },
@@ -1900,11 +2000,18 @@
       ],
       "dates": {
         "createdAt": "2025-12-16",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2025-12-16"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch\nnicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.\n",
+      "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nAnordnung oder Umsetzung durch die zuständige Straßenverkehrsbehörde.\n",
       "id": "parking-restrictions-schulgarten-eikhof",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-12-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151",
+        "summary": "Der Rat beschloss, ein einseitiges absolutes Halteverbot im genannten Einmündungsbereich beim Landkreis Gifhorn zu beantragen.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/parking-restrictions-schulgarten-eikhof.geojson",
@@ -1931,15 +2038,20 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-12-16",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0279",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151"
         }
       ],
-      "status": "implementation",
-      "summary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.\n",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151",
+        "summary": "Beschlossen ist ein Antrag an den Landkreis, nicht die verkehrsrechtliche Anordnung oder Aufstellung der Halteverbotsschilder.\n"
+      },
+      "summary": "Der Rat beschloss, für Am Schulgarten und Am Eikhof im Einmündungsbereich ein einseitiges absolutes Halteverbot beim Landkreis zu beantragen.\n",
       "title": "Halteverbot Am Schulgarten und Am Eikhof",
       "visibility": "published"
     },
@@ -1954,10 +2066,10 @@
       ],
       "dates": {
         "createdAt": "2025-06-02",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein\nspäterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.\n",
+      "description": "Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.\nDer Rat beschloss, noch einmal mit den betroffenen Anwohnerinnen und\nAnwohnern über den notwendigen Rückschnitt zu sprechen.\n\nSollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt\nwerden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat\nweiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen.\nOb diese Gespräche stattfanden und welche Ergebnisse sie hatten, geht aus\ndem verlinkten Beschluss nicht hervor.\n",
       "id": "pfaenderweg-rail-crossing",
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
@@ -1997,20 +2109,20 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-06-18",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0255",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127"
         }
       ],
-      "status": "implementation",
+      "status": "open",
       "statusBasis": {
-        "scope": "implementation",
+        "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127",
-        "summary": "Der Rat beauftragte Gespräche mit Anwohnenden und der Bahn; nur die bisherige Variante soll gegebenenfalls beendet werden.\n"
+        "summary": "Beschlossen sind weitere Gespräche und gegebenenfalls das Ende der bisherigen Variante. Eine tragfähige Lösung oder deren Umsetzung ist durch die verlinkte Quelle nicht belegt.\n"
       },
-      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
+      "summary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig. Der Rat beauftragte Gespräche über Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.\n",
       "title": "Bahnübergang am Pfänderweg",
       "visibility": "published"
     },
@@ -2025,11 +2137,18 @@
       ],
       "dates": {
         "createdAt": "2026-02-24",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-04-14"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Landkreis Gifhorn ist rechtlich für den Ganztagsanspruch von\nGrundschulkindern zuständig. Mit einer öffentlich-rechtlichen Vereinbarung\nwerden Aufgaben standortnah durch die teilnehmenden Kommunen als\nSchulträger umgesetzt.\n\nDie Vereinbarung regelt Zuständigkeiten und Budgets für Schul- und\nFerienzeiten. Der Samtgemeinderat beauftragte die Verwaltung am 14. April\n2026 einstimmig mit dem Abschluss; das Inkrafttreten war zum 1. August 2026\nvorgesehen.\n",
+      "description": "Der Landkreis Gifhorn ist rechtlich für den Ganztagsanspruch von\nGrundschulkindern zuständig. Mit einer öffentlich-rechtlichen Vereinbarung\nsollen Aufgaben standortnah durch die teilnehmenden Kommunen als\nSchulträger umgesetzt werden.\n\nDie vorgesehene Vereinbarung regelt Zuständigkeiten und Budgets für Schul- und\nFerienzeiten. Der Samtgemeinderat beauftragte die Verwaltung am 14. April\n2026 einstimmig mit dem Abschluss; das Inkrafttreten war zum 1. August 2026\nvorgesehen. Dass die Vereinbarung unterzeichnet wurde und tatsächlich\nin Kraft trat, geht aus diesen Quellen nicht hervor. Der vorgesehene\nTermin wird deshalb nicht als erreicht ausgewiesen.\n",
       "id": "primary-school-youth-welfare-agreement",
+      "latestDecision": {
+        "body": "Samtgemeinderat Papenteich",
+        "date": "2026-04-14",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103",
+        "summary": "Der Samtgemeinderat beauftragte die Verwaltung einstimmig mit dem Abschluss der Vereinbarung und der Berücksichtigung der erforderlichen Mittel in künftigen Haushaltsplanungen.\n"
+      },
       "locations": [],
       "milestones": [
         {
@@ -2041,11 +2160,6 @@
           "date": "2026-04-14",
           "status": "reached",
           "title": "Samtgemeinderat beauftragt die Verwaltung"
-        },
-        {
-          "date": "2026-08-01",
-          "status": "reached",
-          "title": "Vorgesehenes Inkrafttreten der Vereinbarung"
         }
       ],
       "organizations": [
@@ -2064,22 +2178,27 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-04-14",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/0983",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000693&refresh=false&TOLFDNR=1006220"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-04-14",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 14. April 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103"
         }
       ],
-      "status": "implementation",
-      "summary": "Die Samtgemeinde übernimmt auf Grundlage einer Vereinbarung mit dem Landkreis Aufgaben zur Umsetzung des Rechtsanspruchs auf Ganztagsförderung.\n",
+      "status": "decided",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006220&SILFDNR=1000103",
+        "summary": "Beschlossen ist der Auftrag, die Vereinbarung abzuschließen. Eine Unterzeichnung oder das tatsächliche Inkrafttreten wird in den verlinkten Quellen nicht bestätigt.\n"
+      },
+      "summary": "Der Samtgemeinderat beauftragte den Abschluss einer Vereinbarung mit dem Landkreis zur Ganztagsförderung. Unterzeichnung und Inkrafttreten sind durch die verlinkten Quellen noch nicht bestätigt.\n",
       "title": "Vereinbarung zur Ganztagsförderung von Grundschulkindern",
       "visibility": "published"
     },
@@ -2095,17 +2214,17 @@
       ],
       "dates": {
         "createdAt": "2026-04-14",
-        "lastVerifiedAt": "2026-08-26",
-        "updatedAt": "2026-08-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nAn der anschließenden Bürgerbefragung beteiligten sich 446 Personen. Sie ist\nlaut Vorlage nur eingeschränkt repräsentativ, bestätigt aber insbesondere\nden Bedarf nach mehr Platz, einem größeren und aktuelleren Medienbestand,\ndigitalen Angeboten sowie familienfreundlichen Öffnungszeiten.\n\nDer neue Beschlussvorschlag sieht einen zentralen, ebenerdigen und\nbarrierefreien Standort mit rund 500 Quadratmetern vor. Ein Anbau an das\nRathaus soll in einer Machbarkeitsstudie geprüft werden. Angestrebt werden\naußerdem 20.000 bis 25.000 Medien, mindestens 1,5 Vollzeitstellen,\nÖffnungszeiten in Richtung 18 Wochenstunden, Onleihe und weitere digitale\nAngebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027\nentschieden werden.\n\nDer Ausschuss für Jugend, Senioren und Integration soll den Stufenplan am\n2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht\nabschließend beschlossen.\n",
+      "description": "Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage\nder Bücherei an. Geprüft werden sollen ein zentraler und barrierefreier\nStandort, ein größerer Medienetat, mehr Personal, digitale Angebote und die\ntechnischen und wirtschaftlichen Voraussetzungen einer „Open Library“.\n\nAn der anschließenden Bürgerbefragung beteiligten sich 446 Personen. Sie ist\nlaut Vorlage nur eingeschränkt repräsentativ, bestätigt aber insbesondere\nden Bedarf nach mehr Platz, einem größeren und aktuelleren Medienbestand,\ndigitalen Angeboten sowie familienfreundlichen Öffnungszeiten.\n\nDer neue Beschlussvorschlag sieht einen zentralen, ebenerdigen und\nbarrierefreien Standort mit rund 500 Quadratmetern vor. Ein Anbau an das\nRathaus soll in einer Machbarkeitsstudie geprüft werden. Angestrebt werden\naußerdem 20.000 bis 25.000 Medien, mindestens 1,5 Vollzeitstellen,\nÖffnungszeiten in Richtung 18 Wochenstunden, Onleihe und weitere digitale\nAngebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027\nentschieden werden.\n\nFür den 2. September 2026 war eine Vorberatung im Ausschuss für Jugend,\nSenioren und Integration angekündigt. Ein Ergebnis dieser Beratung oder\nein abschließender Beschluss über Maßnahmen und Kosten ist durch die\nverlinkten Quellen nicht belegt.\n",
       "id": "public-library-development",
       "locations": [
         {
           "geoJsonFile": "content/locations/public-library-development.geojson",
           "id": "proposed-library-site",
           "impactType": "alternative",
-          "label": "Geprüfter Büchereistandort am Rathaus"
+          "label": "Zur Prüfung vorgeschlagener Büchereistandort am Rathaus"
         }
       ],
       "milestones": [
@@ -2113,11 +2232,6 @@
           "date": "2026-04-14",
           "status": "reached",
           "title": "Samtgemeinderat beschließt Leitbild und Konzeptauftrag"
-        },
-        {
-          "date": "2026-09-02",
-          "status": "planned",
-          "title": "Ausschuss berät Bürgerbefragung und konkreten Stufenplan"
         }
       ],
       "organizations": [
@@ -2135,21 +2249,21 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-04-14",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1000",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000779&refresh=false&TOLFDNR=1006224"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-04-14",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 14. April 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103"
         },
         {
-          "accessedAt": "2026-08-26",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1074 zur Bürgerbefragung und Weiterentwicklung",
@@ -2157,6 +2271,11 @@
         }
       ],
       "status": "committee",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247",
+        "summary": "Ein konkreter Stufenplan liegt zur Beratung vor. Die verlinkte Vorlage belegt keine abschließende Entscheidung über die vorgeschlagenen Maßnahmen.\n"
+      },
       "summary": "Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren, barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.\n",
       "title": "Weiterentwicklung der Samtgemeindebücherei",
       "visibility": "published"
@@ -2173,8 +2292,8 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
       "description": "Der Rat schloss sich der Stellungnahme der Samtgemeinde Papenteich an. Er\nforderte außerdem, Vorgaben zur vorrangigen Nutzung von Baulücken und\nLeerständen so zu ändern, dass die kommunale Planungshoheit nicht\nunverhältnismäßig eingeschränkt wird.\n\nZusätzlich bat die Gemeinde darum, die Einordnung mehrerer Flurstücke in\nFlur 6 als Vorranggebiet für Natur und Landschaft zurückzunehmen. Dort\nverfolgt die Gemeinde nach dem Beschluss Pläne für eine Vorrangfläche für\nFreiflächenphotovoltaik.\n\nDie Stellungnahme wurde einstimmig beschlossen. Über die endgültige\nAusgestaltung des regionalen Programms entscheidet der Regionalverband.\n",
       "id": "regional-spatial-plan-2025",
@@ -2212,7 +2331,7 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0296",
@@ -2223,9 +2342,9 @@
       "statusBasis": {
         "scope": "topic",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005889&SILFDNR=1000260",
-        "summary": "Die im Titel bezeichnete kommunale Stellungnahme wurde vom Rat beschlossen und abgegeben; das regionale Gesamtverfahren läuft davon unabhängig weiter.\n"
+        "summary": "Beratung und Beschlussfassung über die kommunale Stellungnahme sind abgeschlossen. Ihre Übermittlung und das regionale Gesamtverfahren sind damit nicht als abgeschlossen belegt.\n"
       },
-      "summary": "Die Gemeinde hat zum Entwurf des Regionalen Raumordnungsprogramms Stellung genommen und Änderungen zur Baulandplanung und zu einer Photovoltaikfläche gefordert.\n",
+      "summary": "Der Rat beschloss eine Stellungnahme zum Entwurf des Regionalen Raumordnungsprogramms mit Forderungen zur Baulandplanung und zu einer Photovoltaikfläche.\n",
       "title": "Stellungnahme zum Regionalen Raumordnungsprogramm 2025",
       "visibility": "published"
     },
@@ -2318,17 +2437,17 @@
       ],
       "dates": {
         "createdAt": "2025-01-21",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Ein öffentlicher\nBeginn oder Abschluss der beiden Maßnahmen war in den ausgewerteten\nSitzungen bis zum 12. September 2026 nicht dokumentiert.\n",
+      "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Die verlinkten\nBeschlüsse dokumentieren keinen Beginn oder Abschluss der beiden Maßnahmen.\n",
       "id": "roetgesbuettel-cemetery-upgrades",
       "latestDecision": {
         "body": "Samtgemeinderat Papenteich",
         "date": "2025-01-21",
         "outcome": "adopted",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633",
-        "summary": "Der Samtgemeinderat stellte Mittel für eine zweite Stele und für die Instandsetzung der Parkplätze bereit.\n"
+        "summary": "Der Samtgemeinderat stellte für 2026 zusätzlich 5.000 Euro für die Instandsetzung der Parkplätze am Friedhof bereit.\n"
       },
       "locations": [
         {
@@ -2360,14 +2479,14 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-01-21",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu SGP/2024/0643",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36611&SILFDNR=1633"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-01-21",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu SGP/2024/0668",
@@ -2378,7 +2497,7 @@
       "statusBasis": {
         "scope": "implementation",
         "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633",
-        "summary": "Haushaltsmittel wurden bereitgestellt; eine begonnene oder abgeschlossene Ausführung ist in den öffentlichen Quellen nicht dokumentiert.\n"
+        "summary": "Haushaltsmittel wurden bereitgestellt. Die verlinkten Beschlüsse belegen keine begonnene oder abgeschlossene Ausführung.\n"
       },
       "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.\n",
       "title": "Verbesserungen am Friedhof Rötgesbüttel",
@@ -2465,17 +2584,24 @@
       ],
       "dates": {
         "createdAt": "2026-02-24",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-02-24"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr\n2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n",
+      "description": "Die Verwaltung schlägt vor, den Ausstattungsstandard aus dem Jahr 2012\nneu festzulegen. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n\nDer Schulausschuss empfahl den Vorschlag am 24. Februar 2026. Laut\nBeratungsfolge entscheidet der Samtgemeindeausschuss abschließend. Dessen\nErgebnis ist in den verlinkten Unterlagen nicht dokumentiert; die\ntechnische Kennzeichnung als erledigt ersetzt keinen Beschlussnachweis.\n",
       "id": "school-it-standard-2026",
+      "latestDecision": {
+        "body": "Schulausschuss der Samtgemeinde Papenteich",
+        "date": "2026-02-24",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096",
+        "summary": "Der Schulausschuss nahm die Empfehlung zum IT-Ausstattungsstandard mit acht Ja-Stimmen und zwei Enthaltungen an. Die endgültige Entscheidung liegt beim Samtgemeindeausschuss.\n"
+      },
       "locations": [],
       "milestones": [
         {
           "date": "2026-02-24",
           "status": "reached",
-          "title": "Schulausschuss beschließt den Ausstattungsstandard"
+          "title": "Schulausschuss empfiehlt den Ausstattungsstandard"
         }
       ],
       "organizations": [
@@ -2493,22 +2619,27 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-02-24",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/0974",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-02-24",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 24. Februar 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096"
         }
       ],
-      "status": "implementation",
-      "summary": "Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter Netzwerkinfrastruktur.\n",
+      "status": "committee",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096",
+        "summary": "Die Zustimmung des Schulausschusses ist eine Beschlussempfehlung. Den abschließenden Beschluss des zuständigen Samtgemeindeausschusses belegen die verlinkten Quellen nicht.\n"
+      },
+      "summary": "Der Schulausschuss empfahl einen gemeinsamen IT-Standard für die Grundschulen. Ein abschließender Beschluss oder die Umsetzung ist durch die verlinkten Quellen nicht belegt.\n",
       "title": "Neuer IT-Ausstattungsstandard für Grundschulen",
       "visibility": "published"
     },
@@ -2592,11 +2723,18 @@
       ],
       "dates": {
         "createdAt": "2026-03-17",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-03-17"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n",
+      "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n\nDamit sind vorbereitende Schritte beschlossen, nicht die Sanierung selbst.\nEin Beginn oder Ergebnis des Gutachtens sowie eine Freigabe von Bauarbeiten\ngehen aus dem verlinkten Beschluss nicht hervor.\n",
       "id": "sports-centre-modernisation",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-03-17",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260",
+        "summary": "Der Rat beschloss ein Gutachten für 2026 und die Berücksichtigung des Vorhabens in den Haushaltsberatungen 2027, nicht die Sanierung selbst.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/sports-centre-modernisation.geojson",
@@ -2623,14 +2761,19 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-03-17",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2026/0291",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260"
         }
       ],
-      "status": "implementation",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260",
+        "summary": "Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung. Die verlinkte Quelle belegt weder eine Sanierungsfreigabe noch einen Beginn der Arbeiten.\n"
+      },
       "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.\n",
       "title": "Sanierung und Modernisierung des Gemeindesportzentrums",
       "visibility": "published"
@@ -2646,10 +2789,10 @@
       ],
       "dates": {
         "createdAt": "2025-08-20",
-        "lastVerifiedAt": "2026-09-12",
-        "updatedAt": "2026-09-12"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Die bisherige Satzung war mehrfach geändert worden. Wegen des Neubaus der\nTurnhalle in Vordorf und zur besseren Übersicht für die Vereine legte die\nVerwaltung eine vollständige Neufassung vor.\n\nNach der Vorberatung im Bauausschuss stimmte der Samtgemeinderat der neuen\nBenutzungssatzung am 8. Oktober 2025 ohne Gegenstimme zu.\n",
+      "description": "Die bisherige Satzung war mehrfach geändert worden. Wegen des Neubaus der\nTurnhalle in Vordorf und zur besseren Übersicht für die Vereine legte die\nVerwaltung eine vollständige Neufassung vor.\n\nNach der Vorberatung im Bauausschuss stimmte der Samtgemeinderat der neuen\nBenutzungssatzung am 8. Oktober 2025 ohne Gegenstimme zu.\n\nDie Neufassung wurde im Amtsblatt für den Landkreis Gifhorn Nr. 10 vom\n30. Oktober 2025 auf den Seiten 420 bis 423 veröffentlicht. Nach § 7 trat\nsie am Tag nach ihrer Bekanntmachung, also am 31. Oktober 2025, in Kraft.\n",
       "id": "sports-facilities-usage-rules",
       "latestDecision": {
         "body": "Samtgemeinderat Papenteich",
@@ -2686,14 +2829,21 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
+          "publishedAt": "2025-10-30",
+          "sourceType": "other",
+          "title": "Amtsblatt Nr. 10 vom 30. Oktober 2025, Seiten 420 bis 423",
+          "url": "https://www.landkreis-gifhorn.de/loadDocument.phtml?Ext=PDF&FID=4083.6998.1"
+        },
+        {
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-10-08",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2025/0866 und Beratungsfolge",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000010&refresh=false&TOLFDNR=1001993"
         },
         {
-          "accessedAt": "2026-09-12",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2025-10-08",
           "sourceType": "resolution",
           "title": "Beschlussauszug vom 8. Oktober 2025",
@@ -2703,8 +2853,8 @@
       "status": "active",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001993&SILFDNR=1000016",
-        "summary": "Die neu gefasste Benutzungssatzung wurde beschlossen und ist als geltende Regelung für die Sportstätten dokumentiert.\n"
+        "sourceUrl": "https://www.landkreis-gifhorn.de/loadDocument.phtml?Ext=PDF&FID=4083.6998.1",
+        "summary": "Die Neufassung wurde am 30. Oktober 2025 im Amtsblatt veröffentlicht. Nach § 7 trat sie am folgenden Tag, dem 31. Oktober 2025, in Kraft.\n"
       },
       "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.\n",
       "title": "Benutzung der samtgemeindeeigenen Sportstätten",
@@ -2773,18 +2923,13 @@
       ],
       "dates": {
         "createdAt": "2026-06-23",
-        "lastVerifiedAt": "2026-08-14",
-        "updatedAt": "2026-06-23"
+        "lastVerifiedAt": "2026-09-17",
+        "updatedAt": "2026-09-17"
       },
-      "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nWegen der ab 1. Januar 2027 anzuwendenden Umsatzsteuerregelung für\njuristische Personen des öffentlichen Rechts wurde eine\nErgänzungsvereinbarung vorgelegt. Die öffentliche Beratungsfolge weist die\nEntscheidung des Samtgemeinderates vom 23. Juni 2026 als erledigt aus.\n",
+      "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nDie Vorlage begründet die Ergänzung mit der ab 1. Januar 2027 vorgesehenen\nAnwendung der Umsatzsteuerregelung für juristische Personen des\nöffentlichen Rechts. Der Vorschlag stand für den 23. Juni 2026 auf der\nTagesordnung. Die Kennzeichnung dieses Verfahrensschritts als erledigt\nbelegt weder ein Abstimmungsergebnis noch eine unterzeichnete Vereinbarung.\nEin abschließender Beschluss wird daher hier nicht behauptet.\n",
       "id": "winter-service-agreement",
       "locations": [],
       "milestones": [
-        {
-          "date": "2026-06-23",
-          "status": "reached",
-          "title": "Samtgemeinderat behandelt die Ergänzungsvereinbarung"
-        },
         {
           "date": "2027-01-01",
           "status": "planned",
@@ -2807,22 +2952,27 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-23",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1053-01 und Beratungsfolge",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476"
         },
         {
-          "accessedAt": "2026-08-14",
+          "accessedAt": "2026-09-17",
           "publishedAt": "2026-06-23",
           "sourceType": "agenda",
           "title": "Tagesordnung der Samtgemeinderatssitzung vom 23. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000115&refresh=false"
         }
       ],
-      "status": "decided",
-      "summary": "Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.\n",
+      "status": "open",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476",
+        "summary": "Belegt sind Beschlussvorschlag und Sitzungstermin. Die technische Kennzeichnung als erledigt bestätigt keinen angenommenen Beschluss; das Ergebnis bleibt anhand der verlinkten Quellen ungeklärt.\n"
+      },
+      "summary": "Eine Ergänzung der Winterdienstvereinbarung wurde dem Samtgemeinderat vorgelegt. Ein bestätigter Beschluss ist in den verlinkten Unterlagen nicht enthalten.\n",
       "title": "Ergänzungsvereinbarung zum Winterdienst",
       "visibility": "published"
     }

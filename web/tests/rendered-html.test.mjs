@@ -1,5 +1,19 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import test from "node:test";
+
+const { items: publishedTopics } = JSON.parse(
+  readFileSync(
+    new URL("../public/data/datasets/topics.json", import.meta.url),
+    "utf8",
+  ),
+);
+
+// Derive the expected order from data, independently of the application helper.
+const topicsByExpectedUpdate = [...publishedTopics].sort((left, right) => {
+  const dateComparison = right.dates.updatedAt.localeCompare(left.dates.updatedAt);
+  return dateComparison || left.title.localeCompare(right.title, "de-DE");
+});
 
 const legalEnvironment = {
   LEGAL_OPERATOR_NAME: "Erika Prüfer",
@@ -179,7 +193,10 @@ test("server-renders the chronological update stream", async () => {
   const html = await response.text();
   assert.match(html, /Neu &amp; aktualisiert/);
   assert.match(html, /Zuletzt bearbeitet/);
-  assert.match(html, /42(?:<!-- -->)* veröffentlichte Themen/);
+  assert.match(
+    html,
+    new RegExp(`${publishedTopics.length}(?:<!-- -->)* veröffentlichte Themen`),
+  );
   assert.match(html, /RSS-Feed abonnieren/);
   assert.match(
     html,
@@ -187,9 +204,12 @@ test("server-renders the chronological update stream", async () => {
   );
   assert.match(html, /Feuerschutz/);
   assert.match(html, /Beschaffung/);
-  assert.ok(
-    html.indexOf("Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr") <
-      html.indexOf("Weiterentwicklung der Samtgemeindebücherei"),
+  const topicLinks = [...html.matchAll(/<h3>\s*<a\b[^>]*href="([^"]+)"/g)]
+    .map((match) => match[1]);
+  assert.deepEqual(
+    topicLinks,
+    topicsByExpectedUpdate.map((topic) => `/themen/${topic.id}`),
+    "The update stream must include every published topic in recent-update order",
   );
 });
 
@@ -207,13 +227,28 @@ test("publishes a deterministic RSS update feed", async () => {
   assert.match(xml, /<rss version="2\.0"/);
   assert.match(xml, /<title>RötgesPortal – Neu und aktualisiert<\/title>/);
   assert.match(xml, /<atom:link href="https:\/\/roetgesportal\.de\/feed\.xml"/);
-  assert.equal((xml.match(/<item>/g) ?? []).length, 25);
-  assert.match(xml, /<category>Feuerschutz<\/category>/);
-  assert.ok(
-    xml.indexOf("Neue Fahrzeuge und Ausrüstung für die Gemeindefeuerwehr") <
-      xml.indexOf("Weiterentwicklung der Samtgemeindebücherei"),
+  const expectedTopics = topicsByExpectedUpdate.slice(0, 25);
+  const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)]
+    .map((match) => match[1]);
+  assert.equal(items.length, Math.min(25, publishedTopics.length));
+  assert.deepEqual(
+    items.map((item) => item.match(/<link>([^<]+)<\/link>/)?.[1]),
+    expectedTopics.map((topic) => `https://roetgesportal.de/themen/${topic.id}`),
+    "The feed must contain exactly the latest 25 topics, with German title ordering for equal dates",
   );
+  for (const [index, item] of items.entries()) {
+    const topic = expectedTopics[index];
+    assert.equal(
+      item.match(/<pubDate>([^<]+)<\/pubDate>/)?.[1],
+      new Date(`${topic.dates.updatedAt}T00:00:00Z`).toUTCString(),
+    );
+    assert.equal((item.match(/<category>/g) ?? []).length, topic.categories.length);
+  }
   assert.doesNotMatch(xml, /preview\.roetgesportal\.de/);
+
+  const repeatedResponse = await render("/feed.xml");
+  assert.equal(repeatedResponse.status, 200);
+  assert.equal(await repeatedResponse.text(), xml);
 });
 
 test("renders complete legal and privacy disclosures from runtime configuration", async () => {

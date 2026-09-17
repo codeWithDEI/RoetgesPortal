@@ -4,6 +4,12 @@ summary: >
   Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren,
   barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.
 status: committee
+statusBasis:
+  scope: topic
+  summary: >
+    Ein konkreter Stufenplan liegt zur Beratung vor. Die verlinkte Vorlage
+    belegt keine abschließende Entscheidung über die vorgeschlagenen Maßnahmen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247
 visibility: published
 
 areas:
@@ -20,8 +26,8 @@ organizations:
 
 dates:
   createdAt: "2026-04-14"
-  updatedAt: "2026-08-17"
-  lastVerifiedAt: "2026-08-26"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage
@@ -42,13 +48,14 @@ description: |
   Angebote. Über zusätzliches Personal soll mit Haushalt und Stellenplan 2027
   entschieden werden.
 
-  Der Ausschuss für Jugend, Senioren und Integration soll den Stufenplan am
-  2. September 2026 vorberaten. Die Maßnahmen und Kosten sind damit noch nicht
-  abschließend beschlossen.
+  Für den 2. September 2026 war eine Vorberatung im Ausschuss für Jugend,
+  Senioren und Integration angekündigt. Ein Ergebnis dieser Beratung oder
+  ein abschließender Beschluss über Maßnahmen und Kosten ist durch die
+  verlinkten Quellen nicht belegt.
 
 locations:
   - id: proposed-library-site
-    label: Geprüfter Büchereistandort am Rathaus
+    label: Zur Prüfung vorgeschlagener Büchereistandort am Rathaus
     impactType: alternative
     geoJsonFile: content/locations/public-library-development.geojson
 
@@ -56,25 +63,22 @@ milestones:
   - date: "2026-04-14"
     title: Samtgemeinderat beschließt Leitbild und Konzeptauftrag
     status: reached
-  - date: "2026-09-02"
-    title: Ausschuss berät Bürgerbefragung und konkreten Stufenplan
-    status: planned
 
 sources:
   - title: Vorlage SGP/2026/1000
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000779&refresh=false&TOLFDNR=1006224
     publishedAt: "2026-04-14"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug vom 14. April 2026
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103
     publishedAt: "2026-04-14"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Vorlage SGP/2026/1074 zur Bürgerbefragung und Weiterentwicklung
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247
     publishedAt: "2026-08-17"
-    accessedAt: "2026-08-26"
+    accessedAt: "2026-09-17"
 
 positions: []

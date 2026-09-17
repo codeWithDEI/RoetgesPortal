@@ -10,10 +10,10 @@
     ],
     "dates": {
       "createdAt": "2026-01-13",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-01-13"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September\n2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,\nMeine, Rötgesbüttel, Schwülper und Vordorf.\n\nBei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch\nzwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der\nSamtgemeinderat.\n",
+    "description": "Der Samtgemeinderat beschloss einstimmig, für die Wahl am 13. September\n2026 nur einen Wahlbereich zu bilden. Er umfasst Adenbüttel, Didderse,\nMeine, Rötgesbüttel, Schwülper und Vordorf.\n\nBei der vorgesehenen Größe von 34 Ratsmitgliedern wären gesetzlich auch\nzwei Wahlbereiche möglich gewesen; über Zahl und Abgrenzung entscheidet der\nSamtgemeinderat.\n\nDieses Thema dokumentiert die Festlegung des Wahlbereichs, nicht die\nDurchführung oder das Ergebnis der Wahl.\n",
     "id": "municipal-election-2026-electoral-area",
     "locations": [],
     "milestones": [
@@ -21,11 +21,6 @@
         "date": "2026-01-13",
         "status": "reached",
         "title": "Samtgemeinderat beschließt einen gemeinsamen Wahlbereich"
-      },
-      {
-        "date": "2026-09-13",
-        "status": "planned",
-        "title": "Kommunalwahl"
       }
     ],
     "organizations": [
@@ -43,14 +38,14 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-01-13",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2025/0959",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000528&refresh=false&TOLFDNR=1003867"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-01-13",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 13. Januar 2026",
@@ -58,7 +53,12 @@
       }
     ],
     "status": "decided",
-    "summary": "Für die Samtgemeinderatswahl am 13. September 2026 bilden alle sechs Mitgliedsgemeinden gemeinsam einen Wahlbereich.\n",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003867&SILFDNR=1954",
+      "summary": "Der Beschluss legt einen gemeinsamen Wahlbereich fest. Der Status bezieht sich auf diese Festlegung, nicht auf die Durchführung oder das Ergebnis der Wahl.\n"
+    },
+    "summary": "Der Samtgemeinderat beschloss für die Wahl am 13. September 2026 einen gemeinsamen Wahlbereich für alle sechs Mitgliedsgemeinden.\n",
     "title": "Ein Wahlbereich für die Samtgemeinderatswahl 2026",
     "visibility": "published"
   }
