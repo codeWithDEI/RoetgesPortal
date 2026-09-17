@@ -1,10 +1,26 @@
 id: school-it-standard-2026
 title: Neuer IT-Ausstattungsstandard für Grundschulen
 summary: >
-  Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit
-  Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter
-  Netzwerkinfrastruktur.
-status: implementation
+  Der Schulausschuss empfahl einen gemeinsamen IT-Standard für die
+  Grundschulen. Ein abschließender Beschluss oder die Umsetzung ist durch
+  die verlinkten Quellen nicht belegt.
+status: committee
+statusBasis:
+  scope: topic
+  summary: >
+    Die Zustimmung des Schulausschusses ist eine Beschlussempfehlung. Den abschließenden
+    Beschluss des zuständigen Samtgemeindeausschusses belegen die verlinkten Quellen
+    nicht.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096
+latestDecision:
+  date: "2026-02-24"
+  body: Schulausschuss der Samtgemeinde Papenteich
+  outcome: adopted
+  summary: >
+    Der Schulausschuss nahm die Empfehlung zum IT-Ausstattungsstandard mit acht Ja-Stimmen
+    und zwei Enthaltungen an. Die endgültige Entscheidung liegt beim
+    Samtgemeindeausschuss.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096
 visibility: published
 
 areas:
@@ -20,12 +36,12 @@ organizations:
 
 dates:
   createdAt: "2026-02-24"
-  updatedAt: "2026-02-24"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
-  Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr
-  2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem
+  Die Verwaltung schlägt vor, den Ausstattungsstandard aus dem Jahr 2012
+  neu festzulegen. Vorgesehen sind unter anderem
   Mediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale
   Managementsysteme sowie getrennte Verwaltungs- und Schulnetze.
 
@@ -34,11 +50,16 @@ description: |
   Haushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit
   Fördermitteln wie dem Digitalpakt 2.0 finanziert werden.
 
+  Der Schulausschuss empfahl den Vorschlag am 24. Februar 2026. Laut
+  Beratungsfolge entscheidet der Samtgemeindeausschuss abschließend. Dessen
+  Ergebnis ist in den verlinkten Unterlagen nicht dokumentiert; die
+  technische Kennzeichnung als erledigt ersetzt keinen Beschlussnachweis.
+
 locations: []
 
 milestones:
   - date: "2026-02-24"
-    title: Schulausschuss beschließt den Ausstattungsstandard
+    title: Schulausschuss empfiehlt den Ausstattungsstandard
     status: reached
 
 sources:
@@ -46,11 +67,11 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336
     publishedAt: "2026-02-24"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug vom 24. Februar 2026
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096
     publishedAt: "2026-02-24"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

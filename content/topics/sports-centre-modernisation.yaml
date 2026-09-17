@@ -3,7 +3,21 @@ title: Sanierung und Modernisierung des Gemeindesportzentrums
 summary: >
   Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten
   untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.
-status: implementation
+status: open
+statusBasis:
+  scope: topic
+  summary: >
+    Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung. Die
+    verlinkte Quelle belegt weder eine Sanierungsfreigabe noch einen Beginn der Arbeiten.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
+latestDecision:
+  date: "2026-03-17"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat beschloss ein Gutachten für 2026 und die Berücksichtigung des Vorhabens in den
+    Haushaltsberatungen 2027, nicht die Sanierung selbst.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
 visibility: published
 
 areas:
@@ -20,14 +34,18 @@ organizations:
 
 dates:
   createdAt: "2026-03-17"
-  updatedAt: "2026-03-17"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung
   und Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde
   beschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die
   Haushaltsberatungen 2027 vorzusehen.
+
+  Damit sind vorbereitende Schritte beschlossen, nicht die Sanierung selbst.
+  Ein Beginn oder Ergebnis des Gutachtens sowie eine Freigabe von Bauarbeiten
+  gehen aus dem verlinkten Beschluss nicht hervor.
 
 locations:
   - id: sports-centre
@@ -45,6 +63,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
     publishedAt: "2026-03-17"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

@@ -3,7 +3,21 @@ title: Nebenanlagen an der B4-Ortsdurchfahrt
 summary: >
   Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze
   ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.
-status: implementation
+status: decided
+statusBasis:
+  scope: topic
+  summary: >
+    Der Rat beschloss Maßnahmen, Finanzierungsbedingungen und die Vorbereitung der
+    Umsetzung. Einen Beginn der Bauarbeiten dokumentieren die verlinkten Beschlüsse nicht.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145
+latestDecision:
+  date: "2025-09-16"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat beschloss die Querungshilfe, zusätzliche Stellplätze sowie Förderanträge und
+    Haushaltsmittel für 2027.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145
 visibility: published
 
 areas:
@@ -21,21 +35,26 @@ organizations:
 
 dates:
   createdAt: "2025-03-03"
-  updatedAt: "2025-09-16"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis
   zur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden
   für den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro
   zuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg
-  wurde eine Beteiligung von höchstens 100.000 Euro vorgesehen.
+  wurde eine Beteiligung von bis zu 30 Prozent, höchstens 100.000 Euro,
+  vorgesehen. Bei höheren Kosten wäre erneut zu beraten. Die Querungshilfe
+  sollte nach dem Juni-Beschluss zunächst nicht gebaut werden.
 
   Nachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde
   ermöglichte, beschloss der Rat im September zusätzlich den Bau einer
   Querungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei
   Stunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für
   2027 wurden ebenfalls beschlossen.
+
+  Diese Beschlüsse dokumentieren die vorgesehenen Maßnahmen und ihre
+  Finanzierung, aber noch keinen Beginn der Bauarbeiten.
 
 locations:
   - id: affected-corridor
@@ -59,16 +78,16 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=37376&SILFDNR=1882
     publishedAt: "2025-03-03"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug zu Rötg/2025/0254
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38464&SILFDNR=2127
     publishedAt: "2025-06-18"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug zu Rötg/2025/0271
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145
     publishedAt: "2025-09-16"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

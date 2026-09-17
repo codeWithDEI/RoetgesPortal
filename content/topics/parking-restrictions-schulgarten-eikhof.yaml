@@ -1,9 +1,23 @@
 id: parking-restrictions-schulgarten-eikhof
 title: Halteverbot Am Schulgarten und Am Eikhof
 summary: >
-  Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde
-  ein einseitiges absolutes Halteverbot beim Landkreis beantragt.
-status: implementation
+  Der Rat beschloss, für Am Schulgarten und Am Eikhof im Einmündungsbereich
+  ein einseitiges absolutes Halteverbot beim Landkreis zu beantragen.
+status: open
+statusBasis:
+  scope: topic
+  summary: >
+    Beschlossen ist ein Antrag an den Landkreis, nicht die verkehrsrechtliche Anordnung
+    oder Aufstellung der Halteverbotsschilder.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151
+latestDecision:
+  date: "2025-12-16"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat beschloss, ein einseitiges absolutes Halteverbot im genannten
+    Einmündungsbereich beim Landkreis Gifhorn zu beantragen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151
 visibility: published
 
 areas:
@@ -19,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2025-12-16"
-  updatedAt: "2025-12-16"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat
@@ -28,8 +42,8 @@ description: |
   einseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im
   Bereich der Einmündung des Schulgartens zu beantragen.
 
-  Der öffentlich verfügbare Beschlussauszug dokumentiert den Antrag, aber noch
-  nicht dessen Umsetzung durch die zuständige Straßenverkehrsbehörde.
+  Der Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine
+  Anordnung oder Umsetzung durch die zuständige Straßenverkehrsbehörde.
 
 locations:
   - id: junction
@@ -47,6 +61,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151
     publishedAt: "2025-12-16"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

@@ -4,7 +4,21 @@ summary: >
   Für die Ortsfeuerwehr Rötgesbüttel soll ein gebrauchter
   Mannschaftstransportwagen beschafft werden; der vorhandene Mercedes Vito
   bleibt als Zugführungsfahrzeug im Einsatz.
-status: implementation
+status: decided
+statusBasis:
+  scope: topic
+  summary: >
+    Die Beschaffung eines gebrauchten Mannschaftstransportwagens wurde beschlossen. Ein
+    erfolgter Auftrag oder Kauf ist durch die verlinkten Quellen nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936
+latestDecision:
+  date: "2025-06-24"
+  body: Samtgemeinderat Papenteich
+  outcome: adopted
+  summary: >
+    Der Samtgemeinderat beauftragte die Verwaltung mit der Beschaffung eines gebrauchten
+    Mannschaftstransportwagens innerhalb der vorhandenen Haushaltsmittel.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936
 visibility: published
 
 areas:
@@ -21,8 +35,8 @@ organizations:
 
 dates:
   createdAt: "2025-05-15"
-  updatedAt: "2025-06-24"
-  lastVerifiedAt: "2026-08-14"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Ursprünglich wurden unterschiedliche Varianten für ein neues
@@ -33,8 +47,8 @@ description: |
 
   Der bisher von der Feuerwehr selbst beschaffte Mercedes Vito soll in das
   Eigentum der Samtgemeinde übergehen und weiter als Zugführungsfahrzeug
-  genutzt werden. Ein öffentlicher Abschluss der Beschaffung war bis zum
-  14. August 2026 nicht dokumentiert.
+  genutzt werden. Einen bereits erteilten Auftrag oder erfolgten Kauf
+  dokumentieren die verlinkten Quellen nicht.
 
 locations: []
 
@@ -51,11 +65,11 @@ sources:
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=7837&refresh=false&TOLFDNR=38679
     publishedAt: "2025-06-24"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
   - title: Beschlussauszug vom 24. Juni 2025
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38679&SILFDNR=1936
     publishedAt: "2025-06-24"
-    accessedAt: "2026-08-14"
+    accessedAt: "2026-09-17"
 
 positions: []

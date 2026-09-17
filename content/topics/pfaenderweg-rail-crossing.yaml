@@ -1,15 +1,16 @@
 id: pfaenderweg-rail-crossing
 title: Bahnübergang am Pfänderweg
 summary: >
-  Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit
-  der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender
+  Die Gemeinde hält einen Bahnübergang weiterhin für notwendig. Der Rat
+  beauftragte Gespräche über Alternativen, falls die bisherige Lösung wegen fehlender
   Sichtflächen nicht weiterverfolgt werden kann.
-status: implementation
+status: open
 statusBasis:
-  scope: implementation
+  scope: topic
   summary: >
-    Der Rat beauftragte Gespräche mit Anwohnenden und der Bahn; nur die
-    bisherige Variante soll gegebenenfalls beendet werden.
+    Beschlossen sind weitere Gespräche und gegebenenfalls das Ende der
+    bisherigen Variante. Eine tragfähige Lösung oder deren Umsetzung ist
+    durch die verlinkte Quelle nicht belegt.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127
 latestDecision:
   date: "2025-06-18"
@@ -35,8 +36,8 @@ organizations:
 
 dates:
   createdAt: "2025-06-02"
-  updatedAt: "2026-09-12"
-  lastVerifiedAt: "2026-09-12"
+  updatedAt: "2026-09-17"
+  lastVerifiedAt: "2026-09-17"
 
 description: |
   Für das bisherige Verfahren sind ausreichende Sichtflächen erforderlich.
@@ -45,8 +46,9 @@ description: |
 
   Sollte dieser nicht möglich sein, soll das laufende Verfahren eingestellt
   werden. Die grundsätzliche Notwendigkeit eines Übergangs sieht der Rat
-  weiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen. Ein
-  späterer öffentlicher Sachstand war im Scanzeitraum nicht dokumentiert.
+  weiterhin und beauftragte Gespräche mit der Bahn über andere Lösungen.
+  Ob diese Gespräche stattfanden und welche Ergebnisse sie hatten, geht aus
+  dem verlinkten Beschluss nicht hervor.
 
 locations:
   - id: rail-crossing
@@ -67,6 +69,6 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38465&SILFDNR=2127
     publishedAt: "2025-06-18"
-    accessedAt: "2026-09-12"
+    accessedAt: "2026-09-17"
 
 positions: []
