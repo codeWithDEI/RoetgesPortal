@@ -11,18 +11,13 @@
     ],
     "dates": {
       "createdAt": "2026-06-23",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-06-23"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nWegen der ab 1. Januar 2027 anzuwendenden Umsatzsteuerregelung für\njuristische Personen des öffentlichen Rechts wurde eine\nErgänzungsvereinbarung vorgelegt. Die öffentliche Beratungsfolge weist die\nEntscheidung des Samtgemeinderates vom 23. Juni 2026 als erledigt aus.\n",
+    "description": "Seit 2005 führt die Samtgemeinde auf Grundlage einer Vereinbarung mit der\nNiedersächsischen Landesbehörde für Straßenbau und Verkehr Winterdienst in\ngeschlossenen Ortslagen einschließlich der Ortsdurchfahrten von Bundes- und\nLandesstraßen durch.\n\nDie Vorlage begründet die Ergänzung mit der ab 1. Januar 2027 vorgesehenen\nAnwendung der Umsatzsteuerregelung für juristische Personen des\nöffentlichen Rechts. Der Vorschlag stand für den 23. Juni 2026 auf der\nTagesordnung. Die Kennzeichnung dieses Verfahrensschritts als erledigt\nbelegt weder ein Abstimmungsergebnis noch eine unterzeichnete Vereinbarung.\nEin abschließender Beschluss wird daher hier nicht behauptet.\n",
     "id": "winter-service-agreement",
     "locations": [],
     "milestones": [
-      {
-        "date": "2026-06-23",
-        "status": "reached",
-        "title": "Samtgemeinderat behandelt die Ergänzungsvereinbarung"
-      },
       {
         "date": "2027-01-01",
         "status": "planned",
@@ -45,22 +40,27 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-23",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2026/1053-01 und Beratungsfolge",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-23",
         "sourceType": "agenda",
         "title": "Tagesordnung der Samtgemeinderatssitzung vom 23. Juni 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000115&refresh=false"
       }
     ],
-    "status": "decided",
-    "summary": "Die Vereinbarung über Räum- und Streudienste in den Ortslagen wird wegen der Umsatzsteuerpflicht öffentlicher Leistungen ab 2027 ergänzt.\n",
+    "status": "open",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001112&refresh=false&TOLFDNR=1007476",
+      "summary": "Belegt sind Beschlussvorschlag und Sitzungstermin. Die technische Kennzeichnung als erledigt bestätigt keinen angenommenen Beschluss; das Ergebnis bleibt anhand der verlinkten Quellen ungeklärt.\n"
+    },
+    "summary": "Eine Ergänzung der Winterdienstvereinbarung wurde dem Samtgemeinderat vorgelegt. Ein bestätigter Beschluss ist in den verlinkten Unterlagen nicht enthalten.\n",
     "title": "Ergänzungsvereinbarung zum Winterdienst",
     "visibility": "published"
   }

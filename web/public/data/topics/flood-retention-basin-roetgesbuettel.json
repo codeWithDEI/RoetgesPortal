@@ -12,10 +12,10 @@
     ],
     "dates": {
       "createdAt": "2025-09-16",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-09-16"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Ein ausdrücklicher öffentlicher\nFertigstellungsbeschluss war im Scanzeitraum nicht enthalten.\n",
+    "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte\nArbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.\n",
     "id": "flood-retention-basin-roetgesbuettel",
     "locations": [
       {
@@ -42,7 +42,7 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-09-16",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0276",
@@ -50,6 +50,11 @@
       }
     ],
     "status": "implementation",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145",
+      "summary": "Der Beschluss erläutert bereits ausgeführte Bauarbeiten und dadurch entstandene Mehrkosten. Eine Fertigstellung des gesamten Beckens wird darin nicht bestätigt.\n"
+    },
     "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.\n",
     "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede",
     "visibility": "published"

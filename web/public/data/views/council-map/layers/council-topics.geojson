@@ -34,8 +34,8 @@
         ],
         "sourceNote": "Location manually assigned from the public topic record",
         "topicId": "pfaenderweg-rail-crossing",
-        "topicStatus": "implementation",
-        "topicSummary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig und sucht mit der Bahn nach Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
+        "topicStatus": "open",
+        "topicSummary": "Die Gemeinde hält einen Bahnübergang weiterhin für notwendig. Der Rat beauftragte Gespräche über Alternativen, falls die bisherige Lösung wegen fehlender Sichtflächen nicht weiterverfolgt werden kann.",
         "topicTitle": "Bahnübergang am Pfänderweg"
       },
       "type": "Feature"
@@ -60,7 +60,7 @@
         ],
         "detailPath": "/themen/community-hall-school-meals-compensation",
         "impactType": "indirect",
-        "latestDecisionOutcome": "deferred",
+        "latestDecisionOutcome": "adopted",
         "locationId": "community-hall",
         "locationLabel": "Bürgerhalle Rötgesbüttel",
         "organizations": [
@@ -75,7 +75,7 @@
         "sourceNote": "Location manually assigned from the public topic record",
         "topicId": "community-hall-school-meals-compensation",
         "topicStatus": "open",
-        "topicSummary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.",
+        "topicSummary": "Der Schulausschuss empfahl jährlich 3.000 Euro Entschädigung ab 2027 für die Mensanutzung am Freitag und die Vorbereitung einer Änderungsvereinbarung. Ein abschließender Vertrag ist durch die verlinkten Quellen nicht belegt.",
         "topicTitle": "Entschädigung für die Mensanutzung der Bürgerhalle"
       },
       "type": "Feature"
@@ -121,27 +121,26 @@
     {
       "geometry": {
         "coordinates": [
-          10.527445,
-          52.413094
+          10.529897,
+          52.415044
         ],
         "type": "Point"
       },
-      "id": "rodelberg-development:municipal-property:0",
+      "id": "community-centre-old-fire-station:old-fire-station:0",
       "properties": {
         "areas": [
           "municipality-roetgesbuettel"
         ],
         "categories": [
-          "municipal-property",
-          "housing",
-          "urban-planning",
-          "drainage"
+          "public-facilities",
+          "community",
+          "renovation"
         ],
-        "detailPath": "/themen/rodelberg-development",
+        "detailPath": "/themen/community-centre-old-fire-station",
         "impactType": "direct",
-        "latestDecisionOutcome": "rejected",
-        "locationId": "municipal-property",
-        "locationLabel": "Gemeindeeigene Fläche am Rodelberg",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "old-fire-station",
+        "locationLabel": "Alte Feuerwehr",
         "organizations": [
           "municipality-roetgesbuettel"
         ],
@@ -151,10 +150,141 @@
           "municipality-roetgesbuettel"
         ],
         "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "rodelberg-development",
+        "topicId": "community-centre-old-fire-station",
+        "topicStatus": "decided",
+        "topicSummary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
+        "topicTitle": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            10.528786,
+            52.409632
+          ],
+          [
+            10.534022,
+            52.409147
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "muehlenweg-speed-limit:affected-road-section:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety"
+        ],
+        "detailPath": "/themen/muehlenweg-speed-limit",
+        "impactType": "affectedArea",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "affected-road-section",
+        "locationLabel": "Betroffener Abschnitt des Mühlenwegs",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "muehlenweg-speed-limit",
         "topicStatus": "open",
-        "topicSummary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
-        "topicTitle": "Weitere Nutzung der Fläche Rodelberg"
+        "topicSummary": "Der Rat beschloss, beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h zu beantragen.",
+        "topicTitle": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.52723,
+          52.41463
+        ],
+        "type": "Point"
+      },
+      "id": "parking-restrictions-schulgarten-eikhof:junction:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety"
+        ],
+        "detailPath": "/themen/parking-restrictions-schulgarten-eikhof",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "junction",
+        "locationLabel": "Einmündung Am Schulgarten / Am Eikhof",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Approximate point for the Am Schulgarten and Am Eikhof junction",
+        "topicId": "parking-restrictions-schulgarten-eikhof",
+        "topicStatus": "open",
+        "topicSummary": "Der Rat beschloss, für Am Schulgarten und Am Eikhof im Einmündungsbereich ein einseitiges absolutes Halteverbot beim Landkreis zu beantragen.",
+        "topicTitle": "Halteverbot Am Schulgarten und Am Eikhof"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            10.533957,
+            52.417655
+          ],
+          [
+            10.530567,
+            52.412655
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "b4-sidewalk-renewal:affected-corridor:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety",
+          "public-space",
+          "construction"
+        ],
+        "detailPath": "/themen/b4-sidewalk-renewal",
+        "impactType": "affectedArea",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "affected-corridor",
+        "locationLabel": "Betroffener Abschnitt der B4-Ortsdurchfahrt",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "lower-saxony-road-authority"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "b4-sidewalk-renewal",
+        "topicStatus": "decided",
+        "topicSummary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
+        "topicTitle": "Nebenanlagen an der B4-Ortsdurchfahrt"
       },
       "type": "Feature"
     },
@@ -193,6 +323,86 @@
         "topicStatus": "committee",
         "topicSummary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
         "topicTitle": "Neuer Standort für die Glascontainer"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.529269,
+          52.414802
+        ],
+        "type": "Point"
+      },
+      "id": "childcare-sanitary-facilities:childcare-centre:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "childcare",
+          "public-facilities",
+          "renovation"
+        ],
+        "detailPath": "/themen/childcare-sanitary-facilities",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "childcare-centre",
+        "locationLabel": "Kindertagesstätte Rötgesbüttel",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "drk-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "childcare-sanitary-facilities",
+        "topicStatus": "open",
+        "topicSummary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
+        "topicTitle": "Sanierung der Sanitärräume in der Kindertagesstätte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.534258,
+          52.418329
+        ],
+        "type": "Point"
+      },
+      "id": "northern-town-sign-relocation:proposed-sign-location:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "mobility",
+          "road-safety",
+          "noise-protection"
+        ],
+        "detailPath": "/themen/northern-town-sign-relocation",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "proposed-sign-location",
+        "locationLabel": "Vorgesehener Standort nördlich der Ampelanlage Pfänderweg",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "district-gifhorn"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "northern-town-sign-relocation",
+        "topicStatus": "open",
+        "topicSummary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
+        "topicTitle": "Versetzung des Ortsschildes am nördlichen Ortseingang"
       },
       "type": "Feature"
     },
@@ -258,6 +468,86 @@
     {
       "geometry": {
         "coordinates": [
+          10.530245,
+          52.41276
+        ],
+        "type": "Point"
+      },
+      "id": "fire-station-training-platform:fire-station:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "fire-protection",
+          "public-facilities",
+          "construction"
+        ],
+        "detailPath": "/themen/fire-station-training-platform",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "fire-station",
+        "locationLabel": "Feuerwehrhaus Rötgesbüttel",
+        "organizations": [
+          "joint-municipality-papenteich",
+          "volunteer-fire-department-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "fire-station-training-platform",
+        "topicStatus": "decided",
+        "topicSummary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.",
+        "topicTitle": "Übungsplattform im Feuerwehrhaus Rötgesbüttel"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.527445,
+          52.413094
+        ],
+        "type": "Point"
+      },
+      "id": "rodelberg-development:municipal-property:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "municipal-property",
+          "housing",
+          "urban-planning",
+          "drainage"
+        ],
+        "detailPath": "/themen/rodelberg-development",
+        "impactType": "direct",
+        "latestDecisionOutcome": "rejected",
+        "locationId": "municipal-property",
+        "locationLabel": "Gemeindeeigene Fläche am Rodelberg",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "rodelberg-development",
+        "topicStatus": "open",
+        "topicSummary": "Für die gemeindeeigene Fläche am Rodelberg wurde eine Wohnnutzung geprüft; wirtschaftliche und technische Hindernisse bestehen fort.",
+        "topicTitle": "Weitere Nutzung der Fläche Rodelberg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           10.529186,
           52.414591
         ],
@@ -291,289 +581,6 @@
         "topicStatus": "committee",
         "topicSummary": "Für die Kindertagesstätte werden Erweiterungs- und Nutzungsmöglichkeiten unter den aktuellen Genehmigungsanforderungen geprüft.",
         "topicTitle": "Erweiterung der Kindertagesstätte"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.529897,
-          52.415044
-        ],
-        "type": "Point"
-      },
-      "id": "community-centre-old-fire-station:old-fire-station:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "public-facilities",
-          "community",
-          "renovation"
-        ],
-        "detailPath": "/themen/community-centre-old-fire-station",
-        "impactType": "direct",
-        "locationId": "old-fire-station",
-        "locationLabel": "Alte Feuerwehr",
-        "organizations": [
-          "municipality-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "community-centre-old-fire-station",
-        "topicStatus": "implementation",
-        "topicSummary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
-        "topicTitle": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.529269,
-          52.414802
-        ],
-        "type": "Point"
-      },
-      "id": "childcare-sanitary-facilities:childcare-centre:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "childcare",
-          "public-facilities",
-          "renovation"
-        ],
-        "detailPath": "/themen/childcare-sanitary-facilities",
-        "impactType": "direct",
-        "locationId": "childcare-centre",
-        "locationLabel": "Kindertagesstätte Rötgesbüttel",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "drk-gifhorn"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "childcare-sanitary-facilities",
-        "topicStatus": "implementation",
-        "topicSummary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
-        "topicTitle": "Sanierung der Sanitärräume in der Kindertagesstätte"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            10.528786,
-            52.409632
-          ],
-          [
-            10.534022,
-            52.409147
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "muehlenweg-speed-limit:affected-road-section:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "mobility",
-          "road-safety"
-        ],
-        "detailPath": "/themen/muehlenweg-speed-limit",
-        "impactType": "affectedArea",
-        "locationId": "affected-road-section",
-        "locationLabel": "Betroffener Abschnitt des Mühlenwegs",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "district-gifhorn"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "muehlenweg-speed-limit",
-        "topicStatus": "implementation",
-        "topicSummary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.",
-        "topicTitle": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.52723,
-          52.41463
-        ],
-        "type": "Point"
-      },
-      "id": "parking-restrictions-schulgarten-eikhof:junction:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "mobility",
-          "road-safety"
-        ],
-        "detailPath": "/themen/parking-restrictions-schulgarten-eikhof",
-        "impactType": "direct",
-        "locationId": "junction",
-        "locationLabel": "Einmündung Am Schulgarten / Am Eikhof",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "district-gifhorn"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Approximate point for the Am Schulgarten and Am Eikhof junction",
-        "topicId": "parking-restrictions-schulgarten-eikhof",
-        "topicStatus": "implementation",
-        "topicSummary": "Für die Einmündung Am Schulgarten und einen Teil der Straße Am Eikhof wurde ein einseitiges absolutes Halteverbot beim Landkreis beantragt.",
-        "topicTitle": "Halteverbot Am Schulgarten und Am Eikhof"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.534258,
-          52.418329
-        ],
-        "type": "Point"
-      },
-      "id": "northern-town-sign-relocation:proposed-sign-location:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "mobility",
-          "road-safety",
-          "noise-protection"
-        ],
-        "detailPath": "/themen/northern-town-sign-relocation",
-        "impactType": "direct",
-        "locationId": "proposed-sign-location",
-        "locationLabel": "Vorgesehener Standort nördlich der Ampelanlage Pfänderweg",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "district-gifhorn"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "northern-town-sign-relocation",
-        "topicStatus": "implementation",
-        "topicSummary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
-        "topicTitle": "Versetzung des Ortsschildes am nördlichen Ortseingang"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.530245,
-          52.41276
-        ],
-        "type": "Point"
-      },
-      "id": "fire-station-training-platform:fire-station:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "fire-protection",
-          "public-facilities",
-          "construction"
-        ],
-        "detailPath": "/themen/fire-station-training-platform",
-        "impactType": "direct",
-        "locationId": "fire-station",
-        "locationLabel": "Feuerwehrhaus Rötgesbüttel",
-        "organizations": [
-          "joint-municipality-papenteich",
-          "volunteer-fire-department-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "fire-station-training-platform",
-        "topicStatus": "implementation",
-        "topicSummary": "In der Fahrzeughalle des neuen Feuerwehrhauses soll für rund 23.000 Euro eine statisch berechnete Arbeits- und Übungsplattform entstehen.",
-        "topicTitle": "Übungsplattform im Feuerwehrhaus Rötgesbüttel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            10.533957,
-            52.417655
-          ],
-          [
-            10.530567,
-            52.412655
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "b4-sidewalk-renewal:affected-corridor:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "mobility",
-          "road-safety",
-          "public-space",
-          "construction"
-        ],
-        "detailPath": "/themen/b4-sidewalk-renewal",
-        "impactType": "affectedArea",
-        "locationId": "affected-corridor",
-        "locationLabel": "Betroffener Abschnitt der B4-Ortsdurchfahrt",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "lower-saxony-road-authority"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "b4-sidewalk-renewal",
-        "topicStatus": "implementation",
-        "topicSummary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
-        "topicTitle": "Nebenanlagen an der B4-Ortsdurchfahrt"
       },
       "type": "Feature"
     }

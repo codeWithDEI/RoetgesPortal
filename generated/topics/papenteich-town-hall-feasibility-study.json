@@ -11,18 +11,11 @@
     ],
     "dates": {
       "createdAt": "2026-08-17",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Das Architekturbüro Jensen Gronau stellte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vor. Der Ausschuss nahm die Studie zur Kenntnis.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nDie Erstellung und Vorstellung der Studie ist damit abgeschlossen. Eine\nspätere Auswahl einer Variante oder Entscheidung über das Rathaus wäre ein\neigenes Thema und ist aus den veröffentlichten Unterlagen nicht ableitbar.\n",
+    "description": "Das Architekturbüro Jensen Gronau sollte dem Bauausschuss am 17. August\n2026 eine Machbarkeitsstudie mit Varianten für das Rathaus der\nSamtgemeinde Papenteich vorstellen. Die Tagesordnung bestätigt die\nAnkündigung, dokumentiert aber keine tatsächlich erfolgte Vorstellung\noder Kenntnisnahme.\n\nDie veröffentlichte Beschlussvorlage kündigt die Studie als Tischvorlage\nan, enthält aber keine Beschreibung der untersuchten Varianten und keine\nKostenangaben. Auch eine bevorzugte Variante oder eine Entscheidung über\ndie weitere Umsetzung ist darin nicht dokumentiert.\n\nDer Status bleibt deshalb offen. Weder ein Abschluss der Studie noch\neine Entscheidung über das Rathaus wird aus dem Sitzungstermin oder den\ntechnischen Verfahrensmarkierungen abgeleitet. Das bedeutet nicht, dass\nkeine Vorstellung stattfand, sondern dass hierfür ein Beleg fehlt.\n",
     "id": "papenteich-town-hall-feasibility-study",
-    "latestDecision": {
-      "body": "Bauausschuss der Samtgemeinde Papenteich",
-      "date": "2026-08-17",
-      "outcome": "noted",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064",
-      "summary": "Der Bauausschuss nahm die vorgestellte Machbarkeitsstudie zur Kenntnis.\n"
-    },
     "locations": [
       {
         "geoJsonFile": "content/locations/papenteich-town-hall-feasibility-study.geojson",
@@ -31,13 +24,7 @@
         "label": "Rathaus der Samtgemeinde Papenteich"
       }
     ],
-    "milestones": [
-      {
-        "date": "2026-08-17",
-        "status": "reached",
-        "title": "Bauausschuss nimmt Machbarkeitsstudie zur Kenntnis"
-      }
-    ],
+    "milestones": [],
     "organizations": [
       "joint-municipality-papenteich"
     ],
@@ -53,27 +40,27 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-08-17",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2026/1060 zur Machbarkeitsstudie Rathaus",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064"
       },
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-08-17",
         "sourceType": "agenda",
         "title": "Sitzung des Bauausschusses vom 17. August 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000427&refresh=false"
       }
     ],
-    "status": "completed",
+    "status": "open",
     "statusBasis": {
       "scope": "topic",
       "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001169&refresh=false&TOLFDNR=1008064",
-      "summary": "Die Machbarkeitsstudie wurde erstellt und im Bauausschuss vorgestellt; eine spätere Entscheidung über das Rathaus ist nicht Teil dieses Themas.\n"
+      "summary": "Belegt ist die Ankündigung einer Tischvorlage. Ein öffentliches Ergebnis oder die abgeschlossene Vorstellung der Studie lässt sich aus den verlinkten Unterlagen nicht bestätigen.\n"
     },
-    "summary": "Der Bauausschuss hat Varianten aus einer Machbarkeitsstudie zum Rathaus zur Kenntnis genommen. Die veröffentlichte Vorlage beschreibt die Varianten und mögliche Kosten bislang nicht näher.\n",
+    "summary": "Für den Bauausschuss war eine Machbarkeitsstudie zum Rathaus angekündigt. Die verlinkten Unterlagen bestätigen weder deren Vorstellung noch ein Beratungsergebnis und nennen keine Varianten oder Kosten.\n",
     "title": "Machbarkeitsstudie zum Rathaus der Samtgemeinde",
     "visibility": "published"
   }

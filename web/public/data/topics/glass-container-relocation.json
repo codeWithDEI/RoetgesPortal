@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-06-18",
-      "lastVerifiedAt": "2026-08-26",
-      "updatedAt": "2026-08-17"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Der Ausschuss soll darüber am 27. August 2026\nberaten; ein neuer Beschluss liegt noch nicht vor.\n",
+    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die aktualisierte Beratungsfolge sieht eine Ratsentscheidung am\n22. September 2026 vor. Ein endgültiger Standortbeschluss ist damit noch\nnicht belegt.\n",
     "id": "glass-container-relocation",
     "locations": [
       {
@@ -51,9 +51,9 @@
         "title": "Rat vertagt die Standortentscheidung"
       },
       {
-        "date": "2026-08-27",
+        "date": "2026-09-22",
         "status": "planned",
-        "title": "Ausschuss berät nach Ablehnung der K48-Alternativen erneut"
+        "title": "Vorgesehene Ratsentscheidung über den neuen Standort"
       }
     ],
     "organizations": [
@@ -66,42 +66,42 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-06-18",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0253",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-12-16",
         "sourceType": "minutes",
         "title": "Beschlussauszug vom 16. Dezember 2025",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-25",
         "sourceType": "proposal",
         "title": "Vorlage Rötg/2025/0282-02",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-25",
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
       },
       {
-        "accessedAt": "2026-08-26",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-08-17",
         "sourceType": "proposal",
         "title": "Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255"
       },
       {
-        "accessedAt": "2026-08-26",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-08-17",
         "sourceType": "agenda",
         "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
@@ -109,6 +109,11 @@
       }
     ],
     "status": "committee",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255",
+      "summary": "Nach der Vertagung im Juni liegt ein erneuter Standortvorschlag vor. Die Vorlage sieht eine Ratsentscheidung am 22. September 2026 vor, belegt aber noch keinen endgültigen Standortbeschluss.\n"
+    },
     "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
     "title": "Neuer Standort für die Glascontainer",
     "visibility": "published"

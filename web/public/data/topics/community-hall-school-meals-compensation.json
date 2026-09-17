@@ -11,17 +11,17 @@
     ],
     "dates": {
       "createdAt": "2026-06-02",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nunentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem fünften\nGanztag ab August 2026 entfällt auch freitags eine mögliche Vermietung.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Die weitere Entscheidung wurde bis zur\nAusarbeitung einer Vereinbarung zurückgestellt. Laut Vorlage sollte sie im\nHerbst erneut beraten werden.\n",
+    "description": "Die Gemeinde stellt die Bürgerhalle bislang von Montag bis Donnerstag\nlaut Vorlage unentgeltlich als Mensa der Grundschule zur Verfügung. Mit dem\nfür August 2026 vorgesehenen fünften Ganztag sollte auch freitags eine\nmögliche Vermietung entfallen.\n\nDie Verwaltung schlug deshalb ab 2027 jährlich 3.000 Euro Entschädigung\ndurch die Samtgemeinde vor. Der Schulausschuss nahm am 2. Juni 2026 die\ngeänderte Empfehlung einstimmig an, die Mittel einzuplanen und eine\nÄnderungsvereinbarung auszuarbeiten. Eine Vertagung dieser Empfehlung\ndokumentiert das Protokoll nicht.\n\nDie abschließende Entscheidung ist laut Beratungsfolge dem\nSamtgemeindeausschuss zugeordnet. Eine unterzeichnete Vereinbarung oder\ndessen Beschluss ist durch die verlinkten Quellen nicht belegt. Laut\nVorlage sollte die ausgearbeitete Vereinbarung im Herbst vorgelegt werden.\n",
     "id": "community-hall-school-meals-compensation",
     "latestDecision": {
       "body": "Schulausschuss der Samtgemeinde Papenteich",
       "date": "2026-06-02",
-      "outcome": "deferred",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846",
-      "summary": "Die weitere Entscheidung wurde bis zur Ausarbeitung einer Vereinbarung zurückgestellt.\n"
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846",
+      "summary": "Der Schulausschuss nahm die geänderte Empfehlung einstimmig an: jährlich 3.000 Euro ab 2027 einplanen und eine Änderungsvereinbarung vorbereiten. Dies ist noch kein Nachweis des endgültigen Vertrags.\n"
     },
     "locations": [
       {
@@ -35,12 +35,7 @@
       {
         "date": "2026-06-02",
         "status": "reached",
-        "title": "Schulausschuss berät die Entschädigung"
-      },
-      {
-        "date": "2026-06-02",
-        "status": "postponed",
-        "title": "Weitere Entscheidung wird bis zu einer Vereinbarung zurückgestellt"
+        "title": "Schulausschuss empfiehlt Entschädigung und Änderungsvereinbarung"
       }
     ],
     "organizations": [
@@ -54,7 +49,14 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
+        "publishedAt": "2026-06-02",
+        "sourceType": "resolution",
+        "title": "Geänderter Beschluss des Schulausschusses vom 2. Juni 2026, TOP 8",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846"
+      },
+      {
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-06-02",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2026/1042 und Beratungsfolge",
@@ -64,10 +66,10 @@
     "status": "open",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000995&refresh=false&TOLFDNR=1006846",
-      "summary": "Die Vereinbarung steht noch aus; die technische ALLRIS-Markierung einer späteren Sitzung belegt keine Pause des gesamten Themas.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006846",
+      "summary": "Die Ausschussempfehlung ist belegt. Ein abschließender Beschluss des Samtgemeindeausschusses oder eine unterzeichnete Änderungsvereinbarung geht aus den verlinkten Quellen nicht hervor.\n"
     },
-    "summary": "Wegen des zusätzlichen Ganztags am Freitag wurde eine jährliche Nutzungsausfallentschädigung von 3.000 Euro ab 2027 vorgeschlagen; die abschließende Vereinbarung steht noch aus.\n",
+    "summary": "Der Schulausschuss empfahl jährlich 3.000 Euro Entschädigung ab 2027 für die Mensanutzung am Freitag und die Vorbereitung einer Änderungsvereinbarung. Ein abschließender Vertrag ist durch die verlinkten Quellen nicht belegt.\n",
     "title": "Entschädigung für die Mensanutzung der Bürgerhalle",
     "visibility": "published"
   }

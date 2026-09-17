@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-01-21",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine öffentliche\nBeauftragung oder ein fertiger Wärmeplan war in den ausgewerteten Sitzungen\nbis zum 12. September 2026 nicht dokumentiert.\n",
+    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine spätere\nBeauftragung oder ein fertiger Wärmeplan geht aus der verlinkten Quelle\nnicht hervor.\n",
     "id": "municipal-heat-planning",
     "latestDecision": {
       "body": "Samtgemeinderat Papenteich",
@@ -46,7 +46,7 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-01-21",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu SGP2024/0680-1",
@@ -57,7 +57,7 @@
     "statusBasis": {
       "scope": "topic",
       "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
-      "summary": "Das Planungsbudget ist beschlossen; eine Beauftragung oder ein Beginn der Wärmeplanung ist öffentlich noch nicht dokumentiert.\n"
+      "summary": "Das Planungsbudget ist beschlossen. Eine Beauftragung oder ein Beginn der Wärmeplanung wird durch die verlinkte Quelle nicht belegt.\n"
     },
     "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
     "title": "Kommunale Wärmeplanung für den Papenteich",

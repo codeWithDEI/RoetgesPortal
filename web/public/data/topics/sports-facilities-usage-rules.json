@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-08-20",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Die bisherige Satzung war mehrfach geändert worden. Wegen des Neubaus der\nTurnhalle in Vordorf und zur besseren Übersicht für die Vereine legte die\nVerwaltung eine vollständige Neufassung vor.\n\nNach der Vorberatung im Bauausschuss stimmte der Samtgemeinderat der neuen\nBenutzungssatzung am 8. Oktober 2025 ohne Gegenstimme zu.\n",
+    "description": "Die bisherige Satzung war mehrfach geändert worden. Wegen des Neubaus der\nTurnhalle in Vordorf und zur besseren Übersicht für die Vereine legte die\nVerwaltung eine vollständige Neufassung vor.\n\nNach der Vorberatung im Bauausschuss stimmte der Samtgemeinderat der neuen\nBenutzungssatzung am 8. Oktober 2025 ohne Gegenstimme zu.\n\nDie Neufassung wurde im Amtsblatt für den Landkreis Gifhorn Nr. 10 vom\n30. Oktober 2025 auf den Seiten 420 bis 423 veröffentlicht. Nach § 7 trat\nsie am Tag nach ihrer Bekanntmachung, also am 31. Oktober 2025, in Kraft.\n",
     "id": "sports-facilities-usage-rules",
     "latestDecision": {
       "body": "Samtgemeinderat Papenteich",
@@ -51,14 +51,21 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
+        "publishedAt": "2025-10-30",
+        "sourceType": "other",
+        "title": "Amtsblatt Nr. 10 vom 30. Oktober 2025, Seiten 420 bis 423",
+        "url": "https://www.landkreis-gifhorn.de/loadDocument.phtml?Ext=PDF&FID=4083.6998.1"
+      },
+      {
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-10-08",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2025/0866 und Beratungsfolge",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000010&refresh=false&TOLFDNR=1001993"
       },
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-10-08",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 8. Oktober 2025",
@@ -68,8 +75,8 @@
     "status": "active",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001993&SILFDNR=1000016",
-      "summary": "Die neu gefasste Benutzungssatzung wurde beschlossen und ist als geltende Regelung für die Sportstätten dokumentiert.\n"
+      "sourceUrl": "https://www.landkreis-gifhorn.de/loadDocument.phtml?Ext=PDF&FID=4083.6998.1",
+      "summary": "Die Neufassung wurde am 30. Oktober 2025 im Amtsblatt veröffentlicht. Nach § 7 trat sie am folgenden Tag, dem 31. Oktober 2025, in Kraft.\n"
     },
     "summary": "Die Samtgemeinde hat ihre Benutzungssatzung für Sportstätten neu gefasst und dabei unter anderem den Neubau der Turnhalle in Vordorf berücksichtigt.\n",
     "title": "Benutzung der samtgemeindeeigenen Sportstätten",

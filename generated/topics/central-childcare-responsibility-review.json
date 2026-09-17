@@ -11,24 +11,24 @@
     ],
     "dates": {
       "createdAt": "2025-06-18",
-      "lastVerifiedAt": "2026-09-12",
-      "updatedAt": "2026-09-12"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und bat die\nSamtgemeinde um eine Prüfung der personellen und finanziellen Folgen einer\nzentralen Kita-Zuständigkeit.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien. In den\nausgewerteten öffentlichen Samtgemeindesitzungen bis zum 12. September 2026\nwar kein Prüfergebnis als eigener Tagesordnungspunkt dokumentiert.\n",
+    "description": "Der Rat unterstützte einen ähnlichen Antrag aus Adenbüttel und beauftragte\ndie Gemeindeverwaltung, bei der Samtgemeinde eine Prüfung der personellen\nund finanziellen Folgen einer zentralen Kita-Zuständigkeit zu beantragen.\n\nGeprüft werden sollten unter anderem Notbetreuung, ein vergleichbares\nBetreuungsniveau in allen Gemeinden, Auswirkungen auf den Wettbewerb um\nFachkräfte sowie zusätzliche Stellen, Kosten und mögliche Synergien.\nDer verlinkte Beschluss dokumentiert weder eine Annahme des Prüfauftrags\ndurch die Samtgemeinde noch einen Beginn oder ein Ergebnis der Prüfung.\n",
     "id": "central-childcare-responsibility-review",
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2025-06-18",
       "outcome": "adopted",
       "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127",
-      "summary": "Der Rat beantragte bei der Samtgemeinde die Prüfung einer zentralen Kita-Zuständigkeit und ihrer Folgen.\n"
+      "summary": "Der Rat beauftragte die Gemeindeverwaltung, bei der Samtgemeinde eine Prüfung der zentralen Kita-Zuständigkeit und ihrer Folgen zu beantragen.\n"
     },
     "locations": [],
     "milestones": [
       {
         "date": "2025-06-18",
         "status": "reached",
-        "title": "Rat beantragt Prüfung bei der Samtgemeinde"
+        "title": "Rat beschließt, eine Prüfung bei der Samtgemeinde zu beantragen"
       }
     ],
     "organizations": [
@@ -48,20 +48,20 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-12",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-06-18",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0256",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127"
       }
     ],
-    "status": "implementation",
+    "status": "open",
     "statusBasis": {
-      "scope": "implementation",
+      "scope": "topic",
       "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38466&SILFDNR=2127",
-      "summary": "Der Rat hat die Prüfung beauftragt; eine ausdrückliche Unterbrechung ist in den öffentlichen Quellen nicht dokumentiert.\n"
+      "summary": "Belegt ist der Auftrag, bei der Samtgemeinde eine Prüfung zu beantragen. Eine Annahme oder ein Beginn dieser Prüfung ist damit nicht belegt.\n"
     },
-    "summary": "Rötgesbüttel hat bei der Samtgemeinde eine Prüfung beantragt, ob Kita-Aufgaben zentral gebündelt werden können; ein öffentliches Ergebnis ist noch nicht dokumentiert.\n",
+    "summary": "Der Rat beschloss, bei der Samtgemeinde eine Prüfung zur Bündelung von Kita-Aufgaben zu beantragen. Ob die Samtgemeinde die Prüfung aufgenommen hat, geht aus der verlinkten Quelle nicht hervor.\n",
     "title": "Prüfung einer zentralen Kita-Zuständigkeit",
     "visibility": "published"
   }

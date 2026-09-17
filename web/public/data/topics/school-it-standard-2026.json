@@ -11,17 +11,24 @@
     ],
     "dates": {
       "createdAt": "2026-02-24",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-02-24"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Die Samtgemeinde ersetzt den technischen Ausstattungsstand aus dem Jahr\n2012 durch einen verbindlichen Standard. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n",
+    "description": "Die Verwaltung schlägt vor, den Ausstattungsstandard aus dem Jahr 2012\nneu festzulegen. Vorgesehen sind unter anderem\nMediaboards, iPad-Klassensätze, Leihgeräte für Lehrkräfte, zentrale\nManagementsysteme sowie getrennte Verwaltungs- und Schulnetze.\n\nDie Vorlage nennt ausdrücklich die Grundschule Rötgesbüttel und alle\nweiteren Grundschulstandorte. Ersatzbeschaffungen sollen in der\nHaushaltsplanung ab 2027 berücksichtigt und nach Möglichkeit mit\nFördermitteln wie dem Digitalpakt 2.0 finanziert werden.\n\nDer Schulausschuss empfahl den Vorschlag am 24. Februar 2026. Laut\nBeratungsfolge entscheidet der Samtgemeindeausschuss abschließend. Dessen\nErgebnis ist in den verlinkten Unterlagen nicht dokumentiert; die\ntechnische Kennzeichnung als erledigt ersetzt keinen Beschlussnachweis.\n",
     "id": "school-it-standard-2026",
+    "latestDecision": {
+      "body": "Schulausschuss der Samtgemeinde Papenteich",
+      "date": "2026-02-24",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096",
+      "summary": "Der Schulausschuss nahm die Empfehlung zum IT-Ausstattungsstandard mit acht Ja-Stimmen und zwei Enthaltungen an. Die endgültige Entscheidung liegt beim Samtgemeindeausschuss.\n"
+    },
     "locations": [],
     "milestones": [
       {
         "date": "2026-02-24",
         "status": "reached",
-        "title": "Schulausschuss beschließt den Ausstattungsstandard"
+        "title": "Schulausschuss empfiehlt den Ausstattungsstandard"
       }
     ],
     "organizations": [
@@ -39,22 +46,27 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-02-24",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2026/0974",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1000636&refresh=false&TOLFDNR=1004336"
       },
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-02-24",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 24. Februar 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096"
       }
     ],
-    "status": "implementation",
-    "summary": "Seit 2026 gilt für die Grundschulen ein neuer gemeinsamer Standard mit Mediaboards, mobilen Endgeräten, zentraler Verwaltung und erneuerter Netzwerkinfrastruktur.\n",
+    "status": "committee",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1004336&SILFDNR=1000096",
+      "summary": "Die Zustimmung des Schulausschusses ist eine Beschlussempfehlung. Den abschließenden Beschluss des zuständigen Samtgemeindeausschusses belegen die verlinkten Quellen nicht.\n"
+    },
+    "summary": "Der Schulausschuss empfahl einen gemeinsamen IT-Standard für die Grundschulen. Ein abschließender Beschluss oder die Umsetzung ist durch die verlinkten Quellen nicht belegt.\n",
     "title": "Neuer IT-Ausstattungsstandard für Grundschulen",
     "visibility": "published"
   }

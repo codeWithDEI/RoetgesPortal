@@ -10,11 +10,18 @@
     ],
     "dates": {
       "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2025-12-16"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Antrag der Gemeinde, aber noch keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
+    "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
     "id": "muehlenweg-speed-limit",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2025-12-16",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
+      "summary": "Der Rat beschloss, beim Landkreis Gifhorn eine Reduzierung von 100 auf 70 km/h zu beantragen.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/muehlenweg-speed-limit.geojson",
@@ -41,15 +48,20 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2025-12-16",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0280",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151"
       }
     ],
-    "status": "implementation",
-    "summary": "Die Gemeinde hat beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h beantragt.\n",
+    "status": "open",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
+      "summary": "Der Rat beschloss einen Antrag an den Landkreis. Eine verkehrsrechtliche Anordnung oder die Umsetzung von Tempo 70 ist in der verlinkten Quelle nicht belegt.\n"
+    },
+    "summary": "Der Rat beschloss, beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h zu beantragen.\n",
     "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg",
     "visibility": "published"
   }

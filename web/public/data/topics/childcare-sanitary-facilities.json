@@ -11,11 +11,18 @@
     ],
     "dates": {
       "createdAt": "2026-03-17",
-      "lastVerifiedAt": "2026-08-14",
-      "updatedAt": "2026-03-17"
+      "lastVerifiedAt": "2026-09-17",
+      "updatedAt": "2026-09-17"
     },
-    "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n",
+    "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n\nDas DRK erläuterte in der Beratung, dass es Unterstützung mit einem\nArchitekten anbieten, aber kein vollständiges Konzept selbst liefern\nkönne. Der Beschluss belegt noch keine begonnene Sanierung.\n",
     "id": "childcare-sanitary-facilities",
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2026-03-17",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260",
+      "summary": "Der Rat beschloss, das DRK mit einer Konzeption beziehungsweise beratender Unterstützung zur Vorbereitung der Sanierung zu beauftragen.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/childcare-sanitary-facilities.geojson",
@@ -28,7 +35,7 @@
       {
         "date": "2026-03-17",
         "status": "reached",
-        "title": "Rat beauftragt das DRK mit Konzeption und Beratung"
+        "title": "Rat beschließt Konzeption beziehungsweise Beratung durch das DRK"
       }
     ],
     "organizations": [
@@ -42,14 +49,19 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-08-14",
+        "accessedAt": "2026-09-17",
         "publishedAt": "2026-03-17",
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 17. März 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260"
       }
     ],
-    "status": "implementation",
+    "status": "open",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260",
+      "summary": "Der Rat beschloss die Vorbereitung eines Konzepts beziehungsweise Beratung durch das DRK. Ein Beginn der Sanierungsarbeiten ist damit nicht belegt.\n"
+    },
     "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.\n",
     "title": "Sanierung der Sanitärräume in der Kindertagesstätte",
     "visibility": "published"
