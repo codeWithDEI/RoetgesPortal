@@ -2,7 +2,8 @@
 
 This document describes tracked implementation and documented operating policy,
 not a live-server audit. Technical details were checked against the repository
-on 2026-09-18. Recheck the linked files when changing the project. Missing facts
+on 2026-09-18; the activity contract and exports were updated on 2026-09-27.
+Recheck the linked files when changing the project. Missing facts
 are marked `Unknown / not documented in repository`.
 
 ## Purpose and product principles
@@ -114,6 +115,7 @@ document will remain available. See [content monitoring](operations/content-moni
 | Topic | Stable ID, title, summary, optional description, lifecycle status, visibility, area IDs, dates, sources, optional locations/milestones/positions |
 | Status basis | `scope` (`topic`, `proposal`, `implementation`), evidence summary, and source URL supporting the topic phase |
 | Latest decision | Date, body, outcome, summary, source URL; independent of the broader topic phase |
+| Latest activity | Optional original event date, summary, listed source URL for the latest verified substantive development; independent of editorial updates |
 | Source | Title, type, URL, access date, optional publication date |
 | Milestone | Date, title, optional description; explicitly `planned`, `reached`, `postponed`, or `cancelled` |
 | Location | ID, label, impact type, and `geoJsonFile` reference; coordinates are not editorial YAML |
@@ -159,7 +161,13 @@ Public meeting metadata -> scan_sitzung_online.py -> review queue
   from minutes. Only datasets needed by published views are exported. Draft and
   archived topics are excluded from these public artifacts, not hidden from Git.
 - Outputs include `areas.json`, topic/dataset JSON, view manifests/list items/map
-  layers, and `search-index.json`. The sync script refreshes `web/public/data/`
+  layers, `search-index.json`, and `latest-activity.json`. The latter includes
+  published topics with verified activity metadata, ordered by event date
+  descending and ID ascending for ties, with explicit coverage counts. Consumers
+  filter political/geographic scope before selecting their first three items;
+  topics with missing activity metadata are excluded, without a date fallback.
+  See the [consumer contract](architecture/content-model.md#latest-substantive-developments-for-external-consumers).
+  The sync script refreshes `web/public/data/`
   before development/build; both generated trees are committed. Browsers never
   consume the YAML directly. A standalone web checkout can use its committed copy.
 - [.github/workflows/validate.yml](../.github/workflows/validate.yml) runs on PRs
@@ -178,6 +186,13 @@ become the lifecycle status of an entire project. `statusBasis` and
 `latestDecision` reference entries in `sources`; these fields are optional in
 the schema, but expected for relevant new/materially updated content as described
 in the policy. The generator preserves them; it cannot supply missing evidence.
+
+`latestActivity` also cites a listed source. Its date is the evidenced event's
+original date, not the day it was discovered or edited. Corrections, text edits,
+and retrospective status classification change `dates.updatedAt` without
+advancing substantive activity. Missing event evidence remains missing. The
+validator requires the activity date to be no later than `lastVerifiedAt`.
+Details display activity separately; `/neu` and RSS retain editorial dates.
 
 Keep factual state, impact, and sourced positions distinct. Check primary sources
 for each material assertion, including numbers, chronology, decisions, and local

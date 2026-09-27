@@ -10,6 +10,34 @@ items:
     reviewedFingerprint: sha256:0359465dc42da4ceac146b371ea1fd318bd162921eb886899f9427c51a00cc40
     reviewedAt: "2026-09-04"
 
+  - candidateId: 1000417/1008666
+    decision: update-topic
+    topicId: glass-container-relocation
+    reason: The public council agenda establishes scheduling on 22 September, while the checked result page provides no outcome. Preserve the unknown decision and planned milestone.
+    reviewedFingerprint: sha256:6a10c74493c512688f9b6903194deacf8efa10da0dbbe664fc18d1646e1d6fe5
+    reviewedAt: "2026-09-25"
+
+  - candidateId: 1000417/1008667
+    decision: update-topic
+    topicId: community-hall-fees
+    reason: The revised public proposal reports the 17 August committee recommendation and its incorporation into the draft. Final council adoption and entry into force remain unverified.
+    reviewedFingerprint: sha256:d0caf706dace322d176f3b45c3b2a36bf882d801973120e3d79304baff62697d
+    reviewedAt: "2026-09-25"
+
+  - candidateId: 1000417/1008668
+    decision: update-topic
+    topicId: aukenroth-residential-development
+    reason: The revised public proposal reports the 1 September decision on additional draft provisions. No final display resolution or effective plan is established.
+    reviewedFingerprint: sha256:dea325225e67d171fb1c1c3f17cd9f36b76b9de8cc29320fbf66b14caa8706f0
+    reviewedAt: "2026-09-25"
+
+  - candidateId: 1000128/1008842
+    decision: update-topic
+    topicId: adenbuettel-primary-school-extension
+    reason: The amended proposal removes the differentiation room, explains the funding gap, and assigns the final decision to the Samtgemeinderat. No final vote is established.
+    reviewedFingerprint: sha256:ee0ac302f7f6b800e09f8d9c56fed8f598238981e88a58b9edf96002e2cd3732
+    reviewedAt: "2026-09-25"
+
   - candidateId: 1000327/1008231
     decision: no-topic
     reason: The agenda item is an informational youth-centre report without a published decision or durable project update.

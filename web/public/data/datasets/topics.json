@@ -12,11 +12,16 @@
       ],
       "dates": {
         "createdAt": "2026-08-31",
-        "lastVerifiedAt": "2026-09-17",
-        "updatedAt": "2026-09-17"
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-27"
       },
-      "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt\nwerden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nIn der Beratungsfolge waren der Schulausschuss am 8. September und der\nBauausschuss am 16. September 2026 vorgesehen. Die abschließende Entscheidung\nist dem Samtgemeindeausschuss zugeordnet. Die verlinkten Quellen enthalten\nkein öffentliches Ergebnis dieser Beratungen und bestätigen daher keine\nabschließende Zustimmung zum Entwurf und zur Kostenberechnung.\n",
+      "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert werden. Der ursprüngliche Entwurf sah darin einen abgetrennten\nDifferenzierungsraum vor. Die Folgevorlage SGP/2026/1084-01 berichtet von\neiner Änderung des Beschlussvorschlags im Bauausschuss am 16. September\n2026: In Abstimmung mit der Schulleitung soll dieser Raum entfallen und\nder Durchbruch zur bestehenden Mensa kleiner werden.\n\nFür den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nDer Nachtrag zur Folgevorlage erklärt die Mehrkosten mit 8.000 Euro für\neine Machbarkeitsstudie, 2.000 Euro für Prüfung und Genehmigung durch den\nLandkreis sowie 2.000 Euro für Aufrundungen der Kostenschätzungen.\n\nNach den für den 8. und 16. September vorgesehenen Schul- und\nBauausschusssitzungen stand die geänderte Vorlage am 24. September 2026\nunter TOP 6 auf der Tagesordnung des Finanzausschusses. Die neue\nBeratungsfolge sieht anschließend eine Empfehlung des\nSamtgemeindeausschusses und die abschließende Entscheidung des\nSamtgemeinderates vor. Die am 25. September geprüfte öffentliche\nBeschlussseite des Finanzausschusses liefert kein Ergebnis. Eine\nendgültige Zustimmung oder ein Baubeginn ist durch die verlinkten\nQuellen nicht bestätigt.\n",
       "id": "adenbuettel-primary-school-extension",
+      "latestActivity": {
+        "date": "2026-09-16",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842",
+        "summary": "Laut Folgevorlage wurde der Beschlussvorschlag im Bauausschuss geändert: Der Differenzierungsraum soll entfallen und der Durchbruch zur bestehenden Mensa kleiner werden.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/adenbuettel-primary-school-extension.geojson",
@@ -25,7 +30,19 @@
           "label": "Grundschule Adenbüttel"
         }
       ],
-      "milestones": [],
+      "milestones": [
+        {
+          "date": "2026-09-16",
+          "status": "reached",
+          "title": "Beschlussvorschlag laut Folgevorlage im Bauausschuss geändert"
+        },
+        {
+          "date": "2026-09-24",
+          "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
+          "status": "planned",
+          "title": "Vorgesehene Beratung der geänderten Vorlage im Finanzausschuss"
+        }
+      ],
       "organizations": [
         "joint-municipality-papenteich"
       ],
@@ -36,25 +53,37 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "sourceType": "proposal",
           "title": "Vorlage SGP/2026/1084 zur Erweiterung der Grundschule Adenbüttel",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "sourceType": "agenda",
           "title": "Sitzung des Schulausschusses vom 8. September 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "proposal",
+          "title": "Vorlage SGP/2026/1084-01 mit geändertem Beschlussvorschlag und Kostennachtrag",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung des Finanzausschusses vom 24. September 2026, TOP 6",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000128&refresh=false"
         }
       ],
       "status": "committee",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500",
-        "summary": "Entwurf und Kosten wurden zur Ausschussberatung vorgelegt. Die verlinkte Vorlage belegt keine abschließende Zustimmung des Samtgemeindeausschusses.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842",
+        "summary": "Der nach der Bauausschusssitzung geänderte Vorschlag lag für den Finanzausschuss am 24. September vor. Die neue Beratungsfolge sieht die abschließende Entscheidung beim Samtgemeinderat; eine endgültige Zustimmung ist durch die verlinkten Quellen nicht bestätigt.\n"
       },
-      "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.\n",
+      "summary": "Der geänderte Vorschlag sieht einen neuen Unterrichtsraum und eine größere Mensa ohne Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.\n",
       "title": "Erweiterung der Grundschule Adenbüttel",
       "visibility": "published"
     },
@@ -138,11 +167,23 @@
       ],
       "dates": {
         "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-09-17",
-        "updatedAt": "2026-09-17"
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-27"
       },
-      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und\nWegeausschuss war für den 27. August 2026 zur Vorberatung vorgesehen. Ein\nErgebnis dieser Beratung oder ein abschließender Auslegungsbeschluss ist\ndurch die verlinkten Quellen nicht belegt.\n",
+      "description": "Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und\nDoppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.\nDer ländliche Charakter soll unter anderem durch eine eingeschossige\nBauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen\nOrtsrand berücksichtigt werden.\n\nDie frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen\nabgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen\nvorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung\nwurden anhand der Rückmeldungen angepasst.\n\nVor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur\nVersickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht\nund den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über\ndie Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4\nAbs. 2 BauGB entscheiden.\n\nLaut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss am\n1. September 2026 weitere Vorgaben für den Entwurf. Sie betreffen unter\nanderem Gebäudehöhen, Einfriedungen, den Ausschluss von Schottergärten\nund das Pflanzen von Bäumen. Diese Punkte finden sich auch im beigefügten\nPlanentwurf mit Stand vom 2. September 2026. Sie werden hier\nals Entwurfsinhalt beschrieben; ein rechtskräftiger Bebauungsplan ist\ndamit nicht belegt.\n\nParallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch\ndie Samtgemeinde Papenteich erforderlich. Nach der für den 27. August\nvorgesehenen Vorberatung stand der ergänzte Entwurf am 22. September 2026\nunter TOP 6 auf der Tagesordnung des Rates. Die am 25. September geprüfte\nöffentliche Beschlussseite liefert kein Ergebnis. Ein abschließender\nAuslegungsbeschluss oder ein tatsächlicher Auslegungszeitraum ist durch\ndie verlinkten Quellen nicht bestätigt.\n",
       "id": "aukenroth-residential-development",
+      "latestActivity": {
+        "date": "2026-09-02",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668",
+        "summary": "Der beigefügte Planentwurf mit Stand vom 2. September enthält die ergänzten Vorgaben unter anderem zu Gebäudehöhen, Einfriedungen, Schottergärten und Baumpflanzungen. Ein endgültiger Planbeschluss ist damit nicht belegt.\n"
+      },
+      "latestDecision": {
+        "body": "Verwaltungsausschuss der Gemeinde Rötgesbüttel",
+        "date": "2026-09-01",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668",
+        "summary": "Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss zusätzliche Gestaltungsvorgaben für den Planentwurf. Dies ist kein abschließender Beschluss über den Bebauungsplan.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/aukenroth-residential-development.geojson",
@@ -161,6 +202,17 @@
           "date": "2026-06-25",
           "status": "reached",
           "title": "Rat behandelt Bebauungsplan und Flächennutzungsplanänderung"
+        },
+        {
+          "date": "2026-09-01",
+          "status": "reached",
+          "title": "Verwaltungsausschuss ergänzt laut Folgevorlage den Planentwurf"
+        },
+        {
+          "date": "2026-09-22",
+          "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
+          "status": "planned",
+          "title": "Vorgesehene Ratsentscheidung über die öffentliche Auslegung"
         }
       ],
       "organizations": [
@@ -174,48 +226,60 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0304 zum Auslegungsbeschluss",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0304-01 zum ergänzten Planentwurf Aukenroth",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 22. September 2026, TOP 6",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false"
         }
       ],
-      "status": "committee",
+      "status": "council",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256",
-        "summary": "Die Vorlage bestätigt die abgeschlossene frühzeitige Beteiligung und bereitet den nächsten Verfahrensschritt vor. Ein abschließender Auslegungsbeschluss ist durch diese Quelle nicht belegt.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false",
+        "summary": "Der Auslegungsbeschluss stand am 22. September 2026 unter TOP 6 auf der Ratstagesordnung. Die Einplanung und der ergänzte Entwurf sind belegt, das Ergebnis und der Beginn einer Auslegung hingegen nicht.\n"
       },
-      "summary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.\n",
+      "summary": "Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die öffentliche Auslegung war für den 22. September zur Ratsentscheidung vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.\n",
       "title": "Wohngebiet Aukenroth",
       "visibility": "published"
     },
@@ -746,17 +810,22 @@
       ],
       "dates": {
         "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-09-17",
-        "updatedAt": "2026-09-17"
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-27"
       },
-      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nFür den 17. August 2026 war eine Beratung der Neufassung im Kultur- und\nSportausschuss angekündigt. Die Beratungsfolge kennzeichnet diesen Schritt\nals erledigt, die vorgesehenen Beratungen im Verwaltungsausschuss und Rat\ndagegen als gestoppt. Diese technischen Verfahrensangaben belegen weder\nein Beratungsergebnis noch eine inhaltliche Pause. Ein abschließender\nBeschluss über die Gebühren ist durch die verlinkten Quellen nicht belegt.\n",
+      "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDie Folgevorlage Rötg/2026/0303-01 berichtet, dass der Kultur- und\nSportausschuss am 17. August 2026 der Neufassung mit Änderungen zugestimmt\nhat. Die Verwaltung hat diese Änderungen laut Vorlage in den Entwurf\neingearbeitet. Damit liegt ein öffentlich belegter Bericht über die\nAusschussempfehlung vor.\n\nDie überarbeitete Satzung stand am 22. September 2026 unter TOP 5 auf der\nTagesordnung des Rates. Die am 25. September geprüfte öffentliche\nBeschlussseite liefert kein Ergebnis. Ein abschließender Satzungsbeschluss\noder das Inkrafttreten neuer Gebühren ist durch die verlinkten Quellen\nweiterhin nicht bestätigt.\n",
       "id": "community-hall-fees",
+      "latestActivity": {
+        "date": "2026-08-17",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
+        "summary": "Laut öffentlicher Folgevorlage stimmte der Kultur- und Sportausschuss dem geänderten Gebührenentwurf zu. Die endgültige Ratsentscheidung ist damit nicht belegt.\n"
+      },
       "latestDecision": {
-        "body": "Rat der Gemeinde Rötgesbüttel",
-        "date": "2026-06-25",
+        "body": "Kultur- und Sportausschuss der Gemeinde Rötgesbüttel",
+        "date": "2026-08-17",
         "outcome": "adopted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087",
-        "summary": "Der Rat beauftragte die Vorbereitung einer Neufassung der Gebührensatzung.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
+        "summary": "Laut der veröffentlichten Folgevorlage stimmte der Ausschuss der Neufassung mit Änderungen zu. Dies ist eine Ausschussempfehlung, kein abschließender Satzungsbeschluss des Rates.\n"
       },
       "locations": [
         {
@@ -776,6 +845,17 @@
           "date": "2026-06-25",
           "status": "reached",
           "title": "Rat beauftragt die Vorbereitung einer Neufassung"
+        },
+        {
+          "date": "2026-08-17",
+          "status": "reached",
+          "title": "Ausschuss stimmt laut Folgevorlage der geänderten Neufassung zu"
+        },
+        {
+          "date": "2026-09-22",
+          "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
+          "status": "planned",
+          "title": "Vorgesehene Ratsentscheidung über die Gebührensatzung"
         }
       ],
       "organizations": [
@@ -788,41 +868,53 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0297-01",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001098&refresh=false&TOLFDNR=1007633"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2026/0303 zur Neufassung der Gebührensatzung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Kultur- und Sportausschusses vom 17. August 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000326&refresh=false"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "proposal",
+          "title": "Vorlage Rötg/2026/0303-01 zur geänderten Gebührensatzung",
+          "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 22. September 2026, TOP 5",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false"
         }
       ],
-      "status": "open",
+      "status": "council",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001198&refresh=false&TOLFDNR=1008087",
-        "summary": "Die Vorbereitung einer Neufassung wurde beschlossen. Die verlinkte Vorlage belegt weder die endgültige Gebührenänderung noch eine inhaltliche Pause; technische ALLRIS-Markierungen sind keine Beschlüsse.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false",
+        "summary": "Die überarbeitete Satzung stand am 22. September 2026 unter TOP 5 zur Entscheidung auf der Tagesordnung des Rates. Belegt ist diese Einplanung, nicht das Ergebnis oder das Inkrafttreten neuer Gebühren.\n"
       },
-      "summary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; ein abschließender öffentlicher Beschluss ist noch nicht dokumentiert.\n",
+      "summary": "Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen; ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.\n",
       "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
       "visibility": "published"
     },
@@ -1335,11 +1427,18 @@
       ],
       "dates": {
         "createdAt": "2025-06-18",
-        "lastVerifiedAt": "2026-09-17",
-        "updatedAt": "2026-09-17"
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-25"
       },
-      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die aktualisierte Beratungsfolge sieht eine Ratsentscheidung am\n22. September 2026 vor. Ein endgültiger Standortbeschluss ist damit noch\nnicht belegt.\n",
+      "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die Standortentscheidung stand am 22. September 2026 unter TOP 4\nauf der Ratstagesordnung. Die am 25. September geprüfte öffentliche\nBeschlussseite liefert kein Ergebnis. Ein endgültiger Standortbeschluss\noder eine erfolgte Versetzung ist durch die verlinkten Quellen weiterhin\nnicht belegt.\n",
       "id": "glass-container-relocation",
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-06-25",
+        "outcome": "deferred",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255",
+        "summary": "Laut der späteren öffentlichen Vorlage vertagte der Rat die Standortentscheidung, weil der Festplatz als ungeeignet angesehen wurde.\n"
+      },
       "locations": [
         {
           "geoJsonFile": "content/locations/glass-container-relocation.geojson",
@@ -1376,6 +1475,7 @@
         },
         {
           "date": "2026-09-22",
+          "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
           "status": "planned",
           "title": "Vorgesehene Ratsentscheidung über den neuen Standort"
         }
@@ -1390,53 +1490,59 @@
       ],
       "sources": [
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2025-06-18",
           "sourceType": "resolution",
           "title": "Beschlussauszug zu Rötg/2025/0253",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=38463&SILFDNR=2127"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2025-12-16",
           "sourceType": "minutes",
           "title": "Beschlussauszug vom 16. Dezember 2025",
           "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003517&SILFDNR=2151"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0282-02",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001097&refresh=false&TOLFDNR=1007632"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-06-25",
           "sourceType": "agenda",
           "title": "Tagesordnung der Ratssitzung vom 25. Juni 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "proposal",
           "title": "Vorlage Rötg/2025/0282-03 zur erneuten Standortberatung",
           "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255"
         },
         {
-          "accessedAt": "2026-09-17",
+          "accessedAt": "2026-09-25",
           "publishedAt": "2026-08-17",
           "sourceType": "agenda",
           "title": "Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026",
           "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false"
+        },
+        {
+          "accessedAt": "2026-09-25",
+          "sourceType": "agenda",
+          "title": "Tagesordnung der Ratssitzung vom 22. September 2026, TOP 4",
+          "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false"
         }
       ],
-      "status": "committee",
+      "status": "council",
       "statusBasis": {
         "scope": "topic",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255",
-        "summary": "Nach der Vertagung im Juni liegt ein erneuter Standortvorschlag vor. Die Vorlage sieht eine Ratsentscheidung am 22. September 2026 vor, belegt aber noch keinen endgültigen Standortbeschluss.\n"
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false",
+        "summary": "Nach der Vertagung im Juni liegt ein erneuter Standortvorschlag vor. Die Standortentscheidung stand am 22. September 2026 unter TOP 4 auf der Ratstagesordnung. Ein endgültiger Standortbeschluss ist durch die geprüften öffentlichen Quellen nicht belegt.\n"
       },
       "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
       "title": "Neuer Standort für die Glascontainer",
@@ -1924,6 +2030,136 @@
       },
       "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.\n",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "elections"
+      ],
+      "dates": {
+        "createdAt": "2026-09-25",
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-27"
+      },
+      "description": "Der Samtgemeindewahlausschuss stellte am 15. September 2026 das\nendgültige Ergebnis der Wahl vom 13. September fest. Die Bekanntmachung\nvom 16. September nennt 20.142 Wahlberechtigte, 14.672 Wählerinnen und\nWähler sowie 43.061 gültige Stimmen.\n\nAuf die SPD entfallen 13.764 Stimmen und elf Sitze, auf die CDU\n8.409 Stimmen und sieben Sitze, auf die GRÜNEN 5.381 Stimmen und vier\nSitze, auf die AfD Niedersachsen 5.850 Stimmen und vier Sitze sowie\nauf die Wählergemeinschaft Papenteich (WGP) 6.218 Stimmen und fünf Sitze.\n\nDie FDP erhält mit 874 Stimmen einen Sitz, Die Linke mit 1.465 Stimmen\neinen Sitz und für Alle in Rötgesbüttel und Papenteich (fAiR uP) mit\n934 Stimmen einen Sitz. Auf den Einzelwahlvorschlag Ludwig entfallen\n166 Stimmen und kein Sitz.\n\nDie Bekanntmachung unterscheidet zwischen der rechnerischen Verteilung\nund der Besetzung: Für die vier der AfD zugeteilten Sitze stehen nur\ndrei Bewerberinnen und Bewerber zur Verfügung. Der vierte Sitz bleibt\nlaut Bekanntmachung bis zum Ende der Wahlperiode unbesetzt. Deshalb\nsind zunächst 33 der 34 Sitze besetzt.\n\nDie gewählten Personen und Ersatzpersonen stehen in der amtlichen\nBekanntmachung. Das Ergebnis der gesonderten Wahl zum Amt der\nSamtgemeindebürgermeisterin ist nicht Gegenstand dieser Sitzverteilung.\n",
+      "id": "papenteich-council-election-results-2026",
+      "latestActivity": {
+        "date": "2026-09-15",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+        "summary": "Der Samtgemeindewahlausschuss stellte das endgültige Ergebnis der Samtgemeinderatswahl vom 13. September 2026 fest.\n"
+      },
+      "latestDecision": {
+        "body": "Samtgemeindewahlausschuss Papenteich",
+        "date": "2026-09-15",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+        "summary": "Der Samtgemeindewahlausschuss stellte nach Prüfung der Wahlunterlagen das endgültige Ergebnis der Samtgemeinderatswahl vom 13. September 2026 fest.\n"
+      },
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-09-13",
+          "status": "reached",
+          "title": "Samtgemeinderatswahl im Papenteich"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "reached",
+          "title": "Wahlausschuss stellt das endgültige Ergebnis fest"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-09-25",
+          "publishedAt": "2026-09-16",
+          "sourceType": "other",
+          "title": "Amtliche Bekanntmachung des endgültigen Ergebnisses der Samtgemeinderatswahl 2026",
+          "url": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF"
+        }
+      ],
+      "status": "completed",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+        "summary": "Die amtliche Bekanntmachung vom 16. September dokumentiert die Feststellung des endgültigen Wahlergebnisses am 15. September 2026 und erläutert den unbesetzten Sitz. Abgeschlossen ist die Ergebnisfeststellung, nicht die Arbeit des gewählten Rates.\n"
+      },
+      "summary": "Das endgültige Wahlergebnis verteilt 34 Sitze auf acht Parteien und Wählergruppen. Zunächst können 33 Sitze besetzt werden, weil für die vier Sitze der AfD nur drei Bewerberinnen und Bewerber aufgestellt wurden.\n",
+      "title": "Ergebnis der Samtgemeinderatswahl 2026",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "joint-municipality-papenteich"
+      ],
+      "categories": [
+        "elections"
+      ],
+      "dates": {
+        "createdAt": "2026-09-25",
+        "lastVerifiedAt": "2026-09-27",
+        "updatedAt": "2026-09-27"
+      },
+      "description": "Nach der amtlichen Mitteilung der Samtgemeinde erreichte bei der\nDirektwahl am 13. September 2026 keine Bewerberin die erforderliche\nMehrheit. Für den 27. September ist deshalb eine Stichwahl zwischen\nInes Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt.\n\nAls Wahlzeit nennt die Samtgemeinde 8 bis 18 Uhr. Die verlinkte\nMitteilung enthält außerdem Hinweise zur Briefwahl. Dieser Beitrag\ndokumentiert diese Ankündigung. Die Quelle wurde am 27. September\nvor Ende der angegebenen Wahlzeit erneut geprüft. Ein Ergebnis der\nStichwahl ist durch die verlinkte Mitteilung nicht belegt.\n",
+      "id": "papenteich-mayoral-runoff-2026",
+      "latestActivity": {
+        "date": "2026-09-17",
+        "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
+        "summary": "Die Samtgemeinde veröffentlichte die Ankündigung der Stichwahl zwischen Ines Kielhorn und Brigitte Brinkmann für den 27. September mit einer Wahlzeit von 8 bis 18 Uhr.\n"
+      },
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-09-27",
+          "status": "planned",
+          "title": "Angekündigte Stichwahl zur Samtgemeindebürgermeisterin"
+        }
+      ],
+      "organizations": [
+        "joint-municipality-papenteich"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-adenbuettel",
+        "municipality-didderse",
+        "municipality-meine",
+        "municipality-roetgesbuettel",
+        "municipality-schwuelper",
+        "municipality-vordorf"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-09-27",
+          "publishedAt": "2026-09-17",
+          "sourceType": "pressRelease",
+          "title": "Amtliche Mitteilung zur Stichwahl um das Amt der Samtgemeindebürgermeisterin",
+          "url": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1"
+        }
+      ],
+      "status": "announced",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
+        "summary": "Die amtliche Mitteilung vom 17. September nennt den Termin, die beiden Bewerberinnen und die Wahlzeit. Der Stand beschreibt diese Ankündigung; ein Ergebnis der Stichwahl ist durch diese Quelle nicht belegt.\n"
+      },
+      "summary": "Für den 27. September ist die Stichwahl zwischen Ines Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt. Die Wahllokale sollen von 8 bis 18 Uhr geöffnet sein.\n",
+      "title": "Stichwahl zur Samtgemeindebürgermeisterin am 27. September 2026",
       "visibility": "published"
     },
     {
@@ -2501,6 +2737,72 @@
       },
       "summary": "Für eine zweite Stele an der Gemeinschaftsgrabanlage und die Instandsetzung der Parkplätze wurden zusätzliche Haushaltsmittel bereitgestellt.\n",
       "title": "Verbesserungen am Friedhof Rötgesbüttel",
+      "visibility": "published"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "elections"
+      ],
+      "dates": {
+        "createdAt": "2026-09-25",
+        "lastVerifiedAt": "2026-09-25",
+        "updatedAt": "2026-09-27"
+      },
+      "description": "Der Gemeindewahlausschuss hat am 15. September 2026 das endgültige\nErgebnis der Gemeinderatswahl vom 13. September festgestellt. Die\nBekanntmachung vom 16. September nennt 1.909 Wahlberechtigte und\n1.323 Wählerinnen und Wähler. Von den Stimmzetteln waren 1.274 gültig\nund 49 ungültig; insgesamt wurden 3.768 gültige Stimmen abgegeben.\n\nDie SPD erhält mit 840 Stimmen drei Sitze, die GRÜNEN mit 180 Stimmen\neinen Sitz, die Wählergemeinschaft in Rötgesbüttel (W.i.R.) mit\n1.512 Stimmen fünf Sitze und für Alle in Rötgesbüttel (fAiR) mit\n1.236 Stimmen vier Sitze. Zusammen sind dies 13 Sitze.\n\nDie amtliche Bekanntmachung führt außerdem die gewählten Personen und\nErsatzpersonen auf. Dieser Beitrag dokumentiert das Wahlergebnis;\nAussagen über spätere Bündnisse oder die Besetzung weiterer Ämter\nwerden daraus nicht abgeleitet.\n",
+      "id": "roetgesbuettel-council-election-results-2026",
+      "latestActivity": {
+        "date": "2026-09-15",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+        "summary": "Der Gemeindewahlausschuss stellte das endgültige Ergebnis der Gemeinderatswahl vom 13. September 2026 fest.\n"
+      },
+      "latestDecision": {
+        "body": "Gemeindewahlausschuss Rötgesbüttel",
+        "date": "2026-09-15",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+        "summary": "Der Gemeindewahlausschuss stellte nach Prüfung der Wahlunterlagen das endgültige Ergebnis der Gemeinderatswahl vom 13. September 2026 fest.\n"
+      },
+      "locations": [],
+      "milestones": [
+        {
+          "date": "2026-09-13",
+          "status": "reached",
+          "title": "Gemeinderatswahl in Rötgesbüttel"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "reached",
+          "title": "Wahlausschuss stellt das endgültige Ergebnis fest"
+        }
+      ],
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "positions": [],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "sources": [
+        {
+          "accessedAt": "2026-09-25",
+          "publishedAt": "2026-09-16",
+          "sourceType": "other",
+          "title": "Amtliche Bekanntmachung des endgültigen Ergebnisses der Gemeinderatswahl Rötgesbüttel 2026",
+          "url": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF"
+        }
+      ],
+      "status": "completed",
+      "statusBasis": {
+        "scope": "topic",
+        "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+        "summary": "Die amtliche Bekanntmachung vom 16. September dokumentiert die Feststellung des endgültigen Wahlergebnisses am 15. September 2026. Der Themenstand bezieht sich auf diese Ergebnisfeststellung.\n"
+      },
+      "summary": "Das endgültige Ergebnis der Wahl vom 13. September ist festgestellt: Von 13 Sitzen entfallen fünf auf W.i.R., vier auf fAiR, drei auf die SPD und einer auf die GRÜNEN.\n",
+      "title": "Ergebnis der Gemeinderatswahl 2026 in Rötgesbüttel",
       "visibility": "published"
     },
     {

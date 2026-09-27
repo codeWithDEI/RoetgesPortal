@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import sys
+import json
 import unittest
 from pathlib import Path
+
+from jsonschema import Draft202012Validator, FormatChecker
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -55,6 +58,8 @@ class ValidateTopicStatusTests(unittest.TestCase):
                 "sources": [{"url": source_url}],
                 "statusBasis": {"sourceUrl": source_url},
                 "latestDecision": {"sourceUrl": source_url},
+                "latestActivity": {"sourceUrl": source_url, "date": "2026-09-01"},
+                "dates": {"lastVerifiedAt": "2026-09-25"},
             }
         }
 
@@ -66,18 +71,56 @@ class ValidateTopicStatusTests(unittest.TestCase):
                 "sources": [{"url": "https://example.org/listed"}],
                 "statusBasis": {"sourceUrl": "https://example.org/missing"},
                 "latestDecision": {"sourceUrl": "https://example.org/other"},
+                "latestActivity": {"sourceUrl": "https://example.org/unlisted"},
             }
         }
 
         errors = validate_topic_status_references(topics)
 
-        self.assertEqual(2, len(errors))
+        self.assertEqual(3, len(errors))
         self.assertTrue(
             any("statusBasis.sourceUrl" in error for error in errors)
         )
         self.assertTrue(
             any("latestDecision.sourceUrl" in error for error in errors)
         )
+        self.assertTrue(any("latestActivity.sourceUrl" in error for error in errors))
+
+    def test_activity_cannot_postdate_verification(self) -> None:
+        topic = {
+            "sources": [{"url": "https://example.org/source"}],
+            "latestActivity": {
+                "date": "2026-09-27",
+                "sourceUrl": "https://example.org/source",
+            },
+            "dates": {"lastVerifiedAt": "2026-09-25"},
+        }
+        self.assertEqual(
+            ["topic 'topic': latestActivity.date must not be after dates.lastVerifiedAt"],
+            validate_topic_status_references({"topic": topic}),
+        )
+
+    def test_activity_schema_requires_complete_evidence_and_valid_date(self) -> None:
+        schema = json.loads((REPOSITORY_ROOT / "schemas/topic.schema.json").read_text())
+        validator = Draft202012Validator(
+            schema["properties"]["latestActivity"], format_checker=FormatChecker()
+        )
+        activity = {
+            "date": "2026-09-17",
+            "summary": "The authority published a consultation deadline.",
+            "sourceUrl": "https://example.org/notice",
+        }
+        self.assertEqual([], list(validator.iter_errors(activity)))
+        for field in activity:
+            with self.subTest(missing=field):
+                self.assertTrue(list(validator.iter_errors(
+                    {key: value for key, value in activity.items() if key != field}
+                )))
+        for changes in (
+            {"date": "2026-02-30"}, {"summary": ""}, {"sourceUrl": "not a URL"},
+        ):
+            with self.subTest(changes=changes):
+                self.assertTrue(list(validator.iter_errors({**activity, **changes})))
 
 
 class ValidateViewsTests(unittest.TestCase):

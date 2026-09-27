@@ -11,11 +11,16 @@
     ],
     "dates": {
       "createdAt": "2026-08-31",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-09-25",
+      "updatedAt": "2026-09-27"
     },
-    "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert und ein Teil dieses Raumes als Differenzierungsraum abgetrennt\nwerden. Für den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nIn der Beratungsfolge waren der Schulausschuss am 8. September und der\nBauausschuss am 16. September 2026 vorgesehen. Die abschließende Entscheidung\nist dem Samtgemeindeausschuss zugeordnet. Die verlinkten Quellen enthalten\nkein öffentliches Ergebnis dieser Beratungen und bestätigen daher keine\nabschließende Zustimmung zum Entwurf und zur Kostenberechnung.\n",
+    "description": "Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der\nGrundschule Adenbüttel zusätzliche Räume zu schaffen. Der nun vorgelegte\nEntwurf des Architekturbüros Gödde konkretisiert das Vorhaben: Geplant ist\nein rund 67,15 Quadratmeter großer allgemeiner Unterrichtsraum für 26\nSchülerinnen und Schüler in vorgefertigter Holzständerbauweise.\n\nZugleich soll die bestehende Mensa in den angrenzenden Unterrichtsraum\nerweitert werden. Der ursprüngliche Entwurf sah darin einen abgetrennten\nDifferenzierungsraum vor. Die Folgevorlage SGP/2026/1084-01 berichtet von\neiner Änderung des Beschlussvorschlags im Bauausschuss am 16. September\n2026: In Abstimmung mit der Schulleitung soll dieser Raum entfallen und\nder Durchbruch zur bestehenden Mensa kleiner werden.\n\nFür den Anbau soll wegen der kleinen Dachfläche und der bereits\nweitgehend mit Photovoltaik belegten Bestandsdächer eine Ausnahme von einer\nzusätzlichen Photovoltaikanlage beantragt werden.\n\nDer Beschlussvorschlag beziffert die aktuellen Kosten auf 762.000 Euro. Im\nHaushalt stehen 750.000 Euro zur Verfügung; die Mehrkosten von rund 12.000\nEuro sollen aus der Investitionsnummer für die Aufstockung der Mensa in\nMeine gedeckt werden.\n\nDer Nachtrag zur Folgevorlage erklärt die Mehrkosten mit 8.000 Euro für\neine Machbarkeitsstudie, 2.000 Euro für Prüfung und Genehmigung durch den\nLandkreis sowie 2.000 Euro für Aufrundungen der Kostenschätzungen.\n\nNach den für den 8. und 16. September vorgesehenen Schul- und\nBauausschusssitzungen stand die geänderte Vorlage am 24. September 2026\nunter TOP 6 auf der Tagesordnung des Finanzausschusses. Die neue\nBeratungsfolge sieht anschließend eine Empfehlung des\nSamtgemeindeausschusses und die abschließende Entscheidung des\nSamtgemeinderates vor. Die am 25. September geprüfte öffentliche\nBeschlussseite des Finanzausschusses liefert kein Ergebnis. Eine\nendgültige Zustimmung oder ein Baubeginn ist durch die verlinkten\nQuellen nicht bestätigt.\n",
     "id": "adenbuettel-primary-school-extension",
+    "latestActivity": {
+      "date": "2026-09-16",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842",
+      "summary": "Laut Folgevorlage wurde der Beschlussvorschlag im Bauausschuss geändert: Der Differenzierungsraum soll entfallen und der Durchbruch zur bestehenden Mensa kleiner werden.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/adenbuettel-primary-school-extension.geojson",
@@ -24,7 +29,19 @@
         "label": "Grundschule Adenbüttel"
       }
     ],
-    "milestones": [],
+    "milestones": [
+      {
+        "date": "2026-09-16",
+        "status": "reached",
+        "title": "Beschlussvorschlag laut Folgevorlage im Bauausschuss geändert"
+      },
+      {
+        "date": "2026-09-24",
+        "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
+        "status": "planned",
+        "title": "Vorgesehene Beratung der geänderten Vorlage im Finanzausschuss"
+      }
+    ],
     "organizations": [
       "joint-municipality-papenteich"
     ],
@@ -35,25 +52,37 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-17",
+        "accessedAt": "2026-09-25",
         "sourceType": "proposal",
         "title": "Vorlage SGP/2026/1084 zur Erweiterung der Grundschule Adenbüttel",
         "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500"
       },
       {
-        "accessedAt": "2026-09-17",
+        "accessedAt": "2026-09-25",
         "sourceType": "agenda",
         "title": "Sitzung des Schulausschusses vom 8. September 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000125&refresh=false"
+      },
+      {
+        "accessedAt": "2026-09-25",
+        "sourceType": "proposal",
+        "title": "Vorlage SGP/2026/1084-01 mit geändertem Beschlussvorschlag und Kostennachtrag",
+        "url": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842"
+      },
+      {
+        "accessedAt": "2026-09-25",
+        "sourceType": "agenda",
+        "title": "Tagesordnung des Finanzausschusses vom 24. September 2026, TOP 6",
+        "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000128&refresh=false"
       }
     ],
     "status": "committee",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001273&refresh=false&TOLFDNR=1008500",
-      "summary": "Entwurf und Kosten wurden zur Ausschussberatung vorgelegt. Die verlinkte Vorlage belegt keine abschließende Zustimmung des Samtgemeindeausschusses.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842",
+      "summary": "Der nach der Bauausschusssitzung geänderte Vorschlag lag für den Finanzausschuss am 24. September vor. Die neue Beratungsfolge sieht die abschließende Entscheidung beim Samtgemeinderat; eine endgültige Zustimmung ist durch die verlinkten Quellen nicht bestätigt.\n"
     },
-    "summary": "Ein Entwurf sieht einen neuen Unterrichtsraum, eine größere Mensa und einen Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.\n",
+    "summary": "Der geänderte Vorschlag sieht einen neuen Unterrichtsraum und eine größere Mensa ohne Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.\n",
     "title": "Erweiterung der Grundschule Adenbüttel",
     "visibility": "published"
   }

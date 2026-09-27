@@ -1,0 +1,62 @@
+id: papenteich-mayoral-runoff-2026
+title: Stichwahl zur Samtgemeindebürgermeisterin am 27. September 2026
+summary: >
+  Für den 27. September ist die Stichwahl zwischen Ines Kielhorn
+  (parteilos) und Brigitte Brinkmann (SPD) angekündigt. Die Wahllokale
+  sollen von 8 bis 18 Uhr geöffnet sein.
+status: announced
+statusBasis:
+  scope: topic
+  summary: >
+    Die amtliche Mitteilung vom 17. September nennt den Termin, die
+    beiden Bewerberinnen und die Wahlzeit. Der Stand beschreibt diese
+    Ankündigung; ein Ergebnis der Stichwahl ist durch diese Quelle
+    nicht belegt.
+  sourceUrl: https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1
+latestActivity:
+  date: "2026-09-17"
+  summary: >
+    Die Samtgemeinde veröffentlichte die Ankündigung der Stichwahl
+    zwischen Ines Kielhorn und Brigitte Brinkmann für den 27. September
+    mit einer Wahlzeit von 8 bis 18 Uhr.
+  sourceUrl: https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+categories:
+  - elections
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-09-25"
+  updatedAt: "2026-09-27"
+  lastVerifiedAt: "2026-09-27"
+
+description: |
+  Nach der amtlichen Mitteilung der Samtgemeinde erreichte bei der
+  Direktwahl am 13. September 2026 keine Bewerberin die erforderliche
+  Mehrheit. Für den 27. September ist deshalb eine Stichwahl zwischen
+  Ines Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt.
+
+  Als Wahlzeit nennt die Samtgemeinde 8 bis 18 Uhr. Die verlinkte
+  Mitteilung enthält außerdem Hinweise zur Briefwahl. Dieser Beitrag
+  dokumentiert diese Ankündigung. Die Quelle wurde am 27. September
+  vor Ende der angegebenen Wahlzeit erneut geprüft. Ein Ergebnis der
+  Stichwahl ist durch die verlinkte Mitteilung nicht belegt.
+
+locations: []
+milestones:
+  - date: "2026-09-27"
+    title: Angekündigte Stichwahl zur Samtgemeindebürgermeisterin
+    status: planned
+
+sources:
+  - title: Amtliche Mitteilung zur Stichwahl um das Amt der Samtgemeindebürgermeisterin
+    sourceType: pressRelease
+    url: https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1
+    publishedAt: "2026-09-17"
+    accessedAt: "2026-09-27"
+
+positions: []

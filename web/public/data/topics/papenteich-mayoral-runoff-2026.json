@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "elections"
+    ],
+    "dates": {
+      "createdAt": "2026-09-25",
+      "lastVerifiedAt": "2026-09-27",
+      "updatedAt": "2026-09-27"
+    },
+    "description": "Nach der amtlichen Mitteilung der Samtgemeinde erreichte bei der\nDirektwahl am 13. September 2026 keine Bewerberin die erforderliche\nMehrheit. Für den 27. September ist deshalb eine Stichwahl zwischen\nInes Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt.\n\nAls Wahlzeit nennt die Samtgemeinde 8 bis 18 Uhr. Die verlinkte\nMitteilung enthält außerdem Hinweise zur Briefwahl. Dieser Beitrag\ndokumentiert diese Ankündigung. Die Quelle wurde am 27. September\nvor Ende der angegebenen Wahlzeit erneut geprüft. Ein Ergebnis der\nStichwahl ist durch die verlinkte Mitteilung nicht belegt.\n",
+    "id": "papenteich-mayoral-runoff-2026",
+    "latestActivity": {
+      "date": "2026-09-17",
+      "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
+      "summary": "Die Samtgemeinde veröffentlichte die Ankündigung der Stichwahl zwischen Ines Kielhorn und Brigitte Brinkmann für den 27. September mit einer Wahlzeit von 8 bis 18 Uhr.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-09-27",
+        "status": "planned",
+        "title": "Angekündigte Stichwahl zur Samtgemeindebürgermeisterin"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-09-27",
+        "publishedAt": "2026-09-17",
+        "sourceType": "pressRelease",
+        "title": "Amtliche Mitteilung zur Stichwahl um das Amt der Samtgemeindebürgermeisterin",
+        "url": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1"
+      }
+    ],
+    "status": "announced",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
+      "summary": "Die amtliche Mitteilung vom 17. September nennt den Termin, die beiden Bewerberinnen und die Wahlzeit. Der Stand beschreibt diese Ankündigung; ein Ergebnis der Stichwahl ist durch diese Quelle nicht belegt.\n"
+    },
+    "summary": "Für den 27. September ist die Stichwahl zwischen Ines Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt. Die Wahllokale sollen von 8 bis 18 Uhr geöffnet sein.\n",
+    "title": "Stichwahl zur Samtgemeindebürgermeisterin am 27. September 2026",
+    "visibility": "published"
+  }
+}

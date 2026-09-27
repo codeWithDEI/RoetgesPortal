@@ -23,6 +23,7 @@ if (await exists(repositoryData)) {
   for (const entry of [
     "areas.json",
     "datasets",
+    "latest-activity.json",
     "search-index.json",
     "topics",
     "views",

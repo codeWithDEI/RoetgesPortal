@@ -46,6 +46,18 @@ This separation allows a broad topic to remain in implementation even when one
 alternative was rejected. Conversely, a proposal-scoped topic can be completed
 while its latest decision clearly states that the proposal was withdrawn.
 
+`latestActivity` is an optional object with required `date`, `summary`, and
+`sourceUrl`. It records a verified substantive development using the original
+event date, independently of `latestDecision` and editorial `dates.updatedAt`.
+Late discovery does not make an old event recent. Corrections, text edits, and
+retrospective status classification do not advance the activity date. A future
+deadline may be announced today: today's evidenced announcement is the activity,
+not the future event. See the [editorial policy](../governance/editorial-policy.md#substantive-developments-and-editorial-dates).
+
+Omit the object when the development or its date cannot be established. There
+is no fallback to an editorial date, decision, or milestone. Topic detail pages
+show an evidenced activity separately from editorial update/verification dates.
+
 ### Datasets
 
 Files under `content/datasets/` register reusable inputs. A dataset can point
@@ -96,8 +108,9 @@ files:
 10. Every presentation and map layer must reference a source from its view.
 11. Every topic area must exist, and the administrative hierarchy must be
     acyclic.
-12. `statusBasis.sourceUrl` and `latestDecision.sourceUrl` must match a source
-    listed on the same topic.
+12. `statusBasis.sourceUrl`, `latestDecision.sourceUrl`, and
+    `latestActivity.sourceUrl` must match a source listed on the same topic.
+13. `latestActivity.date` must not be later than `dates.lastVerifiedAt`.
 
 ## Geographic conventions
 
@@ -122,6 +135,7 @@ runtime artifacts below `generated/`:
 ```text
 generated/
 ├── areas.json
+├── latest-activity.json
 ├── datasets/
 │   └── topics.json
 ├── topics/
@@ -146,6 +160,46 @@ combines referenced location files and enriches every feature with stable topic
 navigation and filter properties. The `relevantAreaIds` property is generated
 from the area hierarchy and is never edited directly. A standalone
 GeoJSON-backed layer reuses its normalized dataset artifact directly.
+
+### Latest substantive developments for external consumers
+
+`latestActivity` is preserved in topic details, topic datasets, compact list
+items, and search items. This is an additive optional field in schema version 3.
+The generated `/data/latest-activity.json` file provides all published topics
+with that field, including completed topics outside the active council view.
+It contains one item per topic, sorted by `latestActivity.date` descending and
+stable topic `id` ascending for ties. It is a current-topic index, not an event
+history or a completeness claim about municipal activity.
+
+Each item has the compact list fields plus `path` (portal-relative page path);
+`detail` is relative to the index, e.g. `topics/<id>.json`. The `latestActivity`
+object contains the event text and its source URL. `coverage.publishedTopics`
+and `coverage.topicsWithLatestActivity` expose how much of the published topic
+collection has verified activity metadata. Missing items must not be assigned
+`updatedAt` as an inferred activity date.
+
+For a consumer such as fair-roetgesbüttel.de, fetch the JSON at build/server time,
+filter the desired political/geographic scope **before** taking the first three,
+and label the displayed date as an event date. For municipality-owned topics:
+
+```js
+const response = await fetch("https://roetgesportal.de/data/latest-activity.json");
+if (!response.ok) throw new Error(`Portal data unavailable: ${response.status}`);
+const { items, coverage } = await response.json();
+const latestThree = items
+  .filter((topic) => topic.organizations.includes("municipality-roetgesbuettel"))
+  .slice(0, 3);
+// Use topic.latestActivity.date/summary/sourceUrl and topic.path.
+// Keep coverage visible to the consuming editor; fewer than three is valid.
+```
+
+To include relevant Samtgemeinde topics as well, select both organization IDs
+(`municipality-roetgesbuettel`, `joint-municipality-papenteich`) and require
+`relevantAreaIds` to include `municipality-roetgesbuettel`. Geography alone does
+not identify the responsible political body. No external consumer is changed
+by this repository update, and no cross-origin browser access is assumed.
+The existing `/neu`, RSS, and council-view ordering continue to describe
+editorial updates; their dates are not substantive-activity dates.
 
 The administrative structure is based on the official Samtgemeinde Papenteich
 member-municipality listing:

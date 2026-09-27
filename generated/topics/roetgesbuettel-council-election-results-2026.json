@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "elections"
+    ],
+    "dates": {
+      "createdAt": "2026-09-25",
+      "lastVerifiedAt": "2026-09-25",
+      "updatedAt": "2026-09-27"
+    },
+    "description": "Der Gemeindewahlausschuss hat am 15. September 2026 das endgültige\nErgebnis der Gemeinderatswahl vom 13. September festgestellt. Die\nBekanntmachung vom 16. September nennt 1.909 Wahlberechtigte und\n1.323 Wählerinnen und Wähler. Von den Stimmzetteln waren 1.274 gültig\nund 49 ungültig; insgesamt wurden 3.768 gültige Stimmen abgegeben.\n\nDie SPD erhält mit 840 Stimmen drei Sitze, die GRÜNEN mit 180 Stimmen\neinen Sitz, die Wählergemeinschaft in Rötgesbüttel (W.i.R.) mit\n1.512 Stimmen fünf Sitze und für Alle in Rötgesbüttel (fAiR) mit\n1.236 Stimmen vier Sitze. Zusammen sind dies 13 Sitze.\n\nDie amtliche Bekanntmachung führt außerdem die gewählten Personen und\nErsatzpersonen auf. Dieser Beitrag dokumentiert das Wahlergebnis;\nAussagen über spätere Bündnisse oder die Besetzung weiterer Ämter\nwerden daraus nicht abgeleitet.\n",
+    "id": "roetgesbuettel-council-election-results-2026",
+    "latestActivity": {
+      "date": "2026-09-15",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+      "summary": "Der Gemeindewahlausschuss stellte das endgültige Ergebnis der Gemeinderatswahl vom 13. September 2026 fest.\n"
+    },
+    "latestDecision": {
+      "body": "Gemeindewahlausschuss Rötgesbüttel",
+      "date": "2026-09-15",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+      "summary": "Der Gemeindewahlausschuss stellte nach Prüfung der Wahlunterlagen das endgültige Ergebnis der Gemeinderatswahl vom 13. September 2026 fest.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-09-13",
+        "status": "reached",
+        "title": "Gemeinderatswahl in Rötgesbüttel"
+      },
+      {
+        "date": "2026-09-15",
+        "status": "reached",
+        "title": "Wahlausschuss stellt das endgültige Ergebnis fest"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-09-25",
+        "publishedAt": "2026-09-16",
+        "sourceType": "other",
+        "title": "Amtliche Bekanntmachung des endgültigen Ergebnisses der Gemeinderatswahl Rötgesbüttel 2026",
+        "url": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF"
+      }
+    ],
+    "status": "completed",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1990.1&Ext=PDF",
+      "summary": "Die amtliche Bekanntmachung vom 16. September dokumentiert die Feststellung des endgültigen Wahlergebnisses am 15. September 2026. Der Themenstand bezieht sich auf diese Ergebnisfeststellung.\n"
+    },
+    "summary": "Das endgültige Ergebnis der Wahl vom 13. September ist festgestellt: Von 13 Sitzen entfallen fünf auf W.i.R., vier auf fAiR, drei auf die SPD und einer auf die GRÜNEN.\n",
+    "title": "Ergebnis der Gemeinderatswahl 2026 in Rötgesbüttel",
+    "visibility": "published"
+  }
+}
