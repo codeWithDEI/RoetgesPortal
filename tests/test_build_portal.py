@@ -6,6 +6,7 @@ import json
 import sys
 import tempfile
 import unittest
+from copy import deepcopy
 from pathlib import Path
 
 
@@ -17,11 +18,58 @@ from build_portal import (  # noqa: E402
     filter_and_sort_topics,
     make_topic_location_collection,
     make_list_item,
+    make_activity_items,
     resolve_relevant_area_ids,
 )
 
 
 class BuildPortalTests(unittest.TestCase):
+    def test_activity_order_ignores_editorial_updates_and_unverified_topics(self) -> None:
+        def topic(topic_id, event_date=None, visibility="published"):
+            item = {
+                "id": topic_id,
+                "title": topic_id,
+                "summary": "Topic summary",
+                "status": "completed",
+                "visibility": visibility,
+                "dates": {"updatedAt": "2026-09-25"},
+            }
+            if event_date:
+                item["latestActivity"] = {
+                    "date": event_date,
+                    "summary": "Verified development",
+                    "sourceUrl": "https://example.org/source",
+                }
+            return item
+
+        topics = [
+            topic("z-same-day", "2026-09-16"),
+            topic("backfilled", "2026-08-01"),
+            topic("latest", "2026-09-17"),
+            topic("a-same-day", "2026-09-16"),
+            topic("unknown"),
+            topic("draft", "2026-09-25", "draft"),
+            topic("archived", "2026-09-25", "archived"),
+        ]
+        original = deepcopy(topics)
+        items = make_activity_items(topics)
+        self.assertEqual(
+            ["latest", "a-same-day", "z-same-day", "backfilled"],
+            [item["id"] for item in items],
+        )
+        self.assertEqual(original, topics)
+        self.assertEqual("topics/latest.json", items[0]["detail"])
+        self.assertEqual("/themen/latest", items[0]["path"])
+        self.assertEqual(topics[2]["latestActivity"], items[0]["latestActivity"])
+
+        # Corrections and a newly discovered older event do not become newest.
+        topics[1]["dates"]["updatedAt"] = "2026-10-01"
+        topics[4]["dates"]["updatedAt"] = "2026-10-02"
+        self.assertEqual(
+            [item["id"] for item in items],
+            [item["id"] for item in make_activity_items(topics)],
+        )
+
     def test_resolves_area_ancestors_and_descendants_for_filters(self) -> None:
         areas = {
             "joint": {"id": "joint"},
@@ -131,6 +179,7 @@ class BuildPortalTests(unittest.TestCase):
         }
 
         self.assertNotIn("latestDecision", make_list_item(topic))
+        self.assertNotIn("latestActivity", make_list_item(topic))
 
     def test_topic_locations_become_enriched_geojson_features(self) -> None:
         topic = {
@@ -227,10 +276,29 @@ class BuildPortalTests(unittest.TestCase):
 
             self.assertEqual(first_build, second_build)
             self.assertEqual(7, counts["areas"])
-            self.assertEqual(42, counts["topics"])
+            self.assertEqual(45, counts["topics"])
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())
+            activity_index = json.loads((output / "latest-activity.json").read_text())
+            self.assertEqual(45, activity_index["coverage"]["publishedTopics"])
+            self.assertEqual(6, activity_index["coverage"]["topicsWithLatestActivity"])
+            local_items = [
+                item for item in activity_index["items"]
+                if "municipality-roetgesbuettel" in item["organizations"]
+            ]
+            self.assertEqual(
+                [
+                    "roetgesbuettel-council-election-results-2026",
+                    "aukenroth-residential-development",
+                    "community-hall-fees",
+                ],
+                [item["id"] for item in local_items[:3]],
+            )
+            for item in activity_index["items"]:
+                detail = json.loads((output / item["detail"]).read_text())["topic"]
+                self.assertEqual(detail["latestActivity"], item["latestActivity"])
+                self.assertEqual(detail["latestActivity"], make_list_item(detail)["latestActivity"])
             self.assertFalse(
                 (output / "views/flea-market/manifest.json").exists()
             )

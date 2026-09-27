@@ -229,7 +229,7 @@ def validate_topic_areas(
 def validate_topic_status_references(
     topics: dict[str, dict[str, Any]],
 ) -> list[str]:
-    """Require status evidence and decisions to cite a listed topic source."""
+    """Require topic evidence to cite a listed source and verified event date."""
     errors: list[str] = []
     for topic_id, topic in topics.items():
         source_urls = {
@@ -238,7 +238,7 @@ def validate_topic_status_references(
             if isinstance(source, dict) and isinstance(source.get("url"), str)
         }
 
-        for field in ("statusBasis", "latestDecision"):
+        for field in ("statusBasis", "latestDecision", "latestActivity"):
             evidence = topic.get(field)
             if not isinstance(evidence, dict):
                 continue
@@ -247,6 +247,21 @@ def validate_topic_status_references(
                 errors.append(
                     f"topic '{topic_id}': {field}.sourceUrl must match a "
                     "listed topic source"
+                )
+
+        activity = topic.get("latestActivity")
+        dates = topic.get("dates")
+        if isinstance(activity, dict) and isinstance(dates, dict):
+            event_date = activity.get("date")
+            verified_date = dates.get("lastVerifiedAt")
+            if (
+                isinstance(event_date, str)
+                and isinstance(verified_date, str)
+                and event_date > verified_date
+            ):
+                errors.append(
+                    f"topic '{topic_id}': latestActivity.date must not be "
+                    "after dates.lastVerifiedAt"
                 )
 
     return errors

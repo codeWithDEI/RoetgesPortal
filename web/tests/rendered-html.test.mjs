@@ -108,6 +108,33 @@ test("separates the topic phase from the latest decision", async () => {
   assert.match(html, /Entscheidungsquelle öffnen/);
 });
 
+test("separates a verified event date from the editorial update", async () => {
+  const response = await render("/themen/roetgesbuettel-council-election-results-2026");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /Letzte belegte Entwicklung/);
+  assert.match(html, /<time dateTime="2026-09-15">15\. September 2026<\/time>/i);
+  assert.match(html, /Redaktionell aktualisiert<\/dt><dd>27\. September 2026<\/dd>/);
+  assert.match(html, /Quelle zur Entwicklung öffnen/);
+  assert.match(html, /href="https:\/\/www\.papenteich\.de\/loadDocument\.phtml\?FID=3716\.1990\.1&amp;Ext=PDF"/);
+
+  const withoutActivity = await render("/themen/glass-container-relocation");
+  assert.doesNotMatch(await withoutActivity.text(), /Letzte belegte Entwicklung/);
+});
+
+test("ships the activity index with source evidence and explicit coverage", () => {
+  const { items, coverage } = JSON.parse(readFileSync(
+    new URL("../public/data/latest-activity.json", import.meta.url), "utf8",
+  ));
+  assert.equal(coverage.publishedTopics, publishedTopics.length);
+  assert.equal(coverage.topicsWithLatestActivity, items.length);
+  for (const item of items) {
+    const topic = publishedTopics.find((topic) => topic.id === item.id);
+    assert.deepEqual(item.latestActivity, topic.latestActivity);
+    assert.ok(topic.sources.some((source) => source.url === item.latestActivity.sourceUrl));
+  }
+});
+
 test("publishes canonical and source-backed structured metadata", async () => {
   const overview = await render("/");
   assert.equal(overview.status, 200);

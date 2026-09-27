@@ -45,6 +45,12 @@ export type TopicDates = {
   lastVerifiedAt: string;
 };
 
+export type LatestActivity = {
+  date: string;
+  summary: string;
+  sourceUrl: string;
+};
+
 export type Milestone = {
   date: string;
   title: string;
@@ -77,6 +83,7 @@ export type Topic = {
   status: TopicStatus;
   statusBasis?: TopicStatusBasis;
   latestDecision?: LatestDecision;
+  latestActivity?: LatestActivity;
   visibility: "draft" | "published" | "archived";
   categories: string[];
   organizations: string[];
@@ -94,6 +101,7 @@ export type TopicListItem = Pick<
   | "summary"
   | "status"
   | "latestDecision"
+  | "latestActivity"
   | "categories"
   | "organizations"
   | "areas"

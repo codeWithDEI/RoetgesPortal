@@ -129,7 +129,29 @@ def make_list_item(topic: dict[str, Any]) -> dict[str, Any]:
         item["upcomingMilestone"] = milestone
     if "latestDecision" in topic:
         item["latestDecision"] = topic["latestDecision"]
+    if "latestActivity" in topic:
+        item["latestActivity"] = topic["latestActivity"]
     return item
+
+
+def make_activity_items(topics: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Rank published, evidenced developments independently of editorial dates."""
+    selected = sorted(
+        (
+            topic for topic in topics
+            if topic["visibility"] == "published" and "latestActivity" in topic
+        ),
+        key=lambda topic: topic["id"],
+    )
+    selected.sort(key=lambda topic: topic["latestActivity"]["date"], reverse=True)
+    return [
+        {
+            **make_list_item(topic),
+            "detail": f"topics/{topic['id']}.json",
+            "path": f"/themen/{topic['id']}",
+        }
+        for topic in selected
+    ]
 
 
 def facet_values(
@@ -258,6 +280,10 @@ def clean_owned_outputs(output_root: Path) -> None:
     if areas.exists():
         areas.unlink()
 
+    activity_index = output_root / "latest-activity.json"
+    if activity_index.exists():
+        activity_index.unlink()
+
 
 def build_portal(
     repository_root: Path = REPOSITORY_ROOT,
@@ -314,6 +340,19 @@ def build_portal(
                 "topic": topic,
             },
         )
+
+    activity_items = make_activity_items(published_topics)
+    write_json(
+        output_root / "latest-activity.json",
+        {
+            "schemaVersion": SCHEMA_VERSION,
+            "coverage": {
+                "publishedTopics": len(published_topics),
+                "topicsWithLatestActivity": len(activity_items),
+            },
+            "items": activity_items,
+        },
+    )
 
     dataset_artifacts: dict[str, str] = {}
     for dataset in sorted(
@@ -458,6 +497,8 @@ def build_portal(
         }
         if "latestDecision" in topic:
             search_item["latestDecision"] = topic["latestDecision"]
+        if "latestActivity" in topic:
+            search_item["latestActivity"] = topic["latestActivity"]
         search_items.append(search_item)
     write_json(
         output_root / "search-index.json",

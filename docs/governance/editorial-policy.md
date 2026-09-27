@@ -61,6 +61,36 @@ New or materially updated topics should include a `statusBasis` that summarizes
 the evidence and references a source already listed on the topic. If a formal
 decision is known, `latestDecision` should be included as well.
 
+## Substantive developments and editorial dates
+
+`latestActivity` records the latest verified, dated substantive development of
+the topic: its original event `date`, a factual `summary`, and a `sourceUrl`
+listed in the topic's sources. Examples include a resolution, a verified start
+of construction, a changed planning draft, or publication of a consultation
+deadline. For an announcement, use the publication date and describe the
+announcement; the future deadline or scheduled meeting is not a completed event.
+
+- A new substantive development advances `latestActivity` to the event date.
+- Corrections, wording changes, and retrospective status classification change
+  `dates.updatedAt`, not the event date. Correct an erroneous activity fact/date
+  transparently when the source requires it; do not replace it with today's date.
+- A late-discovered event uses its original date. It replaces an existing
+  activity only if it is the latest supported substantive development.
+- `dates.lastVerifiedAt` and source access dates advance only after actual source
+  verification. Verification alone does not create an activity.
+- Do not infer activity from editorial timestamps, a build, elapsed planned
+  milestones, or an ALLRIS workflow label. A formal decision may also be the
+  latest activity, but `latestDecision` is not an automatic fallback.
+- Include the field in new/materially revised topics when evidence supports the
+  development and its date. Otherwise omit it and record the evidence gap in the
+  review. Do not fabricate dates for legacy topics to fill a newest-three list.
+
+The field remains optional to allow an evidence-led migration. A topic without
+it is not known to have no activity; it is excluded from activity rankings. The
+generated index reports its coverage. Technical validation checks the source
+reference and that the event is no later than `dates.lastVerifiedAt`; only source
+review can establish factual truth or whether a later development exists.
+
 ## Publication workflow
 
 1. The optional content monitor records public agenda changes in a non-public

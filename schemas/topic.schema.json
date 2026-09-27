@@ -94,6 +94,17 @@
         }
       }
     },
+    "latestActivity": {
+      "description": "Latest verified substantive development, dated when it happened, not when it was edited or discovered.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "summary", "sourceUrl"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "summary": {"type": "string", "minLength": 1},
+        "sourceUrl": {"type": "string", "format": "uri"}
+      }
+    },
     "visibility": {
       "enum": ["draft", "published", "archived"]
     },

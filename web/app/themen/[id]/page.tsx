@@ -138,7 +138,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </div>
             <dl className="topic-facts">
               <div>
-                <dt>Zuletzt aktualisiert</dt>
+                <dt>Redaktionell aktualisiert</dt>
                 <dd>{formatDate(topic.dates.updatedAt)}</dd>
               </div>
               <div>
@@ -227,6 +227,24 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </article>
 
             <aside className="topic-detail__aside">
+              {topic.latestActivity ? (
+                <div className="aside-block">
+                  <p className="eyebrow">Letzte belegte Entwicklung</p>
+                  <strong>
+                    <time dateTime={topic.latestActivity.date}>
+                      {formatDate(topic.latestActivity.date)}
+                    </time>
+                  </strong>
+                  <p>{topic.latestActivity.summary}</p>
+                  <a
+                    href={topic.latestActivity.sourceUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Quelle zur Entwicklung öffnen <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              ) : null}
               {topic.latestDecision ? (
                 <div className="aside-block aside-block--decision">
                   <p className="eyebrow">Letzte Entscheidung</p>

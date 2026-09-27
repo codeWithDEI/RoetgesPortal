@@ -3,6 +3,143 @@
     {
       "geometry": {
         "coordinates": [
+          10.529923,
+          52.414556
+        ],
+        "type": "Point"
+      },
+      "id": "community-hall-fees:affected-facilities:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "public-facilities",
+          "finance"
+        ],
+        "detailPath": "/themen/community-hall-fees",
+        "impactType": "indirect",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "affected-facilities",
+        "locationLabel": "Bürgerhalle, Gemeinschaftsräume und Festplatz",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "community-hall-fees",
+        "topicStatus": "council",
+        "topicSummary": "Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen; ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.",
+        "topicTitle": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.523529,
+              52.42234
+            ],
+            [
+              10.526243,
+              52.42232
+            ],
+            [
+              10.525889,
+              52.421685
+            ],
+            [
+              10.52384,
+              52.42164
+            ],
+            [
+              10.523529,
+              52.42234
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "aukenroth-residential-development:planning-area:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "urban-planning",
+          "housing",
+          "environment"
+        ],
+        "detailPath": "/themen/aukenroth-residential-development",
+        "impactType": "direct",
+        "latestDecisionOutcome": "adopted",
+        "locationId": "planning-area",
+        "locationLabel": "Plangebiet Aukenroth",
+        "organizations": [
+          "municipality-roetgesbuettel",
+          "joint-municipality-papenteich"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Location manually assigned from the public topic record",
+        "topicId": "aukenroth-residential-development",
+        "topicStatus": "council",
+        "topicSummary": "Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die öffentliche Auslegung war für den 22. September zur Ratsentscheidung vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.",
+        "topicTitle": "Wohngebiet Aukenroth"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.53101,
+          52.414115
+        ],
+        "type": "Point"
+      },
+      "id": "glass-container-relocation:proposed-fairground-site:0",
+      "properties": {
+        "areas": [
+          "municipality-roetgesbuettel"
+        ],
+        "categories": [
+          "waste",
+          "public-space",
+          "mobility"
+        ],
+        "detailPath": "/themen/glass-container-relocation",
+        "impactType": "direct",
+        "latestDecisionOutcome": "deferred",
+        "locationId": "proposed-fairground-site",
+        "locationLabel": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13",
+        "organizations": [
+          "municipality-roetgesbuettel"
+        ],
+        "precision": "approximate",
+        "relevantAreaIds": [
+          "joint-municipality-papenteich",
+          "municipality-roetgesbuettel"
+        ],
+        "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june",
+        "topicId": "glass-container-relocation",
+        "topicStatus": "council",
+        "topicSummary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
+        "topicTitle": "Neuer Standort für die Glascontainer"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           10.528142,
           52.419919
         ],
@@ -77,44 +214,6 @@
         "topicStatus": "open",
         "topicSummary": "Der Schulausschuss empfahl jährlich 3.000 Euro Entschädigung ab 2027 für die Mensanutzung am Freitag und die Vorbereitung einer Änderungsvereinbarung. Ein abschließender Vertrag ist durch die verlinkten Quellen nicht belegt.",
         "topicTitle": "Entschädigung für die Mensanutzung der Bürgerhalle"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.529923,
-          52.414556
-        ],
-        "type": "Point"
-      },
-      "id": "community-hall-fees:affected-facilities:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "public-facilities",
-          "finance"
-        ],
-        "detailPath": "/themen/community-hall-fees",
-        "impactType": "indirect",
-        "latestDecisionOutcome": "adopted",
-        "locationId": "affected-facilities",
-        "locationLabel": "Bürgerhalle, Gemeinschaftsräume und Festplatz",
-        "organizations": [
-          "municipality-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "community-hall-fees",
-        "topicStatus": "open",
-        "topicSummary": "Eine Neufassung der Gebühren für Bürgerhalle, Gemeinschaftsräume und Festplatz wurde beraten; ein abschließender öffentlicher Beschluss ist noch nicht dokumentiert.",
-        "topicTitle": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
       },
       "type": "Feature"
     },
@@ -291,44 +390,6 @@
     {
       "geometry": {
         "coordinates": [
-          10.53101,
-          52.414115
-        ],
-        "type": "Point"
-      },
-      "id": "glass-container-relocation:proposed-fairground-site:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "waste",
-          "public-space",
-          "mobility"
-        ],
-        "detailPath": "/themen/glass-container-relocation",
-        "impactType": "direct",
-        "locationId": "proposed-fairground-site",
-        "locationLabel": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13",
-        "organizations": [
-          "municipality-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june",
-        "topicId": "glass-container-relocation",
-        "topicStatus": "committee",
-        "topicSummary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
-        "topicTitle": "Neuer Standort für die Glascontainer"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           10.529269,
           52.414802
         ],
@@ -403,65 +464,6 @@
         "topicStatus": "open",
         "topicSummary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
         "topicTitle": "Versetzung des Ortsschildes am nördlichen Ortseingang"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              10.523529,
-              52.42234
-            ],
-            [
-              10.526243,
-              52.42232
-            ],
-            [
-              10.525889,
-              52.421685
-            ],
-            [
-              10.52384,
-              52.42164
-            ],
-            [
-              10.523529,
-              52.42234
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "aukenroth-residential-development:planning-area:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "urban-planning",
-          "housing",
-          "environment"
-        ],
-        "detailPath": "/themen/aukenroth-residential-development",
-        "impactType": "direct",
-        "locationId": "planning-area",
-        "locationLabel": "Plangebiet Aukenroth",
-        "organizations": [
-          "municipality-roetgesbuettel",
-          "joint-municipality-papenteich"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Location manually assigned from the public topic record",
-        "topicId": "aukenroth-residential-development",
-        "topicStatus": "committee",
-        "topicSummary": "Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen. Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung vorbereitet werden.",
-        "topicTitle": "Wohngebiet Aukenroth"
       },
       "type": "Feature"
     },

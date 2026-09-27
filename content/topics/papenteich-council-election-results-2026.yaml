@@ -1,0 +1,87 @@
+id: papenteich-council-election-results-2026
+title: Ergebnis der Samtgemeinderatswahl 2026
+summary: >
+  Das endgültige Wahlergebnis verteilt 34 Sitze auf acht Parteien und
+  Wählergruppen. Zunächst können 33 Sitze besetzt werden, weil für die vier
+  Sitze der AfD nur drei Bewerberinnen und Bewerber aufgestellt wurden.
+status: completed
+statusBasis:
+  scope: topic
+  summary: >
+    Die amtliche Bekanntmachung vom 16. September dokumentiert die
+    Feststellung des endgültigen Wahlergebnisses am 15. September 2026
+    und erläutert den unbesetzten Sitz. Abgeschlossen ist die
+    Ergebnisfeststellung, nicht die Arbeit des gewählten Rates.
+  sourceUrl: https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF
+latestDecision:
+  date: "2026-09-15"
+  body: Samtgemeindewahlausschuss Papenteich
+  outcome: adopted
+  summary: >
+    Der Samtgemeindewahlausschuss stellte nach Prüfung der Wahlunterlagen
+    das endgültige Ergebnis der Samtgemeinderatswahl vom 13. September
+    2026 fest.
+  sourceUrl: https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF
+latestActivity:
+  date: "2026-09-15"
+  summary: >
+    Der Samtgemeindewahlausschuss stellte das endgültige Ergebnis der
+    Samtgemeinderatswahl vom 13. September 2026 fest.
+  sourceUrl: https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF
+visibility: published
+
+areas:
+  - joint-municipality-papenteich
+categories:
+  - elections
+organizations:
+  - joint-municipality-papenteich
+
+dates:
+  createdAt: "2026-09-25"
+  updatedAt: "2026-09-27"
+  lastVerifiedAt: "2026-09-25"
+
+description: |
+  Der Samtgemeindewahlausschuss stellte am 15. September 2026 das
+  endgültige Ergebnis der Wahl vom 13. September fest. Die Bekanntmachung
+  vom 16. September nennt 20.142 Wahlberechtigte, 14.672 Wählerinnen und
+  Wähler sowie 43.061 gültige Stimmen.
+
+  Auf die SPD entfallen 13.764 Stimmen und elf Sitze, auf die CDU
+  8.409 Stimmen und sieben Sitze, auf die GRÜNEN 5.381 Stimmen und vier
+  Sitze, auf die AfD Niedersachsen 5.850 Stimmen und vier Sitze sowie
+  auf die Wählergemeinschaft Papenteich (WGP) 6.218 Stimmen und fünf Sitze.
+
+  Die FDP erhält mit 874 Stimmen einen Sitz, Die Linke mit 1.465 Stimmen
+  einen Sitz und für Alle in Rötgesbüttel und Papenteich (fAiR uP) mit
+  934 Stimmen einen Sitz. Auf den Einzelwahlvorschlag Ludwig entfallen
+  166 Stimmen und kein Sitz.
+
+  Die Bekanntmachung unterscheidet zwischen der rechnerischen Verteilung
+  und der Besetzung: Für die vier der AfD zugeteilten Sitze stehen nur
+  drei Bewerberinnen und Bewerber zur Verfügung. Der vierte Sitz bleibt
+  laut Bekanntmachung bis zum Ende der Wahlperiode unbesetzt. Deshalb
+  sind zunächst 33 der 34 Sitze besetzt.
+
+  Die gewählten Personen und Ersatzpersonen stehen in der amtlichen
+  Bekanntmachung. Das Ergebnis der gesonderten Wahl zum Amt der
+  Samtgemeindebürgermeisterin ist nicht Gegenstand dieser Sitzverteilung.
+
+locations: []
+milestones:
+  - date: "2026-09-13"
+    title: Samtgemeinderatswahl im Papenteich
+    status: reached
+  - date: "2026-09-15"
+    title: Wahlausschuss stellt das endgültige Ergebnis fest
+    status: reached
+
+sources:
+  - title: Amtliche Bekanntmachung des endgültigen Ergebnisses der Samtgemeinderatswahl 2026
+    sourceType: other
+    url: https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF
+    publishedAt: "2026-09-16"
+    accessedAt: "2026-09-25"
+
+positions: []

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "joint-municipality-papenteich"
+    ],
+    "categories": [
+      "elections"
+    ],
+    "dates": {
+      "createdAt": "2026-09-25",
+      "lastVerifiedAt": "2026-09-25",
+      "updatedAt": "2026-09-27"
+    },
+    "description": "Der Samtgemeindewahlausschuss stellte am 15. September 2026 das\nendgültige Ergebnis der Wahl vom 13. September fest. Die Bekanntmachung\nvom 16. September nennt 20.142 Wahlberechtigte, 14.672 Wählerinnen und\nWähler sowie 43.061 gültige Stimmen.\n\nAuf die SPD entfallen 13.764 Stimmen und elf Sitze, auf die CDU\n8.409 Stimmen und sieben Sitze, auf die GRÜNEN 5.381 Stimmen und vier\nSitze, auf die AfD Niedersachsen 5.850 Stimmen und vier Sitze sowie\nauf die Wählergemeinschaft Papenteich (WGP) 6.218 Stimmen und fünf Sitze.\n\nDie FDP erhält mit 874 Stimmen einen Sitz, Die Linke mit 1.465 Stimmen\neinen Sitz und für Alle in Rötgesbüttel und Papenteich (fAiR uP) mit\n934 Stimmen einen Sitz. Auf den Einzelwahlvorschlag Ludwig entfallen\n166 Stimmen und kein Sitz.\n\nDie Bekanntmachung unterscheidet zwischen der rechnerischen Verteilung\nund der Besetzung: Für die vier der AfD zugeteilten Sitze stehen nur\ndrei Bewerberinnen und Bewerber zur Verfügung. Der vierte Sitz bleibt\nlaut Bekanntmachung bis zum Ende der Wahlperiode unbesetzt. Deshalb\nsind zunächst 33 der 34 Sitze besetzt.\n\nDie gewählten Personen und Ersatzpersonen stehen in der amtlichen\nBekanntmachung. Das Ergebnis der gesonderten Wahl zum Amt der\nSamtgemeindebürgermeisterin ist nicht Gegenstand dieser Sitzverteilung.\n",
+    "id": "papenteich-council-election-results-2026",
+    "latestActivity": {
+      "date": "2026-09-15",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+      "summary": "Der Samtgemeindewahlausschuss stellte das endgültige Ergebnis der Samtgemeinderatswahl vom 13. September 2026 fest.\n"
+    },
+    "latestDecision": {
+      "body": "Samtgemeindewahlausschuss Papenteich",
+      "date": "2026-09-15",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+      "summary": "Der Samtgemeindewahlausschuss stellte nach Prüfung der Wahlunterlagen das endgültige Ergebnis der Samtgemeinderatswahl vom 13. September 2026 fest.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-09-13",
+        "status": "reached",
+        "title": "Samtgemeinderatswahl im Papenteich"
+      },
+      {
+        "date": "2026-09-15",
+        "status": "reached",
+        "title": "Wahlausschuss stellt das endgültige Ergebnis fest"
+      }
+    ],
+    "organizations": [
+      "joint-municipality-papenteich"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-adenbuettel",
+      "municipality-didderse",
+      "municipality-meine",
+      "municipality-roetgesbuettel",
+      "municipality-schwuelper",
+      "municipality-vordorf"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-09-25",
+        "publishedAt": "2026-09-16",
+        "sourceType": "other",
+        "title": "Amtliche Bekanntmachung des endgültigen Ergebnisses der Samtgemeinderatswahl 2026",
+        "url": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF"
+      }
+    ],
+    "status": "completed",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.de/loadDocument.phtml?FID=3716.1986.1&Ext=PDF",
+      "summary": "Die amtliche Bekanntmachung vom 16. September dokumentiert die Feststellung des endgültigen Wahlergebnisses am 15. September 2026 und erläutert den unbesetzten Sitz. Abgeschlossen ist die Ergebnisfeststellung, nicht die Arbeit des gewählten Rates.\n"
+    },
+    "summary": "Das endgültige Wahlergebnis verteilt 34 Sitze auf acht Parteien und Wählergruppen. Zunächst können 33 Sitze besetzt werden, weil für die vier Sitze der AfD nur drei Bewerberinnen und Bewerber aufgestellt wurden.\n",
+    "title": "Ergebnis der Samtgemeinderatswahl 2026",
+    "visibility": "published"
+  }
+}

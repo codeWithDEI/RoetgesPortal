@@ -12,6 +12,7 @@ class Topic {
   +status: TopicStatus
   +statusBasis: StatusBasis
   +latestDecision: LatestDecision
+  +latestActivity: LatestActivity
   +visibility: Visibility
   +areas: string[]
   +createdAt: date
@@ -50,6 +51,12 @@ class LatestDecision {
   +date: date
   +body: string
   +outcome: DecisionOutcome
+  +summary: string
+  +sourceUrl: uri
+}
+
+class LatestActivity {
+  +date: date
   +summary: string
   +sourceUrl: uri
 }
@@ -237,6 +244,7 @@ class Position {
 Topic "1" o-- "0..*" ImpactLocation
 Topic "1" o-- "0..1" StatusBasis
 Topic "1" o-- "0..1" LatestDecision
+Topic "1" o-- "0..1" LatestActivity
 Topic "*" -- "1..*" AdministrativeArea : applies to >
 AdministrativeArea "0..1" <-- "0..*" AdministrativeArea : parent
 Topic "1" o-- "0..*" Milestone

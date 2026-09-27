@@ -1,17 +1,34 @@
 id: aukenroth-residential-development
 title: Wohngebiet Aukenroth
 summary: >
-  Die frühzeitige Beteiligung zum Wohngebiet Aukenroth ist abgeschlossen.
-  Nun soll die öffentliche Auslegung mit erneuter Behördenbeteiligung
-  vorbereitet werden.
-status: committee
+  Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die
+  öffentliche Auslegung war für den 22. September zur Ratsentscheidung
+  vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.
+status: council
 statusBasis:
   scope: topic
   summary: >
-    Die Vorlage bestätigt die abgeschlossene frühzeitige Beteiligung und
-    bereitet den nächsten Verfahrensschritt vor. Ein abschließender
-    Auslegungsbeschluss ist durch diese Quelle nicht belegt.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256
+    Der Auslegungsbeschluss stand am 22. September 2026 unter TOP 6 auf
+    der Ratstagesordnung. Die Einplanung und der ergänzte Entwurf sind
+    belegt, das Ergebnis und der Beginn einer Auslegung hingegen nicht.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
+latestDecision:
+  date: "2026-09-01"
+  body: Verwaltungsausschuss der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss
+    zusätzliche Gestaltungsvorgaben für den Planentwurf. Dies ist kein
+    abschließender Beschluss über den Bebauungsplan.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668
+latestActivity:
+  date: "2026-09-02"
+  summary: >
+    Der beigefügte Planentwurf mit Stand vom 2. September enthält die
+    ergänzten Vorgaben unter anderem zu Gebäudehöhen, Einfriedungen,
+    Schottergärten und Baumpflanzungen. Ein endgültiger Planbeschluss
+    ist damit nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668
 visibility: published
 
 areas:
@@ -28,8 +45,8 @@ organizations:
 
 dates:
   createdAt: "2026-06-01"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-09-27"
+  lastVerifiedAt: "2026-09-25"
 
 description: |
   Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und
@@ -49,11 +66,21 @@ description: |
   die Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4
   Abs. 2 BauGB entscheiden.
 
+  Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss am
+  1. September 2026 weitere Vorgaben für den Entwurf. Sie betreffen unter
+  anderem Gebäudehöhen, Einfriedungen, den Ausschluss von Schottergärten
+  und das Pflanzen von Bäumen. Diese Punkte finden sich auch im beigefügten
+  Planentwurf mit Stand vom 2. September 2026. Sie werden hier
+  als Entwurfsinhalt beschrieben; ein rechtskräftiger Bebauungsplan ist
+  damit nicht belegt.
+
   Parallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch
-  die Samtgemeinde Papenteich erforderlich. Der Umwelt-, Bau- und
-  Wegeausschuss war für den 27. August 2026 zur Vorberatung vorgesehen. Ein
-  Ergebnis dieser Beratung oder ein abschließender Auslegungsbeschluss ist
-  durch die verlinkten Quellen nicht belegt.
+  die Samtgemeinde Papenteich erforderlich. Nach der für den 27. August
+  vorgesehenen Vorberatung stand der ergänzte Entwurf am 22. September 2026
+  unter TOP 6 auf der Tagesordnung des Rates. Die am 25. September geprüfte
+  öffentliche Beschlussseite liefert kein Ergebnis. Ein abschließender
+  Auslegungsbeschluss oder ein tatsächlicher Auslegungszeitraum ist durch
+  die verlinkten Quellen nicht bestätigt.
 
 locations:
   - id: planning-area
@@ -68,32 +95,48 @@ milestones:
   - date: "2026-06-25"
     title: Rat behandelt Bebauungsplan und Flächennutzungsplanänderung
     status: reached
+  - date: "2026-09-01"
+    title: Verwaltungsausschuss ergänzt laut Folgevorlage den Planentwurf
+    status: reached
+  - date: "2026-09-22"
+    title: Vorgesehene Ratsentscheidung über die öffentliche Auslegung
+    description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
+    status: planned
 
 sources:
   - title: Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001054&refresh=false&TOLFDNR=1007634
     publishedAt: "2026-06-25"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-09-25"
   - title: Vorlage Rötg/2026/0301 zur Flächennutzungsplanänderung
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001099&refresh=false&TOLFDNR=1007635
     publishedAt: "2026-06-25"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-09-25"
   - title: Tagesordnung der Ratssitzung vom 25. Juni 2026
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000325&refresh=false
     publishedAt: "2026-06-25"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-09-25"
   - title: Vorlage Rötg/2026/0304 zum Auslegungsbeschluss
     sourceType: proposal
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001227&refresh=false&TOLFDNR=1008256
     publishedAt: "2026-08-17"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-09-25"
   - title: Sitzung des Umwelt-, Bau- und Wegeausschusses vom 27. August 2026
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000328&refresh=false
     publishedAt: "2026-08-17"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-09-25"
+
+  - title: Vorlage Rötg/2026/0304-01 zum ergänzten Planentwurf Aukenroth
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668
+    accessedAt: "2026-09-25"
+  - title: Tagesordnung der Ratssitzung vom 22. September 2026, TOP 6
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
+    accessedAt: "2026-09-25"
 
 positions: []
