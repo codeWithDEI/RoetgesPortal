@@ -9,22 +9,22 @@
     ],
     "dates": {
       "createdAt": "2026-09-25",
-      "lastVerifiedAt": "2026-09-27",
-      "updatedAt": "2026-09-27"
+      "lastVerifiedAt": "2026-10-08",
+      "updatedAt": "2026-10-08"
     },
-    "description": "Nach der amtlichen Mitteilung der Samtgemeinde erreichte bei der\nDirektwahl am 13. September 2026 keine Bewerberin die erforderliche\nMehrheit. Für den 27. September ist deshalb eine Stichwahl zwischen\nInes Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt.\n\nAls Wahlzeit nennt die Samtgemeinde 8 bis 18 Uhr. Die verlinkte\nMitteilung enthält außerdem Hinweise zur Briefwahl. Dieser Beitrag\ndokumentiert diese Ankündigung. Die Quelle wurde am 27. September\nvor Ende der angegebenen Wahlzeit erneut geprüft. Ein Ergebnis der\nStichwahl ist durch die verlinkte Mitteilung nicht belegt.\n",
+    "description": "Nach der Direktwahl am 13. September kündigte die Samtgemeinde eine\nStichwahl zwischen Ines Kielhorn (parteilos) und Brigitte Brinkmann\n(SPD) für den 27. September 2026 an. Keine Bewerberin hatte im ersten\nWahlgang die erforderliche Mehrheit erreicht.\n\nIn ihrer Ergebnismeldung vom 27. September benennt die Samtgemeinde\nInes Kielhorn als gewählte Samtgemeindebürgermeisterin. Der Beitrag\ndokumentiert damit jetzt das Wahlergebnis statt der früheren Ankündigung.\n\nDie hier ausgewertete amtliche Meldung nennt keine Stimmenzahlen und\ndokumentiert keine förmliche Feststellung durch den Wahlausschuss.\nProzentwerte und Wahlbeteiligung werden hier deshalb nicht angegeben.\n",
     "id": "papenteich-mayoral-runoff-2026",
     "latestActivity": {
-      "date": "2026-09-17",
-      "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
-      "summary": "Die Samtgemeinde veröffentlichte die Ankündigung der Stichwahl zwischen Ines Kielhorn und Brigitte Brinkmann für den 27. September mit einer Wahlzeit von 8 bis 18 Uhr.\n"
+      "date": "2026-09-27",
+      "sourceUrl": "https://www.papenteich.de/Rathaus-Politik/Verwaltung/Bekanntmachungen/Ergebnis-der-Stichwahl-um-das-Amt-der-Samtgemeindeb%C3%BCrgermeisterin.php?ModID=255&FID=3716.44226.1",
+      "summary": "Die Samtgemeinde veröffentlichte das Ergebnis der Stichwahl und benannte Ines Kielhorn als gewählte Samtgemeindebürgermeisterin.\n"
     },
     "locations": [],
     "milestones": [
       {
         "date": "2026-09-27",
-        "status": "planned",
-        "title": "Angekündigte Stichwahl zur Samtgemeindebürgermeisterin"
+        "status": "reached",
+        "title": "Stichwahlergebnis von der Samtgemeinde veröffentlicht"
       }
     ],
     "organizations": [
@@ -47,16 +47,30 @@
         "sourceType": "pressRelease",
         "title": "Amtliche Mitteilung zur Stichwahl um das Amt der Samtgemeindebürgermeisterin",
         "url": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1"
+      },
+      {
+        "accessedAt": "2026-10-08",
+        "publishedAt": "2026-09-17",
+        "sourceType": "pressRelease",
+        "title": "Amtliche Ankündigung der Stichwahl, weiterhin erreichbare Detailseite",
+        "url": "https://www.papenteich.de/Rathaus-Politik/Verwaltung/Bekanntmachungen/Stichwahl-um-das-Amt-der-Samtgemeindeb%C3%BCrgermeisterin.php?ModID=255&FID=3716.44224.1"
+      },
+      {
+        "accessedAt": "2026-10-08",
+        "publishedAt": "2026-09-27",
+        "sourceType": "pressRelease",
+        "title": "Amtliche Ergebnismeldung zur Stichwahl vom 27. September 2026",
+        "url": "https://www.papenteich.de/Rathaus-Politik/Verwaltung/Bekanntmachungen/Ergebnis-der-Stichwahl-um-das-Amt-der-Samtgemeindeb%C3%BCrgermeisterin.php?ModID=255&FID=3716.44226.1"
       }
     ],
-    "status": "announced",
+    "status": "completed",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
-      "summary": "Die amtliche Mitteilung vom 17. September nennt den Termin, die beiden Bewerberinnen und die Wahlzeit. Der Stand beschreibt diese Ankündigung; ein Ergebnis der Stichwahl ist durch diese Quelle nicht belegt.\n"
+      "sourceUrl": "https://www.papenteich.de/Rathaus-Politik/Verwaltung/Bekanntmachungen/Ergebnis-der-Stichwahl-um-das-Amt-der-Samtgemeindeb%C3%BCrgermeisterin.php?ModID=255&FID=3716.44226.1",
+      "summary": "Die amtliche Ergebnismeldung vom 27. September benennt Ines Kielhorn als gewählte Samtgemeindebürgermeisterin. Damit ist das Ergebnis dieser Stichwahl belegt.\n"
     },
-    "summary": "Für den 27. September ist die Stichwahl zwischen Ines Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt. Die Wahllokale sollen von 8 bis 18 Uhr geöffnet sein.\n",
-    "title": "Stichwahl zur Samtgemeindebürgermeisterin am 27. September 2026",
+    "summary": "Die Samtgemeinde meldet Ines Kielhorn als Gewinnerin der Stichwahl vom 27. September 2026. Sie setzte sich gegen Brigitte Brinkmann durch.\n",
+    "title": "Ergebnis der Stichwahl zur Samtgemeindebürgermeisterin 2026",
     "visibility": "published"
   }
 }

@@ -1,7 +1,7 @@
 {
   "coverage": {
     "publishedTopics": 45,
-    "topicsWithLatestActivity": 6
+    "topicsWithLatestActivity": 7
   },
   "items": [
     {
@@ -13,15 +13,15 @@
       ],
       "dates": {
         "createdAt": "2026-09-25",
-        "lastVerifiedAt": "2026-09-27",
-        "updatedAt": "2026-09-27"
+        "lastVerifiedAt": "2026-10-08",
+        "updatedAt": "2026-10-08"
       },
       "detail": "topics/papenteich-mayoral-runoff-2026.json",
       "id": "papenteich-mayoral-runoff-2026",
       "latestActivity": {
-        "date": "2026-09-17",
-        "sourceUrl": "https://www.papenteich.de/index.php?FID=3716.44224.1&ModID=7&object=tx%2C4168.5.1",
-        "summary": "Die Samtgemeinde veröffentlichte die Ankündigung der Stichwahl zwischen Ines Kielhorn und Brigitte Brinkmann für den 27. September mit einer Wahlzeit von 8 bis 18 Uhr.\n"
+        "date": "2026-09-27",
+        "sourceUrl": "https://www.papenteich.de/Rathaus-Politik/Verwaltung/Bekanntmachungen/Ergebnis-der-Stichwahl-um-das-Amt-der-Samtgemeindeb%C3%BCrgermeisterin.php?ModID=255&FID=3716.44226.1",
+        "summary": "Die Samtgemeinde veröffentlichte das Ergebnis der Stichwahl und benannte Ines Kielhorn als gewählte Samtgemeindebürgermeisterin.\n"
       },
       "organizations": [
         "joint-municipality-papenteich"
@@ -36,14 +36,129 @@
         "municipality-schwuelper",
         "municipality-vordorf"
       ],
-      "status": "announced",
-      "summary": "Für den 27. September ist die Stichwahl zwischen Ines Kielhorn (parteilos) und Brigitte Brinkmann (SPD) angekündigt. Die Wahllokale sollen von 8 bis 18 Uhr geöffnet sein.",
-      "title": "Stichwahl zur Samtgemeindebürgermeisterin am 27. September 2026",
-      "upcomingMilestone": {
-        "date": "2026-09-27",
-        "status": "planned",
-        "title": "Angekündigte Stichwahl zur Samtgemeindebürgermeisterin"
-      }
+      "status": "completed",
+      "summary": "Die Samtgemeinde meldet Ines Kielhorn als Gewinnerin der Stichwahl vom 27. September 2026. Sie setzte sich gegen Brigitte Brinkmann durch.",
+      "title": "Ergebnis der Stichwahl zur Samtgemeindebürgermeisterin 2026"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "urban-planning",
+        "housing",
+        "environment"
+      ],
+      "dates": {
+        "createdAt": "2026-06-01",
+        "lastVerifiedAt": "2026-10-08",
+        "updatedAt": "2026-10-08"
+      },
+      "detail": "topics/aukenroth-residential-development.json",
+      "id": "aukenroth-residential-development",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417",
+        "summary": "Der Rat beschloss den nächsten Beteiligungsschritt und ergänzte den Entwurf um die Möglichkeit von Mehrfamilienhäusern mit bis zu vier Mietparteien. Ein rechtskräftiger Bebauungsplan ist damit nicht belegt.\n"
+      },
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-09-22",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417",
+        "summary": "Der Rat beschloss die Behandlung der Anregungen, die gleichzeitige Beteiligung von Öffentlichkeit und Behörden sowie die Möglichkeit von Mehrfamilienhäusern mit bis zu vier Mietparteien. Der Gesamtbeschluss wurde mit fünf Ja-Stimmen, drei Nein-Stimmen und zwei Enthaltungen angenommen.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "joint-municipality-papenteich"
+      ],
+      "path": "/themen/aukenroth-residential-development",
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "council",
+      "summary": "Der Rat hat am 22. September die weitere Beteiligung zu Aukenroth beschlossen. Der Entwurf soll auch Mehrfamilienhäuser mit bis zu vier Mietparteien ermöglichen. Ein Auslegungszeitraum ist noch nicht belegt.",
+      "title": "Wohngebiet Aukenroth"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "public-facilities",
+        "finance"
+      ],
+      "dates": {
+        "createdAt": "2026-06-04",
+        "lastVerifiedAt": "2026-10-08",
+        "updatedAt": "2026-10-08"
+      },
+      "detail": "topics/community-hall-fees.json",
+      "id": "community-hall-fees",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417",
+        "summary": "Der Rat beschloss die vorliegende Gebührensatzung für die öffentlichen Gebäude und den Festplatz. Ein Inkrafttreten neuer Gebühren ist durch diesen Beschlussauszug allein nicht belegt.\n"
+      },
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-09-22",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417",
+        "summary": "Der Rat stimmte der vorliegenden Gebührensatzung mit sechs Ja-Stimmen, zwei Nein-Stimmen und zwei Enthaltungen zu.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "path": "/themen/community-hall-fees",
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "decided",
+      "summary": "Der Rat hat am 22. September 2026 die neue Gebührensatzung für öffentliche Gebäude und den Festplatz beschlossen. Der Beschlussauszug bestätigt die Zustimmung, belegt aber noch kein Inkrafttreten der neuen Gebühren.",
+      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "waste",
+        "public-space",
+        "mobility"
+      ],
+      "dates": {
+        "createdAt": "2025-06-18",
+        "lastVerifiedAt": "2026-10-08",
+        "updatedAt": "2026-10-08"
+      },
+      "detail": "topics/glass-container-relocation.json",
+      "id": "glass-container-relocation",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417",
+        "summary": "Der Rat beschloss die Parkfläche an der Nordostseite der Bürgerhalle als Übergangsstandort für die Glascontainer, unter Vorbehalt nach Abstimmung mit der Entsorgungsfirma. Eine erfolgte Versetzung ist nicht belegt.\n"
+      },
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2026-09-22",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417",
+        "summary": "Der Rat beschloss den Übergangsstandort auf der Parkfläche an der Nordostseite der Bürgerhalle mit acht Ja-Stimmen, keiner Nein-Stimme und zwei Enthaltungen. Laut Protokoll erfolgt dies unter Vorbehalt nach Abstimmung mit der Entsorgungsfirma.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "path": "/themen/glass-container-relocation",
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "decided",
+      "summary": "Der Rat hat die Parkfläche auf der Nordostseite der Bürgerhalle als Übergangsstandort beschlossen. Die Versetzung steht unter dem Vorbehalt der Abstimmung mit dem Entsorgungsunternehmen; eine Umsetzung ist nicht belegt.",
+      "title": "Neuer Standort für die Glascontainer"
     },
     {
       "areas": [
@@ -56,8 +171,8 @@
       ],
       "dates": {
         "createdAt": "2026-08-31",
-        "lastVerifiedAt": "2026-09-25",
-        "updatedAt": "2026-09-27"
+        "lastVerifiedAt": "2026-10-08",
+        "updatedAt": "2026-10-08"
       },
       "detail": "topics/adenbuettel-primary-school-extension.json",
       "id": "adenbuettel-primary-school-extension",
@@ -74,7 +189,7 @@
         "joint-municipality-papenteich",
         "municipality-adenbuettel"
       ],
-      "status": "committee",
+      "status": "council",
       "summary": "Der geänderte Vorschlag sieht einen neuen Unterrichtsraum und eine größere Mensa ohne Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten Quellen nicht bestätigt.",
       "title": "Erweiterung der Grundschule Adenbüttel",
       "upcomingMilestone": {
@@ -164,98 +279,6 @@
       "status": "completed",
       "summary": "Das endgültige Ergebnis der Wahl vom 13. September ist festgestellt: Von 13 Sitzen entfallen fünf auf W.i.R., vier auf fAiR, drei auf die SPD und einer auf die GRÜNEN.",
       "title": "Ergebnis der Gemeinderatswahl 2026 in Rötgesbüttel"
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "urban-planning",
-        "housing",
-        "environment"
-      ],
-      "dates": {
-        "createdAt": "2026-06-01",
-        "lastVerifiedAt": "2026-09-25",
-        "updatedAt": "2026-09-27"
-      },
-      "detail": "topics/aukenroth-residential-development.json",
-      "id": "aukenroth-residential-development",
-      "latestActivity": {
-        "date": "2026-09-02",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668",
-        "summary": "Der beigefügte Planentwurf mit Stand vom 2. September enthält die ergänzten Vorgaben unter anderem zu Gebäudehöhen, Einfriedungen, Schottergärten und Baumpflanzungen. Ein endgültiger Planbeschluss ist damit nicht belegt.\n"
-      },
-      "latestDecision": {
-        "body": "Verwaltungsausschuss der Gemeinde Rötgesbüttel",
-        "date": "2026-09-01",
-        "outcome": "adopted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668",
-        "summary": "Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss zusätzliche Gestaltungsvorgaben für den Planentwurf. Dies ist kein abschließender Beschluss über den Bebauungsplan.\n"
-      },
-      "organizations": [
-        "municipality-roetgesbuettel",
-        "joint-municipality-papenteich"
-      ],
-      "path": "/themen/aukenroth-residential-development",
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "council",
-      "summary": "Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die öffentliche Auslegung war für den 22. September zur Ratsentscheidung vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.",
-      "title": "Wohngebiet Aukenroth",
-      "upcomingMilestone": {
-        "date": "2026-09-22",
-        "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
-        "status": "planned",
-        "title": "Vorgesehene Ratsentscheidung über die öffentliche Auslegung"
-      }
-    },
-    {
-      "areas": [
-        "municipality-roetgesbuettel"
-      ],
-      "categories": [
-        "public-facilities",
-        "finance"
-      ],
-      "dates": {
-        "createdAt": "2026-06-04",
-        "lastVerifiedAt": "2026-09-25",
-        "updatedAt": "2026-09-27"
-      },
-      "detail": "topics/community-hall-fees.json",
-      "id": "community-hall-fees",
-      "latestActivity": {
-        "date": "2026-08-17",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
-        "summary": "Laut öffentlicher Folgevorlage stimmte der Kultur- und Sportausschuss dem geänderten Gebührenentwurf zu. Die endgültige Ratsentscheidung ist damit nicht belegt.\n"
-      },
-      "latestDecision": {
-        "body": "Kultur- und Sportausschuss der Gemeinde Rötgesbüttel",
-        "date": "2026-08-17",
-        "outcome": "adopted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
-        "summary": "Laut der veröffentlichten Folgevorlage stimmte der Ausschuss der Neufassung mit Änderungen zu. Dies ist eine Ausschussempfehlung, kein abschließender Satzungsbeschluss des Rates.\n"
-      },
-      "organizations": [
-        "municipality-roetgesbuettel"
-      ],
-      "path": "/themen/community-hall-fees",
-      "relevantAreaIds": [
-        "joint-municipality-papenteich",
-        "municipality-roetgesbuettel"
-      ],
-      "status": "council",
-      "summary": "Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen; ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.",
-      "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
-      "upcomingMilestone": {
-        "date": "2026-09-22",
-        "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
-        "status": "planned",
-        "title": "Vorgesehene Ratsentscheidung über die Gebührensatzung"
-      }
     }
   ],
   "schemaVersion": 3

@@ -11,24 +11,29 @@
     ],
     "dates": {
       "createdAt": "2025-06-18",
-      "lastVerifiedAt": "2026-09-25",
-      "updatedAt": "2026-09-25"
+      "lastVerifiedAt": "2026-10-08",
+      "updatedAt": "2026-10-08"
     },
-    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnt beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlägt deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die Standortentscheidung stand am 22. September 2026 unter TOP 4\nauf der Ratstagesordnung. Die am 25. September geprüfte öffentliche\nBeschlussseite liefert kein Ergebnis. Ein endgültiger Standortbeschluss\noder eine erfolgte Versetzung ist durch die verlinkten Quellen weiterhin\nnicht belegt.\n",
+    "description": "Ausgangspunkt waren wiederholte Verschmutzungen an der Alten Heerstraße.\nDer Rat beschloss im Juni 2025, den Vertrag für die dortigen\nAltkleidercontainer 2026 nicht zu verlängern und die rechtlichen\nVoraussetzungen einer Videoüberwachung klären zu lassen.\n\nDer Rat beauftragte die Verwaltung im Dezember 2025, mehrere mögliche\nStandorte gemeinsam mit dem Entsorgungsunternehmen zu prüfen. Bei einer\nBefahrung am 1. April 2026 wurden Zufahrt, Erreichbarkeit und Eignung der\nStandorte bewertet.\n\nDer Umwelt-, Bau- und Wegeausschuss sprach sich am 1. Juni 2026 für den\nFestplatz aus. Der Rat vertagte die Entscheidung am 25. Juni, weil der\nStandort dort als ungeeignet angesehen wurde. Daraufhin prüfte die\nVerwaltung zwei Alternativen an der K48 mit dem Landkreis Gifhorn.\n\nDer Landkreis lehnte beide Alternativen außerhalb der Ortsdurchfahrt aus\nGründen der Verkehrssicherheit ab. Genannt werden die zulässigen 100 km/h,\nfehlende Wendemöglichkeiten und mögliche Behinderungen im Kurven- und\nEinmündungsbereich. Die Verwaltung schlug deshalb erneut vor, die Container\nhinter den Zaun auf dem Grundstück Hauptstraße 13 zu versetzen und die\nStandfläche zu pflastern. Für den 27. August 2026 war eine Vorberatung im\nAusschuss angekündigt; ihr Ergebnis ist durch die verlinkten Quellen nicht\nbestätigt. Die Standortentscheidung stand am 22. September 2026 unter TOP 4\nauf der Ratstagesordnung.\n\nDer inzwischen veröffentlichte Beschlussauszug dokumentiert einen\ngeänderten Beschluss: Die Container sollen übergangsweise auf die\nParkfläche an der Nordostseite der Bürgerhalle versetzt werden.\nDafür stimmten acht Ratsmitglieder, zwei enthielten sich; Gegenstimmen\ngab es nicht. Im Protokoll ist ausdrücklich der Vorbehalt nach Abstimmung\nmit der Entsorgungsfirma festgehalten.\n\nDer frühere Vorschlag am Festplatz ist damit nicht der beschlossene\nÜbergangsstandort. Eine tatsächliche Versetzung ist durch die geprüften\nQuellen nicht belegt.\n",
     "id": "glass-container-relocation",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417",
+      "summary": "Der Rat beschloss die Parkfläche an der Nordostseite der Bürgerhalle als Übergangsstandort für die Glascontainer, unter Vorbehalt nach Abstimmung mit der Entsorgungsfirma. Eine erfolgte Versetzung ist nicht belegt.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
-      "date": "2026-06-25",
-      "outcome": "deferred",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001228&refresh=false&TOLFDNR=1008255",
-      "summary": "Laut der späteren öffentlichen Vorlage vertagte der Rat die Standortentscheidung, weil der Festplatz als ungeeignet angesehen wurde.\n"
+      "date": "2026-09-22",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417",
+      "summary": "Der Rat beschloss den Übergangsstandort auf der Parkfläche an der Nordostseite der Bürgerhalle mit acht Ja-Stimmen, keiner Nein-Stimme und zwei Enthaltungen. Laut Protokoll erfolgt dies unter Vorbehalt nach Abstimmung mit der Entsorgungsfirma.\n"
     },
     "locations": [
       {
-        "geoJsonFile": "content/locations/glass-container-relocation.geojson",
-        "id": "proposed-fairground-site",
+        "geoJsonFile": "content/locations/glass-container-interim-site.geojson",
+        "id": "approved-interim-site",
         "impactType": "direct",
-        "label": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13"
+        "label": "Beschlossener Übergangsstandort an der Nordostseite der Bürgerhalle, unter Vorbehalt"
       }
     ],
     "milestones": [
@@ -59,9 +64,8 @@
       },
       {
         "date": "2026-09-22",
-        "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
-        "status": "planned",
-        "title": "Vorgesehene Ratsentscheidung über den neuen Standort"
+        "status": "reached",
+        "title": "Rat beschließt Übergangsstandort an der Bürgerhalle unter Vorbehalt"
       }
     ],
     "organizations": [
@@ -120,15 +124,21 @@
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 22. September 2026, TOP 4",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false"
+      },
+      {
+        "accessedAt": "2026-10-08",
+        "sourceType": "resolution",
+        "title": "Öffentlicher Beschlussauszug vom 22. September 2026, TOP 4",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417"
       }
     ],
-    "status": "council",
+    "status": "decided",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false",
-      "summary": "Nach der Vertagung im Juni liegt ein erneuter Standortvorschlag vor. Die Standortentscheidung stand am 22. September 2026 unter TOP 4 auf der Ratstagesordnung. Ein endgültiger Standortbeschluss ist durch die geprüften öffentlichen Quellen nicht belegt.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008666&SILFDNR=1000417",
+      "summary": "Der öffentliche Beschlussauszug zu TOP 4 vom 22. September bestätigt einen geänderten Beschluss über den Übergangsstandort an der Bürgerhalle. Das Protokoll hält den Vorbehalt der Abstimmung mit der Entsorgungsfirma fest; eine tatsächliche Versetzung folgt daraus nicht.\n"
     },
-    "summary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.\n",
+    "summary": "Der Rat hat die Parkfläche auf der Nordostseite der Bürgerhalle als Übergangsstandort beschlossen. Die Versetzung steht unter dem Vorbehalt der Abstimmung mit dem Entsorgungsunternehmen; eine Umsetzung ist nicht belegt.\n",
     "title": "Neuer Standort für die Glascontainer",
     "visibility": "published"
   }

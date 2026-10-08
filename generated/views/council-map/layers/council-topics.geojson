@@ -32,8 +32,8 @@
         ],
         "sourceNote": "Location manually assigned from the public topic record",
         "topicId": "community-hall-fees",
-        "topicStatus": "council",
-        "topicSummary": "Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen; ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.",
+        "topicStatus": "decided",
+        "topicSummary": "Der Rat hat am 22. September 2026 die neue Gebührensatzung für öffentliche Gebäude und den Festplatz beschlossen. Der Beschlussauszug bestätigt die Zustimmung, belegt aber noch kein Inkrafttreten der neuen Gebühren.",
         "topicTitle": "Gebühren für Bürgerhalle und Gemeinschaftsräume"
       },
       "type": "Feature"
@@ -93,47 +93,8 @@
         "sourceNote": "Location manually assigned from the public topic record",
         "topicId": "aukenroth-residential-development",
         "topicStatus": "council",
-        "topicSummary": "Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die öffentliche Auslegung war für den 22. September zur Ratsentscheidung vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.",
+        "topicSummary": "Der Rat hat am 22. September die weitere Beteiligung zu Aukenroth beschlossen. Der Entwurf soll auch Mehrfamilienhäuser mit bis zu vier Mietparteien ermöglichen. Ein Auslegungszeitraum ist noch nicht belegt.",
         "topicTitle": "Wohngebiet Aukenroth"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          10.53101,
-          52.414115
-        ],
-        "type": "Point"
-      },
-      "id": "glass-container-relocation:proposed-fairground-site:0",
-      "properties": {
-        "areas": [
-          "municipality-roetgesbuettel"
-        ],
-        "categories": [
-          "waste",
-          "public-space",
-          "mobility"
-        ],
-        "detailPath": "/themen/glass-container-relocation",
-        "impactType": "direct",
-        "latestDecisionOutcome": "deferred",
-        "locationId": "proposed-fairground-site",
-        "locationLabel": "Vorgeschlagener Standort am Festplatz, Hauptstraße 13",
-        "organizations": [
-          "municipality-roetgesbuettel"
-        ],
-        "precision": "approximate",
-        "relevantAreaIds": [
-          "joint-municipality-papenteich",
-          "municipality-roetgesbuettel"
-        ],
-        "sourceNote": "Approximate address point understood by Daniel Einicke in council meeting on 25th of june",
-        "topicId": "glass-container-relocation",
-        "topicStatus": "council",
-        "topicSummary": "Der Landkreis lehnt die geprüften Standorte an der K48 aus Gründen der Verkehrssicherheit ab. Die Verwaltung schlägt erneut den Festplatz an der Hauptstraße 13 vor.",
-        "topicTitle": "Neuer Standort für die Glascontainer"
       },
       "type": "Feature"
     },

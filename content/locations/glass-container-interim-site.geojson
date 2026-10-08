@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "sourceNote": "The public resolution of 22 September 2026 names the northeastern parking area of the community hall. Exact coordinates have not been verified."
+      }
+    }
+  ]
+}
