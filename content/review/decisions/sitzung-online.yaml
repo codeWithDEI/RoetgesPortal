@@ -13,23 +13,37 @@ items:
   - candidateId: 1000417/1008666
     decision: update-topic
     topicId: glass-container-relocation
-    reason: The public council agenda establishes scheduling on 22 September, while the checked result page provides no outcome. Preserve the unknown decision and planned milestone.
+    reason: The public resolution at council TOP 4 on 22 September adopts the northeastern community-hall parking area as an interim site, subject to coordination with the waste company. It does not establish relocation; replace the superseded fairground map reference with an unlocated placeholder.
     reviewedFingerprint: sha256:6a10c74493c512688f9b6903194deacf8efa10da0dbbe664fc18d1646e1d6fe5
-    reviewedAt: "2026-09-25"
+    reviewedAt: "2026-10-08"
 
   - candidateId: 1000417/1008667
     decision: update-topic
     topicId: community-hall-fees
-    reason: The revised public proposal reports the 17 August committee recommendation and its incorporation into the draft. Final council adoption and entry into force remain unverified.
+    reason: The public resolution at council TOP 5 on 22 September confirms adoption without amendment, with six votes for, two against, and two abstentions. Entry into force and currently applicable individual fees remain unverified.
     reviewedFingerprint: sha256:d0caf706dace322d176f3b45c3b2a36bf882d801973120e3d79304baff62697d
-    reviewedAt: "2026-09-25"
+    reviewedAt: "2026-10-08"
 
   - candidateId: 1000417/1008668
     decision: update-topic
     topicId: aukenroth-residential-development
-    reason: The revised public proposal reports the 1 September decision on additional draft provisions. No final display resolution or effective plan is established.
+    reason: The public resolution at council TOP 6 on 22 September adopts the next participation step and allows apartment buildings with up to four tenant parties. The overall vote is five for, three against, and two abstentions; the rejected flat-roof amendment does not reject the project. No actual consultation period, final plan, or construction start is established.
     reviewedFingerprint: sha256:dea325225e67d171fb1c1c3f17cd9f36b76b9de8cc29320fbf66b14caa8706f0
-    reviewedAt: "2026-09-25"
+    reviewedAt: "2026-10-08"
+
+  - candidateId: 1000130/1008976
+    decision: update-topic
+    topicId: public-library-development
+    reason: The public Samtgemeinderat agenda schedules the library proposal for TOP 5 on 7 October. The result endpoint supplies no information; record the council stage without claiming adoption or assigning a new substantive activity date.
+    reviewedFingerprint: sha256:cf7d9edeb8039f5cf5dbdeee5952ac01c9843d876f28117ffc3ca8b5b1447d59
+    reviewedAt: "2026-10-08"
+
+  - candidateId: 1000130/1008977
+    decision: update-topic
+    topicId: adenbuettel-primary-school-extension
+    reason: The public Samtgemeinderat agenda schedules the amended school proposal for TOP 6 on 7 October. The result endpoint supplies no information; record the council stage, retain the verified 16 September proposal-change activity, and do not infer approval or construction.
+    reviewedFingerprint: sha256:00c7782c6854efe877605c60190e3a56770a38e2929b1c1990eba99684040082
+    reviewedAt: "2026-10-08"
 
   - candidateId: 1000128/1008842
     decision: update-topic

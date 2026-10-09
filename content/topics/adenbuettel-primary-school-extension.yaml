@@ -5,15 +5,15 @@ summary: >
   Mensa ohne Differenzierungsraum vor. Veranschlagt sind 762.000 Euro; die
   abschließende Zustimmung zu diesem Entwurf ist durch die verlinkten
   Quellen nicht bestätigt.
-status: committee
+status: council
 statusBasis:
   scope: topic
   summary: >
-    Der nach der Bauausschusssitzung geänderte Vorschlag lag für den
-    Finanzausschuss am 24. September vor. Die neue Beratungsfolge sieht
-    die abschließende Entscheidung beim Samtgemeinderat; eine endgültige
-    Zustimmung ist durch die verlinkten Quellen nicht bestätigt.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008842
+    Der geänderte Vorschlag stand am 7. Oktober 2026 unter TOP 6 auf
+    der Tagesordnung des Samtgemeinderates. Die Ratsbefassung ist belegt;
+    die öffentliche Beschlussseite liefert bei der Prüfung am 8. Oktober
+    noch kein Ergebnis. Eine abschließende Zustimmung bleibt unbestätigt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000130&refresh=false
 latestActivity:
   date: "2026-09-16"
   summary: >
@@ -36,8 +36,8 @@ organizations:
 
 dates:
   createdAt: "2026-08-31"
-  updatedAt: "2026-09-27"
-  lastVerifiedAt: "2026-09-25"
+  updatedAt: "2026-10-08"
+  lastVerifiedAt: "2026-10-08"
 
 description: |
   Die Samtgemeinde hatte bereits grundsätzlich beschlossen, an der
@@ -71,9 +71,10 @@ description: |
   unter TOP 6 auf der Tagesordnung des Finanzausschusses. Die neue
   Beratungsfolge sieht anschließend eine Empfehlung des
   Samtgemeindeausschusses und die abschließende Entscheidung des
-  Samtgemeinderates vor. Die am 25. September geprüfte öffentliche
-  Beschlussseite des Finanzausschusses liefert kein Ergebnis. Eine
-  endgültige Zustimmung oder ein Baubeginn ist durch die verlinkten
+  Samtgemeinderates vor. Dort stand der geänderte Entwurf am 7. Oktober
+  unter TOP 6 auf der Tagesordnung. Die am 8. Oktober geprüften öffentlichen
+  Beschlussseiten des Finanz- und Samtgemeinderates liefern kein Ergebnis.
+  Eine endgültige Zustimmung oder ein Baubeginn ist durch die verlinkten
   Quellen nicht bestätigt.
 
 locations:
@@ -88,6 +89,10 @@ milestones:
     status: reached
   - date: "2026-09-24"
     title: Vorgesehene Beratung der geänderten Vorlage im Finanzausschuss
+    description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
+    status: planned
+  - date: "2026-10-07"
+    title: Vorgesehene Ratsentscheidung über die geänderte Genehmigungsplanung
     description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
     status: planned
 
@@ -109,5 +114,17 @@ sources:
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000128&refresh=false
     accessedAt: "2026-09-25"
+  - title: Tagesordnung des Samtgemeinderates vom 7. Oktober 2026, TOP 6
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000130&refresh=false
+    accessedAt: "2026-10-08"
+  - title: Geänderte Vorlage SGP/2026/1084-01 zur Ratsbefassung am 7. Oktober
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001481&refresh=false&TOLFDNR=1008977
+    accessedAt: "2026-10-08"
+  - title: Öffentliche Beschlussseite zum Samtgemeinderat am 7. Oktober, TOP 6, ohne Ergebnis
+    sourceType: website
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008977&SILFDNR=1000130
+    accessedAt: "2026-10-08"
 
 positions: []

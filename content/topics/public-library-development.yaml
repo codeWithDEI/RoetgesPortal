@@ -1,15 +1,27 @@
 id: public-library-development
 title: Weiterentwicklung der Samtgemeindebücherei
 summary: >
-  Nach einer Bürgerbefragung liegt ein konkreter Stufenplan für einen größeren,
-  barrierefreien Standort, mehr Personal, Medien und digitale Angebote vor.
-status: committee
+  Der Stufenplan für einen größeren, barrierefreien Standort und bessere
+  Angebote stand am 7. Oktober im Samtgemeinderat auf der Tagesordnung.
+  Ein abschließender Beschluss ist öffentlich noch nicht belegt.
+status: council
 statusBasis:
   scope: topic
   summary: >
-    Ein konkreter Stufenplan liegt zur Beratung vor. Die verlinkte Vorlage
-    belegt keine abschließende Entscheidung über die vorgeschlagenen Maßnahmen.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247
+    Der Stufenplan stand am 7. Oktober 2026 unter TOP 5 auf der Tagesordnung
+    des Samtgemeinderates. Die öffentliche Beschlussseite liefert bei der
+    Prüfung am 8. Oktober kein Ergebnis. Belegt ist die Einplanung,
+    nicht die Annahme der vorgeschlagenen Maßnahmen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000130&refresh=false
+latestDecision:
+  date: "2026-04-14"
+  body: Samtgemeinderat Papenteich
+  outcome: adopted
+  summary: >
+    Der Rat erkannte das Leitbild als strategische Grundlage an und
+    beauftragte die Verwaltung mit einem Umsetzungs- und Finanzkonzept.
+    Über die Ergebnisse soll der Rat anschließend erneut entscheiden.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006224&SILFDNR=1000103
 visibility: published
 
 areas:
@@ -26,8 +38,8 @@ organizations:
 
 dates:
   createdAt: "2026-04-14"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-08"
+  lastVerifiedAt: "2026-10-08"
 
 description: |
   Der Samtgemeinderat erkannte ein neues Leitbild als strategische Grundlage
@@ -49,9 +61,11 @@ description: |
   entschieden werden.
 
   Für den 2. September 2026 war eine Vorberatung im Ausschuss für Jugend,
-  Senioren und Integration angekündigt. Ein Ergebnis dieser Beratung oder
-  ein abschließender Beschluss über Maßnahmen und Kosten ist durch die
-  verlinkten Quellen nicht belegt.
+  Senioren und Integration angekündigt. Der Stufenplan stand anschließend
+  am 7. Oktober unter TOP 5 auf der Tagesordnung des Samtgemeinderates.
+  Die öffentlichen Beschlussseiten beider Sitzungen liefern bei der Prüfung
+  am 8. Oktober kein Ergebnis. Ein abschließender Beschluss über Maßnahmen
+  und Kosten ist durch die verlinkten Quellen nicht belegt.
 
 locations:
   - id: proposed-library-site
@@ -63,6 +77,10 @@ milestones:
   - date: "2026-04-14"
     title: Samtgemeinderat beschließt Leitbild und Konzeptauftrag
     status: reached
+  - date: "2026-10-07"
+    title: Vorgesehene Ratsentscheidung über den Stufenplan
+    description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
+    status: planned
 
 sources:
   - title: Vorlage SGP/2026/1000
@@ -80,5 +98,17 @@ sources:
     url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008247
     publishedAt: "2026-08-17"
     accessedAt: "2026-09-17"
+  - title: Tagesordnung des Samtgemeinderates vom 7. Oktober 2026, TOP 5
+    sourceType: agenda
+    url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000130&refresh=false
+    accessedAt: "2026-10-08"
+  - title: Vorlage SGP/2026/1074 zur Ratsbefassung am 7. Oktober
+    sourceType: proposal
+    url: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001221&refresh=false&TOLFDNR=1008976
+    accessedAt: "2026-10-08"
+  - title: Öffentliche Beschlussseite zum Samtgemeinderat am 7. Oktober, TOP 5, ohne Ergebnis
+    sourceType: website
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008976&SILFDNR=1000130
+    accessedAt: "2026-10-08"
 
 positions: []

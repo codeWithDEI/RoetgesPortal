@@ -10,22 +10,22 @@
     ],
     "dates": {
       "createdAt": "2026-06-04",
-      "lastVerifiedAt": "2026-09-25",
-      "updatedAt": "2026-09-27"
+      "lastVerifiedAt": "2026-10-08",
+      "updatedAt": "2026-10-08"
     },
-    "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDie Folgevorlage Rötg/2026/0303-01 berichtet, dass der Kultur- und\nSportausschuss am 17. August 2026 der Neufassung mit Änderungen zugestimmt\nhat. Die Verwaltung hat diese Änderungen laut Vorlage in den Entwurf\neingearbeitet. Damit liegt ein öffentlich belegter Bericht über die\nAusschussempfehlung vor.\n\nDie überarbeitete Satzung stand am 22. September 2026 unter TOP 5 auf der\nTagesordnung des Rates. Die am 25. September geprüfte öffentliche\nBeschlussseite liefert kein Ergebnis. Ein abschließender Satzungsbeschluss\noder das Inkrafttreten neuer Gebühren ist durch die verlinkten Quellen\nweiterhin nicht bestätigt.\n",
+    "description": "Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und\nSportausschuss beriet das Thema am 4. Juni 2026 und war sich laut Vorlage\nüber eine Anpassung einig.\n\nDer Rat stimmte im Juni der Vorbereitung einer Änderung zu. Daraufhin legte\ndie Verwaltung eine Neufassung der Gebührensatzung vor. Ergänzt wurde sie\num Angaben zur Auslastung der Bürgerhalle für 2024 bis 2026 sowie einen\nGebührenvergleich mit Nachbargemeinden und dem Umland.\n\nDie Folgevorlage Rötg/2026/0303-01 berichtet, dass der Kultur- und\nSportausschuss am 17. August 2026 der Neufassung mit Änderungen zugestimmt\nhat. Die Verwaltung hat diese Änderungen laut Vorlage in den Entwurf\neingearbeitet. Damit liegt ein öffentlich belegter Bericht über die\nAusschussempfehlung vor.\n\nAm 22. September 2026 stimmte der Rat der vorliegenden Satzung unter\nTOP 5 ohne weitere Änderung zu. Der inzwischen veröffentlichte\nBeschlussauszug nennt sechs Ja-Stimmen, zwei Nein-Stimmen und zwei\nEnthaltungen. Damit ist die abschließende Zustimmung des Rates belegt.\n\nAus dem Beschlussauszug allein ergibt sich nicht, ab wann neue Gebühren\ngelten. Ein Inkrafttretensdatum und einzelne Gebührensätze werden hier\ndeshalb nicht als aktuell geltend angegeben.\n",
     "id": "community-hall-fees",
     "latestActivity": {
-      "date": "2026-08-17",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
-      "summary": "Laut öffentlicher Folgevorlage stimmte der Kultur- und Sportausschuss dem geänderten Gebührenentwurf zu. Die endgültige Ratsentscheidung ist damit nicht belegt.\n"
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417",
+      "summary": "Der Rat beschloss die vorliegende Gebührensatzung für die öffentlichen Gebäude und den Festplatz. Ein Inkrafttreten neuer Gebühren ist durch diesen Beschlussauszug allein nicht belegt.\n"
     },
     "latestDecision": {
-      "body": "Kultur- und Sportausschuss der Gemeinde Rötgesbüttel",
-      "date": "2026-08-17",
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2026-09-22",
       "outcome": "adopted",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667",
-      "summary": "Laut der veröffentlichten Folgevorlage stimmte der Ausschuss der Neufassung mit Änderungen zu. Dies ist eine Ausschussempfehlung, kein abschließender Satzungsbeschluss des Rates.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417",
+      "summary": "Der Rat stimmte der vorliegenden Gebührensatzung mit sechs Ja-Stimmen, zwei Nein-Stimmen und zwei Enthaltungen zu.\n"
     },
     "locations": [
       {
@@ -53,9 +53,8 @@
       },
       {
         "date": "2026-09-22",
-        "description": "Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.",
-        "status": "planned",
-        "title": "Vorgesehene Ratsentscheidung über die Gebührensatzung"
+        "status": "reached",
+        "title": "Rat beschließt die vorliegende Gebührensatzung"
       }
     ],
     "organizations": [
@@ -106,15 +105,21 @@
         "sourceType": "agenda",
         "title": "Tagesordnung der Ratssitzung vom 22. September 2026, TOP 5",
         "url": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false"
+      },
+      {
+        "accessedAt": "2026-10-08",
+        "sourceType": "resolution",
+        "title": "Öffentlicher Beschlussauszug vom 22. September 2026, TOP 5",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417"
       }
     ],
-    "status": "council",
+    "status": "decided",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false",
-      "summary": "Die überarbeitete Satzung stand am 22. September 2026 unter TOP 5 zur Entscheidung auf der Tagesordnung des Rates. Belegt ist diese Einplanung, nicht das Ergebnis oder das Inkrafttreten neuer Gebühren.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417",
+      "summary": "Der öffentliche Beschlussauszug zu TOP 5 bestätigt die unveränderte Annahme der vorliegenden Satzung am 22. September. Eine veröffentlichte Inkrafttretensregelung wurde in dieser Prüfung nicht festgestellt.\n"
     },
-    "summary": "Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen; ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.\n",
+    "summary": "Der Rat hat am 22. September 2026 die neue Gebührensatzung für öffentliche Gebäude und den Festplatz beschlossen. Der Beschlussauszug bestätigt die Zustimmung, belegt aber noch kein Inkrafttreten der neuen Gebühren.\n",
     "title": "Gebühren für Bürgerhalle und Gemeinschaftsräume",
     "visibility": "published"
   }

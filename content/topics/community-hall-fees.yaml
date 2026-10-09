@@ -1,33 +1,32 @@
 id: community-hall-fees
 title: Gebühren für Bürgerhalle und Gemeinschaftsräume
 summary: >
-  Der Kultur- und Sportausschuss hat laut neuer Vorlage der geänderten
-  Gebührensatzung zugestimmt. Für den Rat war sie am 22. September vorgesehen;
-  ein abschließender Beschluss ist durch die verlinkten Quellen nicht belegt.
-status: council
+  Der Rat hat am 22. September 2026 die neue Gebührensatzung für öffentliche
+  Gebäude und den Festplatz beschlossen. Der Beschlussauszug bestätigt
+  die Zustimmung, belegt aber noch kein Inkrafttreten der neuen Gebühren.
+status: decided
 statusBasis:
   scope: topic
   summary: >
-    Die überarbeitete Satzung stand am 22. September 2026 unter TOP 5 zur
-    Entscheidung auf der Tagesordnung des Rates. Belegt ist diese
-    Einplanung, nicht das Ergebnis oder das Inkrafttreten neuer Gebühren.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
+    Der öffentliche Beschlussauszug zu TOP 5 bestätigt die unveränderte
+    Annahme der vorliegenden Satzung am 22. September. Eine veröffentlichte
+    Inkrafttretensregelung wurde in dieser Prüfung nicht festgestellt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417
 latestDecision:
-  date: "2026-08-17"
-  body: Kultur- und Sportausschuss der Gemeinde Rötgesbüttel
+  date: "2026-09-22"
+  body: Rat der Gemeinde Rötgesbüttel
   outcome: adopted
   summary: >
-    Laut der veröffentlichten Folgevorlage stimmte der Ausschuss der
-    Neufassung mit Änderungen zu. Dies ist eine Ausschussempfehlung,
-    kein abschließender Satzungsbeschluss des Rates.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667
+    Der Rat stimmte der vorliegenden Gebührensatzung mit sechs
+    Ja-Stimmen, zwei Nein-Stimmen und zwei Enthaltungen zu.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417
 latestActivity:
-  date: "2026-08-17"
+  date: "2026-09-22"
   summary: >
-    Laut öffentlicher Folgevorlage stimmte der Kultur- und Sportausschuss
-    dem geänderten Gebührenentwurf zu. Die endgültige Ratsentscheidung
-    ist damit nicht belegt.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001246&refresh=false&TOLFDNR=1008667
+    Der Rat beschloss die vorliegende Gebührensatzung für die öffentlichen
+    Gebäude und den Festplatz. Ein Inkrafttreten neuer Gebühren ist durch
+    diesen Beschlussauszug allein nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417
 visibility: published
 
 areas:
@@ -42,8 +41,8 @@ organizations:
 
 dates:
   createdAt: "2026-06-04"
-  updatedAt: "2026-09-27"
-  lastVerifiedAt: "2026-09-25"
+  updatedAt: "2026-10-08"
+  lastVerifiedAt: "2026-10-08"
 
 description: |
   Ausgangspunkt ist ein Antrag der W.i.R.-Fraktion. Der Kultur- und
@@ -61,11 +60,14 @@ description: |
   eingearbeitet. Damit liegt ein öffentlich belegter Bericht über die
   Ausschussempfehlung vor.
 
-  Die überarbeitete Satzung stand am 22. September 2026 unter TOP 5 auf der
-  Tagesordnung des Rates. Die am 25. September geprüfte öffentliche
-  Beschlussseite liefert kein Ergebnis. Ein abschließender Satzungsbeschluss
-  oder das Inkrafttreten neuer Gebühren ist durch die verlinkten Quellen
-  weiterhin nicht bestätigt.
+  Am 22. September 2026 stimmte der Rat der vorliegenden Satzung unter
+  TOP 5 ohne weitere Änderung zu. Der inzwischen veröffentlichte
+  Beschlussauszug nennt sechs Ja-Stimmen, zwei Nein-Stimmen und zwei
+  Enthaltungen. Damit ist die abschließende Zustimmung des Rates belegt.
+
+  Aus dem Beschlussauszug allein ergibt sich nicht, ab wann neue Gebühren
+  gelten. Ein Inkrafttretensdatum und einzelne Gebührensätze werden hier
+  deshalb nicht als aktuell geltend angegeben.
 
 locations:
   - id: affected-facilities
@@ -84,9 +86,8 @@ milestones:
     title: Ausschuss stimmt laut Folgevorlage der geänderten Neufassung zu
     status: reached
   - date: "2026-09-22"
-    title: Vorgesehene Ratsentscheidung über die Gebührensatzung
-    description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
-    status: planned
+    title: Rat beschließt die vorliegende Gebührensatzung
+    status: reached
 
 sources:
   - title: Vorlage Rötg/2026/0297-01
@@ -118,5 +119,9 @@ sources:
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
     accessedAt: "2026-09-25"
+  - title: Öffentlicher Beschlussauszug vom 22. September 2026, TOP 5
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008667&SILFDNR=1000417
+    accessedAt: "2026-10-08"
 
 positions: []

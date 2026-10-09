@@ -282,16 +282,16 @@ class BuildPortalTests(unittest.TestCase):
             self.assertFalse((output / "topics/example-topic.json").exists())
             activity_index = json.loads((output / "latest-activity.json").read_text())
             self.assertEqual(45, activity_index["coverage"]["publishedTopics"])
-            self.assertEqual(6, activity_index["coverage"]["topicsWithLatestActivity"])
+            self.assertEqual(7, activity_index["coverage"]["topicsWithLatestActivity"])
             local_items = [
                 item for item in activity_index["items"]
                 if "municipality-roetgesbuettel" in item["organizations"]
             ]
             self.assertEqual(
                 [
-                    "roetgesbuettel-council-election-results-2026",
                     "aukenroth-residential-development",
                     "community-hall-fees",
+                    "glass-container-relocation",
                 ],
                 [item["id"] for item in local_items[:3]],
             )
@@ -332,7 +332,7 @@ class BuildPortalTests(unittest.TestCase):
                     / "views/council-map/layers/council-topics.geojson"
                 ).read_text(encoding="utf-8")
             )
-            self.assertEqual(14, len(council_map["features"]))
+            self.assertEqual(13, len(council_map["features"]))
             self.assertEqual(
                 {
                     "aukenroth-residential-development",
@@ -343,7 +343,6 @@ class BuildPortalTests(unittest.TestCase):
                     "community-hall-fees",
                     "community-hall-school-meals-compensation",
                     "fire-station-training-platform",
-                    "glass-container-relocation",
                     "muehlenweg-speed-limit",
                     "northern-town-sign-relocation",
                     "parking-restrictions-schulgarten-eikhof",
@@ -361,7 +360,7 @@ class BuildPortalTests(unittest.TestCase):
                 ).read_text(encoding="utf-8")
             )
             self.assertEqual(
-                14,
+                13,
                 council_map_manifest["presentation"]["layers"][0][
                     "topicCount"
                 ],

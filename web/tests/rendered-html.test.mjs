@@ -118,7 +118,7 @@ test("separates a verified event date from the editorial update", async () => {
   assert.match(html, /Quelle zur Entwicklung öffnen/);
   assert.match(html, /href="https:\/\/www\.papenteich\.de\/loadDocument\.phtml\?FID=3716\.1990\.1&amp;Ext=PDF"/);
 
-  const withoutActivity = await render("/themen/glass-container-relocation");
+  const withoutActivity = await render("/themen/public-library-development");
   assert.doesNotMatch(await withoutActivity.text(), /Letzte belegte Entwicklung/);
 });
 
@@ -323,7 +323,7 @@ test("server-renders the source-backed council map", async () => {
 
   const html = await response.text();
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
-  assert.match(html, /14(?:<!-- -->)* verortete Themen/);
+  assert.match(html, /13(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
   assert.match(html, /Ortsbezüge durchsuchen/);
   assert.match(html, /id="map-topic-search"/);

@@ -1,34 +1,35 @@
 id: aukenroth-residential-development
 title: Wohngebiet Aukenroth
 summary: >
-  Der Entwurf für Aukenroth wurde um Gestaltungsvorgaben ergänzt. Die
-  öffentliche Auslegung war für den 22. September zur Ratsentscheidung
-  vorgesehen; ein abschließender Beschluss ist noch nicht öffentlich belegt.
+  Der Rat hat am 22. September die weitere Beteiligung zu Aukenroth
+  beschlossen. Der Entwurf soll auch Mehrfamilienhäuser mit bis zu vier
+  Mietparteien ermöglichen. Ein Auslegungszeitraum ist noch nicht belegt.
 status: council
 statusBasis:
   scope: topic
   summary: >
-    Der Auslegungsbeschluss stand am 22. September 2026 unter TOP 6 auf
-    der Ratstagesordnung. Die Einplanung und der ergänzte Entwurf sind
-    belegt, das Ergebnis und der Beginn einer Auslegung hingegen nicht.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
+    Der Rat hat die weitere Beteiligung und eine Änderung des Entwurfs
+    beschlossen. Das Bebauungsplanverfahren bleibt in der Ratsbefassung;
+    ein abschließender Satzungsbeschluss, ein rechtskräftiger Plan oder
+    der tatsächliche Beginn der Beteiligung sind damit nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417
 latestDecision:
-  date: "2026-09-01"
-  body: Verwaltungsausschuss der Gemeinde Rötgesbüttel
+  date: "2026-09-22"
+  body: Rat der Gemeinde Rötgesbüttel
   outcome: adopted
   summary: >
-    Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss
-    zusätzliche Gestaltungsvorgaben für den Planentwurf. Dies ist kein
-    abschließender Beschluss über den Bebauungsplan.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668
+    Der Rat beschloss die Behandlung der Anregungen, die gleichzeitige
+    Beteiligung von Öffentlichkeit und Behörden sowie die Möglichkeit
+    von Mehrfamilienhäusern mit bis zu vier Mietparteien. Der Gesamtbeschluss
+    wurde mit fünf Ja-Stimmen, drei Nein-Stimmen und zwei Enthaltungen angenommen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417
 latestActivity:
-  date: "2026-09-02"
+  date: "2026-09-22"
   summary: >
-    Der beigefügte Planentwurf mit Stand vom 2. September enthält die
-    ergänzten Vorgaben unter anderem zu Gebäudehöhen, Einfriedungen,
-    Schottergärten und Baumpflanzungen. Ein endgültiger Planbeschluss
-    ist damit nicht belegt.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/vo020?VOLFDNR=1001460&refresh=false&TOLFDNR=1008668
+    Der Rat beschloss den nächsten Beteiligungsschritt und ergänzte den
+    Entwurf um die Möglichkeit von Mehrfamilienhäusern mit bis zu vier
+    Mietparteien. Ein rechtskräftiger Bebauungsplan ist damit nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417
 visibility: published
 
 areas:
@@ -45,26 +46,25 @@ organizations:
 
 dates:
   createdAt: "2026-06-01"
-  updatedAt: "2026-09-27"
-  lastVerifiedAt: "2026-09-25"
+  updatedAt: "2026-10-08"
+  lastVerifiedAt: "2026-10-08"
 
 description: |
-  Die Gemeinde plant ein aufgelockertes Wohngebiet für Einzel- und
-  Doppelhäuser. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.
-  Der ländliche Charakter soll unter anderem durch eine eingeschossige
-  Bauweise, eine geringe Grundflächenzahl und eine Eingrünung am nördlichen
-  Ortsrand berücksichtigt werden.
+  Die Gemeinde plant das Wohngebiet Aukenroth. Der bisherige Entwurf
+  sah vor allem Einzel- und Doppelhäuser vor; der Rat ergänzte am
+  22. September die Möglichkeit von Mehrfamilienhäusern mit bis zu vier
+  Mietparteien. Als Projektentwickler ist die CGW mbH & Co. KG vorgesehen.
 
   Die frühzeitige Beteiligung von Öffentlichkeit und Behörden ist inzwischen
   abgeschlossen. Laut neuer Vorlage wurden keine wesentlichen Stellungnahmen
   vorgetragen, die der Umsetzung entgegenstehen. Planzeichnung und Begründung
   wurden anhand der Rückmeldungen angepasst.
 
-  Vor einer öffentlichen Auslegung müssen die Unterlagen noch um Aussagen zur
-  Versickerung und Erschließung, das Artenschutzgutachten, den Umweltbericht
-  und den Kompensationsbedarf ergänzt werden. Der Rat soll anschließend über
-  die Abwägung und die gleichzeitige Beteiligung nach § 3 Abs. 2 und § 4
-  Abs. 2 BauGB entscheiden.
+  Die Vorlage nennt Aussagen zur Versickerung und Erschließung, das
+  Artenschutzgutachten, den Umweltbericht und den Kompensationsbedarf als
+  vor der öffentlichen Auslegung zu ergänzende Unterlagen. Ob diese
+  Ergänzungen inzwischen vollständig vorliegen, ist durch den späteren
+  Beteiligungsbeschluss allein nicht belegt.
 
   Laut öffentlicher Folgevorlage beschloss der Verwaltungsausschuss am
   1. September 2026 weitere Vorgaben für den Entwurf. Sie betreffen unter
@@ -77,10 +77,24 @@ description: |
   Parallel zum Bebauungsplan ist eine Änderung des Flächennutzungsplans durch
   die Samtgemeinde Papenteich erforderlich. Nach der für den 27. August
   vorgesehenen Vorberatung stand der ergänzte Entwurf am 22. September 2026
-  unter TOP 6 auf der Tagesordnung des Rates. Die am 25. September geprüfte
-  öffentliche Beschlussseite liefert kein Ergebnis. Ein abschließender
-  Auslegungsbeschluss oder ein tatsächlicher Auslegungszeitraum ist durch
-  die verlinkten Quellen nicht bestätigt.
+  unter TOP 6 auf der Tagesordnung des Rates.
+
+  Der inzwischen veröffentlichte Beschlussauszug bestätigt die Annahme
+  mit Änderungen. Der Rat beschloss die Behandlung der Anregungen aus der
+  frühzeitigen Beteiligung und die gleichzeitige Beteiligung der Öffentlichkeit
+  und Behörden nach § 3 Abs. 2 und § 4 Abs. 2 BauGB. Hinzu kommt die Möglichkeit
+  von Mehrfamilienhäusern mit bis zu vier Mietparteien; die Grundflächenzahl
+  soll gegebenenfalls angepasst werden. Für den Gesamtbeschluss gab es fünf
+  Ja-Stimmen, drei Nein-Stimmen und zwei Enthaltungen.
+
+  Der gesonderte Änderungsantrag, auch Flachdächer zu ermöglichen und die
+  maximale Firsthöhe auf neun Meter zu senken, wurde mit drei Ja-Stimmen,
+  fünf Nein-Stimmen und zwei Enthaltungen abgelehnt. Diese Ablehnung betrifft
+  den Änderungsantrag, nicht das gesamte Wohngebiet.
+
+  Ein tatsächlicher Auslegungszeitraum und ein abschließender Satzungsbeschluss
+  sind durch die geprüften Quellen nicht belegt. Der Beteiligungsbeschluss
+  bedeutet daher noch keinen rechtskräftigen Bebauungsplan oder Baubeginn.
 
 locations:
   - id: planning-area
@@ -99,9 +113,8 @@ milestones:
     title: Verwaltungsausschuss ergänzt laut Folgevorlage den Planentwurf
     status: reached
   - date: "2026-09-22"
-    title: Vorgesehene Ratsentscheidung über die öffentliche Auslegung
-    description: Das Ergebnis ist durch die verlinkten öffentlichen Quellen nicht bestätigt.
-    status: planned
+    title: Rat beschließt weitere Beteiligung und ergänzt den Entwurf
+    status: reached
 
 sources:
   - title: Vorlage Rötg/2026/0298 zum Bebauungsplan Aukenroth
@@ -138,5 +151,9 @@ sources:
     sourceType: agenda
     url: https://www.papenteich.sitzung-online.de/public/to010?SILFDNR=1000417&refresh=false
     accessedAt: "2026-09-25"
+  - title: Öffentlicher Beschlussauszug vom 22. September 2026, TOP 6
+    sourceType: resolution
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417
+    accessedAt: "2026-10-08"
 
 positions: []
