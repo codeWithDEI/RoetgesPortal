@@ -11,11 +11,16 @@
     ],
     "dates": {
       "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n",
+    "description": "Der Rat ersetzte im März 2026 die zuvor beschlossene Variante 1 durch eine\nneue Variante 6. Sie kombiniert den Bürotrakt aus Variante 5 mit einer\nToilettenanlage auf der Feuerwehrterrasse, einem zusätzlichen Eingangsflur\nund einer Tür zur Schützenterrasse.\n\nDie geschätzten Mehrkosten gegenüber Variante 1 liegen laut Beschluss bei\nrund 14.000 Euro und sollen im Haushalt 2027 berücksichtigt werden. Die neue\nVariante wurde mit neun Ja- und zwei Nein-Stimmen angenommen.\n\nDer Bürgermeisterbericht vom 25. Juni 2026 meldet die Beauftragung\neines Architekturbüros mit den Leistungsphasen 1 bis 8 sowie einen\neingereichten Bauantrag. Dies wird als berichteter Sachstand festgehalten;\nein zusätzlicher Verwaltungsausschussbeschluss wird hier nicht\naus einer unmittelbar geprüften Beschlussquelle wiedergegeben.\n\nLaut Bürgermeisterbericht vom 22. September 2026 wurde die erste\nAusschreibung wegen eines zu hohen Ergebnisses aufgehoben und das\nProjekt erneut ausgeschrieben. Eine Baugenehmigung lag demnach noch\nnicht vor. Im Bericht waren die Angebotsöffnung für den 30. September\nund eine Sonder-Verwaltungsausschusssitzung zur Vergabe für den\n6. Oktober angekündigt. Die Ergebnisse dieser angekündigten Schritte\nsind durch den Bericht nicht belegt; aus den inzwischen vergangenen\nTerminen wird keine Vergabe oder Baugenehmigung abgeleitet.\n",
     "id": "community-centre-old-fire-station",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht meldet die Aufhebung der ersten Ausschreibung wegen eines zu hohen Ergebnisses und eine erneute Ausschreibung. Eine Baugenehmigung lag laut Bericht noch nicht vor.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2026-03-17",
@@ -41,6 +46,16 @@
         "date": "2026-03-17",
         "status": "reached",
         "title": "Rat ersetzt Variante 1 durch Variante 6"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Architektenauftrag und eingereichten Bauantrag"
+      },
+      {
+        "date": "2026-09-22",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet erneute Ausschreibung"
       }
     ],
     "organizations": [
@@ -58,15 +73,27 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2026/0292",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Anbau der multifunktionalen Einrichtung",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Bau der multifunktionalen Einrichtung",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
-    "status": "decided",
+    "status": "implementation",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005887&SILFDNR=1000260",
-      "summary": "Die Umbauvariante 6 wurde beschlossen. Der verlinkte Beschluss dokumentiert noch keinen Beginn der Ausführung.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 läuft nach Aufhebung der ersten Ausschreibung eine erneute Ausschreibung. Damit ist die Beschaffung in Gang. Eine Baugenehmigung oder begonnene Bauarbeiten sind durch den Bericht nicht bestätigt.\n"
     },
-    "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.\n",
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 ist der Umbau erneut ausgeschrieben, nachdem die erste Ausschreibung aufgehoben wurde. Eine Baugenehmigung lag laut diesem Bericht noch nicht vor.\n",
     "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr",
     "visibility": "published"
   }

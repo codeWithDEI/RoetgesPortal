@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "childcare",
+      "public-facilities"
+    ],
+    "dates": {
+      "createdAt": "2026-10-10",
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
+    },
+    "description": "Im Bürgermeisterbericht vom 22. September 2026 wird die\nKlimatisierung des Kita-Obergeschosses und der Bürgerhalle als\nVorhaben beschrieben. Ein Gespräch mit einer Fachfirma habe\nstattgefunden; Angebote für beide Maßnahmen lägen vor und könnten\nin die Haushaltsgespräche einfließen.\n\nDer Bürgermeisterbericht sieht eine mögliche Bezuschussung für die\nBürgerhalle. Für die Kita beschreibt er eine mögliche Finanzierung\nüber den Haushalt 2027. Diese Aussagen sind berichtete Überlegungen;\nFörderbedingungen, eine Bewilligung oder bereitgestellte\nHaushaltsmittel wurden nicht unmittelbar geprüft.\n\nDer neue Sachstand stammt ausdrücklich aus dem Bürgermeisterbericht.\nEine Auftragsvergabe, ein Baubeginn oder Kosten werden darin für\ndiese Maßnahmen nicht bestätigt.\n",
+    "id": "childcare-community-hall-cooling",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht meldet vorliegende Angebote zur Klimatisierung der Bürgerhalle und des Kita-Obergeschosses. Die Angebotsdaten werden nicht genannt.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-09-22",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Angebote zur Klimatisierung"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Klimaanlagen für Kita und Bürgerhalle",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
+      }
+    ],
+    "status": "announced",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht vom 22. September 2026 nennt Gespräche mit einer Fachfirma und vorliegende Angebote für beide Gebäude. Eine mögliche Förderung und die Haushaltsberatung werden als weitere Schritte beschrieben, nicht als gesicherte Finanzierung.\n"
+    },
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 liegen Angebote zur Klimatisierung des Kita-Obergeschosses und der Bürgerhalle vor. Finanzierung und Umsetzung sind damit noch nicht beschlossen.\n",
+    "title": "Geplante Klimatisierung von Kita und Bürgerhalle",
+    "visibility": "published"
+  }
+}

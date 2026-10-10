@@ -33,6 +33,31 @@ formal status, and attributed positions must be traceable to a source. Avoid
 copying long passages; summarize them in plain language and link to the
 original document.
 
+### Mayor's reports in public minutes
+
+Read public mayor's reports and their public attachments when reviewing a
+meeting, independently of the monitor's procedural-item exclusions. Reports
+may contain substantive developments without a separate topic agenda item.
+Compare each relevant report section with existing topics and consider new
+topics where the public evidence supports them.
+
+Attribute report-derived facts explicitly in German, for example
+`Laut Bürgermeisterbericht vom …`, in the topic summary/description and any
+affected `statusBasis`, `latestActivity`, or milestone text. Use a source title
+that identifies the mayor's report, meeting date, agenda item, and relevant
+section; retain the actual document type (`minutes` for minutes). Link to the
+public report agenda item or attachment and retain previous decision sources.
+No additional schema field is required for this textual attribution.
+
+The report establishes what the mayor reported. Do not recast it as a formal
+resolution, a directly inspected traffic order, or independent confirmation of
+completed works. Reported execution can support a carefully attributed topic
+phase when the exact subject is clear; explicitly retain material evidence
+limits. Keep `latestDecision` unchanged unless a separate formal decision is
+verified. If the actual event date is absent, record the dated report as the
+activity and label it accordingly rather than inventing an implementation date.
+Check later public reports and decisions for corrections or superseding facts.
+
 ## Topic phase and decision outcomes
 
 The topic `status` always describes the lifecycle of the exact subject named in

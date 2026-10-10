@@ -11,10 +11,10 @@
     ],
     "dates": {
       "createdAt": "2025-01-21",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Die verlinkten\nBeschlüsse dokumentieren keinen Beginn oder Abschluss der beiden Maßnahmen.\n",
+    "description": "Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,\ngleichwertige Stele an der zweiten Gemeinschaftsgrabanlage in\nRötgesbüttel bereit.\n\nFür das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die\nInstandsetzung der Parkplätze am Friedhof eingeplant. Die verlinkten\nBeschlüsse dokumentieren keinen Beginn oder Abschluss der beiden Maßnahmen.\n\nDer Rötgesbütteler Bürgermeisterbericht vom 22. September 2026 meldet\naußerdem einen vergebenen Auftrag für kleinere Verschönerungen am\nFriedhof. Die Art der Arbeiten bezeichnet der Bericht nur als\nvermutlich Wegebau. Diese Angabe wird ausdrücklich als Sachstand\naus dem Bürgermeisterbericht wiedergegeben.\n\nEine Zuordnung dieses Auftrags zur zweiten Stele oder zur\nParkplatzinstandsetzung ist im Bericht nicht belegt. Der Status der\nbeiden zuvor beschriebenen Haushaltsmaßnahmen wird deshalb aus\ndieser Meldung nicht auf begonnen oder abgeschlossen geändert.\n",
     "id": "roetgesbuettel-cemetery-upgrades",
     "latestDecision": {
       "body": "Samtgemeinderat Papenteich",
@@ -65,6 +65,12 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu SGP/2024/0668",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Verschönerungen am Friedhof",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
     "status": "decided",

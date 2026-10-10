@@ -46,8 +46,8 @@ organizations:
 
 dates:
   createdAt: "2026-06-01"
-  updatedAt: "2026-10-08"
-  lastVerifiedAt: "2026-10-08"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Die Gemeinde plant das Wohngebiet Aukenroth. Der bisherige Entwurf
@@ -95,6 +95,14 @@ description: |
   Ein tatsächlicher Auslegungszeitraum und ein abschließender Satzungsbeschluss
   sind durch die geprüften Quellen nicht belegt. Der Beteiligungsbeschluss
   bedeutet daher noch keinen rechtskräftigen Bebauungsplan oder Baubeginn.
+
+  Zusätzlich meldet der Bürgermeisterbericht vom 22. September 2026
+  einen unterzeichneten Kaufvertrag zum Baugebiet; im Bericht wird
+  der Name „Aukenrod“ verwendet. Diese Information wird ausdrücklich
+  als Aussage aus dem Bürgermeisterbericht festgehalten. Der Vertrag
+  selbst, Kaufpreis und Vertragsbedingungen wurden nicht unmittelbar
+  geprüft. Die berichtete Vertragsunterzeichnung ersetzt weder den
+  Beteiligungsbeschluss noch einen abschließenden Satzungsbeschluss.
 
 locations:
   - id: planning-area
@@ -155,5 +163,10 @@ sources:
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008668&SILFDNR=1000417
     accessedAt: "2026-10-08"
+
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Kaufvertrag zum Baugebiet Aukenrod
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
 
 positions: []

@@ -11,11 +11,16 @@
     ],
     "dates": {
       "createdAt": "2026-03-17",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n\nDamit sind vorbereitende Schritte beschlossen, nicht die Sanierung selbst.\nEin Beginn oder Ergebnis des Gutachtens sowie eine Freigabe von Bauarbeiten\ngehen aus dem verlinkten Beschluss nicht hervor.\n",
+    "description": "Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung\nund Modernisierung des Gemeindesportzentrums zur Kenntnis. Einstimmig wurde\nbeschlossen, 2026 ein Gutachten erstellen zu lassen und das Vorhaben für die\nHaushaltsberatungen 2027 vorzusehen.\n\nDamit sind vorbereitende Schritte beschlossen, nicht die Sanierung selbst.\nEin Beginn oder Ergebnis des Gutachtens sowie eine Freigabe von Bauarbeiten\ngehen aus dem verlinkten Beschluss nicht hervor.\n\nDer Bürgermeisterbericht vom 17. März 2026 meldet bereits durch die\nSportler installierte neue Duschköpfe sowie weiteren Bedarf an Fliesen\nund Silikonfugen. Diese einzelne Sofortmaßnahme ist keine\nGrundsanierung des Gemeindesportzentrums.\n\nLaut Bürgermeisterbericht vom 25. Juni 2026 ergab eine Besichtigung\nder Sporthalle und des Kellers mit den Duschen dringenden Handlungsbedarf.\nZunächst sollen die dringendsten Mängel beseitigt werden; eine\ngrundlegende Sanierung werde als notwendig angesehen. Dies sind\nausdrücklich berichtete Feststellungen und angekündigte Maßnahmen.\nDer Abschluss des Gutachtens oder der Beginn der umfassenden Sanierung\nwird damit nicht bestätigt.\n",
     "id": "sports-centre-modernisation",
+    "latestActivity": {
+      "date": "2026-06-25",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+      "summary": "Der Bürgermeisterbericht meldet nach einer Besichtigung der Sporthalle und des Duschbereichs dringenden Handlungsbedarf. Zunächst sollen die dringendsten Mängel beseitigt werden; das Besichtigungsdatum wird nicht genannt.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2026-03-17",
@@ -36,6 +41,11 @@
         "date": "2026-03-17",
         "status": "reached",
         "title": "Rat beschließt Gutachten und Vorbereitung für Haushalt 2027"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet dringenden Bedarf nach Besichtigung der Sporthalle"
       }
     ],
     "organizations": [
@@ -54,15 +64,27 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2026/0291",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 17. März 2026 (Rat, TOP 4), Abschnitt Duschen im Sportheim",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Sporthalle und Duschen",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325"
       }
     ],
     "status": "open",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260",
-      "summary": "Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung. Die verlinkte Quelle belegt weder eine Sanierungsfreigabe noch einen Beginn der Arbeiten.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+      "summary": "Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung. Der Bürgermeisterbericht vom 25. Juni 2026 meldet dringenden Handlungsbedarf nach einer Besichtigung und kündigt die Beseitigung der dringendsten Mängel an. Eine Freigabe oder ein Beginn der umfassenden Sanierung sind damit nicht belegt.\n"
     },
-    "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.\n",
+    "summary": "Laut Bürgermeisterbericht vom 25. Juni 2026 hat eine Besichtigung der Sporthalle und der Duschen dringenden Handlungsbedarf ergeben. Der Rat hatte ein Gutachten und die Vorbereitung für den Haushalt 2027 beschlossen.\n",
     "title": "Sanierung und Modernisierung des Gemeindesportzentrums",
     "visibility": "published"
   }

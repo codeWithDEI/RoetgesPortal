@@ -195,6 +195,15 @@ advancing substantive activity. Missing event evidence remains missing. The
 validator requires the activity date to be no later than `lastVerifiedAt`.
 Details display activity separately; `/neu` and RSS retain editorial dates.
 
+Meeting reviews also read public mayor's reports and linked report attachments,
+even though the current monitor excludes report agenda titles. Report-derived
+updates explicitly name the mayor's report in German topic/evidence/activity
+text and in the source title with meeting date and agenda item/section. Existing
+fields carry this provenance; there is no dedicated report field or automated
+report extraction. A report is not a new council resolution or independent
+verification of the reported implementation. See the
+[report attribution policy](governance/editorial-policy.md#mayors-reports-in-public-minutes).
+
 Keep factual state, impact, and sourced positions distinct. Check primary sources
 for each material assertion, including numbers, chronology, decisions, and local
 relevance. Mark uncertainty, preserve contradictory/history evidence, and do not
@@ -207,6 +216,9 @@ The [2026-09-17 content audit](reviews/content-source-audit-2026-09-17.md) recor
 dated review, not a permanent guarantee that those topics remain current. Policy
 calls for checking active topics after relevant meetings and at least every four
 weeks. A technically valid build is not an editorial approval.
+The [10 October 2026 mayor's-report review](reviews/mayor-report-discovery-2026-10-10.md)
+records the scoped 2026 report research, attributed updates, and unavailable
+later reports; it does not establish complete coverage of all public evidence.
 
 ## Deployment, configuration, persistence, and backups
 

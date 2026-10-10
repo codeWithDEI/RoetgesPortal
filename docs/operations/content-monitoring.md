@@ -96,6 +96,15 @@ after the parser and candidate quality have proved stable.
 
 ## Editorial handoff
 
+The configured procedural exclusions currently include mayor's report agenda
+titles. The queue is therefore not a complete inventory of substantive
+developments. Independently open each relevant meeting's public minutes and
+public report attachments, read the mayor's report, and compare its sections
+with existing topics and possible new topics. Apply the
+[report attribution policy](../governance/editorial-policy.md#mayors-reports-in-public-minutes);
+explicitly identify report-derived updates and do not infer resolutions or
+independently verified execution from a report.
+
 For each relevant queue item:
 
 1. Open the linked agenda item and proposal on the official source.

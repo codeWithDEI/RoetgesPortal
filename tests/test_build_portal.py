@@ -276,13 +276,13 @@ class BuildPortalTests(unittest.TestCase):
 
             self.assertEqual(first_build, second_build)
             self.assertEqual(7, counts["areas"])
-            self.assertEqual(45, counts["topics"])
+            self.assertEqual(49, counts["topics"])
             self.assertEqual(1, counts["datasets"])
             self.assertEqual(2, counts["views"])
             self.assertFalse((output / "topics/example-topic.json").exists())
             activity_index = json.loads((output / "latest-activity.json").read_text())
-            self.assertEqual(45, activity_index["coverage"]["publishedTopics"])
-            self.assertEqual(7, activity_index["coverage"]["topicsWithLatestActivity"])
+            self.assertEqual(49, activity_index["coverage"]["publishedTopics"])
+            self.assertEqual(20, activity_index["coverage"]["topicsWithLatestActivity"])
             local_items = [
                 item for item in activity_index["items"]
                 if "municipality-roetgesbuettel" in item["organizations"]
@@ -290,8 +290,8 @@ class BuildPortalTests(unittest.TestCase):
             self.assertEqual(
                 [
                     "aukenroth-residential-development",
-                    "community-hall-fees",
-                    "glass-container-relocation",
+                    "calisthenics-boules-area",
+                    "childcare-community-hall-cooling",
                 ],
                 [item["id"] for item in local_items[:3]],
             )
@@ -332,7 +332,7 @@ class BuildPortalTests(unittest.TestCase):
                     / "views/council-map/layers/council-topics.geojson"
                 ).read_text(encoding="utf-8")
             )
-            self.assertEqual(13, len(council_map["features"]))
+            self.assertEqual(12, len(council_map["features"]))
             self.assertEqual(
                 {
                     "aukenroth-residential-development",
@@ -343,7 +343,6 @@ class BuildPortalTests(unittest.TestCase):
                     "community-hall-fees",
                     "community-hall-school-meals-compensation",
                     "fire-station-training-platform",
-                    "muehlenweg-speed-limit",
                     "northern-town-sign-relocation",
                     "parking-restrictions-schulgarten-eikhof",
                     "pfaenderweg-rail-crossing",
@@ -360,7 +359,7 @@ class BuildPortalTests(unittest.TestCase):
                 ).read_text(encoding="utf-8")
             )
             self.assertEqual(
-                13,
+                12,
                 council_map_manifest["presentation"]["layers"][0][
                     "topicCount"
                 ],

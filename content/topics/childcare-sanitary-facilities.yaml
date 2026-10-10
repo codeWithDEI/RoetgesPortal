@@ -1,15 +1,17 @@
 id: childcare-sanitary-facilities
 title: Sanierung der Sanitärräume in der Kindertagesstätte
 summary: >
-  Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein
-  Sanierungskonzept entstehen.
+  Laut Bürgermeisterbericht vom 22. September 2026 haben Architekt, DRK
+  und Kita-Leitung die Sanitärräume der Igelgruppe besichtigt. Ein Konzept
+  wird erarbeitet; begonnene Sanierungsarbeiten sind nicht bestätigt.
 status: open
 statusBasis:
   scope: topic
   summary: >
-    Der Rat beschloss die Vorbereitung eines Konzepts beziehungsweise Beratung durch das
-    DRK. Ein Beginn der Sanierungsarbeiten ist damit nicht belegt.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260
+    Die Konzeptvorbereitung ist beschlossen. Der Bürgermeisterbericht vom
+    22. September 2026 meldet eine gemeinsame Besichtigung und laufende
+    Konzeptarbeit. Ein Beginn der Sanierung selbst wird nicht berichtet.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
 latestDecision:
   date: "2026-03-17"
   body: Rat der Gemeinde Rötgesbüttel
@@ -18,6 +20,13 @@ latestDecision:
     Der Rat beschloss, das DRK mit einer Konzeption beziehungsweise beratender
     Unterstützung zur Vorbereitung der Sanierung zu beauftragen.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260
+latestActivity:
+  date: "2026-09-22"
+  summary: >
+    Der Bürgermeisterbericht meldet eine Besichtigung der Sanitärräume
+    der Igelgruppe mit Architekt, DRK und Kita-Leitung sowie die Erarbeitung
+    eines Konzepts. Das Besichtigungsdatum wird nicht genannt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
 visibility: published
 
 areas:
@@ -34,8 +43,8 @@ organizations:
 
 dates:
   createdAt: "2026-03-17"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026
@@ -46,6 +55,17 @@ description: |
   Das DRK erläuterte in der Beratung, dass es Unterstützung mit einem
   Architekten anbieten, aber kein vollständiges Konzept selbst liefern
   könne. Der Beschluss belegt noch keine begonnene Sanierung.
+
+  Laut Bürgermeisterbericht vom 25. Juni 2026 wurde ein Architekturbüro
+  mit Planung und Leistungsverzeichnis beauftragt. Der Umbau sei während
+  der Sommerschließzeit nicht mehr umsetzbar; die Kita-Leitung sehe
+  eine Möglichkeit für Arbeiten im laufenden Betrieb.
+
+  Der Bürgermeisterbericht vom 22. September 2026 meldet eine gemeinsame
+  Besichtigung mit Architekt, DRK und Kita-Leitung sowie die Erarbeitung
+  eines Konzepts für die Sanitärräume der Igelgruppe. Die Angaben werden
+  ausdrücklich als Sachstand aus den Bürgermeisterberichten wiedergegeben.
+  Ein tatsächlicher Beginn des Umbaus wird damit nicht bestätigt.
 
 locations:
   - id: childcare-centre
@@ -58,11 +78,29 @@ milestones:
     title: Rat beschließt Konzeption beziehungsweise Beratung durch das DRK
     status: reached
 
+  - date: "2026-06-25"
+    title: Bürgermeisterbericht meldet Planungsauftrag für die Sanitärräume
+    status: reached
+
+  - date: "2026-09-22"
+    title: Bürgermeisterbericht meldet gemeinsame Besichtigung und Konzeptarbeit
+    status: reached
+
 sources:
   - title: Beschlussauszug vom 17. März 2026
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260
     publishedAt: "2026-03-17"
     accessedAt: "2026-09-17"
+
+  - title: Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Sanitärbereich der Igelgruppe
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
+    accessedAt: "2026-10-10"
+
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Sanitäranlagen der Igelgruppe
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
 
 positions: []

@@ -12,11 +12,23 @@
     ],
     "dates": {
       "createdAt": "2025-09-16",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte\nArbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.\n",
+    "description": "Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse\nangepasst werden. Genannt wurden unter anderem eine größere Bau- und\nRekultivierungsfläche, zusätzliche Wasserhaltung, ein neuer Grabendurchlass\nund umfangreichere Erdarbeiten.\n\nNach Verhandlungen mit der Baufirma sank der zusätzliche Bedarf von\nzunächst 85.000 auf 50.000 Euro. Der Rat stimmte der überplanmäßigen\nAuszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte\nArbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.\n\nIm Bürgermeisterbericht vom 22. September 2026 wird eine Prüfung des\nHochwasserschutzprojekts durch das niedersächsische Landwirtschaftsministerium\nam 6. August 2026 beschrieben. Geprüft worden seien Akten, Stauanlagen\nund gepflanzte Bäume im Zusammenhang mit der Zuschussgewährung.\nDer Bürgermeister berichtet keine Beanstandungen.\n\nDies ist ausdrücklich ein Sachstand aus dem Bürgermeisterbericht.\nEin Prüfbericht des Ministeriums wurde nicht unmittelbar geprüft;\neine vollständige Fertigstellung oder Schlussabnahme des Beckens\nwird aus dieser Aussage nicht abgeleitet.\n",
     "id": "flood-retention-basin-roetgesbuettel",
+    "latestActivity": {
+      "date": "2026-08-06",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 prüfte das niedersächsische Landwirtschaftsministerium am 6. August Akten, Stauanlagen und Baumpflanzungen des Hochwasserschutzprojekts. Der Bürgermeister berichtet dabei keine Beanstandungen.\n"
+    },
+    "latestDecision": {
+      "body": "Rat der Gemeinde Rötgesbüttel",
+      "date": "2025-09-16",
+      "outcome": "adopted",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145",
+      "summary": "Der Rat bewilligte einstimmig eine überplanmäßige Auszahlung von 50.000 Euro für Mehrkosten beim Hochwasserrückhaltebecken.\n"
+    },
     "locations": [
       {
         "geoJsonFile": "content/locations/flood-retention-basin-roetgesbuettel.geojson",
@@ -30,6 +42,11 @@
         "date": "2025-09-16",
         "status": "reached",
         "title": "Rat bewilligt 50.000 Euro Mehrkosten"
+      },
+      {
+        "date": "2026-08-06",
+        "status": "reached",
+        "title": "Prüfung des Hochwasserschutzprojekts laut Bürgermeisterbericht vom 22. September"
       }
     ],
     "organizations": [
@@ -42,20 +59,26 @@
     ],
     "sources": [
       {
-        "accessedAt": "2026-09-17",
+        "accessedAt": "2026-10-10",
         "publishedAt": "2025-09-16",
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0276",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Zuschussgewährung zum Hochwasserschutzprojekt",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
     "status": "implementation",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145",
-      "summary": "Der Beschluss erläutert bereits ausgeführte Bauarbeiten und dadurch entstandene Mehrkosten. Eine Fertigstellung des gesamten Beckens wird darin nicht bestätigt.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der ältere Beschluss belegt ausgeführte Bauarbeiten. Der Bürgermeisterbericht vom 22. September 2026 meldet eine Prüfung von Akten, Stauanlagen und Baumpflanzungen am 6. August ohne berichtete Beanstandungen. Eine Fertigstellung des gesamten Beckens wird dadurch nicht ausdrücklich bestätigt.\n"
     },
-    "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.\n",
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 wurde das Hochwasserschutzprojekt am 6. August im Zusammenhang mit der Zuschussgewährung geprüft. Eine vollständige Fertigstellung des Beckens wird daraus nicht abgeleitet.\n",
     "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede",
     "visibility": "published"
   }

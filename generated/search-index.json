@@ -26,6 +26,40 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
+        "mobility",
+        "road-safety"
+      ],
+      "detail": "topics/muehlenweg-speed-limit.json",
+      "id": "muehlenweg-speed-limit",
+      "latestActivity": {
+        "date": "2026-03-17",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260",
+        "summary": "Der Bürgermeisterbericht meldet nach einer Verkehrszählung einen negativen Bescheid des Landkreises zur beantragten Geschwindigkeitsreduzierung. Das Datum des Bescheids geht aus dem Bericht nicht hervor.\n"
+      },
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-12-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
+        "summary": "Der Rat beschloss, beim Landkreis Gifhorn eine Reduzierung von 100 auf 70 km/h zu beantragen.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel",
+        "district-gifhorn"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "rejected",
+      "summary": "Laut Bürgermeisterbericht vom 17. März 2026 hat der Landkreis die beantragte Geschwindigkeitsreduzierung auf dem Mühlenweg negativ beschieden. Der Rat hatte zuvor einen Antrag auf Tempo 70 beschlossen.",
+      "title": "Antrag auf Tempo 70 auf dem Mühlenweg"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
         "public-services",
         "postal-services"
       ],
@@ -299,6 +333,59 @@
     },
     {
       "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "water-management",
+        "construction"
+      ],
+      "detail": "topics/sandkamp-water-main-renewal.json",
+      "id": "sandkamp-water-main-renewal",
+      "latestActivity": {
+        "date": "2026-09-11",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Laut Bürgermeisterbericht vom 22. September 2026 fand die Endabnahme der beendeten Bauarbeiten am Sandkamp am 11. September statt.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "completed",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 sind die Bauarbeiten am Sandkamp beendet. Die Endabnahme fand dem Bericht zufolge am 11. September statt.",
+      "title": "Erneuerung der Trinkwasserleitung am Sandkamp"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "water-management",
+        "construction",
+        "mobility"
+      ],
+      "detail": "topics/dorfstrasse-water-main-renewal.json",
+      "id": "dorfstrasse-water-main-renewal",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Bürgermeisterbericht meldet abschnittsweise laufende Arbeiten und die Sperrung der Dorfstraße. Ein tatsächliches Baubeginndatum wird darin nicht genannt.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "implementation",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 laufen die Arbeiten abschnittsweise von Westen aus. Der Bericht nennt eine Sperrung der Dorfstraße und ein beidseitiges absolutes Halteverbot auf der Schulstraße.",
+      "title": "Erneuerung der Trinkwasserleitung in der Dorfstraße"
+    },
+    {
+      "areas": [
         "municipality-adenbuettel"
       ],
       "categories": [
@@ -419,6 +506,11 @@
       ],
       "detail": "topics/community-centre-old-fire-station.json",
       "id": "community-centre-old-fire-station",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Bürgermeisterbericht meldet die Aufhebung der ersten Ausschreibung wegen eines zu hohen Ergebnisses und eine erneute Ausschreibung. Eine Baugenehmigung lag laut Bericht noch nicht vor.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2026-03-17",
@@ -433,8 +525,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "decided",
-      "summary": "Der Bereich der alten Feuerwehr soll zu einer multifunktionalen Gemeinschaftseinrichtung mit Bürgerservice umgebaut werden.",
+      "status": "implementation",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 ist der Umbau erneut ausgeschrieben, nachdem die erste Ausschreibung aufgehoben wurde. Eine Baugenehmigung lag laut diesem Bericht noch nicht vor.",
       "title": "Gemeinschafts- und Bürgerservicezentrum an der alten Feuerwehr"
     },
     {
@@ -469,29 +561,53 @@
         "municipality-roetgesbuettel"
       ],
       "categories": [
-        "mobility",
-        "road-safety"
+        "sports",
+        "public-space",
+        "community"
       ],
-      "detail": "topics/muehlenweg-speed-limit.json",
-      "id": "muehlenweg-speed-limit",
-      "latestDecision": {
-        "body": "Rat der Gemeinde Rötgesbüttel",
-        "date": "2025-12-16",
-        "outcome": "adopted",
-        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
-        "summary": "Der Rat beschloss, beim Landkreis Gifhorn eine Reduzierung von 100 auf 70 km/h zu beantragen.\n"
+      "detail": "topics/calisthenics-boules-area.json",
+      "id": "calisthenics-boules-area",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Bürgermeisterbericht meldet ein mit Cultura erarbeitetes Konzept und einen gestellten Förderantrag für die Calisthenics-Anlage und die Boulebahn. Das Antragsdatum wird nicht genannt.\n"
       },
       "organizations": [
-        "municipality-roetgesbuettel",
-        "district-gifhorn"
+        "municipality-roetgesbuettel"
       ],
       "relevantAreaIds": [
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "open",
-      "summary": "Der Rat beschloss, beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h zu beantragen.",
-      "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg"
+      "status": "announced",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 liegt ein Förderantrag für eine Calisthenics-Anlage und die Boulebahn vor. Eine Förderzusage oder ein Beschluss über die Umsetzung ist nicht belegt.",
+      "title": "Geplante Calisthenics-Anlage und Erneuerung der Boulebahn"
+    },
+    {
+      "areas": [
+        "municipality-roetgesbuettel"
+      ],
+      "categories": [
+        "childcare",
+        "public-facilities"
+      ],
+      "detail": "topics/childcare-community-hall-cooling.json",
+      "id": "childcare-community-hall-cooling",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Bürgermeisterbericht meldet vorliegende Angebote zur Klimatisierung der Bürgerhalle und des Kita-Obergeschosses. Die Angebotsdaten werden nicht genannt.\n"
+      },
+      "organizations": [
+        "municipality-roetgesbuettel"
+      ],
+      "relevantAreaIds": [
+        "joint-municipality-papenteich",
+        "municipality-roetgesbuettel"
+      ],
+      "status": "announced",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 liegen Angebote zur Klimatisierung des Kita-Obergeschosses und der Bürgerhalle vor. Finanzierung und Umsetzung sind damit noch nicht beschlossen.",
+      "title": "Geplante Klimatisierung von Kita und Bürgerhalle"
     },
     {
       "areas": [
@@ -503,6 +619,11 @@
       ],
       "detail": "topics/parking-restrictions-schulgarten-eikhof.json",
       "id": "parking-restrictions-schulgarten-eikhof",
+      "latestActivity": {
+        "date": "2026-02-25",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005169&SILFDNR=1000256",
+        "summary": "Der Bürgermeisterbericht meldet die Genehmigung des absoluten Halteverbots in Teilbereichen des Eikhofs und bereits aufgestellte Schilder.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2025-12-16",
@@ -518,8 +639,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "open",
-      "summary": "Der Rat beschloss, für Am Schulgarten und Am Eikhof im Einmündungsbereich ein einseitiges absolutes Halteverbot beim Landkreis zu beantragen.",
+      "status": "implementation",
+      "summary": "Laut Bürgermeisterbericht vom 25. Februar 2026 ist das absolute Halteverbot in Teilbereichen des Eikhofs genehmigt und beschildert. Der Ratsantrag betraf auch den Einmündungsbereich Am Schulgarten.",
       "title": "Halteverbot Am Schulgarten und Am Eikhof"
     },
     {
@@ -534,6 +655,18 @@
       ],
       "detail": "topics/flood-retention-basin-roetgesbuettel.json",
       "id": "flood-retention-basin-roetgesbuettel",
+      "latestActivity": {
+        "date": "2026-08-06",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Laut Bürgermeisterbericht vom 22. September 2026 prüfte das niedersächsische Landwirtschaftsministerium am 6. August Akten, Stauanlagen und Baumpflanzungen des Hochwasserschutzprojekts. Der Bürgermeister berichtet dabei keine Beanstandungen.\n"
+      },
+      "latestDecision": {
+        "body": "Rat der Gemeinde Rötgesbüttel",
+        "date": "2025-09-16",
+        "outcome": "adopted",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145",
+        "summary": "Der Rat bewilligte einstimmig eine überplanmäßige Auszahlung von 50.000 Euro für Mehrkosten beim Hochwasserrückhaltebecken.\n"
+      },
       "organizations": [
         "municipality-roetgesbuettel"
       ],
@@ -542,7 +675,7 @@
         "municipality-roetgesbuettel"
       ],
       "status": "implementation",
-      "summary": "Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat bewilligte dafür im September 2025 zusätzlich 50.000 Euro.",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 wurde das Hochwasserschutzprojekt am 6. August im Zusammenhang mit der Zuschussgewährung geprüft. Eine vollständige Fertigstellung des Beckens wird daraus nicht abgeleitet.",
       "title": "Hochwasserrückhaltebecken an der Rötgesbütteler Riede"
     },
     {
@@ -556,6 +689,11 @@
       ],
       "detail": "topics/municipal-heat-planning.json",
       "id": "municipal-heat-planning",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Rötgesbütteler Bürgermeisterbericht meldet eine Ausschreibung der Ingenieurleistungen zur kommunalen Wärmeplanung und bereits geführte Bietergespräche. Die Auftragsvergabe durch die Samtgemeinde stehe noch bevor.\n"
+      },
       "latestDecision": {
         "body": "Samtgemeinderat Papenteich",
         "date": "2025-01-21",
@@ -575,8 +713,8 @@
         "municipality-schwuelper",
         "municipality-vordorf"
       ],
-      "status": "open",
-      "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.",
+      "status": "implementation",
+      "summary": "Laut Rötgesbütteler Bürgermeisterbericht vom 22. September 2026 hat die Samtgemeinde Ingenieurleistungen für die Wärmeplanung ausgeschrieben und Bietergespräche geführt. Die Vergabe wird darin erst angekündigt.",
       "title": "Kommunale Wärmeplanung für den Papenteich"
     },
     {
@@ -648,6 +786,11 @@
       ],
       "detail": "topics/b4-sidewalk-renewal.json",
       "id": "b4-sidewalk-renewal",
+      "latestActivity": {
+        "date": "2026-06-25",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+        "summary": "Der Bürgermeisterbericht meldet fertige Pläne für den westlichen Gehwegbau und die Sanierung sowie einen Vertragsentwurf für die Querungshilfe. Die Fertigstellungsdaten der Unterlagen werden nicht genannt.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2025-09-16",
@@ -664,7 +807,7 @@
         "municipality-roetgesbuettel"
       ],
       "status": "decided",
-      "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 sind Förderanträge für die westlichen Gehwege gestellt; Querungshilfe und Gehwegarbeiten bleiben vorgesehen. Der B4-Baubeginn ist für Frühjahr 2027 angekündigt.",
       "title": "Nebenanlagen an der B4-Ortsdurchfahrt"
     },
     {
@@ -809,6 +952,11 @@
       ],
       "detail": "topics/childcare-sanitary-facilities.json",
       "id": "childcare-sanitary-facilities",
+      "latestActivity": {
+        "date": "2026-09-22",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+        "summary": "Der Bürgermeisterbericht meldet eine Besichtigung der Sanitärräume der Igelgruppe mit Architekt, DRK und Kita-Leitung sowie die Erarbeitung eines Konzepts. Das Besichtigungsdatum wird nicht genannt.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2026-03-17",
@@ -825,7 +973,7 @@
         "municipality-roetgesbuettel"
       ],
       "status": "open",
-      "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 haben Architekt, DRK und Kita-Leitung die Sanitärräume der Igelgruppe besichtigt. Ein Konzept wird erarbeitet; begonnene Sanierungsarbeiten sind nicht bestätigt.",
       "title": "Sanierung der Sanitärräume in der Kindertagesstätte"
     },
     {
@@ -839,6 +987,11 @@
       ],
       "detail": "topics/sports-centre-modernisation.json",
       "id": "sports-centre-modernisation",
+      "latestActivity": {
+        "date": "2026-06-25",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+        "summary": "Der Bürgermeisterbericht meldet nach einer Besichtigung der Sporthalle und des Duschbereichs dringenden Handlungsbedarf. Zunächst sollen die dringendsten Mängel beseitigt werden; das Besichtigungsdatum wird nicht genannt.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2026-03-17",
@@ -855,7 +1008,7 @@
         "municipality-roetgesbuettel"
       ],
       "status": "open",
-      "summary": "Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.",
+      "summary": "Laut Bürgermeisterbericht vom 25. Juni 2026 hat eine Besichtigung der Sporthalle und der Duschen dringenden Handlungsbedarf ergeben. Der Rat hatte ein Gutachten und die Vorbereitung für den Haushalt 2027 beschlossen.",
       "title": "Sanierung und Modernisierung des Gemeindesportzentrums"
     },
     {
@@ -1027,6 +1180,11 @@
       ],
       "detail": "topics/northern-town-sign-relocation.json",
       "id": "northern-town-sign-relocation",
+      "latestActivity": {
+        "date": "2026-06-01",
+        "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006815&SILFDNR=1000321",
+        "summary": "Der Bürgermeisterbericht meldet die Zustimmung des Landkreises zur Ortsschildversetzung nach der B4-Baumaßnahme. Auch die vorherige Verlegung des Ortsdurchfahrtssteins wird berichtet; dieser ist nicht das Ortsschild.\n"
+      },
       "latestDecision": {
         "body": "Rat der Gemeinde Rötgesbüttel",
         "date": "2025-12-16",
@@ -1042,8 +1200,8 @@
         "joint-municipality-papenteich",
         "municipality-roetgesbuettel"
       ],
-      "status": "open",
-      "summary": "Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich der Ampelanlage Pfänderweg versetzt werden.",
+      "status": "decided",
+      "summary": "Laut Bürgermeisterbericht vom 1. Juni 2026 hat der Landkreis der Versetzung des nördlichen Ortsschildes nach der B4-Baumaßnahme zugestimmt. Eine bereits erfolgte Versetzung des Ortsschildes wird nicht berichtet.",
       "title": "Versetzung des Ortsschildes am nördlichen Ortseingang"
     },
     {
