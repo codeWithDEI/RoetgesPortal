@@ -1,15 +1,18 @@
 id: sports-centre-modernisation
 title: Sanierung und Modernisierung des Gemeindesportzentrums
 summary: >
-  Der Sanierungsbedarf des Gemeindesportzentrums soll 2026 durch ein Gutachten
-  untersucht und für die Haushaltsberatungen 2027 vorbereitet werden.
+  Laut Bürgermeisterbericht vom 25. Juni 2026 hat eine Besichtigung
+  der Sporthalle und der Duschen dringenden Handlungsbedarf ergeben.
+  Der Rat hatte ein Gutachten und die Vorbereitung für den Haushalt 2027 beschlossen.
 status: open
 statusBasis:
   scope: topic
   summary: >
-    Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung. Die
-    verlinkte Quelle belegt weder eine Sanierungsfreigabe noch einen Beginn der Arbeiten.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
+    Beschlossen sind ein Gutachten und die Vorbereitung der Haushaltsberatung.
+    Der Bürgermeisterbericht vom 25. Juni 2026 meldet dringenden Handlungsbedarf
+    nach einer Besichtigung und kündigt die Beseitigung der dringendsten Mängel an.
+    Eine Freigabe oder ein Beginn der umfassenden Sanierung sind damit nicht belegt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
 latestDecision:
   date: "2026-03-17"
   body: Rat der Gemeinde Rötgesbüttel
@@ -18,6 +21,13 @@ latestDecision:
     Der Rat beschloss ein Gutachten für 2026 und die Berücksichtigung des Vorhabens in den
     Haushaltsberatungen 2027, nicht die Sanierung selbst.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
+latestActivity:
+  date: "2026-06-25"
+  summary: >
+    Der Bürgermeisterbericht meldet nach einer Besichtigung der Sporthalle
+    und des Duschbereichs dringenden Handlungsbedarf. Zunächst sollen die
+    dringendsten Mängel beseitigt werden; das Besichtigungsdatum wird nicht genannt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
 visibility: published
 
 areas:
@@ -34,8 +44,8 @@ organizations:
 
 dates:
   createdAt: "2026-03-17"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Der Rat nahm den Antrag des VfL Rötgesbüttel zur umfassenden Grundsanierung
@@ -46,6 +56,19 @@ description: |
   Damit sind vorbereitende Schritte beschlossen, nicht die Sanierung selbst.
   Ein Beginn oder Ergebnis des Gutachtens sowie eine Freigabe von Bauarbeiten
   gehen aus dem verlinkten Beschluss nicht hervor.
+
+  Der Bürgermeisterbericht vom 17. März 2026 meldet bereits durch die
+  Sportler installierte neue Duschköpfe sowie weiteren Bedarf an Fliesen
+  und Silikonfugen. Diese einzelne Sofortmaßnahme ist keine
+  Grundsanierung des Gemeindesportzentrums.
+
+  Laut Bürgermeisterbericht vom 25. Juni 2026 ergab eine Besichtigung
+  der Sporthalle und des Kellers mit den Duschen dringenden Handlungsbedarf.
+  Zunächst sollen die dringendsten Mängel beseitigt werden; eine
+  grundlegende Sanierung werde als notwendig angesehen. Dies sind
+  ausdrücklich berichtete Feststellungen und angekündigte Maßnahmen.
+  Der Abschluss des Gutachtens oder der Beginn der umfassenden Sanierung
+  wird damit nicht bestätigt.
 
 locations:
   - id: sports-centre
@@ -58,11 +81,25 @@ milestones:
     title: Rat beschließt Gutachten und Vorbereitung für Haushalt 2027
     status: reached
 
+  - date: "2026-06-25"
+    title: Bürgermeisterbericht meldet dringenden Bedarf nach Besichtigung der Sporthalle
+    status: reached
+
 sources:
   - title: Beschlussauszug zu Rötg/2026/0291
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005886&SILFDNR=1000260
     publishedAt: "2026-03-17"
     accessedAt: "2026-09-17"
+
+  - title: Bürgermeisterbericht vom 17. März 2026 (Rat, TOP 4), Abschnitt Duschen im Sportheim
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260
+    accessedAt: "2026-10-10"
+
+  - title: Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Sporthalle und Duschen
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
+    accessedAt: "2026-10-10"
 
 positions: []

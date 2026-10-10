@@ -1,15 +1,34 @@
 id: flood-retention-basin-roetgesbuettel
 title: Hochwasserrückhaltebecken an der Rötgesbütteler Riede
 summary: >
-  Beim Bau des Hochwasserrückhaltebeckens entstanden Mehrkosten; der Rat
-  bewilligte dafür im September 2025 zusätzlich 50.000 Euro.
+  Laut Bürgermeisterbericht vom 22. September 2026 wurde das
+  Hochwasserschutzprojekt am 6. August im Zusammenhang mit der
+  Zuschussgewährung geprüft. Eine vollständige Fertigstellung des Beckens
+  wird daraus nicht abgeleitet.
 status: implementation
 statusBasis:
   scope: topic
   summary: >
-    Der Beschluss erläutert bereits ausgeführte Bauarbeiten und dadurch
-    entstandene Mehrkosten. Eine Fertigstellung des gesamten Beckens wird
-    darin nicht bestätigt.
+    Der ältere Beschluss belegt ausgeführte Bauarbeiten. Der Bürgermeisterbericht
+    vom 22. September 2026 meldet eine Prüfung von Akten, Stauanlagen und
+    Baumpflanzungen am 6. August ohne berichtete Beanstandungen. Eine
+    Fertigstellung des gesamten Beckens wird dadurch nicht ausdrücklich bestätigt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+latestActivity:
+  date: "2026-08-06"
+  summary: >
+    Laut Bürgermeisterbericht vom 22. September 2026 prüfte das
+    niedersächsische Landwirtschaftsministerium am 6. August Akten,
+    Stauanlagen und Baumpflanzungen des Hochwasserschutzprojekts.
+    Der Bürgermeister berichtet dabei keine Beanstandungen.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+latestDecision:
+  date: "2025-09-16"
+  body: Rat der Gemeinde Rötgesbüttel
+  outcome: adopted
+  summary: >
+    Der Rat bewilligte einstimmig eine überplanmäßige Auszahlung von
+    50.000 Euro für Mehrkosten beim Hochwasserrückhaltebecken.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145
 visibility: published
 
@@ -27,8 +46,8 @@ organizations:
 
 dates:
   createdAt: "2025-09-16"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Während der Bauausführung mussten Arbeiten an die örtlichen Verhältnisse
@@ -41,6 +60,17 @@ description: |
   Auszahlung einstimmig zu. Die verlinkte Quelle belegt bereits ausgeführte
   Arbeiten, bestätigt aber keine Fertigstellung des gesamten Beckens.
 
+  Im Bürgermeisterbericht vom 22. September 2026 wird eine Prüfung des
+  Hochwasserschutzprojekts durch das niedersächsische Landwirtschaftsministerium
+  am 6. August 2026 beschrieben. Geprüft worden seien Akten, Stauanlagen
+  und gepflanzte Bäume im Zusammenhang mit der Zuschussgewährung.
+  Der Bürgermeister berichtet keine Beanstandungen.
+
+  Dies ist ausdrücklich ein Sachstand aus dem Bürgermeisterbericht.
+  Ein Prüfbericht des Ministeriums wurde nicht unmittelbar geprüft;
+  eine vollständige Fertigstellung oder Schlussabnahme des Beckens
+  wird aus dieser Aussage nicht abgeleitet.
+
 locations:
   - id: retention-basin
     label: Hochwasserrückhaltebecken an der Rötgesbütteler Riede
@@ -52,11 +82,20 @@ milestones:
     title: Rat bewilligt 50.000 Euro Mehrkosten
     status: reached
 
+  - date: "2026-08-06"
+    title: Prüfung des Hochwasserschutzprojekts laut Bürgermeisterbericht vom 22. September
+    status: reached
+
 sources:
   - title: Beschlussauszug zu Rötg/2025/0276
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1001000&SILFDNR=2145
     publishedAt: "2025-09-16"
-    accessedAt: "2026-09-17"
+    accessedAt: "2026-10-10"
+
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Zuschussgewährung zum Hochwasserschutzprojekt
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
 
 positions: []

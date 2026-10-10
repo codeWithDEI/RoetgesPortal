@@ -58,6 +58,15 @@ Omit the object when the development or its date cannot be established. There
 is no fallback to an editorial date, decision, or milestone. Topic detail pages
 show an evidenced activity separately from editorial update/verification dates.
 
+Mayor's reports in public minutes use the existing source and text fields:
+source titles identify the report, meeting date, agenda item, and section;
+report-derived summaries explicitly name the report. Keep the original event
+date when stated; otherwise date the activity as a report and say so. There is
+no dedicated structured report-provenance field. A reported state remains
+distinct from a directly inspected resolution or independently verified
+implementation; see the
+[report attribution policy](../governance/editorial-policy.md#mayors-reports-in-public-minutes).
+
 ### Datasets
 
 Files under `content/datasets/` register reusable inputs. A dataset can point

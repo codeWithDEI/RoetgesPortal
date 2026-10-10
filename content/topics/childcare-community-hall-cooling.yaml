@@ -1,0 +1,61 @@
+id: childcare-community-hall-cooling
+title: Geplante Klimatisierung von Kita und Bürgerhalle
+summary: >
+  Laut Bürgermeisterbericht vom 22. September 2026 liegen Angebote
+  zur Klimatisierung des Kita-Obergeschosses und der Bürgerhalle vor.
+  Finanzierung und Umsetzung sind damit noch nicht beschlossen.
+status: announced
+statusBasis:
+  scope: topic
+  summary: >
+    Der Bürgermeisterbericht vom 22. September 2026 nennt Gespräche
+    mit einer Fachfirma und vorliegende Angebote für beide Gebäude.
+    Eine mögliche Förderung und die Haushaltsberatung werden als
+    weitere Schritte beschrieben, nicht als gesicherte Finanzierung.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+latestActivity:
+  date: "2026-09-22"
+  summary: >
+    Der Bürgermeisterbericht meldet vorliegende Angebote zur
+    Klimatisierung der Bürgerhalle und des Kita-Obergeschosses.
+    Die Angebotsdaten werden nicht genannt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+visibility: published
+areas:
+  - municipality-roetgesbuettel
+categories:
+  - childcare
+  - public-facilities
+organizations:
+  - municipality-roetgesbuettel
+dates:
+  createdAt: "2026-10-10"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
+description: |
+  Im Bürgermeisterbericht vom 22. September 2026 wird die
+  Klimatisierung des Kita-Obergeschosses und der Bürgerhalle als
+  Vorhaben beschrieben. Ein Gespräch mit einer Fachfirma habe
+  stattgefunden; Angebote für beide Maßnahmen lägen vor und könnten
+  in die Haushaltsgespräche einfließen.
+
+  Der Bürgermeisterbericht sieht eine mögliche Bezuschussung für die
+  Bürgerhalle. Für die Kita beschreibt er eine mögliche Finanzierung
+  über den Haushalt 2027. Diese Aussagen sind berichtete Überlegungen;
+  Förderbedingungen, eine Bewilligung oder bereitgestellte
+  Haushaltsmittel wurden nicht unmittelbar geprüft.
+
+  Der neue Sachstand stammt ausdrücklich aus dem Bürgermeisterbericht.
+  Eine Auftragsvergabe, ein Baubeginn oder Kosten werden darin für
+  diese Maßnahmen nicht bestätigt.
+locations: []
+milestones:
+  - date: "2026-09-22"
+    title: Bürgermeisterbericht meldet Angebote zur Klimatisierung
+    status: reached
+sources:
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Klimaanlagen für Kita und Bürgerhalle
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
+positions: []

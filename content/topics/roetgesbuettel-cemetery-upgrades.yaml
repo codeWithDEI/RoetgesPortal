@@ -33,8 +33,8 @@ organizations:
 
 dates:
   createdAt: "2025-01-21"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Der Samtgemeinderat stellte für 2025 4.500 Euro für eine zweite,
@@ -44,6 +44,17 @@ description: |
   Für das Haushaltsjahr 2026 wurden außerdem 5.000 Euro zusätzlich für die
   Instandsetzung der Parkplätze am Friedhof eingeplant. Die verlinkten
   Beschlüsse dokumentieren keinen Beginn oder Abschluss der beiden Maßnahmen.
+
+  Der Rötgesbütteler Bürgermeisterbericht vom 22. September 2026 meldet
+  außerdem einen vergebenen Auftrag für kleinere Verschönerungen am
+  Friedhof. Die Art der Arbeiten bezeichnet der Bericht nur als
+  vermutlich Wegebau. Diese Angabe wird ausdrücklich als Sachstand
+  aus dem Bürgermeisterbericht wiedergegeben.
+
+  Eine Zuordnung dieses Auftrags zur zweiten Stele oder zur
+  Parkplatzinstandsetzung ist im Bericht nicht belegt. Der Status der
+  beiden zuvor beschriebenen Haushaltsmaßnahmen wird deshalb aus
+  dieser Meldung nicht auf begonnen oder abgeschlossen geändert.
 
 locations:
   - id: cemetery
@@ -70,5 +81,10 @@ sources:
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36618&SILFDNR=1633
     publishedAt: "2025-01-21"
     accessedAt: "2026-09-17"
+
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Verschönerungen am Friedhof
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
 
 positions: []

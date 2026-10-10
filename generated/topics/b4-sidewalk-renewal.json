@@ -12,11 +12,16 @@
     ],
     "dates": {
       "createdAt": "2025-03-03",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von bis zu 30 Prozent, höchstens 100.000 Euro,\nvorgesehen. Bei höheren Kosten wäre erneut zu beraten. Die Querungshilfe\nsollte nach dem Juni-Beschluss zunächst nicht gebaut werden.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n\nDiese Beschlüsse dokumentieren die vorgesehenen Maßnahmen und ihre\nFinanzierung, aber noch keinen Beginn der Bauarbeiten.\n",
+    "description": "Im März 2025 priorisierte der Rat den westlichen Gehweg vom Pfänderweg bis\nzur neuen Feuerwehr und weitere Maßnahmen auf der Ostseite. Im Juni wurden\nfür den westlichen Gehweg und den Festplatz Kosten von rund 257.522 Euro\nzuzüglich Planung beschlossen; für mögliche Arbeiten am östlichen Gehweg\nwurde eine Beteiligung von bis zu 30 Prozent, höchstens 100.000 Euro,\nvorgesehen. Bei höheren Kosten wäre erneut zu beraten. Die Querungshilfe\nsollte nach dem Juni-Beschluss zunächst nicht gebaut werden.\n\nNachdem eine Verkehrszählung eine Kostenübernahme durch die Landesbehörde\nermöglichte, beschloss der Rat im September zusätzlich den Bau einer\nQuerungshilfe. Südlich davon soll der Parkstreifen verlängert und auf zwei\nStunden Parkdauer begrenzt werden. Förderanträge und Haushaltsmittel für\n2027 wurden ebenfalls beschlossen.\n\nDiese Beschlüsse dokumentieren die vorgesehenen Maßnahmen und ihre\nFinanzierung, aber noch keinen Beginn der Bauarbeiten.\n\nLaut Bürgermeisterbericht vom 25. Juni 2026 sind die Pläne für Bau und\nSanierung der westlichen Gehwege fertig. Ein Zuschussantrag sei\nfristgerecht zum 31. Mai eingereicht worden. Für die Querungshilfe\nliege ein Vertragsentwurf vor; der Ersatzparkplatz werde dagegen\nnicht mitgeplant. Diese Angaben sind berichteter Planungsstand und\nändern nicht rückwirkend den Inhalt der Ratsbeschlüsse von 2025.\n\nDer Bürgermeisterbericht vom 22. September 2026 bestätigt die gestellten\nFörderanträge und die vorgesehene Querungshilfe sowie die westlichen\nGehwegarbeiten. Der B4-Baubeginn wird dort für Frühjahr 2027 angekündigt.\nEin Umleitungskonzept werde erstellt und anschließend mit umliegenden\nGemeinden besprochen. Förderbewilligung, Vertragsabschluss und ein\ntatsächlicher Baubeginn werden hieraus nicht abgeleitet.\n",
     "id": "b4-sidewalk-renewal",
+    "latestActivity": {
+      "date": "2026-06-25",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+      "summary": "Der Bürgermeisterbericht meldet fertige Pläne für den westlichen Gehwegbau und die Sanierung sowie einen Vertragsentwurf für die Querungshilfe. Die Fertigstellungsdaten der Unterlagen werden nicht genannt.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2025-09-16",
@@ -47,6 +52,11 @@
         "date": "2025-09-16",
         "status": "reached",
         "title": "Rat beschließt Querungshilfe und zusätzliche Stellplätze"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet fertige Gehwegpläne und Vertragsentwurf zur Querungshilfe"
       }
     ],
     "organizations": [
@@ -79,15 +89,27 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0271",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt B4-Gehwege, Förderantrag, Querungshilfe und Umleitungsplanung",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt B4-Sanierung",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
     "status": "decided",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1000998&SILFDNR=2145",
-      "summary": "Der Rat beschloss Maßnahmen, Finanzierungsbedingungen und die Vorbereitung der Umsetzung. Einen Beginn der Bauarbeiten dokumentieren die verlinkten Beschlüsse nicht.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325",
+      "summary": "Der Rat hat Maßnahmen beschlossen. Laut Bürgermeisterbericht vom 25. Juni 2026 sind die Pläne für die westlichen Gehwege fertig und Fördermittel beantragt. Dies belegt Vorbereitungen; ein Baubeginn der Nebenanlagen wird in den geprüften Bürgermeisterberichten nicht bestätigt.\n"
     },
-    "summary": "Entlang der B4 sollen Gehwege und der Festplatzbereich erneuert, Parkplätze ergänzt und eine vom Land finanzierte Querungshilfe gebaut werden.\n",
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 sind Förderanträge für die westlichen Gehwege gestellt; Querungshilfe und Gehwegarbeiten bleiben vorgesehen. Der B4-Baubeginn ist für Frühjahr 2027 angekündigt.\n",
     "title": "Nebenanlagen an der B4-Ortsdurchfahrt",
     "visibility": "published"
   }

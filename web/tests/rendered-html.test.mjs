@@ -67,7 +67,7 @@ test("server-renders the public topic overview", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /Kommunale Themen im Überblick · RötgesPortal/);
   assert.match(html, /Was bewegt/);
-  assert.match(html, /17(?:<!-- -->)* Themen aus dem Gemeinderat/);
+  assert.match(html, /19(?:<!-- -->)* Themen aus dem Gemeinderat/);
   assert.match(html, /Wohngebiet Aukenroth/);
   assert.match(html, /Themen durchsuchen/);
   assert.match(html, /Politische Ebene/);
@@ -325,7 +325,7 @@ test("server-renders the source-backed council map", async () => {
 
   const html = await response.text();
   assert.match(html, /Wo werden Entscheidungen sichtbar\?/);
-  assert.match(html, /13(?:<!-- -->)* verortete Themen/);
+  assert.match(html, /12(?:<!-- -->)* verortete Themen/);
   assert.match(html, /Themen auf der Karte/);
   assert.match(html, /Ortsbezüge durchsuchen/);
   assert.match(html, /id="map-topic-search"/);

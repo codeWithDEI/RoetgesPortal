@@ -1,0 +1,68 @@
+id: dorfstrasse-water-main-renewal
+title: Erneuerung der Trinkwasserleitung in der Dorfstraße
+summary: >
+  Laut Bürgermeisterbericht vom 22. September 2026 laufen die Arbeiten
+  abschnittsweise von Westen aus. Der Bericht nennt eine Sperrung der
+  Dorfstraße und ein beidseitiges absolutes Halteverbot auf der Schulstraße.
+status: implementation
+statusBasis:
+  scope: topic
+  summary: >
+    Der Bürgermeisterbericht vom 22. September 2026 beschreibt laufende
+    Bauabschnitte und wöchentliche Besprechungen mit der Gemeinde.
+    Ein Abschluss oder ein verbindlicher Endtermin wird dadurch nicht bestätigt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+latestActivity:
+  date: "2026-09-22"
+  summary: >
+    Der Bürgermeisterbericht meldet abschnittsweise laufende Arbeiten
+    und die Sperrung der Dorfstraße. Ein tatsächliches Baubeginndatum
+    wird darin nicht genannt.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+visibility: published
+areas:
+  - municipality-roetgesbuettel
+categories:
+  - water-management
+  - construction
+  - mobility
+organizations:
+  - municipality-roetgesbuettel
+dates:
+  createdAt: "2026-10-10"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
+description: |
+  Der Bürgermeisterbericht vom 25. Juni 2026 kündigte die Verlegung einer
+  neuen Trinkwasserleitung in der Dorfstraße ab Juli an. Die Gemeinde
+  verhandle mit dem Wasserverband über Ablauf und Sperrungen.
+
+  Laut Bürgermeisterbericht vom 22. September 2026 laufen die Arbeiten
+  abschnittsweise, beginnend im Westen. Der Bericht nennt die Sperrung
+  der Dorfstraße und ein absolutes Halteverbot auf beiden Seiten der
+  Schulstraße. Die Grundstücke seien meistens erreichbar; es fänden
+  wöchentliche Besprechungen mit der Gemeinde statt.
+
+  Diese Angaben stammen ausdrücklich aus den Bürgermeisterberichten.
+  Die im September genannte Erfahrungsdauer von mindestens zwei Monaten
+  ist kein verbindlicher Fertigstellungstermin. Der Anordnungstext und
+  ein aktueller Verkehrsplan wurden nicht unmittelbar geprüft; aus dem
+  Bericht wird keine heutige Zufahrtsgarantie für einzelne Grundstücke abgeleitet.
+locations: []
+milestones:
+  - date: "2026-06-25"
+    title: Bürgermeisterbericht kündigt Arbeiten an der Trinkwasserleitung an
+    status: reached
+  - date: "2026-09-22"
+    title: Bürgermeisterbericht meldet laufende Bauabschnitte und Sperrung
+    status: reached
+sources:
+  - title: Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Trinkwasserleitung Dorfstraße
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
+    accessedAt: "2026-10-10"
+  - title: Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Dorfstraßensperrung
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417
+    accessedAt: "2026-10-10"
+positions: []

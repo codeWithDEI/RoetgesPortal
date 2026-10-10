@@ -28,6 +28,14 @@ that political content is true.
   agendas, official notices, and relevant attachments. Match the exact subject,
   meeting date, agenda item, decision-making body, document version, and outcome.
   A proposal or agenda is not proof that the proposed action was adopted.
+- Read the public mayor's reports within meeting minutes, including linked
+  report attachments, even when the report agenda item is excluded by the
+  monitor. Check them for new topics and updates to existing topics.
+- Explicitly attribute report-derived updates to the mayor's report in the
+  topic text and relevant evidence/activity/milestone summaries. Cite the exact
+  meeting, agenda item or report section in the source title. A reported state
+  is not a new council resolution or independently verified implementation;
+  preserve that distinction and check later evidence before changing status.
 - Check amendments, withdrawals, referrals, later decisions, and implementation
   evidence before summarizing. Every material claim about status, dates, amounts,
   votes, locations, or attributed positions must be supported by its source.

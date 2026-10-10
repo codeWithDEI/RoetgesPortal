@@ -1,15 +1,18 @@
 id: northern-town-sign-relocation
 title: Versetzung des Ortsschildes am nördlichen Ortseingang
 summary: >
-  Das Ortsschild soll im Zuge der für 2027 vorgesehenen B4-Sanierung nördlich
-  der Ampelanlage Pfänderweg versetzt werden.
-status: open
+  Laut Bürgermeisterbericht vom 1. Juni 2026 hat der Landkreis der
+  Versetzung des nördlichen Ortsschildes nach der B4-Baumaßnahme zugestimmt.
+  Eine bereits erfolgte Versetzung des Ortsschildes wird nicht berichtet.
+status: decided
 statusBasis:
   scope: topic
   summary: >
-    Der Rat befürwortete die spätere Versetzung und einen Antrag an den Landkreis. Eine
-    Genehmigung oder Ausführung geht aus dem verlinkten Beschluss nicht hervor.
-  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
+    Neben dem Ratsbeschluss liegt der Bürgermeisterbericht vom 1. Juni 2026
+    vor: Der Landkreis habe der Versetzung nach der B4-Baumaßnahme zugestimmt.
+    Dies ist eine berichtete Zustimmung, keine unmittelbar geprüfte Anordnung
+    und kein Nachweis, dass das Ortsschild bereits versetzt wurde.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006815&SILFDNR=1000321
 latestDecision:
   date: "2025-12-16"
   body: Rat der Gemeinde Rötgesbüttel
@@ -18,6 +21,13 @@ latestDecision:
     Nach Ablehnung einer sofortigen Beantragung beschloss der Rat die angestrebte
     Versetzung im Zuge der B4-Sanierung und einen entsprechenden Antrag an den Landkreis.
   sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
+latestActivity:
+  date: "2026-06-01"
+  summary: >
+    Der Bürgermeisterbericht meldet die Zustimmung des Landkreises zur
+    Ortsschildversetzung nach der B4-Baumaßnahme. Auch die vorherige Verlegung
+    des Ortsdurchfahrtssteins wird berichtet; dieser ist nicht das Ortsschild.
+  sourceUrl: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006815&SILFDNR=1000321
 visibility: published
 
 areas:
@@ -34,8 +44,8 @@ organizations:
 
 dates:
   createdAt: "2025-12-16"
-  updatedAt: "2026-09-17"
-  lastVerifiedAt: "2026-09-17"
+  updatedAt: "2026-10-10"
+  lastVerifiedAt: "2026-10-10"
 
 description: |
   Eine sofortige Beantragung der Versetzung wurde im Rat zunächst abgelehnt.
@@ -48,6 +58,17 @@ description: |
   vorgesehen. Eine Entscheidung des Landkreises über die Versetzung oder
   bereits ausgeführte Arbeiten dokumentiert die verlinkte Quelle nicht.
 
+  Der Bürgermeisterbericht vom 1. Juni 2026 meldet, dass der
+  Ortsdurchfahrtsstein nördlich der Ampelkreuzung verlegt worden sei und
+  der Landkreis dem Antrag auf Versetzung des Ortsschildes nach der
+  B4-Baumaßnahme zugestimmt habe. Der Bürgermeisterbericht vom 25. Juni
+  bestätigt diese Angaben erneut.
+
+  Die berichtete Zustimmung wird ausdrücklich auf die Bürgermeisterberichte
+  gestützt. Eine unmittelbar geprüfte verkehrsrechtliche Anordnung liegt
+  hier nicht vor. Der bereits verlegte Ortsdurchfahrtsstein ist vom
+  Ortsschild zu unterscheiden; dessen Versetzung ist damit nicht belegt.
+
 locations:
   - id: proposed-sign-location
     label: Vorgesehener Standort nördlich der Ampelanlage Pfänderweg
@@ -59,11 +80,25 @@ milestones:
     title: Rat beschließt Versetzung im Zuge der B4-Sanierung
     status: reached
 
+  - date: "2026-06-01"
+    title: Bürgermeisterbericht meldet Zustimmung des Landkreises zur späteren Versetzung
+    status: reached
+
 sources:
   - title: Beschlussauszug zu Rötg/2025/0281
     sourceType: resolution
     url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003516&SILFDNR=2151
     publishedAt: "2025-12-16"
     accessedAt: "2026-09-17"
+
+  - title: Bürgermeisterbericht vom 1. Juni 2026 (Umwelt-, Bau- und Wegeausschuss, TOP 4), Abschnitt Ortsdurchfahrtsstein und Ortsschildversetzung
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006815&SILFDNR=1000321
+    accessedAt: "2026-10-10"
+
+  - title: Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Ortsdurchfahrtsstein und Ortsschildversetzung
+    sourceType: minutes
+    url: https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325
+    accessedAt: "2026-10-10"
 
 positions: []

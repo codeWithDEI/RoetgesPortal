@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "sports",
+      "public-space",
+      "community"
+    ],
+    "dates": {
+      "createdAt": "2026-10-10",
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
+    },
+    "description": "Laut Bürgermeisterbericht vom 25. Juni 2026 wollen Jugendliche,\nCultura und die Gemeinde gemeinsam eine Calisthenics-Anlage schaffen.\nCalisthenics bezeichnet Training mit dem eigenen Körpergewicht.\nAuch die Boulebahn soll erneuert werden; ein Förderantrag für das\nLEADER-Programm werde vorbereitet.\n\nDer Bürgermeisterbericht vom 22. September 2026 meldet ein Gespräch\nmit dem Landkreis und dem Beauftragten für die LEADER-Förderung,\nein gemeinsam mit Cultura erarbeitetes Konzept und einen inzwischen\ngestellten Förderantrag. Das Konzept umfasse auch die Boulebahn und\ngegebenenfalls Sitzgelegenheiten.\n\nDiese Angaben stammen ausdrücklich aus den Bürgermeisterberichten.\nEine mögliche Förderung ist keine Förderzusage. Der Septemberbericht\nbeschreibt Ratsbefassung und Berücksichtigung im Haushalt als noch\nerforderliche Schritte. Ein Baubeginn, Kosten oder ein genauer\nStandort werden hier nicht behauptet.\n",
+    "id": "calisthenics-boules-area",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht meldet ein mit Cultura erarbeitetes Konzept und einen gestellten Förderantrag für die Calisthenics-Anlage und die Boulebahn. Das Antragsdatum wird nicht genannt.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Vorbereitung eines LEADER-Förderantrags"
+      },
+      {
+        "date": "2026-09-22",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Konzept und gestellten Förderantrag"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Calisthenics-Anlage und Boulebahn",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Calisthenics-Anlage",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
+      }
+    ],
+    "status": "announced",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht vom 22. September 2026 meldet ein Konzept und einen gestellten Förderantrag. Ratsbefassung und Berücksichtigung im Haushalt werden als weitere Schritte beschrieben. Eine bewilligte Förderung oder begonnene Ausführung wird nicht bestätigt.\n"
+    },
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 liegt ein Förderantrag für eine Calisthenics-Anlage und die Boulebahn vor. Eine Förderzusage oder ein Beschluss über die Umsetzung ist nicht belegt.\n",
+    "title": "Geplante Calisthenics-Anlage und Erneuerung der Boulebahn",
+    "visibility": "published"
+  }
+}

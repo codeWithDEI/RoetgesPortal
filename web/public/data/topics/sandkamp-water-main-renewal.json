@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 3,
+  "topic": {
+    "areas": [
+      "municipality-roetgesbuettel"
+    ],
+    "categories": [
+      "water-management",
+      "construction"
+    ],
+    "dates": {
+      "createdAt": "2026-10-10",
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
+    },
+    "description": "Der Bürgermeisterbericht vom 17. März 2026 meldete den Beginn der\nSanierung der Trinkwasserleitung im Bereich Sandkamp und Hohes Feld\nam 16. März. Die damals genannte Planung bis Ende Juni war kein\nNachweis eines späteren Abschlusses.\n\nLaut Bürgermeisterbericht vom 22. September 2026 sind die\nBaumaßnahmen am Sandkamp beendet; die Endabnahme fand demnach am\n11. September 2026 statt. Dieses Thema ist auf die Arbeiten am\nSandkamp begrenzt und überträgt die Meldung nicht auf andere Straßen.\n\nDie Angaben zu Beginn und Fertigstellung stammen ausdrücklich aus\nden Bürgermeisterberichten. Das Abnahmeprotokoll wurde nicht\nunmittelbar geprüft.\n",
+    "id": "sandkamp-water-main-renewal",
+    "latestActivity": {
+      "date": "2026-09-11",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Laut Bürgermeisterbericht vom 22. September 2026 fand die Endabnahme der beendeten Bauarbeiten am Sandkamp am 11. September statt.\n"
+    },
+    "locations": [],
+    "milestones": [
+      {
+        "date": "2026-03-16",
+        "status": "reached",
+        "title": "Baubeginn laut Bürgermeisterbericht vom 17. März"
+      },
+      {
+        "date": "2026-09-11",
+        "status": "reached",
+        "title": "Endabnahme laut Bürgermeisterbericht vom 22. September"
+      }
+    ],
+    "organizations": [
+      "municipality-roetgesbuettel"
+    ],
+    "positions": [],
+    "relevantAreaIds": [
+      "joint-municipality-papenteich",
+      "municipality-roetgesbuettel"
+    ],
+    "sources": [
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 17. März 2026 (Rat, TOP 4), Abschnitt Trinkwasserleitung Sandkamp und Hohes Feld",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Sandkamp",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
+      }
+    ],
+    "status": "completed",
+    "statusBasis": {
+      "scope": "topic",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht vom 22. September 2026 meldet beendete Bauarbeiten am Sandkamp und die Endabnahme am 11. September. Diese Fertigstellung wird als berichteter Sachstand wiedergegeben; ein Abnahmeprotokoll wurde nicht unmittelbar geprüft.\n"
+    },
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 sind die Bauarbeiten am Sandkamp beendet. Die Endabnahme fand dem Bericht zufolge am 11. September statt.\n",
+    "title": "Erneuerung der Trinkwasserleitung am Sandkamp",
+    "visibility": "published"
+  }
+}

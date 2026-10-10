@@ -11,11 +11,16 @@
     ],
     "dates": {
       "createdAt": "2025-01-21",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine spätere\nBeauftragung oder ein fertiger Wärmeplan geht aus der verlinkten Quelle\nnicht hervor.\n",
+    "description": "Der Samtgemeinderat stellte im Januar 2025 für das Finanzplanjahr 2026\n90.000 Euro für die kommunale Wärmeplanung ein. Der Arbeitskreis Klima und\nEnergie soll rechtzeitig vor einer Beauftragung beteiligt werden.\n\nDer Beschluss schafft zunächst das Planungsbudget. Eine spätere\nBeauftragung oder ein fertiger Wärmeplan geht aus der verlinkten Quelle\nnicht hervor.\n\nDer Rötgesbütteler Bürgermeisterbericht vom 22. September 2026 meldet\neine öffentliche Ausschreibung der Ingenieurleistungen durch die\nSamtgemeinde und bereits geführte Bietergespräche. Die Auftragsvergabe\nwerde demnächst erfolgen. Ein fertiger Plan solle später in\nBürgerversammlungen vorgestellt werden.\n\nDieser neue Sachstand stammt ausdrücklich aus dem Bürgermeisterbericht.\nEr belegt das berichtete Vergabeverfahren, aber keine bereits erfolgte\nAuftragsvergabe, keinen fertiggestellten Wärmeplan und keine\nVeranstaltungstermine.\n",
     "id": "municipal-heat-planning",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Rötgesbütteler Bürgermeisterbericht meldet eine Ausschreibung der Ingenieurleistungen zur kommunalen Wärmeplanung und bereits geführte Bietergespräche. Die Auftragsvergabe durch die Samtgemeinde stehe noch bevor.\n"
+    },
     "latestDecision": {
       "body": "Samtgemeinderat Papenteich",
       "date": "2025-01-21",
@@ -29,6 +34,11 @@
         "date": "2025-01-21",
         "status": "reached",
         "title": "Samtgemeinderat stellt Planungsbudget für 2026 ein"
+      },
+      {
+        "date": "2026-09-22",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Ausschreibung und Bietergespräche zur Wärmeplanung"
       }
     ],
     "organizations": [
@@ -51,15 +61,21 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu SGP2024/0680-1",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt kommunale Wärmeplanung",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
-    "status": "open",
+    "status": "implementation",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=36645&SILFDNR=1633",
-      "summary": "Das Planungsbudget ist beschlossen. Eine Beauftragung oder ein Beginn der Wärmeplanung wird durch die verlinkte Quelle nicht belegt.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht vom 22. September 2026 meldet eine öffentliche Ausschreibung und geführte Bietergespräche. Damit ist die Beschaffung für die Wärmeplanung begonnen. Eine erfolgte Vergabe oder ein fertiger Wärmeplan werden durch diesen Bericht nicht bestätigt.\n"
     },
-    "summary": "Die Samtgemeinde hat für die kommunale Wärmeplanung 90.000 Euro im Finanzplanjahr 2026 vorgesehen; vor der Beauftragung soll der Arbeitskreis Klima und Energie beteiligt werden.\n",
+    "summary": "Laut Rötgesbütteler Bürgermeisterbericht vom 22. September 2026 hat die Samtgemeinde Ingenieurleistungen für die Wärmeplanung ausgeschrieben und Bietergespräche geführt. Die Vergabe wird darin erst angekündigt.\n",
     "title": "Kommunale Wärmeplanung für den Papenteich",
     "visibility": "published"
   }

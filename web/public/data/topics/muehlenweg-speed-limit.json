@@ -10,11 +10,16 @@
     ],
     "dates": {
       "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n",
+    "description": "Der Rat beschloss am 16. Dezember 2025 mit neun Ja- und einer Nein-Stimme,\nbeim Landkreis Gifhorn eine Geschwindigkeitsbeschränkung von 100 auf\n70 km/h zu beantragen. Als Begründung wurde die Gefährdung der Anwohnerinnen\nund Anwohner genannt.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nEntscheidung der zuständigen Straßenverkehrsbehörde.\n\nIm Bürgermeisterbericht vom 25. Februar 2026 wurde berichtet, dass der\nLandkreis angeschrieben worden sei und eine Verkehrszählung mit\nGeschwindigkeitsermittlung stattgefunden habe. Ergebnisse lagen laut\ndiesem Bericht noch nicht vor.\n\nDer Bürgermeisterbericht vom 17. März 2026 nennt anschließend einen\nnegativen Bescheid des Landkreises. Damit wird hier die berichtete\nAblehnung des Antrags auf Tempo 70 festgehalten. Der Bescheid selbst\nsowie sein Datum und seine Begründung wurden nicht unmittelbar geprüft.\nDer Ratsbeschluss zur Antragstellung bleibt als eigener Beschluss erhalten;\neine neue Abstimmung des Rates wird aus dem Bürgermeisterbericht nicht abgeleitet.\n",
     "id": "muehlenweg-speed-limit",
+    "latestActivity": {
+      "date": "2026-03-17",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260",
+      "summary": "Der Bürgermeisterbericht meldet nach einer Verkehrszählung einen negativen Bescheid des Landkreises zur beantragten Geschwindigkeitsreduzierung. Das Datum des Bescheids geht aus dem Bericht nicht hervor.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2025-12-16",
@@ -35,6 +40,16 @@
         "date": "2025-12-16",
         "status": "reached",
         "title": "Rat beschließt Antrag auf Tempo 70"
+      },
+      {
+        "date": "2026-02-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Verkehrszählung ohne vorliegende Ergebnisse"
+      },
+      {
+        "date": "2026-03-17",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet negativen Bescheid des Landkreises"
       }
     ],
     "organizations": [
@@ -53,16 +68,28 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0280",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Februar 2026 (Umwelt-, Bau- und Wegeausschuss, TOP 4), Abschnitt Geschwindigkeitsreduzierung auf dem Mühlenweg",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005169&SILFDNR=1000256"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 17. März 2026 (Rat, TOP 4), Abschnitt Geschwindigkeitsreduzierung auf dem Mühlenweg",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260"
       }
     ],
-    "status": "open",
+    "status": "rejected",
     "statusBasis": {
-      "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003515&SILFDNR=2151",
-      "summary": "Der Rat beschloss einen Antrag an den Landkreis. Eine verkehrsrechtliche Anordnung oder die Umsetzung von Tempo 70 ist in der verlinkten Quelle nicht belegt.\n"
+      "scope": "proposal",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260",
+      "summary": "Der Bürgermeisterbericht vom 17. März 2026 nennt einen negativen Bescheid des Landkreises zur beantragten Geschwindigkeitsreduzierung. Der Status bezieht sich auf den Antrag auf Tempo 70. Der Bescheid selbst, sein Datum und seine Begründung wurden nicht unmittelbar geprüft.\n"
     },
-    "summary": "Der Rat beschloss, beim Landkreis eine Reduzierung der zulässigen Höchstgeschwindigkeit auf dem Mühlenweg von 100 auf 70 km/h zu beantragen.\n",
-    "title": "Geschwindigkeitsbegrenzung auf dem Mühlenweg",
+    "summary": "Laut Bürgermeisterbericht vom 17. März 2026 hat der Landkreis die beantragte Geschwindigkeitsreduzierung auf dem Mühlenweg negativ beschieden. Der Rat hatte zuvor einen Antrag auf Tempo 70 beschlossen.\n",
+    "title": "Antrag auf Tempo 70 auf dem Mühlenweg",
     "visibility": "published"
   }
 }

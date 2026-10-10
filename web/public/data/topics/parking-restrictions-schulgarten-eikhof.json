@@ -10,11 +10,16 @@
     ],
     "dates": {
       "createdAt": "2025-12-16",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nAnordnung oder Umsetzung durch die zuständige Straßenverkehrsbehörde.\n",
+    "description": "Hintergrund sind Behinderungen unter anderem für die Müllabfuhr. Der Rat\nbeschloss am 16. Dezember 2025 einstimmig, beim Landkreis Gifhorn ein\neinseitiges absolutes Halteverbot für Am Schulgarten und Am Eikhof im\nBereich der Einmündung des Schulgartens zu beantragen.\n\nDer Beschlussauszug dokumentiert den Auftrag zur Antragstellung, aber keine\nAnordnung oder Umsetzung durch die zuständige Straßenverkehrsbehörde.\n\nLaut Bürgermeisterbericht vom 25. Februar 2026 wurde das absolute\nHalteverbot in Teilbereichen des Eikhofs genehmigt; der Bauhof hatte die\nSchilder bereits aufgestellt. Der Bürgermeisterbericht vom 17. März 2026\nwiederholt diesen Sachstand. Das tatsächliche Aufstellungsdatum wird\nnicht genannt.\n\nDie Umsetzung wird ausdrücklich als Aussage aus den Bürgermeisterberichten\nwiedergegeben. Der Anordnungstext wurde nicht unmittelbar geprüft. Die\nBerichte bestätigen nicht gesondert die Beschilderung Am Schulgarten;\ndie Umsetzung des gesamten im Ratsantrag genannten Bereichs bleibt offen.\n",
     "id": "parking-restrictions-schulgarten-eikhof",
+    "latestActivity": {
+      "date": "2026-02-25",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005169&SILFDNR=1000256",
+      "summary": "Der Bürgermeisterbericht meldet die Genehmigung des absoluten Halteverbots in Teilbereichen des Eikhofs und bereits aufgestellte Schilder.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2025-12-16",
@@ -35,6 +40,11 @@
         "date": "2025-12-16",
         "status": "reached",
         "title": "Rat beschließt Antrag an den Landkreis Gifhorn"
+      },
+      {
+        "date": "2026-02-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet genehmigtes und beschildertes Halteverbot am Eikhof"
       }
     ],
     "organizations": [
@@ -53,15 +63,27 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug zu Rötg/2025/0279",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Februar 2026 (Umwelt-, Bau- und Wegeausschuss, TOP 4), Abschnitt Halteverbot Eikhof",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005169&SILFDNR=1000256"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 17. März 2026 (Rat, TOP 4), Abschnitt Halteverbot Eikhof",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005882&SILFDNR=1000260"
       }
     ],
-    "status": "open",
+    "status": "implementation",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1003514&SILFDNR=2151",
-      "summary": "Beschlossen ist ein Antrag an den Landkreis, nicht die verkehrsrechtliche Anordnung oder Aufstellung der Halteverbotsschilder.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1005169&SILFDNR=1000256",
+      "summary": "Der Bürgermeisterbericht vom 25. Februar 2026 meldet Genehmigung und aufgestellte Schilder für Teilbereiche des Eikhofs. Damit ist eine teilweise Umsetzung berichtet. Eine gesonderte Bestätigung für Am Schulgarten oder der genaue Umfang der Anordnung liegt in diesem Bericht nicht vor.\n"
     },
-    "summary": "Der Rat beschloss, für Am Schulgarten und Am Eikhof im Einmündungsbereich ein einseitiges absolutes Halteverbot beim Landkreis zu beantragen.\n",
+    "summary": "Laut Bürgermeisterbericht vom 25. Februar 2026 ist das absolute Halteverbot in Teilbereichen des Eikhofs genehmigt und beschildert. Der Ratsantrag betraf auch den Einmündungsbereich Am Schulgarten.\n",
     "title": "Halteverbot Am Schulgarten und Am Eikhof",
     "visibility": "published"
   }

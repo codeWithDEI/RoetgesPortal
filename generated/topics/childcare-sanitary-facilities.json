@@ -11,11 +11,16 @@
     ],
     "dates": {
       "createdAt": "2026-03-17",
-      "lastVerifiedAt": "2026-09-17",
-      "updatedAt": "2026-09-17"
+      "lastVerifiedAt": "2026-10-10",
+      "updatedAt": "2026-10-10"
     },
-    "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n\nDas DRK erläuterte in der Beratung, dass es Unterstützung mit einem\nArchitekten anbieten, aber kein vollständiges Konzept selbst liefern\nkönne. Der Beschluss belegt noch keine begonnene Sanierung.\n",
+    "description": "Für einen bislang nicht umgestalteten Sanitärbereich waren im Haushalt 2026\nMittel vorgesehen. Der Rat beschloss einstimmig, das DRK mit dem Entwurf\neiner Konzeption beziehungsweise mit der beratenden Unterstützung der\nGemeinde zu beauftragen.\n\nDas DRK erläuterte in der Beratung, dass es Unterstützung mit einem\nArchitekten anbieten, aber kein vollständiges Konzept selbst liefern\nkönne. Der Beschluss belegt noch keine begonnene Sanierung.\n\nLaut Bürgermeisterbericht vom 25. Juni 2026 wurde ein Architekturbüro\nmit Planung und Leistungsverzeichnis beauftragt. Der Umbau sei während\nder Sommerschließzeit nicht mehr umsetzbar; die Kita-Leitung sehe\neine Möglichkeit für Arbeiten im laufenden Betrieb.\n\nDer Bürgermeisterbericht vom 22. September 2026 meldet eine gemeinsame\nBesichtigung mit Architekt, DRK und Kita-Leitung sowie die Erarbeitung\neines Konzepts für die Sanitärräume der Igelgruppe. Die Angaben werden\nausdrücklich als Sachstand aus den Bürgermeisterberichten wiedergegeben.\nEin tatsächlicher Beginn des Umbaus wird damit nicht bestätigt.\n",
     "id": "childcare-sanitary-facilities",
+    "latestActivity": {
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Der Bürgermeisterbericht meldet eine Besichtigung der Sanitärräume der Igelgruppe mit Architekt, DRK und Kita-Leitung sowie die Erarbeitung eines Konzepts. Das Besichtigungsdatum wird nicht genannt.\n"
+    },
     "latestDecision": {
       "body": "Rat der Gemeinde Rötgesbüttel",
       "date": "2026-03-17",
@@ -36,6 +41,16 @@
         "date": "2026-03-17",
         "status": "reached",
         "title": "Rat beschließt Konzeption beziehungsweise Beratung durch das DRK"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet Planungsauftrag für die Sanitärräume"
+      },
+      {
+        "date": "2026-09-22",
+        "status": "reached",
+        "title": "Bürgermeisterbericht meldet gemeinsame Besichtigung und Konzeptarbeit"
       }
     ],
     "organizations": [
@@ -54,15 +69,27 @@
         "sourceType": "resolution",
         "title": "Beschlussauszug vom 17. März 2026",
         "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 25. Juni 2026 (Rat, TOP 4), Abschnitt Sanitärbereich der Igelgruppe",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1007631&SILFDNR=1000325"
+      },
+      {
+        "accessedAt": "2026-10-10",
+        "sourceType": "minutes",
+        "title": "Bürgermeisterbericht vom 22. September 2026 (Rat, TOP 3), Abschnitt Sanitäranlagen der Igelgruppe",
+        "url": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417"
       }
     ],
     "status": "open",
     "statusBasis": {
       "scope": "topic",
-      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1006190&SILFDNR=1000260",
-      "summary": "Der Rat beschloss die Vorbereitung eines Konzepts beziehungsweise Beratung durch das DRK. Ein Beginn der Sanierungsarbeiten ist damit nicht belegt.\n"
+      "sourceUrl": "https://www.papenteich.sitzung-online.de/public/to020?TOLFDNR=1008665&SILFDNR=1000417",
+      "summary": "Die Konzeptvorbereitung ist beschlossen. Der Bürgermeisterbericht vom 22. September 2026 meldet eine gemeinsame Besichtigung und laufende Konzeptarbeit. Ein Beginn der Sanierung selbst wird nicht berichtet.\n"
     },
-    "summary": "Für noch nicht umgestaltete Sanitärräume der Kindertagesstätte soll ein Sanierungskonzept entstehen.\n",
+    "summary": "Laut Bürgermeisterbericht vom 22. September 2026 haben Architekt, DRK und Kita-Leitung die Sanitärräume der Igelgruppe besichtigt. Ein Konzept wird erarbeitet; begonnene Sanierungsarbeiten sind nicht bestätigt.\n",
     "title": "Sanierung der Sanitärräume in der Kindertagesstätte",
     "visibility": "published"
   }
