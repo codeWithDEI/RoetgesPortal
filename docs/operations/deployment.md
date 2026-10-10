@@ -68,6 +68,9 @@ Before changing public DNS:
 3. Fast-forward the server checkout of `main` to the reviewed merge commit.
 4. Rebuild and recreate the Compose services from that exact checkout.
 5. Wait for the web, analytics, and private dashboard health checks to pass.
+   Preserve `analytics_state`; rebuilding the analytics image updates its report
+   code without resetting counters. Verify report freshness, history/coverage
+   and loopback-only access as described in [statistics](statistics.md).
 6. Verify `/api/health`, core pages, generated data, map assets, and a sample of
    source links through the public canonical domain.
 7. Record the deployed commit, time, operator, and rollback target.

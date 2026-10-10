@@ -59,16 +59,25 @@ export default function PrivacyPage() {
             Bearbeitungsdauer. Nicht-GET-Anfragen sowie die in der
             Caddy-Konfiguration ausgenommenen API-, Daten-, Bild- und
             Asset-Aufrufe werden nicht für die Seitenabrufstatistik
-            protokolliert. Die aktive Logdatei rotiert täglich; einschließlich
-            der aufbewahrten Tagesdateien werden Einträge nach spätestens
-            sieben Tagen gelöscht.
+            protokolliert. Erkennbare Crawler, Monitoring- und technische
+            Prüfungen sowie Browser-Vorausabrufe und Komponentenabrufe werden
+            anhand der Anfrage vor dem Schreiben ausgenommen; die dafür
+            geprüften Header werden nicht gespeichert. Die aktive Logdatei
+            rotiert täglich und bei Erreichen der Größenbegrenzung. Es bleiben
+            höchstens sechs rotierte Dateien erhalten; rotierte Dateien mit
+            einem Alter von mehr als sechs Tagen werden bei der Rotation
+            gelöscht.
           </p>
           <p>
-            GoAccess erstellt daraus ausschließlich eine private,
-            serverseitige Übersicht über Seitenabrufe und Fehlerstatus. Die
-            Auswertung soll weder einzelne noch wiederkehrende Besucher
-            ermitteln. Das Dashboard ist nur an die Loopback-Adresse des
-            Servers gebunden und nicht öffentlich erreichbar.
+            Der bestehende GoAccess-Bericht und eine ergänzende private
+            Übersicht zeigen serverseitige Seitenaufrufe und Fehlerstatus.
+            Tages- und Stundensummen bleiben 400 Tage erhalten. Diese Summen
+            enthalten weder IP-Adressen noch Header, Pfade oder einzelne
+            Zugriffe. Die Auswertung ermittelt keine einzelnen oder
+            wiederkehrenden Besucher. Unbekannte automatisierte Zugriffe
+            können enthalten sein. Das Dashboard ist nur an die
+            Loopback-Adresse des Servers gebunden und nicht öffentlich
+            erreichbar.
           </p>
           <p>
             Rechtsgrundlage für den technisch notwendigen Websitebetrieb, die
@@ -287,7 +296,7 @@ export default function PrivacyPage() {
 
       <section className="info-section info-section--notice">
         <p>
-          <strong>Stand: 18. August 2026.</strong> Die Hinweise entsprechen dem
+          <strong>Stand: 10. Oktober 2026.</strong> Die Hinweise entsprechen dem
           zu diesem Zeitpunkt geprüften technischen Stand des Portals.
         </p>
       </section>
