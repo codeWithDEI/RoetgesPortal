@@ -27,7 +27,19 @@ jobs:
         run: python -m pip install -r requirements-dev.txt
 
       - name: Check Python source
-        run: python -m compileall -q tools tests
+        run: python -m compileall -q tools tests deploy/analytics
+
+      - name: Prepare pinned Caddy for analytics integration tests
+        run: |
+          mkdir -p "$RUNNER_TEMP/analytics-caddy"
+          curl --fail --silent --show-error --location \
+            https://github.com/caddyserver/caddy/releases/download/v2.11.1/caddy_2.11.1_linux_amd64.tar.gz \
+            --output "$RUNNER_TEMP/analytics-caddy/caddy.tar.gz"
+          printf '%s  %s\n' \
+            'cd194db2a730db0dbb343e9b468725d6bc31d915d977ed3fc79ae88af83fd0ad259d3560976a28c51ec5d9fd23a79980e71763eda5239beb8232e5adfa0a9707' \
+            "$RUNNER_TEMP/analytics-caddy/caddy.tar.gz" | sha512sum --check
+          tar -xzf "$RUNNER_TEMP/analytics-caddy/caddy.tar.gz" -C "$RUNNER_TEMP/analytics-caddy" caddy
+          printf 'CADDY_BINARY=%s/analytics-caddy/caddy\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
@@ -51,6 +63,12 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "22"
+
+      - name: Check private statistics scripts
+        run: |
+          node --check deploy/analytics/dashboard.js
+          node --check deploy/analytics/goaccess-warning.js
+          sh -n deploy/analytics/update-report.sh
 
       - name: Enable pnpm
         run: |

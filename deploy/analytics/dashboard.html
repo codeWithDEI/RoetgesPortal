@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>RötgesPortal · Private Statistik</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+<main>
+  <h1>RötgesPortal · Private Statistik</h1>
+  <p id="updated" role="status">Statistik wird geladen …</p>
+  <p id="failure" role="alert" hidden></p>
+  <p class="notice"><strong>Eindeutige Besucher sind nicht ermittelbar.</strong> IP-Adressen und Request-Header werden vor dem Speichern entfernt. Die Zahlen zeigen serverseitige Seitenaufrufe; sie zählen keine Menschen. Unbekannte Bots können enthalten sein.</p>
+  <section aria-labelledby="metrics-title">
+    <h2 id="metrics-title">Heute und die vergangenen Tage</h2>
+    <div id="metrics" class="metrics"></div>
+  </section>
+  <section aria-labelledby="daily-title">
+    <h2 id="daily-title">Seitenaufrufe pro Tag</h2>
+    <label for="period">Zeitraum</label>
+    <select id="period">
+      <option value="30">Letzte 30 Tage</option>
+      <option value="90">Letzte 90 Tage</option>
+      <option value="365">Letzte 365 Tage</option>
+      <option value="400">Gesamte Aufbewahrung (400 Tage)</option>
+    </select>
+    <p>Absolute Werte ohne Normalisierung. Besucher: nicht ermittelbar. Grau markiert unvollständige Daten; × markiert fehlende Daten, die nicht als Null gezählt werden.</p>
+    <div id="daily-chart" class="chart"></div>
+    <details><summary>Tageswerte als Tabelle</summary><div class="table-scroll"><table><thead><tr><th>Tag</th><th>Seitenaufrufe</th><th>Protokollierte Requests</th><th>Besucher</th><th>Datenlage</th></tr></thead><tbody id="daily-table"></tbody></table></div></details>
+  </section>
+  <section aria-labelledby="hours-title">
+    <h2 id="hours-title">Heute nach Stunden</h2>
+    <p>Europe/Berlin, einschließlich Zeitumstellung. Im Frühjahr entfällt 02 Uhr; im Herbst werden die beiden 02-Uhr-Stunden mit CEST und CET getrennt dargestellt. × markiert fehlende Daten oder noch nicht begonnene Stunden.</p>
+    <div id="hours-chart" class="chart"></div>
+    <details><summary>Stundenwerte als Tabelle</summary><div class="table-scroll"><table><thead><tr><th>Stunde</th><th>Seitenaufrufe</th><th>Protokollierte Requests</th><th>Besucher</th><th>Datenlage</th></tr></thead><tbody id="hours-table"></tbody></table></div></details>
+  </section>
+  <section aria-labelledby="definition-title">
+    <h2 id="definition-title">Was die Zahlen bedeuten</h2>
+    <ul>
+      <li><strong>HTTP-Request:</strong> eine Anfrage an den Server. Hier zählen nur Einträge im reduzierten Log; ausgenommene technische Anfragen sind darin nicht enthalten.</li>
+      <li><strong>Seitenaufruf:</strong> protokollierter GET auf eine Portal-Seitenroute mit erfolgreicher HTML-Antwort (2xx) oder einer erfolgreichen Cache-Prüfung (304). Fehler, Weiterleitungen, Daten und Assets zählen nicht dazu.</li>
+      <li><strong>Grenzen:</strong> Browser-Cache und Navigation ohne neuen HTML-Abruf sind nicht messbar. Prefetch- und Komponentenabrufe werden künftig ausgenommen. Historische Logs ohne Content-Type liefern nur Request-Zahlen; frühere Bot-Zugriffe lassen sich ohne Header nicht nachträglich erkennen.</li>
+      <li><strong>Besucher:</strong> alle Besucherwerte bleiben unbekannt. Auch mit unterscheidbaren Zugriffskennungen wären tägliche Unique Visitors keine addierbare Kennzahl für 7 oder 30 Tage.</li>
+      <li><strong>Zeiträume:</strong> heute ab 00:00 Uhr Berliner Zeit bis zum letzten Berichtsstand. Die letzten 7 bzw. 30 Tage enthalten heute und die 6 bzw. 29 vorherigen Kalendertage.</li>
+      <li><strong>Datenlage:</strong> „Erfasst“ bedeutet durchgehende Verarbeitung im beobachteten Zeitraum. Importierte Tage und Verarbeitungslücken bleiben vorsorglich „Unvollständig“, auch wenn noch Logs nachgelesen wurden. „Erfasst“ beweist keine vollständige menschliche Nutzung oder unterbrechungsfreien Websitebetrieb.</li>
+      <li><strong>Speicherung:</strong> Tages- und Stundenaggregate bleiben 400 Tage erhalten, ohne IP-Adressen, Header, Pfade oder einzelne Zugriffe. Der Bericht aktualisiert sich automatisch.</li>
+    </ul>
+    <p id="quality"></p>
+    <p><a href="goaccess.html">GoAccess: Requests, URLs und Fehlerstatus (letzte 7 Log-Tage)</a> · Die dortigen Besucherwerte sind wegen der entfernten Kennungen ungültig.</p>
+  </section>
+  <noscript>Bitte JavaScript aktivieren, um die lokale, private Statistik anzuzeigen.</noscript>
+</main>
+</body>
+</html>

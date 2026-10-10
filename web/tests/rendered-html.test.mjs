@@ -300,7 +300,9 @@ test("renders complete legal and privacy disclosures from runtime configuration"
   assert.match(privacyHtml, /Angemessenheitsbeschluss/);
   assert.match(privacyHtml, /Prinzenstraße 5/);
   assert.match(privacyHtml, /Art. 22 DSGVO/);
-  assert.match(privacyHtml, /Stand: 18. August 2026/);
+  assert.match(privacyHtml, /Stand: 10. Oktober 2026/);
+  assert.match(privacyHtml, /400 Tage/);
+  assert.match(privacyHtml, /Unbekannte automatisierte Zugriffe/);
   assert.doesNotMatch(privacyHtml, /TODO|NOCH ANGEBEN|im Aufbau/i);
 });
 

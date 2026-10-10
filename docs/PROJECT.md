@@ -2,7 +2,8 @@
 
 This document describes tracked implementation and documented operating policy,
 not a live-server audit. Technical details were checked against the repository
-on 2026-09-18; the activity contract and exports were updated on 2026-09-27.
+on 2026-09-18; the activity contract and exports were updated on 2026-09-27,
+and the private statistics architecture on 2026-10-10.
 Recheck the linked files when changing the project. Missing facts
 are marked `Unknown / not documented in repository`.
 
@@ -217,7 +218,7 @@ Procedure: [deployment](operations/deployment.md), [self-hosting](../deploy/READ
 | --- | --- |
 | `web` | Stateless vinext app on internal port 3000; non-root image, read-only filesystem, temporary `/tmp`, no published host port |
 | `proxy` | Caddy TLS, compression, routing and canonical redirects; public HTTP/HTTPS |
-| `analytics` | Network-disabled GoAccess job builds a static report from reduced Caddy logs, normally every 300 seconds |
+| `analytics` | Network-disabled GoAccess + Python job builds private daily/hourly counters and a static GoAccess detail report from the same reduced Caddy logs, every 60–300 seconds (default 300) |
 | `analytics-dashboard` | Static report server bound to host `127.0.0.1:8082` by default; access through an SSH tunnel only |
 
 Compose defaults are local HTTP 8080 / HTTPS 8443; the production environment
@@ -246,15 +247,35 @@ HTTP/3 in that example. The application is on an internal Docker network.
 
 **Persistence:** no writable application data volume or database. Git preserves
 editorial history; generated data is built into releases. Docker named volumes
-are `caddy_data` (including certificates), `caddy_config`, `caddy_logs`, and
-`analytics_report`. Preserve certificate state across updates. Logs/report data
-are operational artifacts, not editorial source data or permanent analytics.
+are `caddy_data` (including certificates), `caddy_config`, `caddy_logs`,
+`analytics_report`, and `analytics_state`. Preserve certificate and counter state
+across updates; back up both. Logs and reports are operational artifacts, not
+editorial source data. The report can be regenerated; aggregate counter state
+retains 400 calendar days and must not be reset during deployment.
 
 **Statistics/privacy:** Caddy replaces client addresses, removes request headers
-and remote ports, and redacts query strings before logging. Asset/data/health and
-non-GET requests are excluded. Logs rotate daily with short retention; the report
-uses the last seven days. Counts mean requests, not people or unique visitors.
-See [monitoring and recovery](operations/monitoring-and-recovery.md) and the
+and remote ports, and redacts query strings before logging. Asset/data/health,
+non-GET, known automated clients, marked internal checks and prefetch/component
+requests are excluded. Logs rotate daily/at 10 MiB, with up to six backups and a
+six-day backup age checked on rotation. The existing job adds only Python's
+standard library to the GoAccess 1.11 image. Successful HTML GETs on page routes
+are counted separately from reduced-log requests. The private overview shows
+absolute daily totals (30/90/365/400 days) and today's hours in `Europe/Berlin`,
+including separate repeated DST hours. Unique visitors remain **unavailable**;
+erased identities are not recovered and daily visitor counts are never summed.
+Unknown bots and cache/client-navigation limits are explicit. The linked GoAccess
+details retain the seven-log-day request analysis with a visitor warning.
+
+`analytics_state` holds only numeric daily/hourly aggregates, observation intervals
+and live-file inode/offset/hash checkpoints, never paths, headers, addresses or
+request records; it is not mounted in the dashboard. Atomic state writes precede
+aggregate-only report publication. Repeated processing, rename rotation, restarts
+and image recreation preserve counters. Remaining historic logs are imported;
+missing/partial periods and rejected rows are displayed explicitly. Gaps in the
+observer do not imply zero use. Health checks and browser warnings detect stale
+reports. Access remains loopback-only through SSH. Live history/backups have not
+been audited. See [statistics](operations/statistics.md),
+[monitoring and recovery](operations/monitoring-and-recovery.md) and the
 [legal/privacy checklist](operations/legal-and-privacy-checklist.md).
 
 **Backup policy, not proof of operation:** the runbooks require off-server backups
@@ -284,10 +305,12 @@ Sources: [requirements](../requirements-dev.txt), [package](../web/package.json)
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-dev.txt
-python -m compileall -q tools tests
+python -m compileall -q tools tests deploy/analytics
 python -m unittest discover -s tests -v
 python tools/validate_content.py
 python -c "import pathlib, yaml; yaml.safe_load(pathlib.Path('deploy/compose.yaml').read_text())"
+node --check deploy/analytics/dashboard.js
+sh -n deploy/analytics/update-report.sh
 python tools/import_roetgesmarkt.py
 python tools/build_portal.py
 git diff --exit-code -- generated
@@ -314,6 +337,11 @@ For source-monitor or PlantUML work, use the commands in the respective
 For documentation-only edits, verify repository-backed claims and local links,
 review the diff, and run `git diff --check`; rebuilding the app is not necessary
 solely for prose. Report checks honestly; none replaces primary-source review.
+The Caddy log-filter integration check is documented in the
+[statistics runbook](operations/statistics.md); it uses synthetic loopback traffic.
+CI enables it with a checksum-pinned official binary matching the Compose image;
+local runs skip it unless `CADDY_BINARY` is set. Update both pins when changing
+the deployed Caddy version.
 
 ## Architectural decisions to preserve
 

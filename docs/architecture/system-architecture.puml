@@ -33,7 +33,8 @@ node "Production VPS" as Hosting {
   component "Stateless RötgesPortal\nWeb App" as Portal
   file "Bundled runtime data\nJSON, GeoJSON, search index" as RuntimeData
   file "Privacy-reduced\naccess logs" as AccessLogs
-  component "GoAccess\nreport generator" as Analytics
+  component "GoAccess + Python\noffline report job" as Analytics
+  file "400-day counters\nanalytics_state volume" as Counters
   component "Private analytics\ndashboard" as Dashboard
 }
 
@@ -66,6 +67,8 @@ Portal --> RuntimeData : read-only
 Portal --> OSM : map tiles when required
 Caddy --> AccessLogs : sanitized page requests
 AccessLogs --> Analytics
+Analytics --> Counters : atomic counters + checkpoints
+Counters --> Analytics : retained history
 Analytics --> Dashboard
 Operator --> Dashboard : SSH tunnel only
 

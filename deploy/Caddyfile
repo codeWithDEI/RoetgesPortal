@@ -1,10 +1,18 @@
 {$SITE_ADDRESS:http://localhost} {
 	encode zstd gzip
 
-	@analyticsNoise path /api/* /assets/* /data/* /feed.xml /favicon.ico /og.png /robots.txt /roetgesportal-logo.svg /roetgesportal-mark.svg /sitemap.xml
+	@analyticsNoise path /api/* /assets/* /data/* /_next/* *.rsc /feed.xml /favicon.ico /og.png /robots.txt /roetgesportal-logo.svg /roetgesportal-mark.svg /sitemap.xml
 	log_skip @analyticsNoise
 	@analyticsNonPageMethod not method GET
 	log_skip @analyticsNonPageMethod
+	# Match before deleting headers. No user agent or identifier is retained.
+	@analyticsAutomation header_regexp User-Agent `(?i)(googlebot|bingbot|duckduckbot|baiduspider|yandexbot|applebot|slurp|semrushbot|ahrefsbot|dotbot|petalbot|gptbot|oai-searchbot|chatgpt-user|ccbot|facebookexternalhit|twitterbot|linkedinbot|discordbot|telegrambot|uptimerobot|uptime-kuma|pingdom|statuscake|curl/|wget/|python-requests|python-urllib|go-http-client|node-fetch|undici)`
+	log_skip @analyticsAutomation
+	@analyticsPrefetch expression `header({'RSC': '1'}) || header({'Next-Router-Prefetch': '1'}) || header_regexp('purpose', 'Purpose', '(?i)prefetch') || header_regexp('secpurpose', 'Sec-Purpose', '(?i)prefetch') || header_regexp('accept', 'Accept', '(?i)text/x-component')`
+	log_skip @analyticsPrefetch
+	@analyticsInternalCheck header X-Roetgesportal-Check 1
+	log_skip @analyticsInternalCheck
+	log_append analytics_policy pageviews-v1
 
 	log {
 		output file /var/log/caddy/portal-access.log {

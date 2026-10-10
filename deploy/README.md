@@ -71,17 +71,25 @@ keys, access tokens, or exported certificate data.
 
 ## Privacy-friendly page-view statistics
 
-Caddy writes a deliberately reduced access log for the canonical site. Client
-IP addresses are replaced with `0.0.0.0` before a line is written, request
-headers and remote ports are removed, and query strings are replaced. Requests
-other than `GET`, health checks, generated data, images, and built assets are
-not logged.
+The existing offline GoAccess job also generates a private daily/hourly overview
+from the same reduced Caddy logs. IP addresses remain replaced with `0.0.0.0`;
+request headers/remote ports are deleted and queries redacted. Known automated
+clients, monitoring, marked internal checks and prefetch/component requests are
+filtered before storage without retaining their agents. Unknown bots can remain.
 
-Logs roll daily, remain uncompressed so the report can consume them, and are
-deleted after at most seven days. GoAccess rebuilds a static report every five
-minutes from those files. Panels that would imply visitor identification,
-geolocation, referrers, operating systems, or browsers are disabled. The report
-therefore measures page requests, not people or unique visitors.
+The overview counts successful server-side HTML GETs on portal page routes,
+separately from logged requests, in `Europe/Berlin` including DST. It shows today,
+yesterday, the day before and 7/30-day sums, an absolute 30-day chart (longer
+periods selectable) and today's hours. **Unique visitors cannot be determined**
+with the existing privacy boundary; visitor cards explicitly say so.
+
+The short log rotation policy remains unchanged. Identifier-free daily/hourly
+counters and atomic checkpoints are retained for 400 days in the new
+`analytics_state` volume, which is never mounted in the report server. Preserve
+and back up this volume; never use `down -v`. Available old logs are imported once,
+with incomplete history clearly marked. Missing older history is unrecoverable.
+The refresh interval defaults to five minutes and supports 60–300 seconds;
+the browser checks every minute. Rebuild the analytics image with each release.
 
 The dashboard is bound to `127.0.0.1` on the server and must not be opened in
 UFW or the provider firewall. View it through an SSH tunnel:
@@ -93,7 +101,9 @@ ssh -L 8082:127.0.0.1:8082 <server-user>@<server-host>
 Keep that session open and visit `http://localhost:8082` in a local browser.
 Change both occurrences of `8082` when `ANALYTICS_PORT` uses a different port.
 
-The dashboard's overall visitor value is intentionally meaningless because all
-addresses are replaced before storage. Use the **Requested Files (URLs)** and
-**HTTP Status Codes** panels for operational statistics. The public privacy
-notice must describe this processing before the configuration is deployed.
+The default page is the new overview. The linked GoAccess detail report remains
+at `/goaccess.html`; its visitor counters are invalid and its hourly panel
+combines the retained log days. Use its URL/status panels for operational detail.
+The public privacy notice must describe this processing before deployment.
+Definitions, coverage limits, recovery and validation are in the
+[statistics runbook](../docs/operations/statistics.md).

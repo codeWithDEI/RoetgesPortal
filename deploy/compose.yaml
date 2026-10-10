@@ -63,7 +63,8 @@ services:
       - backend
 
   analytics:
-    image: allinurl/goaccess:1.11
+    build:
+      context: ./analytics
     restart: unless-stopped
     depends_on:
       proxy:
@@ -81,16 +82,16 @@ services:
     tmpfs:
       - /tmp:size=16m,mode=1777
     volumes:
-      - ./analytics/update-report.sh:/opt/roetgesportal/update-report.sh:ro
       - caddy_logs:/var/log/caddy:ro
       - analytics_report:/var/www/goaccess
+      - analytics_state:/var/lib/roetgesportal-analytics
     network_mode: none
     healthcheck:
       test:
         - CMD
-        - test
-        - -s
-        - /var/www/goaccess/index.html
+        - python3
+        - /opt/roetgesportal/aggregate.py
+        - --check-fresh
       interval: 30s
       timeout: 5s
       retries: 3
@@ -139,6 +140,7 @@ volumes:
   caddy_config:
   caddy_logs:
   analytics_report:
+  analytics_state:
 
 networks:
   edge:
