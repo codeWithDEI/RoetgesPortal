@@ -39,6 +39,8 @@
 		Referrer-Policy strict-origin-when-cross-origin
 	}
 
+	# Optional, private evaluation routes; an empty glob keeps fresh hosts valid.
+	import /data/basarkasse-demo/*.caddy
 	reverse_proxy web:3000
 }
 
