@@ -61,6 +61,30 @@ Before changing public DNS:
 7. Point the DNS record to the server.
 8. Confirm HTTPS issuance and `/api/health` from outside the server.
 
+## Optional protected BasarKasse evaluation
+
+The canonical Caddy site imports `/data/basarkasse-demo/*.caddy`. No matching
+files is a valid configuration. The private route can expose `/basarkasse` and
+`/basarkasse/*` to a separate `basarkasse-demo:3000` service on the existing
+internal backend network. Preserve the prefix; the application is built with
+that Next.js base path and uses a configured public HTTPS origin.
+
+Keep the real route and its authentication hash in the existing private Caddy
+data volume. Require HTTPS Basic Authentication for every demo page, asset and
+API request, exclude these requests with `log_skip`, and send `X-Robots-Tag:
+noindex, nofollow, noarchive`. Never commit the actual password or hash. The
+separate BasarKasse repository owns its Compose profile, release and SQLite
+volume; it does not replace portal services or share editorial data.
+
+Before activation, back up the Caddyfile, start the separate service, confirm its
+health and internal route, then validate the complete Caddy configuration and
+reload Caddy without recreating the portal services. Verify external 401
+responses without credentials, authorized access, the demo login and the portal
+health endpoint. Record the exact demo release and rollback location privately.
+To remove access, move the private route outside the imported glob and validate
+and reload Caddy before stopping the demo service. Preserve portal, analytics,
+certificate and demo data volumes.
+
 ## Production release procedure
 
 1. Merge a reviewed pull request with green checks.

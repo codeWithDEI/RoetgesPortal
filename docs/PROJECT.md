@@ -257,7 +257,16 @@ HTTP/3 in that example. The application is on an internal Docker network.
   known-good commit, reverting application and editorial data together.
 - No tracked GitHub workflow currently deploys production automatically.
 
-**Persistence:** no writable application data volume or database. Git preserves
+An optional server-local BasarKasse evaluation route may be imported from
+`/data/basarkasse-demo/*.caddy` inside the canonical HTTPS site. An empty glob is
+valid. The separate application joins the existing internal backend network and
+owns its own container and SQLite volume; it is not a portal database. Its route
+requires HTTPS Basic Authentication, excludes demo traffic from portal page-view
+statistics, and keeps the password hash in the private Caddy data volume rather
+than Git. See the deployment runbook for activation and removal. This does not
+change the portal's editorial, legal, analytics, or application runtime contracts.
+
+**Portal persistence:** no writable application data volume or database. Git preserves
 editorial history; generated data is built into releases. Docker named volumes
 are `caddy_data` (including certificates), `caddy_config`, `caddy_logs`,
 `analytics_report`, and `analytics_state`. Preserve certificate and counter state
